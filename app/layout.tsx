@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Be_Vietnam_Pro } from "next/font/google";
+import { Auth0Provider } from "@auth0/nextjs-auth0/client";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -34,9 +35,11 @@ export default function RootLayout({
       className={`${plusJakartaSans.variable} ${beVietnamPro.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <Auth0Provider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </Auth0Provider>
       </body>
     </html>
   );
