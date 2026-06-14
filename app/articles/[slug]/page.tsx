@@ -7,6 +7,8 @@ import { POST_DETAILS } from "@/lib/post-details";
 import { TEAM } from "@/lib/team";
 import ArticleCard from "@/components/blog/ArticleCard";
 import { getCategoryIcon } from "@/lib/categories";
+import { BookmarkButton } from "@/components/blog/BookmarkButton";
+import { Comments } from "@/components/blog/Comments";
 
 export async function generateStaticParams() {
   return POSTS.map((post) => ({ slug: post.slug }));
@@ -255,6 +257,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           {/* ── Right: Sidebar ───────────────────────────────── */}
           <aside className="flex flex-col gap-6">
 
+            {/* Bookmark */}
+            <div className="flex items-center justify-between rounded-2xl border border-border bg-card px-5 py-4">
+              <span className="text-sm font-medium">Lưu bài viết này</span>
+              <BookmarkButton slug={post.slug} />
+            </div>
+
             {/* Overall Score */}
             <div className="rounded-2xl border border-border bg-card p-6 text-center">
               <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2">Điểm Đánh Giá</p>
@@ -349,6 +357,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
           </aside>
         </div>
+
+        {/* ── Comments ─────────────────────────────────────── */}
+        <Comments slug={post.slug} />
 
         {/* ── More in Category ─────────────────────────────── */}
         {POSTS.filter((p) => p.categorySlug === post.categorySlug && p.id !== post.id).length > 0 && (

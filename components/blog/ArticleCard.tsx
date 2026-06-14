@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Clock, Star } from "lucide-react";
 import { type Post, formatDate } from "@/lib/posts";
 import { AUTHOR_PHOTOS } from "@/lib/team";
+import { BookmarkButton } from "@/components/blog/BookmarkButton";
 
 function AuthorAvatar({ name, color }: { name: string; color: string }) {
   const photo = AUTHOR_PHOTOS[name];
@@ -145,10 +146,14 @@ export default function ArticleCard({ post, variant = "default" }: Props) {
   const initials = post.author.split(" ").map((n) => n[0]).slice(0, 2).join("").toUpperCase();
 
   return (
-    <Link
-      href={`/articles/${post.slug}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:border-transparent"
-    >
+    <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:border-transparent">
+      {/* Ghost link — covers whole card */}
+      <Link
+        href={`/articles/${post.slug}`}
+        className="absolute inset-0 z-[1]"
+        aria-label={post.title}
+      />
+
       {/* Cover with zoom */}
       <div className="relative h-48 w-full overflow-hidden">
         <Image
@@ -163,14 +168,18 @@ export default function ArticleCard({ post, variant = "default" }: Props) {
           style={{ background: `linear-gradient(135deg, ${post.coverColor}cc, ${post.coverColor}33)` }}
         />
         {/* Rating badge */}
-        <div className="absolute top-3 right-3 flex items-center gap-1 rounded-full bg-black/60 px-2.5 py-1 text-xs font-bold text-yellow-400 backdrop-blur-sm shadow-md">
+        <div className="absolute top-3 right-3 z-[2] flex items-center gap-1 rounded-full bg-black/60 px-2.5 py-1 text-xs font-bold text-yellow-400 backdrop-blur-sm shadow-md">
           <Star className="size-3 fill-yellow-400" />
           {post.rating}
+        </div>
+        {/* Bookmark button */}
+        <div className="absolute top-3 left-3 z-[2]">
+          <BookmarkButton slug={post.slug} />
         </div>
       </div>
 
       {/* Body */}
-      <div className="flex flex-1 flex-col gap-3 p-5">
+      <div className="relative z-[2] flex flex-1 flex-col gap-3 p-5">
         <span
           className="text-[11px] font-bold uppercase tracking-widest"
           style={{ color: post.coverColor }}
@@ -205,6 +214,6 @@ export default function ArticleCard({ post, variant = "default" }: Props) {
           </span>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
