@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"d:/NextJS/technology-blog/app/articles/[slug]\")"
+    ],
+    "additionalDirectories": [
+      "d:\\NextJS\\technology-blog\\app\\articles"
+    ]
+  }
+}
