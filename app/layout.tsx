@@ -4,6 +4,7 @@ import { Auth0Provider } from "@auth0/nextjs-auth0/client";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { SearchDialog } from "@/components/layout/SearchDialog";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-display",
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Auth0Provider>
           <Header />
+          <SearchDialog />
           <main className="flex-1">{children}</main>
           <Footer />
         </Auth0Provider>

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, TrendingUp, Mail, Clock, User } from "lucide-react";
+import { ArrowRight, TrendingUp, User } from "lucide-react";
 import ArticleCard from "@/components/blog/ArticleCard";
-import { POSTS, CATEGORIES } from "@/lib/posts";
-import { getCategoryIcon } from "@/lib/categories";
+import { getPosts, getCategories } from "@/lib/content";
+import { getCategoryIcon, getCategoryName } from "@/lib/categories";
 import { TEAM } from "@/lib/team";
 
 function SectionHeader({ title, href }: { title: string; href: string }) {
@@ -25,10 +25,13 @@ function SectionHeader({ title, href }: { title: string; href: string }) {
 }
 
 export default function HomePage() {
-  const featured = POSTS[0];
-  const latest   = POSTS.slice(1, 4);
-  const trending = POSTS.slice(0, 5);
-  const recent   = POSTS.slice(5, 9);
+  const posts      = getPosts();
+  const categories = getCategories();
+
+  const featured = posts[0];
+  const latest   = posts.slice(1, 4);
+  const trending = posts.slice(0, 5);
+  const recent   = posts.slice(5, 9);
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 lg:px-8 flex flex-col gap-16">
@@ -43,7 +46,7 @@ export default function HomePage() {
         <SectionHeader title="Đánh Giá Mới Nhất" href="/articles" />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {latest.map((post, i) => (
-            <div key={post.id} className="animate-fade-in-up" style={{ animationDelay: `${i * 100 + 200}ms` }}>
+            <div key={post.slug} className="animate-fade-in-up" style={{ animationDelay: `${i * 100 + 200}ms` }}>
               <ArticleCard post={post} />
             </div>
           ))}
@@ -65,7 +68,7 @@ export default function HomePage() {
           <div className="flex flex-col rounded-2xl border border-border bg-card overflow-hidden">
             {trending.map((post, i) => (
               <Link
-                key={post.id}
+                key={post.slug}
                 href={`/articles/${post.slug}`}
                 className="group flex items-start gap-4 border-b border-border/50 p-4 last:border-0 transition-colors hover:bg-muted/50"
               >
@@ -87,16 +90,15 @@ export default function HomePage() {
                 <div className="flex min-w-0 flex-col gap-1.5">
                   <span
                     className="text-[11px] font-bold uppercase tracking-widest"
-                    style={{ color: post.coverColor }}
+                    style={{ color: `var(--color-cat-${post.category}, #6366f1)` }}
                   >
-                    {post.category}
+                    {getCategoryName(post.category)}
                   </span>
                   <h3 className="font-bold leading-snug group-hover:text-primary transition-colors line-clamp-2">
                     {post.title}
                   </h3>
                   <div className="flex items-center gap-3 text-xs text-muted-foreground">
                     <span className="flex items-center gap-1"><User className="size-3" />{post.author}</span>
-                    <span className="flex items-center gap-1"><Clock className="size-3" />{post.readTime} phút đọc</span>
                   </div>
                 </div>
               </Link>
@@ -114,7 +116,7 @@ export default function HomePage() {
               <h2 className="text-xl font-bold tracking-tight">Danh Mục</h2>
             </div>
             <div className="flex flex-col gap-1">
-              {CATEGORIES.map((cat) => {
+              {categories.map((cat) => {
                 const Icon = getCategoryIcon(cat.slug);
                 return (
                   <Link
@@ -180,64 +182,15 @@ export default function HomePage() {
         <SectionHeader title="Đánh Giá Gần Đây" href="/articles" />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {recent.map((post, i) => (
-            <div key={post.id} className="animate-fade-in-up" style={{ animationDelay: `${i * 80}ms` }}>
+            <div key={post.slug} className="animate-fade-in-up" style={{ animationDelay: `${i * 80}ms` }}>
               <ArticleCard post={post} />
             </div>
           ))}
         </div>
       </section>
 
-      {/* ── Newsletter ────────────────────────────────────── */}
-      <section className="animate-fade-in-up delay-400 relative overflow-hidden rounded-2xl p-10 sm:p-16">
-        {/* Gradient background */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background: "linear-gradient(135deg, #7c3aed 0%, #4f46e5 25%, #2563eb 55%, #0ea5e9 80%, #06b6d4 100%)",
-          }}
-        />
-
-        {/* Dot pattern */}
-        <div
-          className="absolute inset-0 opacity-10"
-          style={{
-            backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.9) 1px, transparent 1px)",
-            backgroundSize: "24px 24px",
-          }}
-        />
-
-        {/* Floating orbs */}
-        <div className="pointer-events-none absolute -top-24 -right-24 size-80 rounded-full bg-white/10 blur-3xl animate-pulse-glow" />
-        <div className="pointer-events-none absolute -bottom-24 -left-24 size-80 rounded-full bg-white/10 blur-3xl animate-pulse-glow delay-300" />
-        <div className="pointer-events-none absolute top-0 left-1/2 size-40 -translate-x-1/2 rounded-full bg-cyan-400/20 blur-2xl animate-float delay-200" />
-
-        <div className="relative flex flex-col items-center gap-6 text-center text-white">
-          <div className="flex size-14 items-center justify-center rounded-2xl bg-white/20 shadow-lg shadow-white/10 backdrop-blur-sm animate-float">
-            <Mail className="size-6" />
-          </div>
-          <div className="flex flex-col gap-2">
-            <h2 className="text-3xl font-bold tracking-tight">Đừng bỏ lỡ đánh giá mới</h2>
-            <p className="max-w-md text-sm leading-relaxed text-white/70">
-              Nhận thông báo khi có đánh giá mới về điện thoại, màn hình, laptop và phụ kiện — trước khi bạn quyết định mua.
-            </p>
-          </div>
-          <form className="flex w-full max-w-sm gap-2">
-            <input
-              type="email"
-              placeholder="email@example.com"
-              className="h-11 flex-1 rounded-xl border border-white/25 bg-white/10 px-4 text-sm text-white placeholder:text-white/50 outline-none backdrop-blur-sm transition-colors focus:border-white/50 focus:bg-white/20"
-            />
-            <button
-              type="submit"
-              className="h-11 shrink-0 rounded-xl bg-white px-5 text-sm font-bold text-violet-700 shadow-xl shadow-black/20 transition-all hover:bg-white/90 hover:shadow-white/20 active:scale-95"
-            >
-              Đăng Ký
-            </button>
-          </form>
-          <p className="text-xs text-white/50">Không spam. Hủy đăng ký bất kỳ lúc nào.</p>
-        </div>
-      </section>
 
     </div>
   );
 }
+

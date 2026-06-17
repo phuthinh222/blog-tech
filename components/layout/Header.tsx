@@ -21,7 +21,7 @@ function UserMenu() {
       <Button
         asChild
         size="sm"
-        className="hidden md:inline-flex rounded-xl bg-gradient-to-r from-violet-600 to-blue-500 text-white border-0 shadow-md shadow-violet-500/25 hover:opacity-90 hover:shadow-lg hover:shadow-violet-500/30 transition-all"
+        className="hidden md:inline-flex rounded-xl bg-linear-to-r from-violet-600 to-blue-500 text-white border-0 shadow-md shadow-violet-500/25 hover:opacity-90 hover:shadow-lg hover:shadow-violet-500/30 transition-all"
       >
         <a href="/auth/login">
           <LogIn className="size-3.5 mr-1.5" />
@@ -46,7 +46,7 @@ function UserMenu() {
             className="size-7 rounded-full object-cover ring-2 ring-violet-500/30"
           />
         ) : (
-          <span className="flex size-7 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-blue-500 text-[10px] font-bold text-white">
+          <span className="flex size-7 items-center justify-center rounded-full bg-linear-to-br from-violet-500 to-blue-500 text-[10px] font-bold text-white">
             {initials}
           </span>
         )}
@@ -71,7 +71,7 @@ function UserMenu() {
                   className="size-9 rounded-full object-cover"
                 />
               ) : (
-                <span className="flex size-9 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-blue-500 text-sm font-bold text-white">
+                <span className="flex size-9 items-center justify-center rounded-full bg-linear-to-br from-violet-500 to-blue-500 text-sm font-bold text-white">
                   {initials}
                 </span>
               )}
@@ -117,7 +117,7 @@ function MobileAuthSection({ onClose }: { onClose: () => void }) {
       <a
         href="/auth/login"
         onClick={onClose}
-        className="flex items-center justify-center gap-2 w-full rounded-xl bg-gradient-to-r from-violet-600 to-blue-500 py-2.5 text-sm font-semibold text-white"
+        className="flex items-center justify-center gap-2 w-full rounded-xl bg-linear-to-r from-violet-600 to-blue-500 py-2.5 text-sm font-semibold text-white"
       >
         <LogIn className="size-4" />
         Đăng Nhập
@@ -135,7 +135,7 @@ function MobileAuthSection({ onClose }: { onClose: () => void }) {
             className="size-8 rounded-full object-cover"
           />
         ) : (
-          <span className="flex size-8 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-blue-500 text-xs font-bold text-white">
+          <span className="flex size-8 items-center justify-center rounded-full bg-linear-to-br from-violet-500 to-blue-500 text-xs font-bold text-white">
             {(user.name ?? user.email ?? "U")[0].toUpperCase()}
           </span>
         )}
@@ -169,7 +169,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-xl">
       {/* Gradient top line */}
-      <div className="h-px bg-gradient-to-r from-violet-500 via-blue-500 to-cyan-400" />
+      <div className="h-px bg-linear-to-r from-violet-500 via-blue-500 to-cyan-400" />
 
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
@@ -182,7 +182,7 @@ export default function Header() {
               height={34}
               className="rounded-xl transition-transform duration-300 group-hover:scale-110"
             />
-            <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-violet-500/30 to-blue-500/30 opacity-0 group-hover:opacity-100 transition-opacity" />
+            <div className="absolute inset-0 rounded-xl bg-linear-to-br from-violet-500/30 to-blue-500/30 opacity-0 group-hover:opacity-100 transition-opacity" />
           </div>
           <span className="gradient-text">{SITE_NAME}</span>
         </Link>
@@ -196,14 +196,20 @@ export default function Header() {
               className="group relative rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               {link.label}
-              <span className="absolute bottom-1 left-3 right-3 h-0.5 origin-left scale-x-0 rounded-full bg-gradient-to-r from-violet-500 to-blue-500 transition-transform duration-300 group-hover:scale-x-100" />
+              <span className="absolute bottom-1 left-3 right-3 h-0.5 origin-left scale-x-0 rounded-full bg-linear-to-r from-violet-500 to-blue-500 transition-transform duration-300 group-hover:scale-x-100" />
             </Link>
           ))}
         </nav>
 
         {/* Right actions */}
         <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" className="rounded-xl" aria-label="Tìm kiếm">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="rounded-xl"
+            aria-label="Tìm kiếm (⌘K)"
+            onClick={() => window.dispatchEvent(new Event("open-search"))}
+          >
             <Search className="size-4" />
           </Button>
 
@@ -222,7 +228,7 @@ export default function Header() {
       </div>
 
       {/* Gradient bottom border */}
-      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+      <div className="h-px bg-linear-to-r from-transparent via-border to-transparent" />
 
       {/* Mobile Nav */}
       {isMenuOpen && (

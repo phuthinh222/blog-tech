@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
 import { auth0 } from "@/lib/auth0";
+import { getPosts } from "@/lib/content";
 import { BookmarkedArticles } from "@/components/blog/BookmarkedArticles";
 import { LogOut, Mail, User } from "lucide-react";
 import type { Metadata } from "next";
@@ -14,13 +15,13 @@ export default async function ProfilePage() {
 
   const { user } = session;
   const initials = (user.name ?? user.email ?? "U")[0].toUpperCase();
+  const posts    = getPosts();
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
 
       {/* ── User Card ─────────────────────────────────────── */}
       <div className="mb-10 flex flex-col gap-6 rounded-2xl border border-border bg-card p-6 sm:flex-row sm:items-center sm:gap-8">
-        {/* Avatar */}
         {user.picture ? (
           <img
             src={user.picture}
@@ -33,7 +34,6 @@ export default async function ProfilePage() {
           </div>
         )}
 
-        {/* Info */}
         <div className="flex-1 min-w-0">
           <h1 className="text-2xl font-bold">{user.name}</h1>
           <div className="mt-1.5 flex items-center gap-1.5 text-sm text-muted-foreground">
@@ -46,7 +46,6 @@ export default async function ProfilePage() {
           </div>
         </div>
 
-        {/* Logout */}
         <a
           href="/auth/logout"
           className="inline-flex items-center gap-2 self-start rounded-xl border border-rose-500/30 px-4 py-2 text-sm font-medium text-rose-500 transition-colors hover:bg-rose-500/10 sm:self-center"
@@ -62,7 +61,7 @@ export default async function ProfilePage() {
           <div className="h-6 w-1 rounded-full bg-gradient-to-b from-violet-500 to-blue-500" />
           <h2 className="text-xl font-bold">Bài Viết Đã Lưu</h2>
         </div>
-        <BookmarkedArticles />
+        <BookmarkedArticles posts={posts} />
       </section>
 
     </main>

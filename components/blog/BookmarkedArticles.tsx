@@ -1,12 +1,12 @@
 "use client";
 import { Bookmark } from "lucide-react";
 import { useBookmarks } from "@/hooks/useBookmarks";
-import { POSTS } from "@/lib/posts";
+import type { Post } from "@/types";
 import ArticleCard from "@/components/blog/ArticleCard";
 
-export function BookmarkedArticles() {
+export function BookmarkedArticles({ posts }: { posts: Post[] }) {
   const { bookmarks } = useBookmarks();
-  const saved = POSTS.filter((p) => bookmarks.includes(p.slug));
+  const saved = posts.filter((p) => bookmarks.includes(p.slug));
 
   if (saved.length === 0) {
     return (
@@ -23,7 +23,7 @@ export function BookmarkedArticles() {
   return (
     <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {saved.map((p) => (
-        <ArticleCard key={p.id} post={p} />
+        <ArticleCard key={p.slug} post={p} />
       ))}
     </div>
   );

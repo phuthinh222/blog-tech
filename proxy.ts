@@ -1,6 +1,9 @@
 import { auth0 } from "./lib/auth0";
 
 export async function proxy(request: Request) {
+  if (!process.env.AUTH0_DOMAIN) {
+    return;
+  }
   return await auth0.middleware(request);
 }
 

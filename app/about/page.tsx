@@ -35,10 +35,10 @@ const STATS = [
 ];
 
 const TOPICS = [
-  { icon: Smartphone, label: "Điện Thoại", color: "#7c3aed", href: "/categories/dienthoai" },
-  { icon: Monitor,    label: "Màn Hình",   color: "#0ea5e9", href: "/categories/manhinh"   },
+  { icon: Smartphone, label: "Điện Thoại", color: "#7c3aed", href: "/categories/phone"     },
+  { icon: Monitor,    label: "Màn Hình",   color: "#0ea5e9", href: "/categories/monitor"   },
   { icon: Laptop,     label: "Laptop",     color: "#10b981", href: "/categories/laptop"    },
-  { icon: Headphones, label: "Phụ Kiện",   color: "#f97316", href: "/categories/phukien"  },
+  { icon: Headphones, label: "Phụ Kiện",   color: "#f97316", href: "/categories/accessory" },
 ];
 
 export default function AboutPage() {

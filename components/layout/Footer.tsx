@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { GitBranch, MessageSquareShare, Briefcase, Globe, Mail } from "lucide-react";
+import { GitBranch, MessageSquareShare, Briefcase, Globe } from "lucide-react";
 import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants";
 
 const footerLinks = {
@@ -10,11 +10,11 @@ const footerLinks = {
     { href: "/authors", label: "Tác Giả" },
     { href: "/library", label: "Thư Viện" },
   ],
-  "Chủ Đề": [
-    { href: "/categories/ai", label: "Trí Tuệ Nhân Tạo" },
-    { href: "/categories/web", label: "Lập Trình Web" },
-    { href: "/categories/devops", label: "DevOps & Cloud" },
-    { href: "/categories/security", label: "Bảo Mật" },
+  "Danh Mục": [
+    { href: "/categories/phone",     label: "Điện Thoại" },
+    { href: "/categories/monitor",   label: "Màn Hình"   },
+    { href: "/categories/laptop",    label: "Laptop"     },
+    { href: "/categories/accessory", label: "Phụ Kiện"   },
   ],
   "Công Ty": [
     { href: "/about", label: "Về Chúng Tôi" },
@@ -37,7 +37,7 @@ export default function Footer() {
   return (
     <footer className="mt-auto bg-muted/30">
       {/* Gradient top line */}
-      <div className="h-px bg-gradient-to-r from-violet-500/30 via-blue-500/60 to-cyan-400/30" />
+      <div className="h-px bg-linear-to-r from-violet-500/30 via-blue-500/60 to-cyan-400/30" />
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Top section */}
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -84,34 +84,6 @@ export default function Footer() {
               </ul>
             </div>
           ))}
-        </div>
-
-        {/* Newsletter */}
-        <div className="mt-10 rounded-xl border border-border bg-background p-6">
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-            <div className="flex items-center gap-3">
-              <div className="flex size-9 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                <Mail className="size-4" />
-              </div>
-              <div>
-                <p className="font-semibold text-sm">Đăng ký nhận bản tin</p>
-                <p className="text-xs text-muted-foreground">Nhận bài viết mới nhất mỗi tuần, miễn phí.</p>
-              </div>
-            </div>
-            <form className="flex gap-2">
-              <input
-                type="email"
-                placeholder="email@example.com"
-                className="h-8 flex-1 rounded-lg border border-input bg-background px-3 text-sm outline-none focus:ring-2 focus:ring-ring/50 sm:w-52 sm:flex-none"
-              />
-              <button
-                type="submit"
-                className="inline-flex h-8 items-center rounded-lg bg-primary px-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/80"
-              >
-                Đăng Ký
-              </button>
-            </form>
-          </div>
         </div>
 
         {/* Bottom bar */}

@@ -1,10 +1,13 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { CATEGORIES, POSTS } from "@/lib/posts";
-import ArticleCard from "@/components/blog/ArticleCard";
+import { getPosts, getCategories } from "@/lib/content";
 import { getCategoryIcon, CATEGORY_DESC } from "@/lib/categories";
+import ArticleCard from "@/components/blog/ArticleCard";
 
 export default function CategoriesPage() {
+  const posts      = getPosts();
+  const categories = getCategories();
+
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 lg:px-8 flex flex-col gap-14">
 
@@ -18,7 +21,7 @@ export default function CategoriesPage() {
 
       {/* ── Category Overview Cards ───────────────────────── */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {CATEGORIES.map((cat) => {
+        {categories.map((cat) => {
           const Icon = getCategoryIcon(cat.slug);
           return (
             <Link
@@ -45,14 +48,13 @@ export default function CategoriesPage() {
       </div>
 
       {/* ── Per-category Sections ─────────────────────────── */}
-      {CATEGORIES.map((cat) => {
-        const Icon = getCategoryIcon(cat.slug);
-        const desc = CATEGORY_DESC[cat.slug as keyof typeof CATEGORY_DESC];
-        const posts = POSTS.filter((p) => p.categorySlug === cat.slug);
+      {categories.map((cat) => {
+        const Icon    = getCategoryIcon(cat.slug);
+        const desc    = CATEGORY_DESC[cat.slug];
+        const catPosts = posts.filter((p) => p.category === cat.slug);
 
         return (
           <section key={cat.slug} id={cat.slug} className="flex flex-col gap-6 scroll-mt-20">
-            {/* Section header */}
             <div className="flex items-start justify-between gap-4 pb-4 border-b border-border">
               <div className="flex items-center gap-3">
                 <div
@@ -74,10 +76,9 @@ export default function CategoriesPage() {
               </Link>
             </div>
 
-            {/* Posts grid */}
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post) => (
-                <ArticleCard key={post.id} post={post} />
+              {catPosts.map((post) => (
+                <ArticleCard key={post.slug} post={post} />
               ))}
             </div>
           </section>
