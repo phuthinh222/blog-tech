@@ -5,7 +5,7 @@ import { useState } from "react"
 type Status = "idle" | "loading" | "success" | "error"
 
 export function NewsletterForm() {
-  const [email, setEmail]   = useState("")
+  const [email, setEmail] = useState("")
   const [status, setStatus] = useState<Status>("idle")
   const [message, setMessage] = useState("")
 
@@ -49,11 +49,14 @@ export function NewsletterForm() {
         <input
           type="email"
           value={email}
-          onChange={(e) => { setEmail(e.target.value); setStatus("idle") }}
+          onChange={(e) => {
+            setEmail(e.target.value)
+            setStatus("idle")
+          }}
           placeholder="email@example.com"
           required
           disabled={status === "loading"}
-          className="h-11 flex-1 rounded-xl border border-white/25 bg-white/10 px-4 text-sm text-white placeholder:text-white/50 outline-none backdrop-blur-sm transition-colors focus:border-white/50 focus:bg-white/20 disabled:opacity-60"
+          className="h-11 flex-1 rounded-xl border border-white/25 bg-white/10 px-4 text-sm text-white backdrop-blur-sm transition-colors outline-none placeholder:text-white/50 focus:border-white/50 focus:bg-white/20 disabled:opacity-60"
         />
         <button
           type="submit"
@@ -63,9 +66,7 @@ export function NewsletterForm() {
           {status === "loading" ? "..." : "Đăng Ký"}
         </button>
       </div>
-      {status === "error" && (
-        <p className="text-center text-xs text-red-300">{message}</p>
-      )}
+      {status === "error" && <p className="text-center text-xs text-red-300">{message}</p>}
     </form>
   )
 }

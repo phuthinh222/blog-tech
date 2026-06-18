@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Image from "next/image";
-import { GitBranch, MessageSquareShare, Briefcase, Globe } from "lucide-react";
-import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants";
+import Link from "next/link"
+import Image from "next/image"
+import { GitBranch, MessageSquareShare, Briefcase, Globe } from "lucide-react"
+import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants"
 
 const footerLinks = {
   "Khám Phá": [
@@ -11,10 +11,10 @@ const footerLinks = {
     { href: "/library", label: "Thư Viện" },
   ],
   "Danh Mục": [
-    { href: "/categories/phone",     label: "Điện Thoại" },
-    { href: "/categories/monitor",   label: "Màn Hình"   },
-    { href: "/categories/laptop",    label: "Laptop"     },
-    { href: "/categories/accessory", label: "Phụ Kiện"   },
+    { href: "/categories/phone", label: "Điện Thoại" },
+    { href: "/categories/monitor", label: "Màn Hình" },
+    { href: "/categories/laptop", label: "Laptop" },
+    { href: "/categories/accessory", label: "Phụ Kiện" },
   ],
   "Công Ty": [
     { href: "/about", label: "Về Chúng Tôi" },
@@ -22,20 +22,20 @@ const footerLinks = {
     { href: "/careers", label: "Tuyển Dụng" },
     { href: "/policy", label: "Chính Sách" },
   ],
-};
+}
 
 const socialLinks = [
   { href: "https://github.com", icon: GitBranch, label: "GitHub" },
   { href: "https://twitter.com", icon: MessageSquareShare, label: "Twitter" },
   { href: "https://linkedin.com", icon: Briefcase, label: "LinkedIn" },
   { href: "/", icon: Globe, label: "Website" },
-];
+]
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="mt-auto bg-muted/30">
+    <footer className="bg-muted/30 mt-auto">
       {/* Gradient top line */}
       <div className="h-px bg-linear-to-r from-violet-500/30 via-blue-500/60 to-cyan-400/30" />
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
@@ -43,13 +43,17 @@ export default function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="flex flex-col gap-4">
-            <Link href="/" className="flex items-center gap-2 font-bold text-xl w-fit">
-              <Image src="/logo.png" alt={SITE_NAME} width={32} height={32} className="rounded-lg" />
+            <Link href="/" className="flex w-fit items-center gap-2 text-xl font-bold">
+              <Image
+                src="/logo.png"
+                alt={SITE_NAME}
+                width={32}
+                height={32}
+                className="rounded-lg"
+              />
               <span>{SITE_NAME}</span>
             </Link>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              {SITE_DESCRIPTION}
-            </p>
+            <p className="text-muted-foreground text-sm leading-relaxed">{SITE_DESCRIPTION}</p>
             <div className="flex items-center gap-1">
               {socialLinks.map(({ href, icon: Icon, label }) => (
                 <a
@@ -58,7 +62,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="flex size-9 items-center justify-center rounded-xl text-muted-foreground transition-all hover:scale-110 hover:bg-gradient-to-br hover:from-violet-500/15 hover:to-blue-500/15 hover:text-foreground"
+                  className="text-muted-foreground hover:text-foreground flex size-9 items-center justify-center rounded-xl transition-all hover:scale-110 hover:bg-gradient-to-br hover:from-violet-500/15 hover:to-blue-500/15"
                 >
                   <Icon className="size-4" />
                 </a>
@@ -75,7 +79,7 @@ export default function Footer() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                      className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -87,15 +91,23 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© {currentYear} {SITE_NAME}</p>
+        <div className="border-border text-muted-foreground mt-8 flex flex-col items-center justify-between gap-3 border-t pt-6 text-xs sm:flex-row">
+          <p>
+            © {currentYear} {SITE_NAME}
+          </p>
           <div className="flex items-center gap-4">
-            <Link href="/terms" className="transition-colors hover:text-foreground">Điều Khoản</Link>
-            <Link href="/privacy" className="transition-colors hover:text-foreground">Bảo Mật</Link>
-            <Link href="/cookies" className="transition-colors hover:text-foreground">Cookie</Link>
+            <Link href="/terms" className="hover:text-foreground transition-colors">
+              Điều Khoản
+            </Link>
+            <Link href="/privacy" className="hover:text-foreground transition-colors">
+              Bảo Mật
+            </Link>
+            <Link href="/cookies" className="hover:text-foreground transition-colors">
+              Cookie
+            </Link>
           </div>
         </div>
       </div>
     </footer>
-  );
+  )
 }

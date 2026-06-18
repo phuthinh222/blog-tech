@@ -6,6 +6,13 @@
   "author": "The Zero Tech",
   "publishedAt": "2026-06-16",
   "coverImage": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m81q33cbpy13ab.webp",
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/_/m_n_h_nh_gaming_asus_tuf_vg249qe5a_24_inch_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/_/m_n_h_nh_gaming_asus_tuf_vg249qe5a_24_inch_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/_/m_n_h_nh_gaming_asus_tuf_vg249qe5a_24_inch_-_3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/Man-hinh/Asus/24-inch/man-hinh-gaming-asus-tuf-vg249qe5a-24-inch-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/Man-hinh/Asus/24-inch/man-hinh-gaming-asus-tuf-vg249qe5a-24-inch-2.jpg"
+  ],
   "itemId": "28831567623",
   "affiliateUrl": "https://s.shopee.vn/AKYG2zBJlU",
   "rating": {
@@ -16,13 +23,13 @@
     "value": 8.9
   },
   "specs": [
-    { "label": "Kích thước",    "value": "24 inch" },
-    { "label": "Độ phân giải",  "value": "1920 x 1080 (Full HD)" },
-    { "label": "Tấm nền",       "value": "IPS" },
-    { "label": "Tần số quét",   "value": "146Hz" },
-    { "label": "Độ phủ màu",    "value": "125% sRGB" },
-    { "label": "Loa",           "value": "Loa tích hợp" },
-    { "label": "Bảo hành",      "value": "3 năm" }
+    { "label": "Kích thước", "value": "24 inch" },
+    { "label": "Độ phân giải", "value": "1920 x 1080 (Full HD)" },
+    { "label": "Tấm nền", "value": "IPS" },
+    { "label": "Tần số quét", "value": "146Hz" },
+    { "label": "Độ phủ màu", "value": "125% sRGB" },
+    { "label": "Loa", "value": "Loa tích hợp" },
+    { "label": "Bảo hành", "value": "3 năm" }
   ],
   "pros": [
     "Tấm nền IPS cho màu sắc đẹp và góc nhìn rộng.",

@@ -12,8 +12,13 @@ type Props = {
   initialQuery?: string
 }
 
-export function ArticlesList({ posts, categories, initialCategory = "", initialQuery = "" }: Props) {
-  const [query, setQuery]       = useState(initialQuery)
+export function ArticlesList({
+  posts,
+  categories,
+  initialCategory = "",
+  initialQuery = "",
+}: Props) {
+  const [query, setQuery] = useState(initialQuery)
   const [category, setCategory] = useState(initialCategory)
 
   const filtered = useMemo(() => {
@@ -27,7 +32,6 @@ export function ArticlesList({ posts, categories, initialCategory = "", initialQ
 
   return (
     <div className="flex flex-col gap-10">
-
       {/* Filter + Search */}
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex flex-wrap items-center gap-2">
@@ -36,7 +40,7 @@ export function ArticlesList({ posts, categories, initialCategory = "", initialQ
             className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
               !category
                 ? "bg-primary text-primary-foreground"
-                : "border border-border text-muted-foreground hover:bg-muted hover:text-foreground"
+                : "border-border text-muted-foreground hover:bg-muted hover:text-foreground border"
             }`}
           >
             Tất cả
@@ -48,7 +52,7 @@ export function ArticlesList({ posts, categories, initialCategory = "", initialQ
               className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
                 category === cat.slug
                   ? "bg-primary text-primary-foreground"
-                  : "border border-border text-muted-foreground hover:bg-muted hover:text-foreground"
+                  : "border-border text-muted-foreground hover:bg-muted hover:text-foreground border"
               }`}
             >
               {cat.name}
@@ -57,13 +61,13 @@ export function ArticlesList({ posts, categories, initialCategory = "", initialQ
         </div>
 
         <div className="relative w-full sm:w-56">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground pointer-events-none" />
+          <Search className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2" />
           <input
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Tìm kiếm..."
-            className="h-9 w-full rounded-lg border border-input bg-background pl-9 pr-3 text-sm outline-none focus:ring-2 focus:ring-ring/50"
+            className="border-input bg-background focus:ring-ring/50 h-9 w-full rounded-lg border pr-3 pl-9 text-sm outline-none focus:ring-2"
           />
         </div>
       </div>
@@ -76,10 +80,12 @@ export function ArticlesList({ posts, categories, initialCategory = "", initialQ
           ))}
         </div>
       ) : (
-        <div className="flex flex-col items-center gap-3 rounded-2xl border border-dashed border-border py-20 text-center">
-          <Search className="size-10 text-muted-foreground/30" />
-          <p className="text-sm font-medium text-muted-foreground">Không tìm thấy bài viết nào</p>
-          <p className="text-xs text-muted-foreground/60">Thử từ khoá khác hoặc chọn danh mục khác</p>
+        <div className="border-border flex flex-col items-center gap-3 rounded-2xl border border-dashed py-20 text-center">
+          <Search className="text-muted-foreground/30 size-10" />
+          <p className="text-muted-foreground text-sm font-medium">Không tìm thấy bài viết nào</p>
+          <p className="text-muted-foreground/60 text-xs">
+            Thử từ khoá khác hoặc chọn danh mục khác
+          </p>
         </div>
       )}
     </div>

@@ -6,6 +6,12 @@
   "author": "The Zero Tech",
   "publishedAt": "2026-06-17",
   "coverImage": "https://nhatminhlaptop.com/upload/FileAttach/89f5a642e83d4e40d9746f0a6b4a915c-2025-10-07-15-21-13.jpg",
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/h/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi-1_1_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/h/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi-2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/h/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi-3.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/h/chuot-choi-game-co-day-logitech-g102-lightsync-8000dpi-4.png"
+  ],
   "itemId": "27340102582",
   "affiliateUrl": "https://s.shopee.vn/8V6dQnU06G",
   "rating": {
@@ -16,14 +22,14 @@
     "value": 9.5
   },
   "specs": [
-    { "label": "Loại kết nối",   "value": "Có dây USB" },
-    { "label": "Cảm biến",       "value": "Gaming Sensor" },
-    { "label": "Độ phân giải",   "value": "8000 DPI" },
-    { "label": "Số nút",         "value": "6 nút lập trình" },
-    { "label": "Đèn LED",        "value": "RGB Lightsync 16.8 triệu màu" },
-    { "label": "Trọng lượng",    "value": "Khoảng 85g" },
-    { "label": "Độ bền switch",  "value": "10 triệu lần nhấn" },
-    { "label": "Bảo hành",       "value": "24 tháng chính hãng" }
+    { "label": "Loại kết nối", "value": "Có dây USB" },
+    { "label": "Cảm biến", "value": "Gaming Sensor" },
+    { "label": "Độ phân giải", "value": "8000 DPI" },
+    { "label": "Số nút", "value": "6 nút lập trình" },
+    { "label": "Đèn LED", "value": "RGB Lightsync 16.8 triệu màu" },
+    { "label": "Trọng lượng", "value": "Khoảng 85g" },
+    { "label": "Độ bền switch", "value": "10 triệu lần nhấn" },
+    { "label": "Bảo hành", "value": "24 tháng chính hãng" }
   ],
   "pros": [
     "Cảm biến 8000 DPI cho độ chính xác cao khi chơi game.",
@@ -96,13 +102,7 @@
   "productName": "Chuột Gaming Logitech G102 Gen 2 Lightsync Bảo Hành Chính Hãng 24 Tháng",
   "productUrl": "https://shopee.vn/Chu%E1%BB%99t-Gaming-Logitech-G102-Gen-2-Lightsync-B%E1%BA%A3o-h%C3%A0nh-ch%C3%ADnh-h%C3%A3ng-24-th%C3%A1ng-i.1612010870.27340102582",
   "contentType": "review",
-  "tags": [
-    "logitech",
-    "gaming-mouse",
-    "rgb",
-    "esports",
-    "g102"
-  ],
+  "tags": ["logitech", "gaming-mouse", "rgb", "esports", "g102"],
   "targetUsers": [
     "Game thủ FPS như Valorant, CS2, Apex Legends.",
     "Game thủ MOBA như Liên Minh Huyền Thoại và Dota 2.",

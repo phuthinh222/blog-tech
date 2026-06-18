@@ -6,6 +6,7 @@ export type Post = {
   author: string
   publishedAt: string
   coverImage: string
+  images?: string[]
   itemId: string
   affiliateUrl: string
   rating: {

@@ -12,11 +12,7 @@ export async function POST(req: NextRequest) {
   }
 
   /* Lưu vào Supabase — bỏ qua nếu đã tồn tại */
-  const { error: dbError } = await supabase
-    .from("subscribers")
-    .insert({ email })
-    .select()
-    .single()
+  const { error: dbError } = await supabase.from("subscribers").insert({ email }).select().single()
 
   if (dbError) {
     if (dbError.code === "23505") {

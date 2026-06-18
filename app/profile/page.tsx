@@ -1,28 +1,28 @@
-import { redirect } from "next/navigation";
-import { auth0 } from "@/lib/auth0";
-import { getPosts } from "@/lib/content";
-import { BookmarkedArticles } from "@/components/blog/BookmarkedArticles";
-import { LogOut, Mail, User } from "lucide-react";
-import type { Metadata } from "next";
+import { redirect } from "next/navigation"
+import { auth0 } from "@/lib/auth0"
+import { getPosts } from "@/lib/content"
+import { BookmarkedArticles } from "@/components/blog/BookmarkedArticles"
+import { LogOut, Mail, User } from "lucide-react"
+import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Hồ Sơ — The Zero Tech",
-};
+}
 
 export default async function ProfilePage() {
-  const session = await auth0.getSession();
-  if (!session) redirect("/auth/login");
+  const session = await auth0.getSession()
+  if (!session) redirect("/auth/login")
 
-  const { user } = session;
-  const initials = (user.name ?? user.email ?? "U")[0].toUpperCase();
-  const posts    = getPosts();
+  const { user } = session
+  const initials = (user.name ?? user.email ?? "U")[0].toUpperCase()
+  const posts = getPosts()
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-
       {/* ── User Card ─────────────────────────────────────── */}
-      <div className="mb-10 flex flex-col gap-6 rounded-2xl border border-border bg-card p-6 sm:flex-row sm:items-center sm:gap-8">
+      <div className="border-border bg-card mb-10 flex flex-col gap-6 rounded-2xl border p-6 sm:flex-row sm:items-center sm:gap-8">
         {user.picture ? (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={user.picture}
             alt={user.name ?? ""}
@@ -34,13 +34,13 @@ export default async function ProfilePage() {
           </div>
         )}
 
-        <div className="flex-1 min-w-0">
+        <div className="min-w-0 flex-1">
           <h1 className="text-2xl font-bold">{user.name}</h1>
-          <div className="mt-1.5 flex items-center gap-1.5 text-sm text-muted-foreground">
+          <div className="text-muted-foreground mt-1.5 flex items-center gap-1.5 text-sm">
             <Mail className="size-3.5" />
             <span>{user.email}</span>
           </div>
-          <div className="mt-1 flex items-center gap-1.5 text-xs text-muted-foreground">
+          <div className="text-muted-foreground mt-1 flex items-center gap-1.5 text-xs">
             <User className="size-3" />
             <span>Thành viên The Zero Tech</span>
           </div>
@@ -63,7 +63,6 @@ export default async function ProfilePage() {
         </div>
         <BookmarkedArticles posts={posts} />
       </section>
-
     </main>
-  );
+  )
 }

@@ -6,6 +6,13 @@
   "author": "The Zero Tech",
   "publishedAt": "2026-06-17",
   "coverImage": "https://down-vn.img.susercontent.com/file/sg-11134275-8260s-mm9zzh3mafpk20.webp",
+  "images": [
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/laptop/Dell/laptop-dell-15-dc15250-3g7t0-1_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/laptop/Dell/laptop-dell-15-dc15250-3g7t0-2_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/laptop/Dell/laptop-dell-15-dc15250-3g7t0-3_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/laptop/Dell/laptop-dell-15-dc15250-3g7t0-4_1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/laptop/Dell/laptop-dell-15-dc15250-3g7t0-6.jpg"
+  ],
   "itemId": "42679592746",
   "affiliateUrl": "https://s.shopee.vn/1VwtAM75gO",
   "rating": {
@@ -16,12 +23,12 @@
     "value": 8.9
   },
   "specs": [
-    { "label": "CPU",          "value": "Intel Core i7-1355U" },
-    { "label": "RAM",          "value": "16GB" },
-    { "label": "Lưu trữ",     "value": "SSD 1TB" },
-    { "label": "GPU",          "value": "Intel Iris Xe Graphics" },
+    { "label": "CPU", "value": "Intel Core i7-1355U" },
+    { "label": "RAM", "value": "16GB" },
+    { "label": "Lưu trữ", "value": "SSD 1TB" },
+    { "label": "GPU", "value": "Intel Iris Xe Graphics" },
     { "label": "Hệ điều hành", "value": "Windows 11" },
-    { "label": "Màu sắc",     "value": "Bạc" }
+    { "label": "Màu sắc", "value": "Bạc" }
   ],
   "pros": [
     "Intel Core i7-1355U thế hệ 13 cho hiệu năng mạnh mẽ.",
@@ -94,14 +101,7 @@
   "productName": "Laptop Dell 15 DC15250 I7U161W11SLU i7-1355U 16GB 1TB Win11 Bạc",
   "productUrl": "https://shopee.vn/Laptop-Dell-15-DC15250-I7U161W11SLU-i7-1355U-16GB-1TB-Win11-B%E1%BA%A1c-i.706762797.42679592746",
   "contentType": "review",
-  "tags": [
-    "dell",
-    "intel-core-i7",
-    "16gb-ram",
-    "1tb-ssd",
-    "office-laptop",
-    "windows-11"
-  ],
+  "tags": ["dell", "intel-core-i7", "16gb-ram", "1tb-ssd", "office-laptop", "windows-11"],
   "targetUsers": [
     "Nhân viên văn phòng.",
     "Sinh viên đại học.",

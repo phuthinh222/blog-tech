@@ -6,6 +6,13 @@
   "author": "The Zero Tech",
   "publishedAt": "2026-06-17",
   "coverImage": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m6j5ek32wens19.webp",
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/_/m_n_h_nh_gaming_xiaomi_g24i_24_inch_-_1.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/_/m_n_h_nh_gaming_xiaomi_g24i_24_inch_-_2.png",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/_/m_n_h_nh_gaming_xiaomi_g24i_24_inch_-_3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/man-hinh/Xiaomi/24-inch/man-hinh-gaming-xiaomi-g24i-24-inch-1.jpg",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:100/plain/https://cellphones.com.vn/media/wysiwyg/man-hinh/Xiaomi/24-inch/man-hinh-gaming-xiaomi-g24i-24-inch-2.jpg"
+  ],
   "itemId": "27520819114",
   "affiliateUrl": "https://s.shopee.vn/6pyPW6L7rO",
   "rating": {
@@ -16,11 +23,11 @@
     "value": 9.4
   },
   "specs": [
-    { "label": "Kích thước",         "value": "24 inch" },
-    { "label": "Độ phân giải",       "value": "1920 x 1080 (Full HD)" },
-    { "label": "Tần số quét",        "value": "180Hz" },
+    { "label": "Kích thước", "value": "24 inch" },
+    { "label": "Độ phân giải", "value": "1920 x 1080 (Full HD)" },
+    { "label": "Tần số quét", "value": "180Hz" },
     { "label": "Thời gian phản hồi", "value": "1ms" },
-    { "label": "Phân khúc",          "value": "Gaming Monitor" }
+    { "label": "Phân khúc", "value": "Gaming Monitor" }
   ],
   "pros": [
     "Tần số quét 180Hz mang lại trải nghiệm cực kỳ mượt mà.",
@@ -92,14 +99,7 @@
   "productName": "Màn Hình Máy Tính Xiaomi Gaming Monitor G24i ELA5625EU Tốc Độ Phản Hồi Nhanh 1ms Tần Số Quét 180Hz",
   "productUrl": "https://shopee.vn/M%C3%A0n-h%C3%ACnh-m%C3%A1y-t%C3%ADnh-Xiaomi-Gaming-Monitor-G24i-ELA5625EU-T%E1%BB%91c-%C4%91%E1%BB%99-ph%E1%BA%A3n-h%E1%BB%93i-nhanh-1ms-T%E1%BA%A7n-s%E1%BB%91-qu%C3%A9t-180Hz-i.1396654883.27520819114",
   "contentType": "review",
-  "tags": [
-    "xiaomi",
-    "gaming-monitor",
-    "180hz",
-    "esports",
-    "24-inch",
-    "fhd"
-  ],
+  "tags": ["xiaomi", "gaming-monitor", "180hz", "esports", "24-inch", "fhd"],
   "targetUsers": [
     "Game thủ Valorant.",
     "Game thủ Counter-Strike 2.",

@@ -6,6 +6,12 @@
   "author": "The Zero Tech",
   "publishedAt": "2026-06-17",
   "coverImage": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-1.png",
+  "images": [
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-2.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-3.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-4.png",
+    "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-16-5.png"
+  ],
   "itemId": "27110898667",
   "affiliateUrl": "https://s.shopee.vn/3g1NmBoH1i",
   "rating": {
@@ -16,11 +22,11 @@
     "value": 8.8
   },
   "specs": [
-    { "label": "Chip xử lý",          "value": "Apple A18" },
-    { "label": "Dung lượng",           "value": "128GB" },
-    { "label": "Hệ điều hành",        "value": "iOS" },
-    { "label": "Mạng",                 "value": "5G" },
-    { "label": "Bảo mật",             "value": "Face ID" },
+    { "label": "Chip xử lý", "value": "Apple A18" },
+    { "label": "Dung lượng", "value": "128GB" },
+    { "label": "Hệ điều hành", "value": "iOS" },
+    { "label": "Mạng", "value": "5G" },
+    { "label": "Bảo mật", "value": "Face ID" },
     { "label": "Khả năng chống nước", "value": "Chuẩn IP" }
   ],
   "pros": [
@@ -95,15 +101,7 @@
   "productName": "Điện Thoại Apple iPhone 16 128GB",
   "productUrl": "https://shopee.vn/%C4%90i%E1%BB%87n-tho%E1%BA%A1i-Apple-iPhone-16-128GB-i.88201679.27110898667",
   "contentType": "review",
-  "tags": [
-    "apple",
-    "iphone",
-    "iphone-16",
-    "ios",
-    "a18",
-    "128gb",
-    "flagship"
-  ],
+  "tags": ["apple", "iphone", "iphone-16", "ios", "a18", "128gb", "flagship"],
   "priceRange": "20-25-trieu",
   "specHighlights": {
     "chip": "Apple A18",

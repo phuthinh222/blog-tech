@@ -43,12 +43,12 @@ Blog đánh giá sản phẩm công nghệ tiêu dùng bằng tiếng Việt —
 
 ## Danh mục
 
-| Slug | Tên | Icon |
-|---|---|---|
+| Slug        | Tên        | Icon       |
+| ----------- | ---------- | ---------- |
 | `dienthoai` | Điện Thoại | Smartphone |
-| `manhinh` | Màn Hình | Monitor |
-| `laptop` | Laptop | Laptop |
-| `phukien` | Phụ Kiện | Headphones |
+| `manhinh`   | Màn Hình   | Monitor    |
+| `laptop`    | Laptop     | Laptop     |
+| `phukien`   | Phụ Kiện   | Headphones |
 
 ## Data Model
 
@@ -58,14 +58,14 @@ type Post = {
   slug: string
   title: string
   excerpt: string
-  category: string        // Tên hiển thị
-  categorySlug: string    // "dienthoai" | "manhinh" | "laptop" | "phukien"
+  category: string // Tên hiển thị
+  categorySlug: string // "dienthoai" | "manhinh" | "laptop" | "phukien"
   author: string
-  date: string            // ISO format "YYYY-MM-DD"
-  readTime: number        // Phút đọc
-  coverColor: string      // Hex color cho overlay
-  coverImage: string      // URL ảnh bìa (picsum.photos)
-  rating: number          // Điểm đánh giá 0–10
+  date: string // ISO format "YYYY-MM-DD"
+  readTime: number // Phút đọc
+  coverColor: string // Hex color cho overlay
+  coverImage: string // URL ảnh bìa (picsum.photos)
+  rating: number // Điểm đánh giá 0–10
 }
 ```
 

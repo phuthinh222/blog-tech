@@ -6,6 +6,12 @@
   "author": "The Zero Tech",
   "publishedAt": "2026-06-17",
   "coverImage": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjqs6i6udkp3a7.webp",
+  "images": [
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/i/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-1.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/i/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-2.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/i/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-3.jpg",
+    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/i/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-4.jpg"
+  ],
   "itemId": "26740102078",
   "affiliateUrl": "https://s.shopee.vn/5fmS11MJUp",
   "rating": {
@@ -16,11 +22,11 @@
     "value": 9.0
   },
   "specs": [
-    { "label": "Loại sản phẩm",     "value": "Giá treo màn hình lò xo khí" },
+    { "label": "Loại sản phẩm", "value": "Giá treo màn hình lò xo khí" },
     { "label": "Kích thước hỗ trợ", "value": "17 - 32 inch" },
-    { "label": "Chuẩn VESA",        "value": "75x75mm, 100x100mm" },
-    { "label": "Điều chỉnh",        "value": "Nâng hạ, xoay ngang, xoay dọc, nghiêng" },
-    { "label": "Lắp đặt",           "value": "Kẹp bàn hoặc xuyên bàn" }
+    { "label": "Chuẩn VESA", "value": "75x75mm, 100x100mm" },
+    { "label": "Điều chỉnh", "value": "Nâng hạ, xoay ngang, xoay dọc, nghiêng" },
+    { "label": "Lắp đặt", "value": "Kẹp bàn hoặc xuyên bàn" }
   ],
   "pros": [
     "Giúp cải thiện tư thế ngồi và giảm đau mỏi cổ vai gáy.",
