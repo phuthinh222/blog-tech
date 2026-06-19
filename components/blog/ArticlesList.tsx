@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useMemo } from "react"
+import { useRouter } from "next/navigation"
 import { Search } from "lucide-react"
 import ArticleCard from "@/components/blog/ArticleCard"
 import type { Post, Category } from "@/types"
@@ -18,6 +19,7 @@ export function ArticlesList({
   initialCategory = "",
   initialQuery = "",
 }: Props) {
+  const router = useRouter()
   const [query, setQuery] = useState(initialQuery)
   const [category, setCategory] = useState(initialCategory)
 
@@ -30,13 +32,24 @@ export function ArticlesList({
     })
   }, [posts, query, category])
 
+  function syncURL(newQuery: string, newCategory: string) {
+    const params = new URLSearchParams()
+    if (newQuery) params.set("q", newQuery)
+    if (newCategory) params.set("category", newCategory)
+    const qs = params.toString()
+    router.replace(qs ? `/articles?${qs}` : "/articles", { scroll: false })
+  }
+
   return (
     <div className="flex flex-col gap-10">
       {/* Filter + Search */}
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex flex-wrap items-center gap-2">
           <button
-            onClick={() => setCategory("")}
+            onClick={() => {
+              setCategory("")
+              syncURL(query, "")
+            }}
             className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
               !category
                 ? "bg-primary text-primary-foreground"
@@ -48,7 +61,11 @@ export function ArticlesList({
           {categories.map((cat) => (
             <button
               key={cat.slug}
-              onClick={() => setCategory(cat.slug === category ? "" : cat.slug)}
+              onClick={() => {
+                const next = cat.slug === category ? "" : cat.slug
+                setCategory(next)
+                syncURL(query, next)
+              }}
               className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
                 category === cat.slug
                   ? "bg-primary text-primary-foreground"
@@ -65,7 +82,10 @@ export function ArticlesList({
           <input
             type="search"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => {
+              setQuery(e.target.value)
+              syncURL(e.target.value, category)
+            }}
             placeholder="Tìm kiếm..."
             className="border-input bg-background focus:ring-ring/50 h-9 w-full rounded-lg border pr-3 pl-9 text-sm outline-none focus:ring-2"
           />

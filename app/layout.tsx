@@ -5,6 +5,7 @@ import "./globals.css"
 import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
 import { SearchDialog } from "@/components/layout/SearchDialog"
+import { BookmarksProvider } from "@/contexts/BookmarksContext"
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-display",
@@ -46,10 +47,12 @@ export default function RootLayout({
     >
       <body className="flex min-h-full flex-col">
         <Auth0Provider>
-          <Header />
-          <SearchDialog />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <BookmarksProvider>
+            <Header />
+            <SearchDialog />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </BookmarksProvider>
         </Auth0Provider>
       </body>
     </html>

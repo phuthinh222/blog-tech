@@ -100,6 +100,9 @@ export function SearchDialog() {
 
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="Tìm kiếm bài viết"
       className="fixed inset-0 z-100 flex items-start justify-center bg-black/60 px-4 pt-[12vh] backdrop-blur-sm"
       onClick={(e) => e.target === e.currentTarget && close()}
     >

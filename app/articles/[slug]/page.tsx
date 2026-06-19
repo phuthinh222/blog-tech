@@ -82,8 +82,32 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     .slice(0, 3)
   const breakdown = getRatingBreakdown(post.rating)
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    name: post.title,
+    reviewBody: post.excerpt,
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: post.rating.overall,
+      bestRating: 10,
+    },
+    author: { "@type": "Person", name: post.author },
+    itemReviewed: {
+      "@type": "Product",
+      name: post.title,
+      ...(post.coverImage && { image: post.coverImage }),
+    },
+    datePublished: post.publishedAt,
+    publisher: { "@type": "Organization", name: "The Zero Tech" },
+  }
+
   return (
     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ── Hero ─────────────────────────────────────────────── */}
       <div className="relative h-105 w-full overflow-hidden sm:h-135">
         {post.coverImage ? (

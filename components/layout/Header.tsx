@@ -37,6 +37,8 @@ function UserMenu() {
     <div className="relative hidden md:block">
       <button
         onClick={() => setOpen(!open)}
+        aria-expanded={open}
+        aria-haspopup="menu"
         className="hover:bg-muted flex items-center gap-2 rounded-xl py-1 pr-2.5 pl-1 transition-colors"
       >
         {user.picture ? (
@@ -188,7 +190,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden items-center gap-1 md:flex">
+        <nav aria-label="Điều hướng chính" className="hidden items-center gap-1 md:flex">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
@@ -233,7 +235,7 @@ export default function Header() {
       {/* Mobile Nav */}
       {isMenuOpen && (
         <div className="animate-fade-in-up border-border bg-background/95 border-b px-4 py-3 backdrop-blur-xl md:hidden">
-          <nav className="flex flex-col gap-1">
+          <nav aria-label="Điều hướng mobile" className="flex flex-col gap-1">
             {NAV_LINKS.map((link, i) => (
               <Link
                 key={link.href}

@@ -1,5 +1,6 @@
 import fs from "fs"
 import path from "path"
+import { cache } from "react"
 import type { Post, Category } from "@/types"
 import { CATEGORY_CONFIG } from "@/lib/categories"
 
@@ -27,8 +28,9 @@ export function getPosts(): Post[] {
   return _postsCache
 }
 
-export function getPostBySlug(slug: string): Post | null {
-  // Guard against path traversal: resolved path must stay inside POSTS_DIR
+// React.cache deduplicates calls with the same slug within a single render tree
+// (e.g. generateMetadata and the page component both calling getPostBySlug for the same slug)
+export const getPostBySlug = cache((slug: string): Post | null => {
   const filePath = path.resolve(POSTS_DIR, `${slug}.json`)
   if (!filePath.startsWith(POSTS_DIR + path.sep)) return null
   if (!fs.existsSync(filePath)) return null
@@ -37,7 +39,7 @@ export function getPostBySlug(slug: string): Post | null {
   } catch {
     return null
   }
-}
+})
 
 export function getCategories(): Category[] {
   const posts = getPosts()

@@ -14,6 +14,7 @@ import {
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { TEAM } from "@/lib/team"
+import { getCategoryColor } from "@/lib/categories"
 
 const VALUES = [
   {
@@ -46,10 +47,10 @@ const STATS = [
 ]
 
 const TOPICS = [
-  { icon: Smartphone, label: "Điện Thoại", color: "#7c3aed", href: "/categories/phone" },
-  { icon: Monitor, label: "Màn Hình", color: "#0ea5e9", href: "/categories/monitor" },
-  { icon: Laptop, label: "Laptop", color: "#10b981", href: "/categories/laptop" },
-  { icon: Headphones, label: "Phụ Kiện", color: "#f97316", href: "/categories/accessory" },
+  { icon: Smartphone, label: "Điện Thoại", category: "phone", href: "/categories/phone" },
+  { icon: Monitor, label: "Màn Hình", category: "monitor", href: "/categories/monitor" },
+  { icon: Laptop, label: "Laptop", category: "laptop", href: "/categories/laptop" },
+  { icon: Headphones, label: "Phụ Kiện", category: "accessory", href: "/categories/accessory" },
 ]
 
 export default function AboutPage() {
@@ -103,7 +104,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            {TOPICS.map(({ icon: Icon, label, color, href }) => (
+            {TOPICS.map(({ icon: Icon, label, category, href }) => (
               <Link
                 key={href}
                 href={href}
@@ -111,7 +112,7 @@ export default function AboutPage() {
               >
                 <div
                   className="flex size-12 items-center justify-center rounded-xl text-white"
-                  style={{ backgroundColor: color }}
+                  style={{ backgroundColor: getCategoryColor(category) }}
                 >
                   <Icon className="size-5" />
                 </div>
@@ -194,9 +195,9 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Button asChild>
-              <Link href="/contact">
+              <a href="mailto:contact@thezerotechvn.com">
                 Liên Hệ Ngay <ArrowRight className="size-4" />
-              </Link>
+              </a>
             </Button>
             <Button asChild variant="outline">
               <Link href="/articles">Đọc Bài Viết</Link>

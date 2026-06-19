@@ -1,3 +1,4 @@
+import { memo } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Clock, Star } from "lucide-react"
@@ -37,7 +38,7 @@ type Props = {
   variant?: "default" | "featured" | "compact"
 }
 
-export default function ArticleCard({ post, variant = "default" }: Props) {
+function ArticleCard({ post, variant = "default" }: Props) {
   const coverColor = getCategoryColor(post.category)
   const categoryName = getCategoryName(post.category)
 
@@ -153,14 +154,6 @@ export default function ArticleCard({ post, variant = "default" }: Props) {
   }
 
   /* ── DEFAULT ──────────────────────────────────────────── */
-  const photo = AUTHOR_PHOTOS[post.author]
-  const initials = post.author
-    .split(" ")
-    .map((n) => n[0])
-    .slice(0, 2)
-    .join("")
-    .toUpperCase()
-
   return (
     <div className="group border-border bg-card relative flex flex-col overflow-hidden rounded-2xl border transition-all duration-300 hover:-translate-y-1.5 hover:border-transparent hover:shadow-2xl">
       <Link
@@ -212,28 +205,16 @@ export default function ArticleCard({ post, variant = "default" }: Props) {
         </p>
 
         <div className="border-border/60 flex items-center gap-2.5 border-t pt-3">
-          {photo ? (
-            <span className="relative flex size-7 shrink-0 overflow-hidden rounded-full">
-              <Image src={photo} alt={post.author} fill className="object-cover" sizes="28px" />
-            </span>
-          ) : (
-            <span
-              className="flex size-7 shrink-0 items-center justify-center rounded-full text-[10px] font-bold text-white shadow-sm"
-              style={{ backgroundColor: coverColor }}
-            >
-              {initials}
-            </span>
-          )}
+          <AuthorAvatar name={post.author} color={coverColor} />
           <span className="min-w-0 flex-1 truncate text-xs font-medium">{post.author}</span>
           <span className="text-muted-foreground flex shrink-0 items-center gap-1 text-xs">
             <Clock className="size-3" />
-            {new Date(post.publishedAt).toLocaleDateString("vi-VN", {
-              month: "short",
-              year: "numeric",
-            })}
+            {formatDate(post.publishedAt)}
           </span>
         </div>
       </div>
     </div>
   )
 }
+
+export default memo(ArticleCard)
