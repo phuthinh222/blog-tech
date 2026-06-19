@@ -24,6 +24,14 @@ export const metadata: Metadata = {
   title: "The Zero Tech — Đánh Giá Sản Phẩm Công Nghệ",
   description:
     "Đánh giá trung thực về điện thoại, màn hình, laptop và phụ kiện công nghệ — giúp bạn chọn đúng sản phẩm, không lãng phí tiền bạc.",
+  openGraph: {
+    siteName: "The Zero Tech",
+    type: "website",
+    locale: "vi_VN",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 }
 
 export default function RootLayout({

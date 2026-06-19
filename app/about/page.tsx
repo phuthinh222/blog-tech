@@ -58,9 +58,6 @@ export default function AboutPage() {
       {/* ── Hero ──────────────────────────────────────────────── */}
       <section className="border-border bg-muted/20 border-b">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-5 px-4 py-20 text-center sm:px-6 lg:px-8">
-          <span className="border-border bg-background text-muted-foreground rounded-full border px-3 py-1 text-xs font-medium">
-            Về chúng tôi
-          </span>
           <h1 className="max-w-2xl text-4xl leading-tight font-bold tracking-tight sm:text-5xl">
             Chúng tôi là <span className="text-primary">The Zero Tech</span>
           </h1>

@@ -20,8 +20,15 @@ export async function POST(req: NextRequest) {
   const session = await auth0.getSession()
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
 
-  const { slug, body } = await req.json()
-  if (!slug || !body?.trim()) {
+  let slug: string, body: string
+  try {
+    const json = await req.json()
+    slug = json.slug
+    body = json.body
+  } catch {
+    return NextResponse.json({ error: "Invalid request body" }, { status: 400 })
+  }
+  if (!slug || typeof body !== "string" || !body.trim()) {
     return NextResponse.json({ error: "Missing fields" }, { status: 400 })
   }
 

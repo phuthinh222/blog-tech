@@ -149,7 +149,6 @@ function Lightbox({
             }}
           >
             <Image
-              key={idx}
               src={images[idx]}
               alt={`${title} - ảnh ${idx + 1}`}
               fill
@@ -272,13 +271,12 @@ export function ArticleGallery({ images, title }: Props) {
           aria-label="Xem ảnh lớn"
         >
           <Image
-            key={active}
             src={images[active]}
             alt={`${title} - ảnh ${active + 1}`}
             fill
             className="object-contain transition-opacity duration-200"
             sizes="(max-width: 1024px) 100vw, 700px"
-            priority={active === 0}
+            priority
           />
 
           {images.length > 1 && (

@@ -176,18 +176,15 @@ export default function Header() {
 
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="group flex items-center gap-2.5 text-xl font-bold">
-          <div className="relative">
-            <Image
-              src="/logo.png"
-              alt={SITE_NAME}
-              width={34}
-              height={34}
-              className="rounded-xl transition-transform duration-300 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 rounded-xl bg-linear-to-br from-violet-500/30 to-blue-500/30 opacity-0 transition-opacity group-hover:opacity-100" />
-          </div>
-          <span className="gradient-text">{SITE_NAME}</span>
+        <Link href="/" className="flex items-center gap-2.5 text-xl font-bold">
+          <Image
+            src="/logo.png"
+            alt={SITE_NAME}
+            width={34}
+            height={34}
+            className="rounded-xl"
+          />
+          <span>{SITE_NAME}</span>
         </Link>
 
         {/* Desktop Nav */}

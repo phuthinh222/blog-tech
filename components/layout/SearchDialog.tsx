@@ -13,6 +13,7 @@ export function SearchDialog() {
   const [isOpen, setIsOpen] = useState(false)
   const [query, setQuery] = useState("")
   const [posts, setPosts] = useState<Post[]>([])
+  const [fetched, setFetched] = useState(false)
   const [loading, setLoading] = useState(false)
   const [activeIdx, setActiveIdx] = useState(-1)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -51,13 +52,17 @@ export function SearchDialog() {
   useEffect(() => {
     if (!isOpen) return
     setTimeout(() => inputRef.current?.focus(), 50)
-    if (posts.length > 0) return
+    if (fetched) return
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true)
     fetch("/api/posts")
-      .then((r) => r.json())
-      .then((data) => {
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`)
+        return r.json()
+      })
+      .then((data: Post[]) => {
         setPosts(data)
+        setFetched(true)
         setLoading(false)
       })
       .catch(() => setLoading(false))
