@@ -5,6 +5,14 @@ import createNextIntlPlugin from "next-intl/plugin"
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts")
 
 const nextConfig: NextConfig = {
+  // Trang danh sách "Đánh giá" (/articles) đã gộp vào /categories; giữ query
+  // (?q=, ?category=) để link cũ/SEO vẫn đúng. /articles/<slug> không đổi.
+  async redirects() {
+    return [
+      { source: "/articles", destination: "/categories", permanent: true },
+      { source: "/:locale(en|zh)/articles", destination: "/:locale/categories", permanent: true },
+    ]
+  },
   experimental: {
     // Mặc định Next dùng (số nhân CPU - 1) worker khi build — máy 16 nhân là
     // 15 tiến trình Node song song, dễ hết RAM. 4 là đủ cho site cỡ này.

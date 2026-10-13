@@ -5,7 +5,6 @@
   },
   "Nav": {
     "home": "首页",
-    "reviews": "评测",
     "guides": "选购指南",
     "categories": "分类",
     "about": "关于我们"
@@ -83,10 +82,6 @@
     "hintClose": "关闭",
     "hintToggle": "开/关"
   },
-  "ArticlesPage": {
-    "title": "全部评测",
-    "intro": "详细、真实地评测手机、显示器、笔记本电脑和配件——按照同一套公开标准评分。"
-  },
   "GuidesPage": {
     "title": "选购指南",
     "metaDescription": "根据办公、编程和游戏需求，教您挑选显示器、鼠标、键盘、笔记本电脑和配件。",
@@ -95,10 +90,7 @@
   },
   "CategoriesPage": {
     "title": "分类",
-    "intro": "按您关心的产品类型查找评测——手机、显示器、笔记本电脑或科技配件。",
-    "postCount": "{count} 篇文章",
-    "viewPosts": "查看文章",
-    "viewAll": "查看全部"
+    "intro": "按您关心的产品类型查找评测——手机、显示器、笔记本电脑或科技配件。"
   },
   "Common": {
     "viewAll": "查看全部",

@@ -185,8 +185,8 @@ export default async function ArticlePage({ params }: Props) {
               {tNav("home")}
             </Link>
             <ChevronRight className="size-3" />
-            <Link href="/articles" className="transition-colors hover:text-white/80">
-              {tNav("reviews")}
+            <Link href="/categories" className="transition-colors hover:text-white/80">
+              {tNav("categories")}
             </Link>
             <ChevronRight className="size-3" />
             <Link
@@ -235,7 +235,7 @@ export default async function ArticlePage({ params }: Props) {
       {/* ── Main Content ─────────────────────────────────────── */}
       <div id="article-content" className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
         <Link
-          href="/articles"
+          href="/categories"
           className="text-muted-foreground hover:text-foreground mb-8 inline-flex items-center gap-1.5 text-sm transition-colors"
         >
           <ArrowLeft className="size-4" />

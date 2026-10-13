@@ -5,7 +5,6 @@
   },
   "Nav": {
     "home": "Home",
-    "reviews": "Reviews",
     "guides": "Guides",
     "categories": "Categories",
     "about": "About Us"
@@ -83,10 +82,6 @@
     "hintClose": "close",
     "hintToggle": "toggle"
   },
-  "ArticlesPage": {
-    "title": "All Reviews",
-    "intro": "Detailed, honest reviews of phones, monitors, laptops and accessories — scored against the same public set of criteria."
-  },
   "GuidesPage": {
     "title": "Buying Guides",
     "metaDescription": "Guides to choosing monitors, mice, keyboards, laptops and accessories for work, programming and gaming.",
@@ -95,10 +90,7 @@
   },
   "CategoriesPage": {
     "title": "Categories",
-    "intro": "Find reviews by the type of product you care about — phones, monitors, laptops or tech accessories.",
-    "postCount": "{count, plural, one {# article} other {# articles}}",
-    "viewPosts": "View articles",
-    "viewAll": "View all"
+    "intro": "Find reviews by the type of product you care about — phones, monitors, laptops or tech accessories."
   },
   "Common": {
     "viewAll": "View all",

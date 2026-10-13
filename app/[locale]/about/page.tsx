@@ -189,7 +189,7 @@ export default async function AboutPage({ params }: Props) {
               </a>
             </Button>
             <Button asChild variant="outline">
-              <Link href="/articles">{t("ctaRead")}</Link>
+              <Link href="/categories">{t("ctaRead")}</Link>
             </Button>
           </div>
         </section>

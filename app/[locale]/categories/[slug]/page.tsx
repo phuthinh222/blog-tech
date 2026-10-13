@@ -96,7 +96,7 @@ export default async function CategoryPage({ params }: Props) {
           <CategoryIcon category={slug} className="text-muted-foreground/30 size-10" />
           <p className="text-muted-foreground text-sm font-medium">{t("empty")}</p>
           <Link
-            href="/articles"
+            href="/categories"
             className="text-muted-foreground/60 hover:text-foreground text-xs transition-colors"
           >
             {t("viewAllPosts")} →

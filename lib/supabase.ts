@@ -1,19 +1,36 @@
-import { createClient } from "@supabase/supabase-js"
+import { createClient, type SupabaseClient } from "@supabase/supabase-js"
+
+function requireEnv(name: string, value: string | undefined): string {
+  if (!value) {
+    throw new Error(
+      `Thiếu biến môi trường ${name} — thêm vào .env.local (local) hoặc Vercel → Project Settings → Environment Variables.`
+    )
+  }
+  return value
+}
 
 // service-role key — bypass RLS. Chỉ dùng cho thao tác nội bộ cần ghi/đọc mọi
 // dòng (hiện tại: comments). KHÔNG dùng client này để đọc nội dung public.
-export const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+// Tạo lười (lần gọi đầu tiên lúc chạy request) thay vì lúc import module: bước
+// "collect page data" khi build có import route /api/comments, nếu tạo client
+// ngay thì thiếu key là hỏng cả build.
+let adminClient: SupabaseClient | null = null
+export function getSupabaseAdmin(): SupabaseClient {
+  adminClient ??= createClient(
+    requireEnv("NEXT_PUBLIC_SUPABASE_URL", process.env.NEXT_PUBLIC_SUPABASE_URL),
+    requireEnv("SUPABASE_SERVICE_ROLE_KEY", process.env.SUPABASE_SERVICE_ROLE_KEY)
+  )
+  return adminClient
+}
 
 // anon/publishable key — tôn trọng RLS, chỉ thấy dữ liệu PUBLISHED
 // (xem supabase/migrations/0002_rls_policies.sql). Dùng cho mọi read công khai
 // từ Server Component (products/categories/offers/translations) — xem
-// README.md mục 4 lưu ý kết nối Supabase.
+// README.md mục 4 lưu ý kết nối Supabase. Trang nội dung được render lúc build
+// nên 2 biến này BẮT BUỘC có ở môi trường build (Vercel).
 export const supabasePublic = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  requireEnv("NEXT_PUBLIC_SUPABASE_URL", process.env.NEXT_PUBLIC_SUPABASE_URL),
+  requireEnv("NEXT_PUBLIC_SUPABASE_ANON_KEY", process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)
 )
 
 export type Comment = {

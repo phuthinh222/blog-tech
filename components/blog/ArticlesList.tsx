@@ -152,7 +152,7 @@ export function ArticlesList({
     if (newQuery) params.set("q", newQuery)
     if (newCategory) params.set("category", newCategory)
     const qs = params.toString()
-    router.replace(qs ? `/articles?${qs}` : "/articles", { scroll: false })
+    router.replace(qs ? `/categories?${qs}` : "/categories", { scroll: false })
   }
 
   return (

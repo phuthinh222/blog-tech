@@ -94,7 +94,7 @@ export function SearchDialog() {
       if (activeIdx >= 0 && filtered[activeIdx]) {
         router.push(`/articles/${filtered[activeIdx].slug}`)
       } else if (query.trim()) {
-        router.push(`/articles?q=${encodeURIComponent(query.trim())}`)
+        router.push(`/categories?q=${encodeURIComponent(query.trim())}`)
       }
       close()
     }

@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from "next/server"
 import { auth0 } from "@/lib/auth0"
-import { supabase } from "@/lib/supabase"
+import { getSupabaseAdmin } from "@/lib/supabase"
 
 export async function GET(req: NextRequest) {
   const slug = req.nextUrl.searchParams.get("slug")
   if (!slug) return NextResponse.json({ error: "Missing slug" }, { status: 400 })
 
-  const { data, error } = await supabase
+  const { data, error } = await getSupabaseAdmin()
     .from("comments")
     .select("*")
     .eq("post_slug", slug)
@@ -33,7 +33,7 @@ export async function POST(req: NextRequest) {
   }
 
   const { user } = session
-  const { data, error } = await supabase
+  const { data, error } = await getSupabaseAdmin()
     .from("comments")
     .insert({
       post_slug: slug,

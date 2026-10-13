@@ -5,7 +5,6 @@
   },
   "Nav": {
     "home": "Trang Chủ",
-    "reviews": "Đánh Giá",
     "guides": "Hướng Dẫn",
     "categories": "Danh Mục",
     "about": "Về Chúng Tôi"
@@ -83,10 +82,6 @@
     "hintClose": "đóng",
     "hintToggle": "bật/tắt"
   },
-  "ArticlesPage": {
-    "title": "Tất Cả Đánh Giá",
-    "intro": "Đánh giá chi tiết, trung thực về điện thoại, màn hình, laptop và phụ kiện — chấm điểm theo cùng một bộ tiêu chí công khai."
-  },
   "GuidesPage": {
     "title": "Hướng Dẫn Chọn Mua",
     "metaDescription": "Hướng dẫn chọn màn hình, chuột, bàn phím, laptop và phụ kiện theo đúng nhu cầu làm việc, lập trình và chơi game.",
@@ -95,10 +90,7 @@
   },
   "CategoriesPage": {
     "title": "Danh Mục",
-    "intro": "Tìm đánh giá theo loại sản phẩm bạn quan tâm — điện thoại, màn hình, laptop hay phụ kiện công nghệ.",
-    "postCount": "{count} bài viết",
-    "viewPosts": "Xem bài viết",
-    "viewAll": "Xem tất cả"
+    "intro": "Tìm đánh giá theo loại sản phẩm bạn quan tâm — điện thoại, màn hình, laptop hay phụ kiện công nghệ."
   },
   "Common": {
     "viewAll": "Xem tất cả",

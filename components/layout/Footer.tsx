@@ -9,7 +9,7 @@ const footerLinks = [
   {
     key: "explore",
     links: [
-      { href: "/articles", key: "newArticles" },
+      { href: "/categories", key: "newArticles" },
       { href: "/guides", key: "buyingGuides" },
       { href: "/categories", key: "allCategories" },
       { href: "/about#phuong-phap-danh-gia", key: "scoring" },

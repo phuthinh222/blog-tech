@@ -90,7 +90,7 @@ export default async function HomePage({ params }: Props) {
 
       {/* ── Latest articles ───────────────────────────────── */}
       <section className="animate-fade-in-up flex flex-col gap-6 delay-100">
-        <SectionHeader title={t("latest")} href="/articles" />
+        <SectionHeader title={t("latest")} href="/categories" />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {latest.map((post) => (
             <div key={post.slug} className="reveal">
@@ -200,7 +200,7 @@ export default async function HomePage({ params }: Props) {
 
       {/* ── More recent ───────────────────────────────────── */}
       <section className="animate-fade-in-up flex flex-col gap-6 delay-300">
-        <SectionHeader title={t("recent")} href="/articles" />
+        <SectionHeader title={t("recent")} href="/categories" />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {recent.map((post) => (
             <div key={post.slug} className="reveal">
