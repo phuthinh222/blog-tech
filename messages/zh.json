@@ -1,0 +1,295 @@
+{
+  "Metadata": {
+    "title": "Zero Technology — 科技产品真实评测",
+    "description": "真实评测手机、显示器、笔记本电脑和科技配件——帮您选对产品，不浪费每一分钱。"
+  },
+  "Nav": {
+    "home": "首页",
+    "reviews": "评测",
+    "guides": "选购指南",
+    "categories": "分类",
+    "about": "关于我们"
+  },
+  "Header": {
+    "login": "登录",
+    "logout": "退出登录",
+    "profile": "个人资料",
+    "mainNav": "主导航",
+    "mobileNav": "移动端导航",
+    "searchShortcut": "搜索 (⌘K)",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单"
+  },
+  "LocaleSwitcher": {
+    "label": "语言"
+  },
+  "Theme": {
+    "toLight": "切换到浅色主题",
+    "toDark": "切换到深色主题"
+  },
+  "Footer": {
+    "explore": "探索",
+    "categories": "分类",
+    "company": "公司",
+    "newArticles": "最新评测",
+    "buyingGuides": "选购指南",
+    "allCategories": "分类",
+    "scoring": "评测方法",
+    "aboutUs": "关于我们",
+    "contact": "联系我们",
+    "terms": "使用条款",
+    "privacy": "隐私",
+    "cookie": "Cookie"
+  },
+  "Legal": {
+    "updatedAt": "最后更新：{date}"
+  },
+  "Categories": {
+    "phone": {
+      "name": "手机",
+      "desc": "深入评测 Apple、Samsung、Google 等主流品牌最新的旗舰机和中端机——相机、性能、续航和真实使用体验。"
+    },
+    "monitor": {
+      "name": "显示器",
+      "desc": "评测 4K、OLED、电竞显示器和设计显示器——分辨率、色彩、刷新率以及您真正得到的价值。"
+    },
+    "laptop": {
+      "name": "笔记本电脑",
+      "desc": "分析办公本、轻薄本和游戏本——芯片性能、续航时间、设计以及最值得的价格。"
+    },
+    "accessory": {
+      "name": "配件",
+      "desc": "耳机、鼠标、键盘、快充以及各类科技配件——它们值得您花这笔钱吗？"
+    },
+    "audio": {
+      "name": "音频",
+      "desc": "评测蓝牙音箱、真无线耳机和便携音频设备——真实音质、续航和耐用性。"
+    }
+  },
+  "Rating": {
+    "design": "设计",
+    "performance": "性能",
+    "battery": "续航",
+    "value": "性价比"
+  },
+  "Search": {
+    "dialogLabel": "搜索文章",
+    "placeholder": "搜索文章...",
+    "close": "关闭",
+    "noResults": "未找到“{query}”的相关结果",
+    "typeToSearch": "输入关键词进行搜索",
+    "hintSelect": "选择",
+    "hintOpen": "打开",
+    "hintClose": "关闭",
+    "hintToggle": "开/关"
+  },
+  "ArticlesPage": {
+    "title": "全部评测",
+    "intro": "详细、真实地评测手机、显示器、笔记本电脑和配件——按照同一套公开标准评分。"
+  },
+  "GuidesPage": {
+    "title": "选购指南",
+    "metaDescription": "根据办公、编程和游戏需求，教您挑选显示器、鼠标、键盘、笔记本电脑和配件。",
+    "intro": "购买科技产品前需要了解的知识——参数解读、选购标准以及相关评测。",
+    "readGuide": "阅读指南"
+  },
+  "CategoriesPage": {
+    "title": "分类",
+    "intro": "按您关心的产品类型查找评测——手机、显示器、笔记本电脑或科技配件。",
+    "postCount": "{count} 篇文章",
+    "viewPosts": "查看文章",
+    "viewAll": "查看全部"
+  },
+  "Common": {
+    "viewAll": "查看全部",
+    "backHome": "返回首页",
+    "home": "首页"
+  },
+  "HomePage": {
+    "latest": "最新评测",
+    "trending": "热门",
+    "categories": "分类",
+    "recent": "近期评测"
+  },
+  "ErrorPage": {
+    "title": "出错了",
+    "description": "发生错误。您可以重试或返回首页。",
+    "retry": "重试",
+    "home": "首页"
+  },
+  "NotFoundPage": {
+    "title": "404 — 页面未找到",
+    "description": "您要找的页面不存在或已被删除。",
+    "backHome": "返回首页"
+  },
+  "CategoryPage": {
+    "allCategories": "全部分类",
+    "reviewCount": "{count} 篇评测",
+    "empty": "该分类下暂无文章",
+    "viewAllPosts": "查看全部文章"
+  },
+  "GuidePage": {
+    "back": "选购指南",
+    "faq": "常见问题",
+    "related": "相关评测"
+  },
+  "ArticlePage": {
+    "specs": "技术参数",
+    "prosCons": "优缺点",
+    "faq": "常见问题",
+    "verdict": "结论",
+    "readingTime": "阅读约 {minutes} 分钟",
+    "backToList": "返回列表",
+    "pros": "优点",
+    "cons": "缺点",
+    "saveArticle": "收藏本文",
+    "affiliateNote": "当您通过此链接购买时，我们可能会获得佣金，您支付的价格不变。价格可能会变动。",
+    "score": "评测得分",
+    "breakdown": "评分详情",
+    "related": "相关文章",
+    "moreIn": "更多{category}评测",
+    "viewAll": "查看全部",
+    "buy": "购买产品",
+    "relatedGuides": "相关选购指南"
+  },
+  "ArticleCard": {
+    "editorsPick": "编辑推荐"
+  },
+  "ArticlesList": {
+    "all": "全部",
+    "emptyTitle": "未找到相关文章",
+    "emptyHint": "请尝试其他关键词或选择其他分类",
+    "filterLabel": "分类",
+    "clearQuery": "清除关键词"
+  },
+  "Bookmarks": {
+    "save": "收藏文章",
+    "remove": "取消收藏",
+    "emptyTitle": "还没有收藏的文章",
+    "emptyHint": "点击文章上的 <icon></icon> 图标即可收藏"
+  },
+  "ArticleToc": {
+    "label": "文章目录",
+    "title": "目录"
+  },
+  "AiSummary": {
+    "title": "快速摘要",
+    "subtitle": "10 秒掌握要点",
+    "dialogLabel": "文章快速摘要",
+    "generatedNote": "根据评测内容自动汇总",
+    "close": "关闭",
+    "highlights": "亮点",
+    "caveats": "注意事项",
+    "quickQa": "快速问答"
+  },
+  "Gallery": {
+    "close": "关闭",
+    "imageAlt": "{title} - 图片 {index}",
+    "previous": "上一张",
+    "next": "下一张",
+    "zoomOut": "缩小",
+    "zoomIn": "放大",
+    "resetHint": "点击恢复到 100%",
+    "reset": "重置",
+    "lightboxHint": "滚动缩放 · 拖动平移 · 按 ESC 关闭",
+    "viewLarge": "查看大图",
+    "thumbnailAlt": "缩略图 {index}"
+  },
+  "Comments": {
+    "title": "评论",
+    "placeholder": "写下您的评论...",
+    "postingAs": "以 <name></name> 的身份发表",
+    "sending": "发送中...",
+    "send": "发送",
+    "loginPrompt": "登录后即可参与评论",
+    "login": "登录",
+    "emptyTitle": "还没有评论",
+    "emptyHint": "快来发表第一条评论吧！",
+    "delete": "删除"
+  },
+  "ProfilePage": {
+    "title": "个人资料",
+    "member": "{site} 会员",
+    "logout": "退出登录",
+    "saved": "已收藏的文章"
+  },
+  "AboutPage": {
+    "metaTitle": "关于我们",
+    "heroTitle": "我们是 <highlight>{site}</highlight>",
+    "intro": "一家科技评测网站，致力于真实评测手机、显示器、笔记本电脑和配件——帮您选对产品，不浪费每一分钱。",
+    "stats": {
+      "reviews": "篇评测",
+      "criteria": "项评分标准",
+      "topics": "个主题",
+      "free": "免费"
+    },
+    "mission": {
+      "title": "我们为什么做这件事？",
+      "p1": "越南科技产品市场充斥着广告和赞助评测。在花费数百万甚至数千万越南盾之前，用户很难找到真正客观的评测。",
+      "p2": "{site} 正是为改变这一点而创立。每篇评测都清楚列出参数、优缺点，并按照同一套标准评分——我们从不收取品牌方的费用来换取评价或分数。",
+      "p3": "我们的目标很简单：帮助您做出更明智的购买决定，省下更多钱，并对自己选择的产品更满意。"
+    },
+    "valuesTitle": "核心价值",
+    "valuesIntro": "指导我们每一篇文章的原则。",
+    "values": {
+      "independent": {
+        "title": "独立评分",
+        "desc": "我们从不收取品牌或商家的费用来换取评价或分数。联盟链接不会影响产品排名。"
+      },
+      "consistent": {
+        "title": "同一套标准",
+        "desc": "所有产品都按照相同的 4 项标准以 10 分制评分：设计、性能、续航与耐用性、性价比——让您公平比较。"
+      },
+      "honest": {
+        "title": "如实指出缺点",
+        "desc": "每篇评测都清楚列出技术参数、优点和缺点。如发现信息有误，您可以告诉我们进行更正。"
+      },
+      "local": {
+        "title": "为越南用户而写",
+        "desc": "评测从越南用户的需求出发——当地售价、购买渠道、售后服务和国内保修。"
+      }
+    },
+    "scoringTitle": "我们的评测方法",
+    "scoringIntro": "每款产品根据以下标准获得一个 10 分制的总分。",
+    "scoring": {
+      "design": {
+        "title": "设计",
+        "desc": "做工、材质、尺寸、重量以及日常使用的便利性。"
+      },
+      "performance": {
+        "title": "性能",
+        "desc": "产品完成其核心任务的能力：速度、流畅度、显示质量、精确度。"
+      },
+      "battery": {
+        "title": "续航与耐用性",
+        "desc": "续航时间（针对使用电池的设备）、耐用性以及在越南的保修政策。"
+      },
+      "value": {
+        "title": "性价比",
+        "desc": "与越南市场同价位产品相比，您花的钱能换来什么。"
+      }
+    },
+    "commissionTitle": "评分与佣金无关",
+    "commissionBody": "本网站的部分链接是联盟链接——当您购买时，我们可能获得佣金，您支付的价格不变。佣金高低或产品是否带有联盟链接，都不会影响评分和排名。",
+    "ctaTitle": "希望合作或投稿？",
+    "ctaBody": "想为 {site} 撰稿、合作推广，或只是想聊聊科技？我们随时欢迎。",
+    "ctaContact": "立即联系",
+    "ctaRead": "阅读文章"
+  },
+  "Compare": {
+    "title": "产品对比",
+    "intro": "与我们评测过的其他{category}产品对比，按同一套标准评分。",
+    "product": "产品",
+    "overall": "评分",
+    "price": "价格",
+    "thisProduct": "当前产品"
+  },
+  "Price": {
+    "label": "参考价格",
+    "checkedAt": "更新于 {date}"
+  },
+  "BestPick": {
+    "title": "最佳选择",
+    "readReview": "阅读评测"
+  }
+}

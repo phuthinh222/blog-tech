@@ -2,10 +2,12 @@
 import { useEffect, useRef, useState } from "react"
 import { useUser } from "@auth0/nextjs-auth0/client"
 import { LogIn, MessageSquare, Send, Trash2 } from "lucide-react"
+import { useLocale, useTranslations } from "next-intl"
 import type { Comment } from "@/lib/supabase"
+import { LOCALE_TAGS, toLocale } from "@/i18n/routing"
 
-function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("vi-VN", {
+function formatDate(iso: string, localeTag: string) {
+  return new Date(iso).toLocaleDateString(localeTag, {
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
@@ -39,6 +41,8 @@ function Avatar({ name, picture }: { name: string; picture: string | null }) {
 }
 
 export function Comments({ slug }: { slug: string }) {
+  const t = useTranslations("Comments")
+  const localeTag = LOCALE_TAGS[toLocale(useLocale())]
   const { user } = useUser()
   const [comments, setComments] = useState<Comment[]>([])
   const [loading, setLoading] = useState(true)
@@ -84,7 +88,7 @@ export function Comments({ slug }: { slug: string }) {
       <div className="mb-8 flex items-center gap-3">
         <div className="h-6 w-1 rounded-full bg-gradient-to-b from-violet-500 to-blue-500" />
         <h2 className="text-xl font-bold">
-          Bình Luận
+          {t("title")}
           {comments.length > 0 && (
             <span className="text-muted-foreground ml-2 text-base font-normal">
               ({comments.length})
@@ -102,13 +106,15 @@ export function Comments({ slug }: { slug: string }) {
               ref={textareaRef}
               value={body}
               onChange={(e) => setBody(e.target.value)}
-              placeholder="Viết bình luận của bạn..."
+              placeholder={t("placeholder")}
               rows={3}
-              className="border-border bg-muted/50 focus:bg-background w-full resize-none rounded-2xl border px-4 py-3 text-sm transition-colors outline-none focus:border-violet-500"
+              className="border-border bg-muted/50 focus:bg-background w-full resize-none rounded-2xl border px-4 py-3 text-base transition-colors outline-none focus:border-violet-500 sm:text-sm"
             />
             <div className="flex items-center justify-between">
               <span className="text-muted-foreground text-xs">
-                Đăng với tên <span className="font-medium">{user.name}</span>
+                {t.rich("postingAs", {
+                  name: () => <span className="font-medium">{user.name}</span>,
+                })}
               </span>
               <button
                 type="submit"
@@ -116,23 +122,23 @@ export function Comments({ slug }: { slug: string }) {
                 className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-violet-600 to-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-md shadow-violet-500/25 transition-opacity hover:opacity-90 disabled:opacity-40"
               >
                 <Send className="size-3.5" />
-                {submitting ? "Đang gửi..." : "Gửi"}
+                {submitting ? t("sending") : t("send")}
               </button>
             </div>
           </div>
         </form>
       ) : (
-        <div className="border-border bg-muted/30 mb-8 flex items-center justify-between rounded-2xl border border-dashed px-5 py-4">
+        <div className="border-border bg-muted/30 mb-8 flex flex-col items-start gap-3 rounded-2xl border border-dashed px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="text-muted-foreground flex items-center gap-2 text-sm">
             <MessageSquare className="size-4" />
-            Đăng nhập để tham gia bình luận
+            {t("loginPrompt")}
           </div>
           <a
             href="/auth/login"
             className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-violet-600 to-blue-500 px-4 py-2 text-sm font-semibold text-white shadow-md shadow-violet-500/25 transition-opacity hover:opacity-90"
           >
             <LogIn className="size-3.5" />
-            Đăng Nhập
+            {t("login")}
           </a>
         </div>
       )}
@@ -154,8 +160,8 @@ export function Comments({ slug }: { slug: string }) {
       ) : comments.length === 0 ? (
         <div className="text-muted-foreground flex flex-col items-center gap-2 py-12 text-center">
           <MessageSquare className="size-10 opacity-20" />
-          <p className="text-sm font-medium">Chưa có bình luận nào</p>
-          <p className="text-xs opacity-60">Hãy là người đầu tiên bình luận!</p>
+          <p className="text-sm font-medium">{t("emptyTitle")}</p>
+          <p className="text-xs opacity-60">{t("emptyHint")}</p>
         </div>
       ) : (
         <div className="flex flex-col gap-6">
@@ -166,7 +172,7 @@ export function Comments({ slug }: { slug: string }) {
                 <div className="flex flex-wrap items-baseline gap-2">
                   <span className="text-sm font-semibold">{comment.user_name}</span>
                   <span className="text-muted-foreground text-xs">
-                    {formatDate(comment.created_at)}
+                    {formatDate(comment.created_at, localeTag)}
                   </span>
                   {user?.sub === comment.user_id && (
                     <button
@@ -174,7 +180,7 @@ export function Comments({ slug }: { slug: string }) {
                       className="ml-auto flex items-center gap-1 text-xs text-rose-500/60 transition-colors hover:text-rose-500"
                     >
                       <Trash2 className="size-3" />
-                      Xóa
+                      {t("delete")}
                     </button>
                   )}
                 </div>

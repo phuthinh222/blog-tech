@@ -1,0 +1,53 @@
+{
+  "slug": "chuot-cho-lap-trinh-vien-va-dan-van-phong",
+  "title": "Chuột Cho Lập Trình Viên Và Dân Văn Phòng: Chọn Theo Bàn Tay, Không Theo Quảng Cáo",
+  "excerpt": "Người làm việc với máy tính cả ngày cầm chuột hàng nghìn lần. Bài viết hướng dẫn chọn chuột theo cỡ tay, kiểu cầm, kết nối và các nút phụ giúp tăng năng suất.",
+  "category": "accessory",
+  "publishedAt": "2026-10-12",
+  "sections": [
+    {
+      "title": "Chọn theo cỡ tay và kiểu cầm",
+      "content": "Đo chiều dài bàn tay từ cổ tay đến đầu ngón giữa. Tay dưới khoảng 17 cm thường hợp chuột nhỏ, 17–19 cm hợp chuột cỡ vừa, trên 19 cm hợp chuột lớn. Nhà sản xuất thường ghi kích thước chuột để bạn so sánh.\n\nKiểu cầm cũng quan trọng: cầm úp cả lòng bàn tay (palm) hợp chuột to, lưng cao; cầm vuốt (claw) hoặc đầu ngón (fingertip) hợp chuột nhỏ, nhẹ. Chuột vừa tay giúp cổ tay thả lỏng, ít mỏi khi dùng lâu."
+    },
+    {
+      "title": "Có dây hay không dây",
+      "content": "Chuột có dây rẻ, không cần sạc và không lo độ trễ. Chuột không dây gọn bàn hơn; kết nối 2.4GHz qua đầu thu USB ổn định hơn Bluetooth, còn Bluetooth tiện khi dùng với laptop ít cổng hoặc chuyển qua lại nhiều máy.\n\nVới văn phòng, loại không dây dùng pin AA hoặc pin sạc đều ổn; hãy để ý thời lượng pin và có cổng sạc USB-C hay không."
+    },
+    {
+      "title": "Nút phụ và con lăn giúp làm việc nhanh hơn",
+      "content": "Hai nút bên hông (back/forward) rất hữu ích khi duyệt tài liệu, chuyển tab hoặc gán phím tắt như copy/paste. Phần mềm của hãng thường cho phép gán lệnh khác nhau theo từng ứng dụng.\n\nCon lăn cuộn nhanh (free-spin) giúp lướt qua file code dài hay bảng tính lớn. Con lăn ngang hữu ích khi làm bảng tính hoặc timeline dựng video."
+    },
+    {
+      "title": "DPI bao nhiêu là đủ",
+      "content": "Với công việc văn phòng và lập trình, 800–1600 DPI là đủ cho màn Full HD và QHD. Con số DPI rất cao (8000, 16000) chủ yếu là thông số quảng cáo của chuột gaming; điều quan trọng là cảm biến ổn định, không nhảy chuột.\n\nChuột gaming giá rẻ vẫn là lựa chọn tốt cho văn phòng vì cảm biến tốt và có nút lập trình được, miễn là hình dáng vừa tay."
+    },
+    {
+      "title": "Khi bị mỏi hoặc đau cổ tay",
+      "content": "Nếu thường xuyên mỏi cổ tay, chuột dọc (vertical mouse) giữ bàn tay ở tư thế bắt tay tự nhiên, giảm xoắn cẳng tay. Cần vài ngày để quen.\n\nKết hợp với bàn di chuột có đệm cổ tay, đặt chuột sát bàn phím và nghỉ tay định kỳ. Nếu đau kéo dài, hãy gặp bác sĩ thay vì chỉ đổi chuột."
+    },
+    {
+      "title": "Chuột click êm cho văn phòng",
+      "content": "Nếu làm việc trong phòng yên tĩnh, chọn chuột có switch êm (silent click). Tiếng click nhỏ hơn đáng kể so với chuột thường, đồng nghiệp ngồi cạnh sẽ dễ chịu hơn."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Chuột gaming có dùng làm việc được không?",
+      "answer": "Được, và thường rất tốt nhờ cảm biến chính xác và nút phụ lập trình được. Chỉ cần chọn mẫu vừa tay; đèn RGB có thể tắt nếu không thích."
+    },
+    {
+      "question": "Chuột nặng hay nhẹ tốt hơn?",
+      "answer": "Tùy sở thích. Chuột nhẹ (dưới 80 g) dễ di chuyển nhanh; chuột nặng hơn cho cảm giác chắc tay khi thao tác chính xác."
+    },
+    {
+      "question": "Có cần lót chuột không?",
+      "answer": "Nên có. Lót chuột giúp cảm biến hoạt động ổn định, chuột lướt đều và bảo vệ mặt bàn."
+    }
+  ],
+  "relatedPosts": ["logitech-g102-gen-2-lightsync"],
+  "seo": {
+    "metaTitle": "Chuột cho lập trình viên và dân văn phòng",
+    "metaDescription": "Hướng dẫn chọn chuột cho lập trình viên và người làm văn phòng: cỡ tay, kiểu cầm, có dây hay không dây, nút phụ, DPI và chuột dọc chống mỏi.",
+    "keywords": ["chuột cho lập trình viên", "chuột văn phòng", "chuột không dây"]
+  }
+}

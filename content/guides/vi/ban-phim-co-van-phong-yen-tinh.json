@@ -1,0 +1,49 @@
+{
+  "slug": "ban-phim-co-van-phong-yen-tinh",
+  "title": "Bàn Phím Cơ Văn Phòng Yên Tĩnh: Chọn Switch, Layout Và Cách Giảm Tiếng Ồn",
+  "excerpt": "Bàn phím cơ gõ sướng nhưng có thể ồn với đồng nghiệp. Bài viết hướng dẫn chọn loại switch, layout và các mẹo giảm tiếng gõ để dùng thoải mái ở văn phòng.",
+  "category": "accessory",
+  "publishedAt": "2026-10-12",
+  "sections": [
+    {
+      "title": "Switch nào yên tĩnh nhất",
+      "content": "Switch clicky (thường gọi là switch xanh/blue) tạo tiếng tách rõ ở mỗi lần nhấn — gõ vui tai nhưng ồn nhất, không nên dùng ở văn phòng chung.\n\nSwitch linear (thường là đỏ/red) nhấn thẳng, mượt, không có khấc; switch tactile (thường là nâu/brown) có khấc nhẹ nhưng không kêu tách. Cả hai yên tĩnh hơn clicky. Nếu cần yên tĩnh nhất, chọn switch silent (silent red, silent tactile) có đệm giảm âm bên trong."
+    },
+    {
+      "title": "Tiếng ồn không chỉ đến từ switch",
+      "content": "Tiếng gõ còn đến từ việc phím chạm đáy và va vào vỏ. Bàn phím có lớp foam (mút) tiêu âm bên trong, keycap dày và vỏ chắc thường cho tiếng trầm, nhỏ hơn.\n\nThói quen gõ cũng ảnh hưởng: gõ nhẹ, không dằn phím xuống đáy sẽ giảm tiếng đáng kể."
+    },
+    {
+      "title": "Chọn layout phù hợp",
+      "content": "Full-size có cụm phím số, tiện nhập liệu kế toán. TKL (bỏ cụm số) và 75% gọn hơn, giúp đặt chuột gần, vai thoải mái hơn — phổ biến với lập trình viên. Layout 65% và 60% rất gọn nhưng mất hàng phím F hoặc phím mũi tên, cần dùng tổ hợp phím Fn.\n\nNếu thường dùng phím F (debug, đổi tên…) và phím Home/End, nên chọn TKL hoặc 75%."
+    },
+    {
+      "title": "Low-profile: gõ nhẹ, êm và gọn",
+      "content": "Bàn phím cơ low-profile có switch và keycap thấp, hành trình phím ngắn hơn, cảm giác gần với bàn phím laptop. Loại này thường êm hơn và không cần kê cổ tay nhiều.\n\nĐây là lựa chọn hợp lý nếu bạn quen gõ laptop hoặc muốn bàn phím mang đi lại."
+    },
+    {
+      "title": "Các tính năng nên cân nhắc",
+      "content": "Hot-swap cho phép thay switch không cần hàn — mua xong vẫn đổi được sang switch êm hơn nếu thấy ồn. Keycap PBT bền, ít bóng mờ hơn ABS sau thời gian dùng.\n\nKết nối không dây đa chế độ (2.4GHz, Bluetooth, có dây) tiện chuyển giữa máy tính và laptop. Với macOS, chọn bàn phím có chế độ hoặc keycap cho Mac."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Switch đỏ có đủ yên tĩnh cho văn phòng không?",
+      "answer": "Switch đỏ yên tĩnh hơn switch xanh nhiều, nhưng vẫn có tiếng chạm đáy. Nếu phòng rất yên tĩnh, chọn switch silent."
+    },
+    {
+      "question": "O-ring có giúp giảm tiếng không?",
+      "answer": "Có, O-ring cao su gắn dưới keycap giảm tiếng chạm đáy, nhưng làm hành trình phím ngắn lại và cảm giác hơi mềm."
+    },
+    {
+      "question": "Bàn phím cơ có tốt hơn bàn phím màng cho người gõ nhiều?",
+      "answer": "Nhiều người thấy bàn phím cơ gõ chính xác và bền hơn. Tuy nhiên bàn phím màng tốt vẫn rất êm; quan trọng nhất là cảm giác gõ hợp với bạn."
+    }
+  ],
+  "relatedPosts": [],
+  "seo": {
+    "metaTitle": "Bàn phím cơ văn phòng yên tĩnh",
+    "metaDescription": "Hướng dẫn chọn bàn phím cơ yên tĩnh cho văn phòng: switch silent, linear, tactile, layout TKL/75%, low-profile và mẹo giảm tiếng gõ.",
+    "keywords": ["bàn phím cơ văn phòng yên tĩnh", "switch silent", "bàn phím cơ êm"]
+  }
+}

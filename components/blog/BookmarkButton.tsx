@@ -1,5 +1,6 @@
 "use client"
 import { Bookmark } from "lucide-react"
+import { useTranslations } from "next-intl"
 import { useBookmarks } from "@/hooks/useBookmarks"
 
 type Props = {
@@ -8,6 +9,7 @@ type Props = {
 }
 
 export function BookmarkButton({ slug, className = "" }: Props) {
+  const t = useTranslations("Bookmarks")
   const { toggle, isBookmarked } = useBookmarks()
   const saved = isBookmarked(slug)
 
@@ -18,7 +20,7 @@ export function BookmarkButton({ slug, className = "" }: Props) {
         e.stopPropagation()
         toggle(slug)
       }}
-      aria-label={saved ? "Bỏ lưu bài viết" : "Lưu bài viết"}
+      aria-label={saved ? t("remove") : t("save")}
       className={`flex size-8 items-center justify-center rounded-full backdrop-blur-md transition-all duration-200 ${
         saved
           ? "bg-violet-600 text-white shadow-lg shadow-violet-500/40"

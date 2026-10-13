@@ -2,18 +2,22 @@
 
 import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
+import { useLocale, useTranslations } from "next-intl"
 import { Search, X } from "lucide-react"
 import type { Post } from "@/types"
-import { getCategoryColor, getCategoryName } from "@/lib/categories"
+import { Link, useRouter } from "@/i18n/navigation"
+import { getCategoryColor } from "@/lib/categories"
 
 export function SearchDialog() {
   const router = useRouter()
+  const locale = useLocale()
+  const t = useTranslations("Search")
+  const tCat = useTranslations("Categories")
   const [isOpen, setIsOpen] = useState(false)
   const [query, setQuery] = useState("")
   const [posts, setPosts] = useState<Post[]>([])
-  const [fetched, setFetched] = useState(false)
+  // Locale đã tải danh sách bài — đổi ngôn ngữ thì tải lại bản dịch tương ứng.
+  const [fetchedLocale, setFetchedLocale] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [activeIdx, setActiveIdx] = useState(-1)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -52,22 +56,22 @@ export function SearchDialog() {
   useEffect(() => {
     if (!isOpen) return
     setTimeout(() => inputRef.current?.focus(), 50)
-    if (fetched) return
+    if (fetchedLocale === locale) return
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true)
-    fetch("/api/posts")
+    fetch(`/api/posts?locale=${locale}`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json()
       })
       .then((data: Post[]) => {
         setPosts(data)
-        setFetched(true)
+        setFetchedLocale(locale)
         setLoading(false)
       })
       .catch(() => setLoading(false))
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isOpen])
+  }, [isOpen, locale])
 
   const filtered = posts
     .filter((p) => {
@@ -100,13 +104,15 @@ export function SearchDialog() {
 
   return (
     <div
-      role="dialog"
-      aria-modal="true"
-      aria-label="Tìm kiếm bài viết"
       className="fixed inset-0 z-100 flex items-start justify-center bg-black/60 px-4 pt-[12vh] backdrop-blur-sm"
       onClick={(e) => e.target === e.currentTarget && close()}
     >
-      <div className="border-border bg-background w-full max-w-xl overflow-hidden rounded-2xl border shadow-2xl">
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label={t("dialogLabel")}
+        className="border-border bg-background w-full max-w-xl overflow-hidden rounded-2xl border shadow-2xl"
+      >
         {/* Input row */}
         <div className="border-border flex items-center gap-3 border-b px-4">
           <Search className="text-muted-foreground size-4 shrink-0" />
@@ -119,13 +125,13 @@ export function SearchDialog() {
               setActiveIdx(-1)
             }}
             onKeyDown={handleInputKeyDown}
-            placeholder="Tìm kiếm bài viết..."
-            className="placeholder:text-muted-foreground flex-1 bg-transparent py-4 text-sm outline-none"
+            placeholder={t("placeholder")}
+            className="placeholder:text-muted-foreground flex-1 bg-transparent py-4 text-base outline-none sm:text-sm"
           />
           <button
             onClick={close}
             className="border-border text-muted-foreground hover:bg-muted flex size-6 shrink-0 items-center justify-center rounded-md border transition-colors"
-            aria-label="Đóng"
+            aria-label={t("close")}
           >
             <X className="size-3" />
           </button>
@@ -178,7 +184,7 @@ export function SearchDialog() {
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-sm leading-snug font-semibold">{post.title}</p>
                     <p className="mt-0.5 text-xs font-medium" style={{ color }}>
-                      {getCategoryName(post.category)}
+                      {tCat(`${post.category}.name`)}
                     </p>
                   </div>
                   <span className="shrink-0 text-sm font-bold text-yellow-500">
@@ -190,25 +196,29 @@ export function SearchDialog() {
           ) : (
             <div className="py-10 text-center">
               <p className="text-muted-foreground text-sm">
-                {query ? `Không tìm thấy kết quả cho "${query}"` : "Nhập từ khoá để tìm kiếm"}
+                {query ? t("noResults", { query }) : t("typeToSearch")}
               </p>
             </div>
           )}
         </div>
 
         {/* Footer hint */}
-        <div className="border-border text-muted-foreground/70 flex items-center gap-4 border-t px-4 py-2 text-[11px]">
+        <div className="border-border text-muted-foreground/70 hidden items-center gap-4 border-t px-4 py-2 text-[11px] sm:flex">
           <span>
-            <kbd className="border-border rounded border px-1 py-0.5 font-mono">↑↓</kbd> chọn
+            <kbd className="border-border rounded border px-1 py-0.5 font-mono">↑↓</kbd>{" "}
+            {t("hintSelect")}
           </span>
           <span>
-            <kbd className="border-border rounded border px-1 py-0.5 font-mono">↵</kbd> mở
+            <kbd className="border-border rounded border px-1 py-0.5 font-mono">↵</kbd>{" "}
+            {t("hintOpen")}
           </span>
           <span>
-            <kbd className="border-border rounded border px-1 py-0.5 font-mono">Esc</kbd> đóng
+            <kbd className="border-border rounded border px-1 py-0.5 font-mono">Esc</kbd>{" "}
+            {t("hintClose")}
           </span>
           <span className="ml-auto">
-            <kbd className="border-border rounded border px-1 py-0.5 font-mono">⌘K</kbd> bật/tắt
+            <kbd className="border-border rounded border px-1 py-0.5 font-mono">⌘K</kbd>{" "}
+            {t("hintToggle")}
           </span>
         </div>
       </div>

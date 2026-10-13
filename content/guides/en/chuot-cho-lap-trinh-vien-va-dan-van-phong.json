@@ -1,0 +1,53 @@
+{
+  "slug": "chuot-cho-lap-trinh-vien-va-dan-van-phong",
+  "title": "Mice for Programmers and Office Workers: Choose by Your Hand, Not the Ads",
+  "excerpt": "If you work at a computer all day, you grab your mouse thousands of times. This guide shows how to choose a mouse by hand size, grip style, connection and the extra buttons that boost productivity.",
+  "category": "accessory",
+  "publishedAt": "2026-10-12",
+  "sections": [
+    {
+      "title": "Choose by hand size and grip style",
+      "content": "Measure your hand from the wrist to the tip of your middle finger. Hands under about 17 cm usually suit small mice, 17–19 cm suit medium mice, and over 19 cm suit large mice. Manufacturers usually list mouse dimensions so you can compare.\n\nGrip style matters too: a palm grip suits large mice with a high back; claw or fingertip grips suit small, light mice. A mouse that fits your hand keeps your wrist relaxed and reduces fatigue over long sessions."
+    },
+    {
+      "title": "Wired or wireless",
+      "content": "Wired mice are cheap, never need charging and have no latency worries. Wireless mice keep your desk tidier; 2.4GHz via a USB receiver is more stable than Bluetooth, while Bluetooth is handy for laptops with few ports or for switching between several devices.\n\nFor the office, wireless mice with AA or rechargeable batteries are both fine; look at battery life and whether it charges over USB-C."
+    },
+    {
+      "title": "Extra buttons and scroll wheels that speed up work",
+      "content": "The two side buttons (back/forward) are very useful for browsing documents, switching tabs or mapping shortcuts like copy/paste. Manufacturer software usually lets you assign different commands per application.\n\nA free-spinning scroll wheel helps you fly through long code files or large spreadsheets. A horizontal scroll wheel is useful for spreadsheets or video editing timelines."
+    },
+    {
+      "title": "How much DPI is enough",
+      "content": "For office work and programming, 800–1600 DPI is enough for Full HD and QHD screens. Very high DPI figures (8000, 16000) are mostly a marketing spec for gaming mice; what matters is a stable sensor that does not jump.\n\nBudget gaming mice are still a good choice for the office thanks to good sensors and programmable buttons, as long as the shape fits your hand."
+    },
+    {
+      "title": "If your wrist gets tired or sore",
+      "content": "If your wrist often gets tired, a vertical mouse keeps your hand in a natural handshake position and reduces forearm twisting. It takes a few days to get used to.\n\nCombine it with a mouse pad with wrist support, keep the mouse close to the keyboard and take regular breaks. If the pain persists, see a doctor rather than just changing mice."
+    },
+    {
+      "title": "Quiet-click mice for the office",
+      "content": "If you work in a quiet room, choose a mouse with silent-click switches. The clicks are much quieter than on a regular mouse, so your neighbours will appreciate it."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can a gaming mouse be used for work?",
+      "answer": "Yes, and it is often very good thanks to an accurate sensor and programmable extra buttons. Just choose a model that fits your hand; the RGB can be turned off if you do not like it."
+    },
+    {
+      "question": "Is a heavy or light mouse better?",
+      "answer": "It is personal preference. Light mice (under 80 g) are easy to move quickly; heavier mice feel more planted for precise work."
+    },
+    {
+      "question": "Do I need a mouse pad?",
+      "answer": "Yes, it is a good idea. A mouse pad keeps the sensor tracking reliably, lets the mouse glide evenly and protects your desk."
+    }
+  ],
+  "relatedPosts": ["logitech-g102-gen-2-lightsync"],
+  "seo": {
+    "metaTitle": "Mice for programmers and office workers",
+    "metaDescription": "How to choose a mouse for programmers and office workers: hand size, grip style, wired or wireless, extra buttons, DPI and vertical mice for comfort.",
+    "keywords": ["mouse for programmers", "office mouse", "wireless mouse"]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "ban-phim-co-van-phong-yen-tinh",
+  "title": "Quiet Mechanical Keyboards for the Office: Choosing Switches, Layouts and Ways to Reduce Noise",
+  "excerpt": "Mechanical keyboards feel great to type on but can annoy your colleagues. This guide covers choosing switches and layouts, plus tips to reduce typing noise so you can use one comfortably at the office.",
+  "category": "accessory",
+  "publishedAt": "2026-10-12",
+  "sections": [
+    {
+      "title": "Which switches are the quietest",
+      "content": "Clicky switches (often called blue switches) make a sharp click on every press — fun to type on but the loudest, so avoid them in a shared office.\n\nLinear switches (usually red) press straight down smoothly with no bump; tactile switches (usually brown) have a light bump but no click. Both are quieter than clicky switches. If you need the quietest option, choose silent switches (silent red, silent tactile) with built-in dampening."
+    },
+    {
+      "title": "Noise does not only come from the switches",
+      "content": "Typing noise also comes from keys bottoming out and hitting the case. Keyboards with sound-dampening foam inside, thick keycaps and a solid case usually sound deeper and quieter.\n\nYour typing habits matter too: typing lightly without slamming keys to the bottom reduces noise considerably."
+    },
+    {
+      "title": "Choosing the right layout",
+      "content": "Full-size keyboards have a number pad, handy for accounting data entry. TKL (no number pad) and 75% layouts are more compact, letting you keep the mouse closer and your shoulders more relaxed — popular with programmers. 65% and 60% layouts are very compact but drop the F-row or arrow keys, so you need Fn combinations.\n\nIf you often use the F keys (debugging, renaming…) and Home/End, choose TKL or 75%."
+    },
+    {
+      "title": "Low-profile: light, quiet and compact",
+      "content": "Low-profile mechanical keyboards have shorter switches and keycaps with less key travel, feeling closer to a laptop keyboard. They are usually quieter and need less wrist support.\n\nThey are a sensible choice if you are used to typing on a laptop or want a keyboard you can carry around."
+    },
+    {
+      "title": "Features worth considering",
+      "content": "Hot-swap lets you change switches without soldering — so you can still switch to quieter ones later if it turns out too loud. PBT keycaps are durable and develop less shine over time than ABS.\n\nMulti-mode wireless (2.4GHz, Bluetooth, wired) makes it easy to switch between a desktop and a laptop. On macOS, choose a keyboard with a Mac mode or Mac keycaps."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are red switches quiet enough for the office?",
+      "answer": "Red switches are much quieter than blue ones, but they still make a bottoming-out sound. If your office is very quiet, choose silent switches."
+    },
+    {
+      "question": "Do O-rings help reduce noise?",
+      "answer": "Yes. Rubber O-rings under the keycaps soften the bottoming-out sound, but they shorten key travel and make the feel a little mushy."
+    },
+    {
+      "question": "Are mechanical keyboards better than membrane keyboards for heavy typists?",
+      "answer": "Many people find mechanical keyboards more precise and durable. A good membrane keyboard is still very quiet, though — what matters most is a typing feel that suits you."
+    }
+  ],
+  "relatedPosts": [],
+  "seo": {
+    "metaTitle": "Quiet mechanical keyboards for the office",
+    "metaDescription": "How to choose a quiet mechanical keyboard for the office: silent, linear and tactile switches, TKL/75% layouts, low-profile options and tips to reduce typing noise.",
+    "keywords": [
+      "quiet mechanical keyboard for office",
+      "silent switches",
+      "quiet mechanical keyboard"
+    ]
+  }
+}

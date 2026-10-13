@@ -1,0 +1,52 @@
+{
+  "slug": "co-nen-mua-gia-treo-man-hinh",
+  "title": "Có Nên Mua Giá Treo Màn Hình? Cách Chọn Đúng Loại Cho Bàn Làm Việc",
+  "excerpt": "Giá treo màn hình giúp chỉnh tư thế và giải phóng mặt bàn. Bài viết hướng dẫn kiểm tra chuẩn VESA, tải trọng, kiểu lắp và loại lò xo trước khi mua.",
+  "category": "accessory",
+  "publishedAt": "2026-10-12",
+  "sections": [
+    {
+      "title": "Lợi ích của giá treo màn hình",
+      "content": "Chân đế đi kèm nhiều màn hình phổ thông chỉ nghiêng được, không nâng hạ. Giá treo cho phép chỉnh chiều cao, khoảng cách, góc nghiêng và xoay dọc, giúp đặt màn hình đúng tầm mắt và giảm mỏi cổ.\n\nGiá treo cũng giải phóng diện tích chân đế trên bàn, đặc biệt hữu ích với bàn nông hoặc setup hai màn hình."
+    },
+    {
+      "title": "Kiểm tra chuẩn VESA của màn hình",
+      "content": "Mặt sau màn hình cần có 4 lỗ ốc theo chuẩn VESA, phổ biến là 75×75 mm hoặc 100×100 mm. Thông số này có trong trang sản phẩm của hãng.\n\nMột số màn hình mỏng hoặc thiết kế đặc biệt không có lỗ VESA, cần bộ chuyển (adapter) riêng hoặc không lắp được giá treo."
+    },
+    {
+      "title": "Kích thước và tải trọng",
+      "content": "Mỗi giá treo ghi rõ dải kích thước màn hình (ví dụ 17–32 inch) và tải trọng (kg). Hãy tra trọng lượng màn hình không kèm chân đế và chọn giá treo có tải trọng phù hợp.\n\nVới giá treo lò xo khí, màn hình quá nhẹ so với dải tải trọng có thể bị bật lên; quá nặng thì bị trôi xuống. Màn hình cong và màn lớn thường nặng hơn bạn nghĩ."
+    },
+    {
+      "title": "Kiểu lắp: kẹp bàn hay xuyên bàn",
+      "content": "Kiểu kẹp (clamp) kẹp vào mép bàn, dễ lắp và không phải khoan. Cần kiểm tra độ dày mặt bàn nằm trong dải hỗ trợ và mép bàn đủ chắc — bàn gỗ ép mỏng hoặc kính có thể không phù hợp.\n\nKiểu xuyên bàn (grommet) cần lỗ trên mặt bàn, chắc chắn hơn và đặt được ở giữa bàn."
+    },
+    {
+      "title": "Lò xo khí hay tay cố định",
+      "content": "Tay lò xo khí (gas spring) cho phép nâng hạ màn hình bằng một tay, tiện nếu bạn thường đổi tư thế hoặc dùng bàn đứng. Cần chỉnh lực lò xo đúng với trọng lượng màn hình khi lắp.\n\nTay cố định rẻ hơn, chỉnh bằng ốc và giữ nguyên vị trí — đủ dùng nếu bạn chỉ chỉnh một lần."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Giá treo có làm hỏng mặt bàn không?",
+      "answer": "Kiểu kẹp có thể để lại vết nếu siết quá chặt hoặc mặt bàn mềm. Nên lót miếng đệm và kiểm tra bàn đủ chắc."
+    },
+    {
+      "question": "Màn hình không có lỗ VESA thì sao?",
+      "answer": "Một số hãng bán adapter VESA riêng cho từng mẫu. Nếu không có, màn hình đó không lắp được giá treo tiêu chuẩn."
+    },
+    {
+      "question": "Laptop có dùng giá treo màn hình được không?",
+      "answer": "Cần thêm khay đỡ laptop gắn vào ngàm VESA. Nhiều giá treo bán kèm hoặc có khay tương thích."
+    }
+  ],
+  "relatedPosts": [
+    "gia-treo-man-hinh-north-bayou-f80-ez90-ema7304-warrior-wa-mh0801",
+    "man-hinh-vsp-ip2705f-ip2706sg-27-inch-fhd-120hz-ips-1ms"
+  ],
+  "seo": {
+    "metaTitle": "Có nên mua giá treo màn hình?",
+    "metaDescription": "Hướng dẫn chọn giá treo màn hình: chuẩn VESA, tải trọng, kích thước hỗ trợ, kẹp bàn hay xuyên bàn, lò xo khí hay tay cố định.",
+    "keywords": ["giá treo màn hình", "arm màn hình", "chuẩn VESA"]
+  }
+}

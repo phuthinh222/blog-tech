@@ -1,7 +1,26 @@
 import type { NextConfig } from "next"
+import createNextIntlPlugin from "next-intl/plugin"
+
+// Đọc i18n/request.ts (cấu hình next-intl: locale + messages theo request).
+const withNextIntl = createNextIntlPlugin("./i18n/request.ts")
 
 const nextConfig: NextConfig = {
+  experimental: {
+    // Mặc định Next dùng (số nhân CPU - 1) worker khi build — máy 16 nhân là
+    // 15 tiến trình Node song song, dễ hết RAM. 4 là đủ cho site cỡ này.
+    cpus: 4,
+    // Turbopack là Rust, KHÔNG bị NODE_OPTIONS giới hạn. Đặt trần để nó tự dọn
+    // cache khi vượt ~1.5 GB thay vì phình mãi.
+    turbopackMemoryLimit: 1536 * 1024 * 1024,
+    // Mặc định Turbopack chạy PostCSS/Tailwind trong nhiều TIẾN TRÌNH Node con
+    // (mỗi cái một V8 heap riêng, ~100-200 MB) — lần chạy 13/10 lên 79 tiến
+    // trình / 2.5 GB trong 47 giây. Worker threads dùng chung một tiến trình.
+    turbopackPluginRuntimeStrategy: "workerThreads",
+  },
   images: {
+    // Dev: bỏ tối ưu ảnh (encode AVIF/WebP bằng sharp rất tốn RAM/CPU mỗi lần
+    // tải trang). Production vẫn tối ưu như cũ.
+    unoptimized: process.env.NODE_ENV === "development",
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 2592000,
     remotePatterns: [
@@ -15,4 +34,4 @@ const nextConfig: NextConfig = {
   },
 }
 
-export default nextConfig
+export default withNextIntl(nextConfig)

@@ -1,4 +1,4 @@
-# The Zero Tech
+# Zero Technology
 
 Blog đánh giá sản phẩm công nghệ tiêu dùng bằng tiếng Việt — điện thoại, màn hình, laptop và phụ kiện. Xây dựng bằng Next.js App Router với Tailwind CSS v4.
 

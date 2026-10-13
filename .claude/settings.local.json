@@ -1,6 +1,17 @@
 {
   "permissions": {
-    "allow": ["Bash(mkdir -p \"d:/NextJS/technology-blog/app/articles/[slug]\")"],
+    "allow": [
+      "Bash(mkdir -p \"d:/NextJS/technology-blog/app/articles/[slug]\")",
+      "Bash(node verify-fixes.mjs)",
+      "Bash(node verify-mobile-menu.mjs)",
+      "Bash(node -e \"console.log\\(require\\('react'\\).unstable_ViewTransition\\)\")",
+      "Bash(node verify-transitions.mjs)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(lsof -ti:3000 -sTCP:LISTEN)",
+      "Bash(sed -i 's/localhost:3000/localhost:3100/g' verify-transitions.mjs)",
+      "Bash(node verify-transitions2.mjs)",
+      "Bash(pnpm exec *)"
+    ],
     "additionalDirectories": ["d:\\NextJS\\technology-blog\\app\\articles"]
   }
 }

@@ -1,28 +1,21 @@
 import { memo } from "react"
 import Image from "next/image"
-import Link from "next/link"
 import { Clock, Star } from "lucide-react"
+import { useLocale, useTranslations } from "next-intl"
 import type { Post } from "@/types"
-import { AUTHOR_PHOTOS } from "@/lib/team"
-import { getCategoryColor, getCategoryName } from "@/lib/categories"
+import { Link } from "@/i18n/navigation"
+import { toLocale } from "@/i18n/routing"
+import { getCategoryColor } from "@/lib/categories"
 import { formatDate } from "@/lib/utils"
 import { BookmarkButton } from "@/components/blog/BookmarkButton"
 
 function AuthorAvatar({ name, color }: { name: string; color: string }) {
-  const photo = AUTHOR_PHOTOS[name]
   const initials = name
     .split(" ")
     .map((n) => n[0])
     .slice(0, 2)
     .join("")
     .toUpperCase()
-  if (photo) {
-    return (
-      <span className="relative flex size-7 shrink-0 overflow-hidden rounded-full border border-white/30">
-        <Image src={photo} alt={name} fill className="object-cover" sizes="28px" />
-      </span>
-    )
-  }
   return (
     <span
       className="flex size-7 shrink-0 items-center justify-center rounded-full border border-white/30 text-[10px] font-bold text-white backdrop-blur-sm"
@@ -40,14 +33,17 @@ type Props = {
 
 function ArticleCard({ post, variant = "default" }: Props) {
   const coverColor = getCategoryColor(post.category)
-  const categoryName = getCategoryName(post.category)
+  const t = useTranslations("ArticleCard")
+  const tCat = useTranslations("Categories")
+  const locale = toLocale(useLocale())
+  const categoryName = tCat(`${post.category}.name`)
 
   /* ── FEATURED ─────────────────────────────────────────── */
   if (variant === "featured") {
     return (
       <Link
         href={`/articles/${post.slug}`}
-        className="shimmer group relative flex h-[360px] w-full overflow-hidden rounded-2xl sm:h-[500px]"
+        className="shimmer group relative flex h-100 w-full overflow-hidden rounded-2xl sm:h-135 lg:h-150"
       >
         {post.coverImage ? (
           <Image
@@ -81,7 +77,7 @@ function ArticleCard({ post, variant = "default" }: Props) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-transparent" />
 
-        <div className="animate-float absolute top-6 left-6 flex items-center gap-2">
+        <div className="animate-float absolute top-4 left-4 flex items-center gap-2 sm:top-6 sm:left-6">
           <span className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/15 px-3.5 py-1.5 text-xs font-bold text-white shadow-lg backdrop-blur-md">
             <span className="size-1.5 rounded-full bg-white" />
             {categoryName}
@@ -92,18 +88,24 @@ function ArticleCard({ post, variant = "default" }: Props) {
           </span>
         </div>
 
-        <div className="animate-fade-in-up relative mt-auto flex flex-col gap-4 p-6 sm:p-10">
-          <h2 className="line-clamp-3 text-2xl leading-tight font-bold text-white decoration-white/40 underline-offset-4 group-hover:underline sm:text-4xl">
+        {/* Hand-drawn "human touch" sticky note — deliberately imperfect, not AI-polished */}
+        <span
+          className="absolute top-4 right-4 rotate-[-5deg] rounded-sm bg-yellow-300 px-2.5 py-1 text-sm text-neutral-900 shadow-lg select-none sm:top-5 sm:right-5 sm:px-3 sm:py-1.5 sm:text-base"
+          style={{ fontFamily: "var(--font-hand)" }}
+        >
+          ✎ {t("editorsPick")}
+        </span>
+
+        <div className="animate-fade-in-up relative mt-auto flex flex-col gap-4 p-5 sm:gap-5 sm:p-10">
+          <h2 className="line-clamp-2 max-w-4xl text-3xl leading-[1.1] font-black tracking-tight text-white decoration-white/40 underline-offset-4 group-hover:underline sm:text-5xl lg:text-7xl lg:leading-[1.05]">
             {post.title}
           </h2>
-          <p className="line-clamp-2 max-w-2xl text-sm leading-relaxed text-white/70">
-            {post.excerpt}
-          </p>
+          <p className="line-clamp-2 max-w-lg text-xs text-white/60 sm:text-sm">{post.excerpt}</p>
           <div className="flex items-center gap-3 text-xs text-white/60">
             <AuthorAvatar name={post.author} color={coverColor} />
             <span className="font-semibold text-white/90">{post.author}</span>
             <span className="text-white/30">·</span>
-            <span>{formatDate(post.publishedAt)}</span>
+            <span>{formatDate(post.publishedAt, locale)}</span>
           </div>
         </div>
       </Link>
@@ -136,12 +138,12 @@ function ArticleCard({ post, variant = "default" }: Props) {
         </div>
         <div className="flex min-w-0 flex-col gap-1">
           <span
-            className="text-[11px] font-bold tracking-widest uppercase"
+            className="text-xs font-bold tracking-widest uppercase sm:text-[11px]"
             style={{ color: coverColor }}
           >
             {categoryName}
           </span>
-          <p className="group-hover:text-primary line-clamp-2 text-sm leading-snug font-semibold transition-colors">
+          <p className="group-hover:text-primary line-clamp-2 text-sm leading-snug font-semibold transition-[color,font-weight] duration-300 group-hover:font-extrabold">
             {post.title}
           </p>
           <span className="text-muted-foreground flex items-center gap-1.5 text-xs">
@@ -192,12 +194,12 @@ function ArticleCard({ post, variant = "default" }: Props) {
 
       <div className="relative z-[2] flex flex-1 flex-col gap-3 p-5">
         <span
-          className="text-[11px] font-bold tracking-widest uppercase"
+          className="text-xs font-bold tracking-widest uppercase sm:text-[11px]"
           style={{ color: coverColor }}
         >
           {categoryName}
         </span>
-        <h3 className="group-hover:text-primary line-clamp-2 text-[15px] leading-snug font-bold transition-colors">
+        <h3 className="group-hover:text-primary line-clamp-2 text-[15px] leading-snug font-semibold transition-[color,font-weight] duration-300 group-hover:font-extrabold">
           {post.title}
         </h3>
         <p className="text-muted-foreground line-clamp-2 flex-1 text-xs leading-relaxed">
@@ -209,7 +211,7 @@ function ArticleCard({ post, variant = "default" }: Props) {
           <span className="min-w-0 flex-1 truncate text-xs font-medium">{post.author}</span>
           <span className="text-muted-foreground flex shrink-0 items-center gap-1 text-xs">
             <Clock className="size-3" />
-            {formatDate(post.publishedAt)}
+            {formatDate(post.publishedAt, locale)}
           </span>
         </div>
       </div>

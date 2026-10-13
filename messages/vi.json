@@ -1,0 +1,295 @@
+{
+  "Metadata": {
+    "title": "Zero Technology — Đánh Giá Sản Phẩm Công Nghệ",
+    "description": "Đánh giá trung thực về điện thoại, màn hình, laptop và phụ kiện công nghệ — giúp bạn chọn đúng sản phẩm, không lãng phí tiền bạc."
+  },
+  "Nav": {
+    "home": "Trang Chủ",
+    "reviews": "Đánh Giá",
+    "guides": "Hướng Dẫn",
+    "categories": "Danh Mục",
+    "about": "Về Chúng Tôi"
+  },
+  "Header": {
+    "login": "Đăng Nhập",
+    "logout": "Đăng Xuất",
+    "profile": "Hồ Sơ",
+    "mainNav": "Điều hướng chính",
+    "mobileNav": "Điều hướng mobile",
+    "searchShortcut": "Tìm kiếm (⌘K)",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu"
+  },
+  "LocaleSwitcher": {
+    "label": "Ngôn ngữ"
+  },
+  "Theme": {
+    "toLight": "Chuyển sang giao diện sáng",
+    "toDark": "Chuyển sang giao diện tối"
+  },
+  "Footer": {
+    "explore": "Khám Phá",
+    "categories": "Danh Mục",
+    "company": "Công Ty",
+    "newArticles": "Bài Viết Mới",
+    "buyingGuides": "Hướng Dẫn Chọn Mua",
+    "allCategories": "Danh Mục",
+    "scoring": "Phương Pháp Đánh Giá",
+    "aboutUs": "Về Chúng Tôi",
+    "contact": "Liên Hệ",
+    "terms": "Điều Khoản",
+    "privacy": "Bảo Mật",
+    "cookie": "Cookie"
+  },
+  "Legal": {
+    "updatedAt": "Cập nhật lần cuối: {date}"
+  },
+  "Categories": {
+    "phone": {
+      "name": "Điện Thoại",
+      "desc": "Đánh giá chi tiết các flagship và mid-range mới nhất từ Apple, Samsung, Google và các hãng hàng đầu — camera, hiệu năng, pin và trải nghiệm thực tế."
+    },
+    "monitor": {
+      "name": "Màn Hình",
+      "desc": "Review màn hình 4K, OLED, gaming monitor và màn hình đồ họa — độ phân giải, màu sắc, refresh rate và giá trị thực sự bạn nhận được."
+    },
+    "laptop": {
+      "name": "Laptop",
+      "desc": "Phân tích laptop văn phòng, ultrabook, gaming laptop — hiệu năng chip, thời lượng pin, thiết kế và mức giá xứng đáng nhất."
+    },
+    "accessory": {
+      "name": "Phụ Kiện",
+      "desc": "Tai nghe, chuột, bàn phím, sạc nhanh và mọi phụ kiện công nghệ — liệu chúng có đáng đồng tiền bạn bỏ ra?"
+    },
+    "audio": {
+      "name": "Âm Thanh",
+      "desc": "Review loa bluetooth, tai nghe true wireless và thiết bị âm thanh di động — chất lượng âm thanh thực tế, pin và độ bền."
+    }
+  },
+  "Rating": {
+    "design": "Thiết kế",
+    "performance": "Hiệu năng",
+    "battery": "Pin",
+    "value": "Giá trị"
+  },
+  "Search": {
+    "dialogLabel": "Tìm kiếm bài viết",
+    "placeholder": "Tìm kiếm bài viết...",
+    "close": "Đóng",
+    "noResults": "Không tìm thấy kết quả cho \"{query}\"",
+    "typeToSearch": "Nhập từ khoá để tìm kiếm",
+    "hintSelect": "chọn",
+    "hintOpen": "mở",
+    "hintClose": "đóng",
+    "hintToggle": "bật/tắt"
+  },
+  "ArticlesPage": {
+    "title": "Tất Cả Đánh Giá",
+    "intro": "Đánh giá chi tiết, trung thực về điện thoại, màn hình, laptop và phụ kiện — chấm điểm theo cùng một bộ tiêu chí công khai."
+  },
+  "GuidesPage": {
+    "title": "Hướng Dẫn Chọn Mua",
+    "metaDescription": "Hướng dẫn chọn màn hình, chuột, bàn phím, laptop và phụ kiện theo đúng nhu cầu làm việc, lập trình và chơi game.",
+    "intro": "Những điều cần biết trước khi mua thiết bị công nghệ — giải thích thông số, tiêu chí chọn và các bài đánh giá liên quan.",
+    "readGuide": "Đọc hướng dẫn"
+  },
+  "CategoriesPage": {
+    "title": "Danh Mục",
+    "intro": "Tìm đánh giá theo loại sản phẩm bạn quan tâm — điện thoại, màn hình, laptop hay phụ kiện công nghệ.",
+    "postCount": "{count} bài viết",
+    "viewPosts": "Xem bài viết",
+    "viewAll": "Xem tất cả"
+  },
+  "Common": {
+    "viewAll": "Xem tất cả",
+    "backHome": "Về Trang Chủ",
+    "home": "Trang Chủ"
+  },
+  "HomePage": {
+    "latest": "Đánh Giá Mới Nhất",
+    "trending": "Đang Thịnh Hành",
+    "categories": "Danh Mục",
+    "recent": "Đánh Giá Gần Đây"
+  },
+  "ErrorPage": {
+    "title": "Đã xảy ra lỗi",
+    "description": "Có lỗi xảy ra. Bạn có thể thử lại hoặc quay về trang chủ.",
+    "retry": "Thử lại",
+    "home": "Trang Chủ"
+  },
+  "NotFoundPage": {
+    "title": "404 — Không tìm thấy trang",
+    "description": "Trang bạn tìm kiếm không tồn tại hoặc đã bị xoá.",
+    "backHome": "Về Trang Chủ"
+  },
+  "CategoryPage": {
+    "allCategories": "Tất cả danh mục",
+    "reviewCount": "{count} bài đánh giá",
+    "empty": "Chưa có bài viết nào trong danh mục này",
+    "viewAllPosts": "Xem tất cả bài viết"
+  },
+  "GuidePage": {
+    "back": "Hướng dẫn chọn mua",
+    "faq": "Câu Hỏi Thường Gặp",
+    "related": "Bài Đánh Giá Liên Quan"
+  },
+  "ArticlePage": {
+    "specs": "Thông Số Kỹ Thuật",
+    "prosCons": "Ưu & Nhược Điểm",
+    "faq": "Câu Hỏi Thường Gặp",
+    "verdict": "Kết Luận",
+    "readingTime": "{minutes} phút đọc",
+    "backToList": "Quay lại danh sách",
+    "pros": "Điểm Cộng",
+    "cons": "Điểm Trừ",
+    "saveArticle": "Lưu bài viết này",
+    "affiliateNote": "Chúng tôi có thể nhận hoa hồng khi bạn mua qua link này, giá bạn trả không đổi. Giá có thể thay đổi.",
+    "score": "Điểm Đánh Giá",
+    "breakdown": "Chi Tiết Đánh Giá",
+    "related": "Bài Liên Quan",
+    "moreIn": "Thêm về {category}",
+    "viewAll": "Xem tất cả",
+    "buy": "Mua sản phẩm",
+    "relatedGuides": "Hướng Dẫn Chọn Mua Liên Quan"
+  },
+  "ArticleCard": {
+    "editorsPick": "Lựa chọn của Editor"
+  },
+  "ArticlesList": {
+    "all": "Tất cả",
+    "emptyTitle": "Không tìm thấy bài viết nào",
+    "emptyHint": "Thử từ khoá khác hoặc chọn danh mục khác",
+    "filterLabel": "Danh mục",
+    "clearQuery": "Bỏ từ khoá"
+  },
+  "Bookmarks": {
+    "save": "Lưu bài viết",
+    "remove": "Bỏ lưu bài viết",
+    "emptyTitle": "Chưa có bài viết nào được lưu",
+    "emptyHint": "Nhấn vào icon <icon></icon> trên bài viết để lưu lại"
+  },
+  "ArticleToc": {
+    "label": "Mục lục bài viết",
+    "title": "Mục Lục"
+  },
+  "AiSummary": {
+    "title": "Tóm Tắt Nhanh",
+    "subtitle": "Nắm ý chính trong 10 giây",
+    "dialogLabel": "Tóm tắt nhanh bài viết",
+    "generatedNote": "Tổng hợp tự động từ nội dung bài đánh giá",
+    "close": "Đóng",
+    "highlights": "Điểm nổi bật",
+    "caveats": "Cần lưu ý",
+    "quickQa": "Hỏi Nhanh"
+  },
+  "Gallery": {
+    "close": "Đóng",
+    "imageAlt": "{title} - ảnh {index}",
+    "previous": "Ảnh trước",
+    "next": "Ảnh tiếp",
+    "zoomOut": "Thu nhỏ",
+    "zoomIn": "Phóng to",
+    "resetHint": "Click để reset về 100%",
+    "reset": "Reset",
+    "lightboxHint": "Scroll để zoom · Kéo để di chuyển · ESC để đóng",
+    "viewLarge": "Xem ảnh lớn",
+    "thumbnailAlt": "Ảnh thu nhỏ {index}"
+  },
+  "Comments": {
+    "title": "Bình Luận",
+    "placeholder": "Viết bình luận của bạn...",
+    "postingAs": "Đăng với tên <name></name>",
+    "sending": "Đang gửi...",
+    "send": "Gửi",
+    "loginPrompt": "Đăng nhập để tham gia bình luận",
+    "login": "Đăng Nhập",
+    "emptyTitle": "Chưa có bình luận nào",
+    "emptyHint": "Hãy là người đầu tiên bình luận!",
+    "delete": "Xóa"
+  },
+  "ProfilePage": {
+    "title": "Hồ Sơ",
+    "member": "Thành viên {site}",
+    "logout": "Đăng Xuất",
+    "saved": "Bài Viết Đã Lưu"
+  },
+  "AboutPage": {
+    "metaTitle": "Về Chúng Tôi",
+    "heroTitle": "Chúng tôi là <highlight>{site}</highlight>",
+    "intro": "Trang đánh giá công nghệ với sứ mệnh đánh giá trung thực điện thoại, màn hình, laptop và phụ kiện — giúp người Việt chọn đúng sản phẩm, không lãng phí tiền bạc.",
+    "stats": {
+      "reviews": "Bài đánh giá",
+      "criteria": "Tiêu chí chấm điểm",
+      "topics": "Chủ đề",
+      "free": "Miễn phí"
+    },
+    "mission": {
+      "title": "Tại sao chúng tôi làm điều này?",
+      "p1": "Thị trường sản phẩm công nghệ Việt Nam ngập tràn quảng cáo và review được tài trợ. Người dùng khó tìm được đánh giá thực sự trung thực trước khi bỏ ra vài triệu đến hàng chục triệu đồng.",
+      "p2": "{site} ra đời để thay đổi điều đó. Mỗi bài đánh giá trình bày rõ thông số, ưu nhược điểm và chấm điểm theo cùng một bộ tiêu chí — không nhận tiền từ hãng để đổi lấy nhận xét hay điểm số.",
+      "p3": "Mục tiêu của chúng tôi đơn giản: giúp bạn đưa ra quyết định mua sắm thông minh hơn, tiết kiệm tiền hơn và hài lòng hơn với sản phẩm mình chọn."
+    },
+    "valuesTitle": "Giá trị cốt lõi",
+    "valuesIntro": "Những nguyên tắc định hướng mọi bài viết chúng tôi tạo ra.",
+    "values": {
+      "independent": {
+        "title": "Điểm Số Độc Lập",
+        "desc": "Không nhận tiền từ hãng hay nhà bán hàng để đổi lấy nhận xét hoặc điểm số. Liên kết affiliate không ảnh hưởng đến thứ hạng sản phẩm."
+      },
+      "consistent": {
+        "title": "Cùng Một Bộ Tiêu Chí",
+        "desc": "Mọi sản phẩm được chấm trên thang 10 theo cùng 4 tiêu chí: thiết kế, hiệu năng, pin & độ bền, giá trị — để bạn so sánh công bằng."
+      },
+      "honest": {
+        "title": "Nói Cả Nhược Điểm",
+        "desc": "Mỗi bài đánh giá đều có thông số kỹ thuật, ưu điểm và nhược điểm rõ ràng. Thấy thông tin sai, bạn có thể báo cho chúng tôi để sửa."
+      },
+      "local": {
+        "title": "Vì Người Dùng Việt Nam",
+        "desc": "Đánh giá theo nhu cầu của người dùng tại Việt Nam — giá bán, nơi mua, dịch vụ hậu mãi và bảo hành trong nước."
+      }
+    },
+    "scoringTitle": "Phương pháp đánh giá",
+    "scoringIntro": "Mỗi sản phẩm nhận một điểm tổng trên thang 10, dựa trên các tiêu chí dưới đây.",
+    "scoring": {
+      "design": {
+        "title": "Thiết kế",
+        "desc": "Chất lượng hoàn thiện, vật liệu, kích thước, trọng lượng và sự tiện dụng khi dùng hằng ngày."
+      },
+      "performance": {
+        "title": "Hiệu năng",
+        "desc": "Sản phẩm làm tốt đến đâu việc chính của nó: tốc độ, độ mượt, chất lượng hiển thị, độ chính xác."
+      },
+      "battery": {
+        "title": "Pin & độ bền",
+        "desc": "Thời lượng pin (với thiết bị dùng pin), độ bền và chế độ bảo hành tại Việt Nam."
+      },
+      "value": {
+        "title": "Giá trị",
+        "desc": "Những gì bạn nhận được so với số tiền bỏ ra, đặt cạnh các lựa chọn cùng tầm giá trên thị trường Việt Nam."
+      }
+    },
+    "commissionTitle": "Điểm số không phụ thuộc hoa hồng",
+    "commissionBody": "Một số liên kết trên website là liên kết affiliate — chúng tôi có thể nhận hoa hồng khi bạn mua hàng, giá bạn trả không đổi. Mức hoa hồng, hay việc sản phẩm có liên kết affiliate hay không, không ảnh hưởng đến điểm số và thứ hạng.",
+    "ctaTitle": "Hợp tác hoặc đóng góp?",
+    "ctaBody": "Bạn muốn viết bài cho {site}, hợp tác quảng bá hoặc chỉ đơn giản là muốn nói chuyện về công nghệ? Chúng tôi luôn sẵn lòng.",
+    "ctaContact": "Liên Hệ Ngay",
+    "ctaRead": "Đọc Bài Viết"
+  },
+  "Compare": {
+    "title": "So Sánh Sản Phẩm",
+    "intro": "Đặt cạnh các sản phẩm {category} khác đã được đánh giá, chấm theo cùng bộ tiêu chí.",
+    "product": "Sản phẩm",
+    "overall": "Điểm",
+    "price": "Giá",
+    "thisProduct": "Đang xem"
+  },
+  "Price": {
+    "label": "Giá tham khảo",
+    "checkedAt": "Cập nhật {date}"
+  },
+  "BestPick": {
+    "title": "Lựa chọn tốt nhất",
+    "readReview": "Đọc đánh giá"
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "Metadata": {
+    "title": "Zero Technology — Honest Tech Product Reviews",
+    "description": "Honest reviews of phones, monitors, laptops and tech accessories — helping you pick the right product without wasting money."
+  },
+  "Nav": {
+    "home": "Home",
+    "reviews": "Reviews",
+    "guides": "Guides",
+    "categories": "Categories",
+    "about": "About Us"
+  },
+  "Header": {
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "profile": "Profile",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "searchShortcut": "Search (⌘K)",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "Theme": {
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme"
+  },
+  "Footer": {
+    "explore": "Explore",
+    "categories": "Categories",
+    "company": "Company",
+    "newArticles": "Latest Reviews",
+    "buyingGuides": "Buying Guides",
+    "allCategories": "Categories",
+    "scoring": "Review Methodology",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookie": "Cookies"
+  },
+  "Legal": {
+    "updatedAt": "Last updated: {date}"
+  },
+  "Categories": {
+    "phone": {
+      "name": "Phones",
+      "desc": "In-depth reviews of the latest flagship and mid-range phones from Apple, Samsung, Google and other leading brands — camera, performance, battery and real-world experience."
+    },
+    "monitor": {
+      "name": "Monitors",
+      "desc": "Reviews of 4K, OLED, gaming and design monitors — resolution, color, refresh rate and the real value you get."
+    },
+    "laptop": {
+      "name": "Laptops",
+      "desc": "Analysis of office laptops, ultrabooks and gaming laptops — chip performance, battery life, design and the best value for money."
+    },
+    "accessory": {
+      "name": "Accessories",
+      "desc": "Headphones, mice, keyboards, fast chargers and every other tech accessory — are they worth your money?"
+    },
+    "audio": {
+      "name": "Audio",
+      "desc": "Reviews of Bluetooth speakers, true wireless earbuds and portable audio gear — real-world sound quality, battery and durability."
+    }
+  },
+  "Rating": {
+    "design": "Design",
+    "performance": "Performance",
+    "battery": "Battery",
+    "value": "Value"
+  },
+  "Search": {
+    "dialogLabel": "Search articles",
+    "placeholder": "Search articles...",
+    "close": "Close",
+    "noResults": "No results for \"{query}\"",
+    "typeToSearch": "Type a keyword to search",
+    "hintSelect": "select",
+    "hintOpen": "open",
+    "hintClose": "close",
+    "hintToggle": "toggle"
+  },
+  "ArticlesPage": {
+    "title": "All Reviews",
+    "intro": "Detailed, honest reviews of phones, monitors, laptops and accessories — scored against the same public set of criteria."
+  },
+  "GuidesPage": {
+    "title": "Buying Guides",
+    "metaDescription": "Guides to choosing monitors, mice, keyboards, laptops and accessories for work, programming and gaming.",
+    "intro": "What to know before buying tech — specs explained, how to choose, and related reviews.",
+    "readGuide": "Read guide"
+  },
+  "CategoriesPage": {
+    "title": "Categories",
+    "intro": "Find reviews by the type of product you care about — phones, monitors, laptops or tech accessories.",
+    "postCount": "{count, plural, one {# article} other {# articles}}",
+    "viewPosts": "View articles",
+    "viewAll": "View all"
+  },
+  "Common": {
+    "viewAll": "View all",
+    "backHome": "Back to Home",
+    "home": "Home"
+  },
+  "HomePage": {
+    "latest": "Latest Reviews",
+    "trending": "Trending",
+    "categories": "Categories",
+    "recent": "Recent Reviews"
+  },
+  "ErrorPage": {
+    "title": "Something went wrong",
+    "description": "An error occurred. You can try again or go back to the home page.",
+    "retry": "Try again",
+    "home": "Home"
+  },
+  "NotFoundPage": {
+    "title": "404 — Page not found",
+    "description": "The page you are looking for does not exist or has been removed.",
+    "backHome": "Back to Home"
+  },
+  "CategoryPage": {
+    "allCategories": "All categories",
+    "reviewCount": "{count, plural, one {# review} other {# reviews}}",
+    "empty": "There are no articles in this category yet",
+    "viewAllPosts": "View all articles"
+  },
+  "GuidePage": {
+    "back": "Buying guides",
+    "faq": "Frequently Asked Questions",
+    "related": "Related Reviews"
+  },
+  "ArticlePage": {
+    "specs": "Specifications",
+    "prosCons": "Pros & Cons",
+    "faq": "Frequently Asked Questions",
+    "verdict": "Verdict",
+    "readingTime": "{minutes} min read",
+    "backToList": "Back to all reviews",
+    "pros": "Pros",
+    "cons": "Cons",
+    "saveArticle": "Save this article",
+    "affiliateNote": "We may earn a commission when you buy through this link, at no extra cost to you. Prices may change.",
+    "score": "Our Score",
+    "breakdown": "Score Breakdown",
+    "related": "Related Articles",
+    "moreIn": "More in {category}",
+    "viewAll": "View all",
+    "buy": "Buy product",
+    "relatedGuides": "Related Buying Guides"
+  },
+  "ArticleCard": {
+    "editorsPick": "Editor's Pick"
+  },
+  "ArticlesList": {
+    "all": "All",
+    "emptyTitle": "No articles found",
+    "emptyHint": "Try another keyword or pick a different category",
+    "filterLabel": "Category",
+    "clearQuery": "Clear keyword"
+  },
+  "Bookmarks": {
+    "save": "Save article",
+    "remove": "Remove from saved",
+    "emptyTitle": "No saved articles yet",
+    "emptyHint": "Tap the <icon></icon> icon on an article to save it"
+  },
+  "ArticleToc": {
+    "label": "Table of contents",
+    "title": "Contents"
+  },
+  "AiSummary": {
+    "title": "Quick Summary",
+    "subtitle": "The key points in 10 seconds",
+    "dialogLabel": "Quick article summary",
+    "generatedNote": "Automatically compiled from the review content",
+    "close": "Close",
+    "highlights": "Highlights",
+    "caveats": "Things to note",
+    "quickQa": "Quick Q&A"
+  },
+  "Gallery": {
+    "close": "Close",
+    "imageAlt": "{title} - image {index}",
+    "previous": "Previous image",
+    "next": "Next image",
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in",
+    "resetHint": "Click to reset to 100%",
+    "reset": "Reset",
+    "lightboxHint": "Scroll to zoom · Drag to pan · ESC to close",
+    "viewLarge": "View full size",
+    "thumbnailAlt": "Thumbnail {index}"
+  },
+  "Comments": {
+    "title": "Comments",
+    "placeholder": "Write your comment...",
+    "postingAs": "Posting as <name></name>",
+    "sending": "Sending...",
+    "send": "Send",
+    "loginPrompt": "Sign in to join the discussion",
+    "login": "Sign In",
+    "emptyTitle": "No comments yet",
+    "emptyHint": "Be the first to comment!",
+    "delete": "Delete"
+  },
+  "ProfilePage": {
+    "title": "Profile",
+    "member": "{site} member",
+    "logout": "Sign Out",
+    "saved": "Saved Articles"
+  },
+  "AboutPage": {
+    "metaTitle": "About Us",
+    "heroTitle": "We are <highlight>{site}</highlight>",
+    "intro": "A tech review site on a mission to honestly review phones, monitors, laptops and accessories — helping you pick the right product without wasting money.",
+    "stats": {
+      "reviews": "Reviews",
+      "criteria": "Scoring criteria",
+      "topics": "Topics",
+      "free": "Free"
+    },
+    "mission": {
+      "title": "Why do we do this?",
+      "p1": "Vietnam's tech market is flooded with ads and sponsored reviews. It is hard to find a truly honest review before spending millions — or tens of millions — of dong.",
+      "p2": "{site} was created to change that. Every review lays out the specs, pros and cons, and scores the product against the same set of criteria — we never take money from brands in exchange for opinions or scores.",
+      "p3": "Our goal is simple: help you make smarter buying decisions, save money and be happier with the product you choose."
+    },
+    "valuesTitle": "Our core values",
+    "valuesIntro": "The principles behind every article we publish.",
+    "values": {
+      "independent": {
+        "title": "Independent Scores",
+        "desc": "We never take money from brands or retailers in exchange for opinions or scores. Affiliate links do not affect product rankings."
+      },
+      "consistent": {
+        "title": "One Set of Criteria",
+        "desc": "Every product is scored out of 10 on the same 4 criteria: design, performance, battery & durability, and value — so you can compare fairly."
+      },
+      "honest": {
+        "title": "We Name the Downsides",
+        "desc": "Every review includes clear specs, pros and cons. If you spot a mistake, let us know and we will fix it."
+      },
+      "local": {
+        "title": "Made for Vietnam",
+        "desc": "Reviews reflect the needs of buyers in Vietnam — local prices, where to buy, after-sales service and in-country warranty."
+      }
+    },
+    "scoringTitle": "Our review methodology",
+    "scoringIntro": "Each product gets an overall score out of 10, based on the criteria below.",
+    "scoring": {
+      "design": {
+        "title": "Design",
+        "desc": "Build quality, materials, size, weight and how practical it is in everyday use."
+      },
+      "performance": {
+        "title": "Performance",
+        "desc": "How well the product does its main job: speed, smoothness, display quality, accuracy."
+      },
+      "battery": {
+        "title": "Battery & durability",
+        "desc": "Battery life (for battery-powered devices), durability and warranty terms in Vietnam."
+      },
+      "value": {
+        "title": "Value",
+        "desc": "What you get for the money, compared with similarly priced options on the Vietnamese market."
+      }
+    },
+    "commissionTitle": "Scores never depend on commissions",
+    "commissionBody": "Some links on this website are affiliate links — we may earn a commission when you buy, at no extra cost to you. Commission rates, or whether a product has an affiliate link at all, never affect scores or rankings.",
+    "ctaTitle": "Want to collaborate or contribute?",
+    "ctaBody": "Want to write for {site}, partner with us on promotion, or just talk tech? We'd love to hear from you.",
+    "ctaContact": "Contact Us",
+    "ctaRead": "Read Articles"
+  },
+  "Compare": {
+    "title": "Compare Products",
+    "intro": "How it stacks up against other {category} we have reviewed, scored on the same criteria.",
+    "product": "Product",
+    "overall": "Score",
+    "price": "Price",
+    "thisProduct": "This product"
+  },
+  "Price": {
+    "label": "Reference price",
+    "checkedAt": "Updated {date}"
+  },
+  "BestPick": {
+    "title": "Our top pick",
+    "readReview": "Read the review"
+  }
+}

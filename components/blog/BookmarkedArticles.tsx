@@ -1,10 +1,12 @@
 "use client"
 import { Bookmark } from "lucide-react"
+import { useTranslations } from "next-intl"
 import { useBookmarks } from "@/hooks/useBookmarks"
 import type { Post } from "@/types"
 import ArticleCard from "@/components/blog/ArticleCard"
 
 export function BookmarkedArticles({ posts }: { posts: Post[] }) {
+  const t = useTranslations("Bookmarks")
   const { bookmarks } = useBookmarks()
   const saved = posts.filter((p) => bookmarks.includes(p.slug))
 
@@ -12,9 +14,9 @@ export function BookmarkedArticles({ posts }: { posts: Post[] }) {
     return (
       <div className="border-border flex flex-col items-center gap-3 rounded-2xl border border-dashed py-16 text-center">
         <Bookmark className="text-muted-foreground/30 size-10" />
-        <p className="text-muted-foreground text-sm font-medium">Chưa có bài viết nào được lưu</p>
+        <p className="text-muted-foreground text-sm font-medium">{t("emptyTitle")}</p>
         <p className="text-muted-foreground/60 text-xs">
-          Nhấn vào icon <Bookmark className="inline size-3" /> trên bài viết để lưu lại
+          {t.rich("emptyHint", { icon: () => <Bookmark className="inline size-3" /> })}
         </p>
       </div>
     )

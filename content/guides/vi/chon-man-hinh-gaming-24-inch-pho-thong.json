@@ -1,0 +1,53 @@
+{
+  "slug": "chon-man-hinh-gaming-24-inch-pho-thong",
+  "title": "Chọn Màn Hình Gaming 24 Inch Phổ Thông: Tần Số Quét, Thời Gian Phản Hồi Và Cổng Kết Nối",
+  "excerpt": "24 inch Full HD vẫn là kích thước được game thủ esports ưa chuộng. Bài viết giải thích các thông số 144Hz, 180Hz, 1ms thật sự có ý nghĩa gì và cần kiểm tra gì trước khi mua.",
+  "category": "monitor",
+  "publishedAt": "2026-10-12",
+  "sections": [
+    {
+      "title": "Vì sao game thủ vẫn chọn 24 inch Full HD",
+      "content": "Ở 24 inch, toàn bộ khung hình nằm gọn trong tầm mắt, không phải đảo mắt nhiều — lợi thế trong các game bắn súng, MOBA. Độ phân giải Full HD (1920×1080) cũng nhẹ cho card đồ họa, giúp dễ đạt số khung hình cao.\n\nNếu bạn chơi game nhập vai, thế giới mở và coi trọng hình ảnh hơn tốc độ, màn 27 inch QHD có thể phù hợp hơn."
+    },
+    {
+      "title": "Tần số quét: 144Hz, 165Hz, 180Hz khác nhau thế nào",
+      "content": "Tần số quét là số lần màn hình làm mới hình ảnh mỗi giây. Từ 60Hz lên 144Hz là bước nhảy rất dễ cảm nhận: chuyển động mượt và dễ theo dõi hơn. Từ 144Hz lên 165Hz hay 180Hz, khác biệt nhỏ hơn và chủ yếu người chơi esports mới cảm nhận rõ.\n\nQuan trọng là máy của bạn phải đạt số khung hình (FPS) tương ứng. Màn 180Hz không có ích nhiều nếu game chỉ chạy 70–80 FPS."
+    },
+    {
+      "title": "Thời gian phản hồi 1ms: đọc thông số cho đúng",
+      "content": "Con số \"1ms\" trên hộp thường là MPRT hoặc ở chế độ ép xung (overdrive) cao nhất, không phải lúc nào cũng phản ánh trải nghiệm thực tế. Ở mức overdrive quá cao, một số màn có thể xuất hiện bóng mờ ngược (overshoot).\n\nKhi xem đánh giá, hãy chú ý nhận xét về bóng mờ khi chuyển động nhanh thay vì chỉ nhìn con số trên thông số."
+    },
+    {
+      "title": "Tấm nền và đồng bộ khung hình",
+      "content": "Màn gaming phổ thông hiện nay phần lớn dùng tấm nền IPS (màu đẹp, góc nhìn rộng) hoặc VA (tương phản cao). Cả hai đều chơi game tốt; IPS thường được ưa chuộng hơn nếu bạn vừa chơi game vừa làm việc.\n\nAdaptive Sync (FreeSync hoặc tương thích G-Sync) giúp giảm xé hình khi FPS dao động. Đây gần như là tính năng tiêu chuẩn, nên kiểm tra có hay không trước khi mua."
+    },
+    {
+      "title": "Cổng kết nối và cáp",
+      "content": "Để chạy được tần số quét cao, cần dùng đúng cổng và cáp: DisplayPort hoặc HDMI phiên bản hỗ trợ tần số đó. Một số màn chỉ đạt tần số tối đa qua DisplayPort; hãy đọc kỹ thông số của nhà sản xuất.\n\nSau khi cắm, nhớ vào cài đặt màn hình của hệ điều hành để chọn đúng tần số quét — nhiều máy mặc định chạy 60Hz."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Màn 144Hz có cần card đồ họa mạnh không?",
+      "answer": "Cần đủ mạnh để game đạt gần 144 FPS ở Full HD thì mới tận dụng hết. Với game esports nhẹ, card tầm trung thường đáp ứng được."
+    },
+    {
+      "question": "Laptop có xuất được 144Hz ra màn hình rời không?",
+      "answer": "Tùy cổng của laptop. Cần cổng HDMI hoặc USB-C/DisplayPort hỗ trợ tần số đó; hãy kiểm tra thông số laptop trước."
+    },
+    {
+      "question": "Màn gaming có dùng làm việc văn phòng được không?",
+      "answer": "Được. Màn 24 inch Full HD IPS dùng văn phòng tốt; tần số quét cao còn giúp cuộn trang mượt hơn."
+    }
+  ],
+  "relatedPosts": [
+    "xiaomi-gaming-monitor-g24i-ela5625eu-180hz",
+    "asus-tuf-gaming-vg249qe5a-24-inch-ips-146hz",
+    "man-hinh-vsp-ip2705f-ip2706sg-27-inch-fhd-120hz-ips-1ms"
+  ],
+  "seo": {
+    "metaTitle": "Chọn màn hình gaming 24 inch phổ thông",
+    "metaDescription": "Hướng dẫn chọn màn hình gaming 24 inch: tần số quét 144Hz–180Hz, thời gian phản hồi 1ms, tấm nền, FreeSync và cổng kết nối.",
+    "keywords": ["màn hình gaming 24 inch", "màn hình 144hz", "màn hình 180hz"]
+  }
+}

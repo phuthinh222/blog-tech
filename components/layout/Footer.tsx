@@ -1,37 +1,40 @@
-import Link from "next/link"
 import Image from "next/image"
-import { GitBranch, MessageSquareShare, Briefcase, Globe } from "lucide-react"
-import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants"
+import { useTranslations } from "next-intl"
+import { Link } from "@/i18n/navigation"
+import { SITE_NAME } from "@/lib/constants"
 
-const footerLinks = {
-  "Khám Phá": [
-    { href: "/articles", label: "Bài Viết Mới" },
-    { href: "/categories", label: "Danh Mục" },
-    { href: "/authors", label: "Tác Giả" },
-    { href: "/library", label: "Thư Viện" },
-  ],
-  "Danh Mục": [
-    { href: "/categories/phone", label: "Điện Thoại" },
-    { href: "/categories/monitor", label: "Màn Hình" },
-    { href: "/categories/laptop", label: "Laptop" },
-    { href: "/categories/accessory", label: "Phụ Kiện" },
-  ],
-  "Công Ty": [
-    { href: "/about", label: "Về Chúng Tôi" },
-    { href: "/contact", label: "Liên Hệ" },
-    { href: "/careers", label: "Tuyển Dụng" },
-    { href: "/policy", label: "Chính Sách" },
-  ],
-}
-
-const socialLinks = [
-  { href: "https://github.com", icon: GitBranch, label: "GitHub" },
-  { href: "https://twitter.com", icon: MessageSquareShare, label: "Twitter" },
-  { href: "https://linkedin.com", icon: Briefcase, label: "LinkedIn" },
-  { href: "/", icon: Globe, label: "Website" },
+// Nhãn là khoá trong namespace "Footer"; riêng cột danh mục lấy tên từ
+// "Categories.<slug>.name".
+const footerLinks = [
+  {
+    key: "explore",
+    links: [
+      { href: "/articles", key: "newArticles" },
+      { href: "/guides", key: "buyingGuides" },
+      { href: "/categories", key: "allCategories" },
+      { href: "/about#phuong-phap-danh-gia", key: "scoring" },
+    ],
+  },
+  {
+    key: "categories",
+    links: ["phone", "monitor", "laptop", "accessory"].map((slug) => ({
+      href: `/categories/${slug}`,
+      category: slug,
+    })),
+  },
+  {
+    key: "company",
+    links: [
+      { href: "/about", key: "aboutUs" },
+      { href: "/contact", key: "contact" },
+    ],
+  },
 ]
 
 export default function Footer() {
+  const t = useTranslations("Footer")
+  const tMeta = useTranslations("Metadata")
+  const tCat = useTranslations("Categories")
   const currentYear = new Date().getFullYear()
 
   return (
@@ -53,27 +56,13 @@ export default function Footer() {
               />
               <span>{SITE_NAME}</span>
             </Link>
-            <p className="text-muted-foreground text-sm leading-relaxed">{SITE_DESCRIPTION}</p>
-            <div className="flex items-center gap-1">
-              {socialLinks.map(({ href, icon: Icon, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="text-muted-foreground hover:text-foreground flex size-9 items-center justify-center rounded-xl transition-all hover:scale-110 hover:bg-gradient-to-br hover:from-violet-500/15 hover:to-blue-500/15"
-                >
-                  <Icon className="size-4" />
-                </a>
-              ))}
-            </div>
+            <p className="text-muted-foreground text-sm leading-relaxed">{tMeta("description")}</p>
           </div>
 
           {/* Link columns */}
-          {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category} className="flex flex-col gap-3">
-              <h3 className="text-sm font-semibold tracking-wide">{category}</h3>
+          {footerLinks.map(({ key: column, links }) => (
+            <div key={column} className="flex flex-col gap-3">
+              <h3 className="text-sm font-semibold tracking-wide">{t(column)}</h3>
               <ul className="flex flex-col gap-2">
                 {links.map((link) => (
                   <li key={link.href}>
@@ -81,7 +70,7 @@ export default function Footer() {
                       href={link.href}
                       className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                     >
-                      {link.label}
+                      {"category" in link ? tCat(`${link.category}.name`) : t(link.key)}
                     </Link>
                   </li>
                 ))}
@@ -90,20 +79,19 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Bottom bar */}
-        <div className="border-border text-muted-foreground mt-8 flex flex-col items-center justify-between gap-3 border-t pt-6 text-xs sm:flex-row">
+        <div className="border-border text-muted-foreground mt-10 flex flex-col items-center justify-between gap-3 border-t pt-6 text-xs sm:flex-row">
           <p>
             © {currentYear} {SITE_NAME}
           </p>
           <div className="flex items-center gap-4">
             <Link href="/terms" className="hover:text-foreground transition-colors">
-              Điều Khoản
+              {t("terms")}
             </Link>
             <Link href="/privacy" className="hover:text-foreground transition-colors">
-              Bảo Mật
+              {t("privacy")}
             </Link>
-            <Link href="/cookies" className="hover:text-foreground transition-colors">
-              Cookie
+            <Link href="/privacy#cookies" className="hover:text-foreground transition-colors">
+              {t("cookie")}
             </Link>
           </div>
         </div>

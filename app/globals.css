@@ -121,6 +121,9 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-background text-foreground font-sans;
     font-feature-settings: "kern" 1;
@@ -138,6 +141,15 @@
       "kern" 1,
       "liga" 1;
     letter-spacing: -0.02em;
+  }
+  /* Font chữ Latin/Việt không có chữ Hán — bản tiếng Trung ưu tiên font hệ
+     thống tiếng Trung giản thể thay vì để trình duyệt tự chọn ngẫu nhiên. */
+  html:lang(zh-CN) body,
+  html:lang(zh-CN) :is(h1, h2, h3, h4, h5, h6) {
+    font-family:
+      var(--font-body), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+      "Noto Sans SC", sans-serif;
+    letter-spacing: normal;
   }
 }
 
@@ -224,6 +236,39 @@
     animation: pulse-glow 3s ease-in-out infinite;
   }
 
+  /* Scroll-driven reveal — no JS, no per-item inline delay.
+     Falls back to a plain time-based fade-in-up where view() isn't supported. */
+  .reveal {
+    animation: fade-in-up 0.6s ease-out both;
+  }
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation-timing-function: ease-out;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+    }
+  }
+
+  /* Fixed-length list stagger via :nth-child — no JS index math needed */
+  .stagger-children > *:nth-child(1) {
+    animation-delay: 0ms;
+  }
+  .stagger-children > *:nth-child(2) {
+    animation-delay: 60ms;
+  }
+  .stagger-children > *:nth-child(3) {
+    animation-delay: 120ms;
+  }
+  .stagger-children > *:nth-child(4) {
+    animation-delay: 180ms;
+  }
+  .stagger-children > *:nth-child(5) {
+    animation-delay: 240ms;
+  }
+  .stagger-children > *:nth-child(6) {
+    animation-delay: 300ms;
+  }
+
   .delay-75 {
     animation-delay: 75ms;
   }
@@ -278,5 +323,45 @@
   }
   .shimmer:hover::after {
     animation: shimmer-slide 0.7s ease forwards;
+  }
+}
+
+/* ── Page transitions ───────────────────────────────────── */
+/* Crossfade between routes — triggered by ViewTransitions.tsx wrapping
+   internal <Link> navigations in document.startViewTransition(). No-op in
+   browsers without support (Safari < 18, Firefox). */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.32s;
+  animation-timing-function: ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Named animations, incl. .reveal, get switched off outright rather than
+     sped up — a scroll-driven animation-timeline doesn't run on wall-clock
+     time, so shortening animation-duration leaves off-screen elements
+     stuck mid-timeline (often opacity: 0) instead of settling at their
+     end state. */
+  .animate-fade-in-up,
+  .animate-fade-in,
+  .animate-float,
+  .animate-spin-slow,
+  .animate-pulse-glow,
+  .reveal,
+  .shimmer:hover::after {
+    animation: none !important;
+  }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
   }
 }

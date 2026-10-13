@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from "react"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 import { ChevronLeft, ChevronRight, ZoomIn, ZoomOut, X, RotateCcw, Maximize2 } from "lucide-react"
 
 type Props = {
@@ -20,6 +21,7 @@ function Lightbox({
   initialIdx: number
   onClose: () => void
 }) {
+  const t = useTranslations("Gallery")
   const [idx, setIdx] = useState(initialIdx)
   const [zoom, setZoom] = useState(1)
   const [pos, setPos] = useState({ x: 0, y: 0 })
@@ -118,7 +120,7 @@ function Lightbox({
         <button
           onClick={onClose}
           className="ml-4 flex size-9 shrink-0 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
-          aria-label="Đóng"
+          aria-label={t("close")}
         >
           <X className="size-5" />
         </button>
@@ -150,7 +152,7 @@ function Lightbox({
           >
             <Image
               src={images[idx]}
-              alt={`${title} - ảnh ${idx + 1}`}
+              alt={t("imageAlt", { title, index: idx + 1 })}
               fill
               className="object-contain select-none"
               sizes="960px"
@@ -166,14 +168,14 @@ function Lightbox({
             <button
               onClick={prev}
               className="absolute top-1/2 left-4 flex size-11 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
-              aria-label="Ảnh trước"
+              aria-label={t("previous")}
             >
               <ChevronLeft className="size-6" />
             </button>
             <button
               onClick={next}
               className="absolute top-1/2 right-4 flex size-11 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
-              aria-label="Ảnh tiếp"
+              aria-label={t("next")}
             >
               <ChevronRight className="size-6" />
             </button>
@@ -189,14 +191,14 @@ function Lightbox({
             onClick={zoomOut}
             disabled={zoom <= 1}
             className="flex size-8 items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 disabled:opacity-30"
-            aria-label="Thu nhỏ"
+            aria-label={t("zoomOut")}
           >
             <ZoomOut className="size-4" />
           </button>
           <button
             onClick={resetView}
             className="min-w-13 text-center text-sm font-medium text-white/90 transition-colors hover:text-white"
-            title="Click để reset về 100%"
+            title={t("resetHint")}
           >
             {Math.round(zoom * 100)}%
           </button>
@@ -204,7 +206,7 @@ function Lightbox({
             onClick={zoomIn}
             disabled={zoom >= 4}
             className="flex size-8 items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 disabled:opacity-30"
-            aria-label="Phóng to"
+            aria-label={t("zoomIn")}
           >
             <ZoomIn className="size-4" />
           </button>
@@ -213,7 +215,7 @@ function Lightbox({
             onClick={resetView}
             disabled={isReset}
             className="flex size-8 items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 disabled:opacity-30"
-            aria-label="Reset"
+            aria-label={t("reset")}
           >
             <RotateCcw className="size-3.5" />
           </button>
@@ -241,13 +243,14 @@ function Lightbox({
           </div>
         )}
 
-        <p className="text-xs text-white/30">Scroll để zoom · Kéo để di chuyển · ESC để đóng</p>
+        <p className="text-xs text-white/30">{t("lightboxHint")}</p>
       </div>
     </div>
   )
 }
 
 export function ArticleGallery({ images, title }: Props) {
+  const t = useTranslations("Gallery")
   const [active, setActive] = useState(0)
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null)
 
@@ -268,11 +271,11 @@ export function ArticleGallery({ images, title }: Props) {
           onKeyDown={(e) => {
             if (e.key === "Enter") setLightboxIdx(active)
           }}
-          aria-label="Xem ảnh lớn"
+          aria-label={t("viewLarge")}
         >
           <Image
             src={images[active]}
-            alt={`${title} - ảnh ${active + 1}`}
+            alt={t("imageAlt", { title, index: active + 1 })}
             fill
             className="object-contain transition-opacity duration-200"
             sizes="(max-width: 1024px) 100vw, 700px"
@@ -286,8 +289,8 @@ export function ArticleGallery({ images, title }: Props) {
                   e.stopPropagation()
                   prev()
                 }}
-                className="absolute top-1/2 left-3 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 hover:bg-black/60"
-                aria-label="Ảnh trước"
+                className="absolute top-1/2 left-3 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 hover:bg-black/60 pointer-coarse:opacity-100"
+                aria-label={t("previous")}
               >
                 <ChevronLeft className="size-5" />
               </button>
@@ -296,8 +299,8 @@ export function ArticleGallery({ images, title }: Props) {
                   e.stopPropagation()
                   next()
                 }}
-                className="absolute top-1/2 right-3 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 hover:bg-black/60"
-                aria-label="Ảnh tiếp"
+                className="absolute top-1/2 right-3 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100 hover:bg-black/60 pointer-coarse:opacity-100"
+                aria-label={t("next")}
               >
                 <ChevronRight className="size-5" />
               </button>
@@ -308,7 +311,7 @@ export function ArticleGallery({ images, title }: Props) {
           <div className="absolute right-3 bottom-3 flex items-center gap-2">
             <div className="flex items-center gap-1 rounded-full bg-black/40 px-2.5 py-1 text-xs text-white opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
               <Maximize2 className="size-3" />
-              <span>Phóng to</span>
+              <span>{t("zoomIn")}</span>
             </div>
             {images.length > 1 && (
               <div className="rounded-full bg-black/50 px-2.5 py-1 text-xs font-medium text-white backdrop-blur-sm">
@@ -333,7 +336,7 @@ export function ArticleGallery({ images, title }: Props) {
               >
                 <Image
                   src={img}
-                  alt={`Thumbnail ${i + 1}`}
+                  alt={t("thumbnailAlt", { index: i + 1 })}
                   fill
                   className="object-cover"
                   sizes="80px"

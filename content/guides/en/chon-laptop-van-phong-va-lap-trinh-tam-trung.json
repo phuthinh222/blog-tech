@@ -1,0 +1,53 @@
+{
+  "slug": "chon-laptop-van-phong-va-lap-trinh-tam-trung",
+  "title": "Choosing a Mid-Range Laptop for Office Work and Programming: CPU, RAM, SSD and Display",
+  "excerpt": "A mid-range laptop is enough for office work and most programming if you pick the right configuration. This guide explains whether to prioritise RAM, SSD or CPU, and the details that are easy to overlook.",
+  "category": "laptop",
+  "publishedAt": "2026-10-12",
+  "sections": [
+    {
+      "title": "RAM: 16GB is the level to aim for",
+      "content": "For regular office work, 8GB still runs, but it fills up quickly with many browser tabs and chat apps open. For programming (IDE, browser, Docker, virtual machines), 16GB is the minimum you should have so the machine does not slow down when multitasking.\n\nCheck whether the RAM is upgradeable: many thin laptops have RAM soldered to the motherboard, so what you buy is what you get."
+    },
+    {
+      "title": "SSD: capacity and upgradeability",
+      "content": "An NVMe SSD makes the machine boot and open projects quickly. 512GB is a sensible size; if you work with many projects, virtual machines or large datasets, 1TB is more comfortable.\n\nSee whether the laptop has a free M.2 slot or a replaceable SSD, so you can upgrade later instead of buying a new machine."
+    },
+    {
+      "title": "CPU: U-series or H-series",
+      "content": "Low-power CPUs (Intel U-series, AMD U-series) give good battery life and keep the laptop cool and light — enough for office work, web development and typical backend work. High-performance CPUs (H/HX-series) suit compiling large projects, running many containers or editing video, at the cost of a heavier machine and shorter battery life.\n\nThe CPU generation often matters more than i5 versus i7: a newer i5 can be faster than an older i7."
+    },
+    {
+      "title": "Display and keyboard",
+      "content": "Choose an IPS display with at least Full HD resolution and around 300 nits or more if you often work near a window. A TN panel or a dim screen becomes uncomfortable over long sessions.\n\nA keyboard with good key travel and a backlight makes heavy typing less tiring. If you usually work in one place, you can add an external monitor and keyboard."
+    },
+    {
+      "title": "Ports, battery and weight",
+      "content": "Check that it has the ports you need: USB-A, USB-C (ideally with charging and video output), HDMI and a headphone jack. Missing ports mean buying a hub.\n\nIf you travel often, prioritise laptops under 1.6 kg with battery life that lasts a working day. Real-world battery life is usually lower than the manufacturer's figure."
+    },
+    {
+      "title": "Operating system and development environment",
+      "content": "Windows 11 has WSL for running a Linux environment, which is enough for most web and backend development. If you build iOS/macOS apps, you need a Mac.\n\nFor Windows laptops, check for an official warranty in Vietnam and long-term driver updates."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I program on a laptop with 8GB of RAM?",
+      "answer": "Yes for small projects, but it gets tight with an IDE, browser and Docker open at once. If you can, choose 16GB or a laptop with upgradeable RAM."
+    },
+    {
+      "question": "Do I need a dedicated graphics card for programming?",
+      "answer": "No, unless you work on machine learning, games or 3D graphics. Modern integrated graphics are enough for office work and typical programming."
+    },
+    {
+      "question": "Is a U-series Core i7 more powerful than an H-series Core i5?",
+      "answer": "Not necessarily. H-series chips have higher power limits, so they are usually faster under sustained heavy loads; U-series chips are more battery-efficient."
+    }
+  ],
+  "relatedPosts": ["dell-15-dc15250-i7-1355u-16gb-1tb"],
+  "seo": {
+    "metaTitle": "Choosing a mid-range laptop for office work and programming",
+    "metaDescription": "A guide to choosing a mid-range laptop for office work and programming: 16GB RAM, SSD, U-series or H-series CPU, IPS display, ports and battery.",
+    "keywords": ["laptop for programming", "office laptop", "16GB RAM laptop"]
+  }
+}

@@ -1,11 +1,14 @@
-export const SITE_NAME = "The Zero Tech"
+export const SITE_NAME = "Zero Technology"
 
-export const SITE_DESCRIPTION =
-  "Đánh giá trung thực về điện thoại, màn hình, laptop và phụ kiện công nghệ — giúp bạn chọn đúng sản phẩm, không lãng phí tiền bạc."
+export const SITE_URL = "https://www.zerotech-lab.site"
 
+export const CONTACT_EMAIL = "tetdecor85@gmail.com"
+
+// `key` là khoá trong namespace "Nav" của messages/*.json.
 export const NAV_LINKS = [
-  { href: "/", label: "Trang Chủ" },
-  { href: "/articles", label: "Đánh Giá" },
-  { href: "/categories", label: "Danh Mục" },
-  { href: "/about", label: "Về Chúng Tôi" },
-]
+  { href: "/", key: "home" },
+  { href: "/articles", key: "reviews" },
+  { href: "/guides", key: "guides" },
+  { href: "/categories", key: "categories" },
+  { href: "/about", key: "about" },
+] as const
