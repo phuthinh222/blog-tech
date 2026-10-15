@@ -3,14 +3,21 @@
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import { Star } from "lucide-react"
-import { BuyButton } from "@/components/blog/BuyButton"
+import { BuyButtons } from "@/components/blog/BuyButton"
 import { PriceTag } from "@/components/blog/PriceTag"
 import type { Post } from "@/types"
 
 type Props = {
   post: Pick<
     Post,
-    "title" | "coverImage" | "rating" | "affiliateUrl" | "price" | "currency" | "priceCheckedAt"
+    | "title"
+    | "coverImage"
+    | "rating"
+    | "shopeeUrl"
+    | "amazonUrl"
+    | "price"
+    | "currency"
+    | "priceCheckedAt"
   >
 }
 
@@ -74,7 +81,7 @@ export function StickyBuyBar({ post }: Props) {
             <PriceTag post={post} compact />
           </p>
         </div>
-        <BuyButton url={post.affiliateUrl} size="sm" />
+        <BuyButtons post={post} size="sm" className="shrink-0" />
       </div>
     </div>
   )

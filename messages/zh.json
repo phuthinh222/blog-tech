@@ -27,6 +27,8 @@
     "toDark": "切换到深色主题"
   },
   "Footer": {
+    "affiliateDisclosure": "本网站的部分链接是联盟链接（Shopee、Amazon）——当您购买时，我们可能获得佣金，您支付的价格不变。",
+    "amazonDisclosure": "作为亚马逊联盟成员，我们会从符合条件的购买中赚取佣金（As an Amazon Associate I earn from qualifying purchases）。",
     "explore": "探索",
     "categories": "分类",
     "company": "公司",
@@ -68,7 +70,8 @@
   "Rating": {
     "design": "设计",
     "performance": "性能",
-    "battery": "续航",
+    "battery": "续航与耐用性",
+    "durability": "耐用性与保修",
     "value": "性价比"
   },
   "Search": {
@@ -136,12 +139,14 @@
     "cons": "缺点",
     "saveArticle": "收藏本文",
     "affiliateNote": "当您通过此链接购买时，我们可能会获得佣金，您支付的价格不变。价格可能会变动。",
+    "amazonNote": "作为亚马逊联盟成员，我们会从符合条件的购买中赚取佣金（As an Amazon Associate I earn from qualifying purchases）。",
     "score": "评测得分",
     "breakdown": "评分详情",
     "related": "相关文章",
     "moreIn": "更多{category}评测",
     "viewAll": "查看全部",
     "buy": "购买产品",
+    "buyOn": "在 {store} 购买",
     "relatedGuides": "相关选购指南"
   },
   "ArticleCard": {

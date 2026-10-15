@@ -65,7 +65,7 @@ export default function Footer() {
               <h3 className="text-sm font-semibold tracking-wide">{t(column)}</h3>
               <ul className="flex flex-col gap-2">
                 {links.map((link) => (
-                  <li key={link.href}>
+                  <li key={"key" in link ? link.key : link.category}>
                     <Link
                       href={link.href}
                       className="text-muted-foreground hover:text-foreground text-sm transition-colors"
@@ -79,7 +79,13 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="border-border text-muted-foreground mt-10 flex flex-col items-center justify-between gap-3 border-t pt-6 text-xs sm:flex-row">
+        {/* Công bố affiliate — bắt buộc theo Amazon Associates / Shopee Affiliate */}
+        <div className="text-muted-foreground mt-10 flex flex-col gap-1 text-xs leading-relaxed">
+          <p>{t("affiliateDisclosure")}</p>
+          <p>{t("amazonDisclosure")}</p>
+        </div>
+
+        <div className="border-border text-muted-foreground mt-6 flex flex-col items-center justify-between gap-3 border-t pt-6 text-xs sm:flex-row">
           <p>
             © {currentYear} {SITE_NAME}
           </p>

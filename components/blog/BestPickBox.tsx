@@ -2,7 +2,7 @@ import Image from "next/image"
 import { ArrowRight, Award, Star } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
-import { BuyButton } from "@/components/blog/BuyButton"
+import { BuyButtons } from "@/components/blog/BuyButton"
 import { PriceTag } from "@/components/blog/PriceTag"
 import type { Post } from "@/types"
 
@@ -47,7 +47,7 @@ export function BestPickBox({ post }: { post: Post }) {
             <p className="text-muted-foreground line-clamp-2 text-sm">{post.verdict.summary}</p>
           )}
           <div className="mt-1 flex flex-wrap items-center gap-3">
-            {post.affiliateUrl && <BuyButton url={post.affiliateUrl} size="sm" />}
+            <BuyButtons post={post} size="sm" />
             <Link
               href={`/articles/${post.slug}`}
               className="text-primary flex items-center gap-1 text-sm font-medium hover:underline"

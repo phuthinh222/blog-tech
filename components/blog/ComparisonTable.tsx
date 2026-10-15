@@ -1,8 +1,9 @@
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
-import { BuyButton } from "@/components/blog/BuyButton"
+import { BuyButtons } from "@/components/blog/BuyButton"
 import { PriceTag } from "@/components/blog/PriceTag"
+import { batteryLabelKey } from "@/lib/categories"
 import type { Post } from "@/types"
 
 type Props = {
@@ -32,7 +33,7 @@ export function ComparisonTable({ current, others }: Props) {
             <th className="px-3 py-3 font-semibold">{t("overall")}</th>
             {CRITERIA.map((c) => (
               <th key={c} className="px-3 py-3 font-semibold">
-                {tRating(c)}
+                {tRating(c === "battery" ? batteryLabelKey(current.category) : c)}
               </th>
             ))}
             {showPrice && <th className="px-3 py-3 font-semibold">{t("price")}</th>}
@@ -98,7 +99,7 @@ export function ComparisonTable({ current, others }: Props) {
                   </td>
                 )}
                 <td className="px-4 py-3 text-right">
-                  {post.affiliateUrl && <BuyButton url={post.affiliateUrl} size="sm" />}
+                  <BuyButtons post={post} size="sm" className="flex-col" />
                 </td>
               </tr>
             )

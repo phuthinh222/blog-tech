@@ -27,6 +27,8 @@
     "toDark": "Switch to dark theme"
   },
   "Footer": {
+    "affiliateDisclosure": "Some links on this site are affiliate links (Shopee, Amazon) — we may earn a commission when you buy, at no extra cost to you.",
+    "amazonDisclosure": "As an Amazon Associate I earn from qualifying purchases.",
     "explore": "Explore",
     "categories": "Categories",
     "company": "Company",
@@ -68,7 +70,8 @@
   "Rating": {
     "design": "Design",
     "performance": "Performance",
-    "battery": "Battery",
+    "battery": "Battery & durability",
+    "durability": "Durability & warranty",
     "value": "Value"
   },
   "Search": {
@@ -136,12 +139,14 @@
     "cons": "Cons",
     "saveArticle": "Save this article",
     "affiliateNote": "We may earn a commission when you buy through this link, at no extra cost to you. Prices may change.",
+    "amazonNote": "As an Amazon Associate I earn from qualifying purchases.",
     "score": "Our Score",
     "breakdown": "Score Breakdown",
     "related": "Related Articles",
     "moreIn": "More in {category}",
     "viewAll": "View all",
     "buy": "Buy product",
+    "buyOn": "Buy on {store}",
     "relatedGuides": "Related Buying Guides"
   },
   "ArticleCard": {

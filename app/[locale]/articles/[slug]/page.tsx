@@ -19,7 +19,7 @@ import { Comments } from "@/components/blog/Comments"
 import { ReadingProgress } from "@/components/blog/ReadingProgress"
 import { ArticleToc, type TocItem } from "@/components/blog/ArticleToc"
 import { ArticleAiSummary } from "@/components/blog/ArticleAiSummary"
-import { BuyButton } from "@/components/blog/BuyButton"
+import { BuyButtons } from "@/components/blog/BuyButton"
 import { ComparisonTable } from "@/components/blog/ComparisonTable"
 import { PriceTag } from "@/components/blog/PriceTag"
 import { StickyBuyBar } from "@/components/blog/StickyBuyBar"
@@ -102,7 +102,7 @@ export default async function ArticlePage({ params }: Props) {
   const related = allPosts
     .filter((p) => p.category === post.category && p.slug !== post.slug)
     .slice(0, 3)
-  const breakdown = getRatingBreakdown(post.rating)
+  const breakdown = getRatingBreakdown(post.rating, post.category)
   const readingTime = estimateReadingTime(
     locale,
     post.excerpt,
@@ -150,7 +150,7 @@ export default async function ArticlePage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <ReadingProgress targetId="article-content" />
-      {post.affiliateUrl && <StickyBuyBar post={post} />}
+      <StickyBuyBar post={post} />
       {/* ── Hero ─────────────────────────────────────────────── */}
       <div className="relative flex min-h-105 w-full items-end overflow-hidden sm:min-h-135">
         {post.coverImage ? (
@@ -448,9 +448,6 @@ export default async function ArticlePage({ params }: Props) {
               accentColor={coverColor}
             />
 
-            {/* Table of contents */}
-            <ArticleToc items={tocItems} accentColor={coverColor} />
-
             {/* Bookmark */}
             <div className="border-border bg-card flex items-center justify-between rounded-2xl border px-5 py-4">
               <span className="text-sm font-medium">{t("saveArticle")}</span>
@@ -459,12 +456,12 @@ export default async function ArticlePage({ params }: Props) {
 
             {/* Mua sản phẩm — id để thanh mua dính đáy (mobile) biết khi nào nút này
                 đang hiện trên màn hình thì tự ẩn */}
-            {post.affiliateUrl && (
+            {(post.shopeeUrl || post.amazonUrl) && (
               <div id="buy-box" className="flex flex-col gap-2.5">
                 <PriceTag post={post} />
-                <BuyButton url={post.affiliateUrl} />
+                <BuyButtons post={post} className="flex-col" />
                 <p className="text-muted-foreground/80 px-2 text-center text-xs leading-relaxed">
-                  {t("affiliateNote")}
+                  {t("affiliateNote")} {t("amazonNote")}
                 </p>
               </div>
             )}
@@ -554,6 +551,10 @@ export default async function ArticlePage({ params }: Props) {
                 </div>
               </div>
             )}
+
+            {/* Table of contents — cuối sidebar: khi dính (sticky) không còn ô nào
+                bên dưới cuộn lên đè vào */}
+            <ArticleToc items={tocItems} accentColor={coverColor} />
           </aside>
         </div>
 

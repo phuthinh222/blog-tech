@@ -27,6 +27,8 @@
     "toDark": "Chuyển sang giao diện tối"
   },
   "Footer": {
+    "affiliateDisclosure": "Một số liên kết trên trang là liên kết affiliate (Shopee, Amazon) — chúng tôi có thể nhận hoa hồng khi bạn mua, giá bạn trả không đổi.",
+    "amazonDisclosure": "Là thành viên Amazon Associates, chúng tôi nhận hoa hồng từ các đơn hàng đủ điều kiện (As an Amazon Associate I earn from qualifying purchases).",
     "explore": "Khám Phá",
     "categories": "Danh Mục",
     "company": "Công Ty",
@@ -68,7 +70,8 @@
   "Rating": {
     "design": "Thiết kế",
     "performance": "Hiệu năng",
-    "battery": "Pin",
+    "battery": "Pin & độ bền",
+    "durability": "Độ bền & bảo hành",
     "value": "Giá trị"
   },
   "Search": {
@@ -136,12 +139,14 @@
     "cons": "Điểm Trừ",
     "saveArticle": "Lưu bài viết này",
     "affiliateNote": "Chúng tôi có thể nhận hoa hồng khi bạn mua qua link này, giá bạn trả không đổi. Giá có thể thay đổi.",
+    "amazonNote": "Là thành viên Amazon Associates, chúng tôi nhận hoa hồng từ các đơn hàng đủ điều kiện (As an Amazon Associate I earn from qualifying purchases).",
     "score": "Điểm Đánh Giá",
     "breakdown": "Chi Tiết Đánh Giá",
     "related": "Bài Liên Quan",
     "moreIn": "Thêm về {category}",
     "viewAll": "Xem tất cả",
     "buy": "Mua sản phẩm",
+    "buyOn": "Mua trên {store}",
     "relatedGuides": "Hướng Dẫn Chọn Mua Liên Quan"
   },
   "ArticleCard": {
