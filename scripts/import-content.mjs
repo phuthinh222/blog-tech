@@ -7,7 +7,7 @@
 //   node --env-file=.env.local scripts/import-content.mjs --commit   # ghi thật
 //
 // Yêu cầu Node >= 20.6 (hỗ trợ --env-file). Nếu Node cũ hơn, tự export
-// NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY trước khi chạy.
+// NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SECRET_KEY trước khi chạy.
 //
 // Script idempotent: chạy lại nhiều lần sẽ upsert (không tạo trùng), dựa trên
 // unique constraint của từng bảng (products.slug, product_translations
@@ -124,11 +124,11 @@ function planProduct(post) {
 
 async function main() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY
+  const serviceKey = process.env.SUPABASE_SECRET_KEY
 
   if (!url || !serviceKey) {
     console.error(
-      "Thiếu NEXT_PUBLIC_SUPABASE_URL hoặc SUPABASE_SERVICE_ROLE_KEY.\n" +
+      "Thiếu NEXT_PUBLIC_SUPABASE_URL hoặc SUPABASE_SECRET_KEY.\n" +
         "Chạy lại với: node --env-file=.env.local scripts/import-content.mjs"
     )
     process.exit(1)

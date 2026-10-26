@@ -2,7 +2,7 @@ import { cache } from "react"
 import { getTranslations } from "next-intl/server"
 import { supabasePublic } from "@/lib/supabase"
 import { CATEGORY_CONFIG } from "@/lib/categories"
-import { AMAZON_DEFAULT_URL, SITE_NAME } from "@/lib/constants"
+import { SITE_NAME } from "@/lib/constants"
 import { routing, type Locale } from "@/i18n/routing"
 import type { Post, Category, Offer } from "@/types"
 
@@ -107,8 +107,12 @@ function mapRowToPost(row: ProductRow, locale: Locale): Post | null {
     sourceProductId: o.source_product_id,
   }))
   const bestOffer = pickBestOffer(offersWithSource)
+  // Khớp theo merchant trước — link affiliate rút gọn (VD shorten.asia của
+  // AccessTrade) không chứa tên sàn trong URL.
   const offerUrlFor = (pattern: RegExp) =>
-    pickBestOffer(offersWithSource.filter((o) => pattern.test(o.affiliateUrl)))?.affiliateUrl
+    pickBestOffer(
+      offersWithSource.filter((o) => pattern.test(o.merchant ?? "") || pattern.test(o.affiliateUrl))
+    )?.affiliateUrl
 
   return {
     slug: row.slug,
@@ -124,7 +128,7 @@ function mapRowToPost(row: ProductRow, locale: Locale): Post | null {
     itemId: bestOffer?.sourceProductId ?? "",
     affiliateUrl: bestOffer?.affiliateUrl ?? "",
     shopeeUrl: offerUrlFor(/shopee/i) ?? "",
-    amazonUrl: offerUrlFor(/amazon|amzn/i) ?? AMAZON_DEFAULT_URL,
+    amazonUrl: offerUrlFor(/amazon|amzn/i) ?? "",
     price: bestOffer?.price ?? null,
     currency: bestOffer?.price != null ? bestOffer.currency : null,
     priceCheckedAt: bestOffer?.price != null ? bestOffer.lastCheckedAt : null,

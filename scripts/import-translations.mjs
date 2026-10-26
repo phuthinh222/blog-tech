@@ -74,9 +74,9 @@ async function main() {
   }
 
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY
+  const serviceKey = process.env.SUPABASE_SECRET_KEY
   if (!url || !serviceKey) {
-    console.log("\nThiếu NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY — chỉ kiểm tra file.")
+    console.log("\nThiếu NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SECRET_KEY — chỉ kiểm tra file.")
     return
   }
 

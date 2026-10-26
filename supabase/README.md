@@ -7,7 +7,7 @@ Migration thủ công (chưa cài Supabase CLI trong repo này). Áp dụng theo
 Mở Supabase Dashboard → SQL Editor → chạy lần lượt (theo đúng thứ tự số):
 
 1. `migrations/0001_init_schema.sql` — tạo toàn bộ bảng theo README.md mục 5, kèm vài cột mở rộng cần thiết (đọc comment trong file để biết lý do).
-2. `migrations/0002_rls_policies.sql` — bật RLS, cho phép đọc công khai (anon key) với nội dung đã `PUBLISHED`, chặn hết các bảng nội bộ (`social_posts`, `affiliate_clicks`, `ai_usage`).
+2. `migrations/0002_rls_policies.sql` — bật RLS, cho phép đọc công khai (publishable key) với nội dung đã `PUBLISHED`, chặn hết các bảng nội bộ (`social_posts`, `affiliate_clicks`, `ai_usage`).
 
 Nếu sau này cài Supabase CLI (`supabase init` + link project), 2 file trên đã đúng format để dùng `supabase db push` trực tiếp — không cần đổi gì.
 
@@ -33,7 +33,7 @@ Script tự tạo `categories` (theo `lib/categories.ts`) và `product_sources` 
 
 ## 3. Env cần có trong `.env.local`
 
-Đã có sẵn trong repo (`NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`) — script dùng service-role key để bypass RLS khi ghi. Không commit giá trị thật của các key này lên git.
+Đã có sẵn trong repo (`NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SECRET_KEY`) — script dùng secret key để bypass RLS khi ghi. Không commit giá trị thật của các key này lên git.
 
 ## 4. Đa ngôn ngữ (vi / en / zh)
 

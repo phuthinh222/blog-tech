@@ -33,8 +33,7 @@ export type Post = {
   images?: string[]
   itemId: string
   affiliateUrl: string
-  // Link mua theo từng sàn ("" = sàn đó chưa có offer). amazonUrl luôn có giá
-  // trị — rơi về AMAZON_DEFAULT_URL khi chưa có offer Amazon.
+  // Link mua theo từng sàn ("" = sàn đó chưa có offer → không hiện nút).
   shopeeUrl: string
   amazonUrl: string
   // Giá của best offer (null = chưa có giá thật — UI ẩn phần giá).

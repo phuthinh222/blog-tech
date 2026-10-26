@@ -1,0 +1,83 @@
+{
+  "title": "VXE R1 SE / R1 SE+ Review: Is This Ultralight Wireless Gaming Mouse Under 600K VND Worth It?",
+  "summary": "The VXE R1 SE and R1 SE+ are the budget wireless mice everyone is talking about: a PAW3395 SE sensor, only about 51–55g, and tri-mode connectivity. Which version should you pick, and are they worth the money?",
+  "description": "## Who is it for?\n\n- FPS players (Valorant, CS2, PUBG) who need a light mouse with precise aim.\n- Students who want a good wireless mouse on a budget of a few hundred thousand VND.\n- Laptop users who need a compact Bluetooth mouse to carry around.\n- People with small to medium hands who prefer claw or fingertip grip.\n\n## Why buy it?\n\n- A PAW3395 SE sensor for a few hundred thousand VND.\n- Weighs only about 51–55g.\n- Flexible tri-mode connectivity.\n- The SE+ has a roughly 500mAh battery.\n- Price-to-performance that is hard to beat.",
+  "specs": [
+    { "label": "Sensor", "value": "PixArt PAW3395 SE" },
+    { "label": "DPI", "value": "Up to 18,000 DPI, adjustable in software" },
+    { "label": "Speed / acceleration", "value": "400 IPS / 40G" },
+    { "label": "Polling rate", "value": "Up to 1000Hz (2000Hz with a separately sold 2K receiver)" },
+    { "label": "Connection", "value": "Tri-mode: wired USB-C, 2.4GHz, Bluetooth" },
+    { "label": "Switches", "value": "Huano (SE+: Huano Blue Glow V2)" },
+    { "label": "Design", "value": "Symmetrical, about 120.6 × 64 × 37.8 mm" },
+    { "label": "Weight", "value": "About 51g (SE) / 55g (SE+)" },
+    { "label": "Battery", "value": "SE: about 250mAh / SE+: about 500mAh" }
+  ],
+  "sections": [
+    {
+      "title": "Overview: why is the VXE R1 SE so popular?",
+      "content": "VXE (part of the ATK/VGN family) is a familiar name for gamers who like light, affordable mice. The R1 line has several versions (SE, SE+, Pro, Pro Max…), and the R1 SE and R1 SE+ are the most accessible, usually around 350–600 thousand VND depending on version and timing. For that, you get a PAW3395 SE sensor, a weight of only about 51–55g and tri-mode connectivity — features once reserved for mice costing a million VND or more."
+    },
+    {
+      "title": "What's the difference between the R1 SE and R1 SE+?",
+      "content": "Both share the same symmetrical shell and PAW3395 SE sensor. The main differences are the battery and switches: the SE uses a battery of about 250mAh and is lighter (about 51g), while the SE+ steps up to about 500mAh, weighing slightly more (about 55g) but lasting nearly twice as long. The SE+ also uses Huano Blue Glow V2 switches. If you hate charging, pick the SE+; if you want the lightest and cheapest option, the SE is enough. Make sure to select the right variant on the listing before ordering."
+    },
+    {
+      "title": "Design and grip",
+      "content": "The R1 SE has a symmetrical design measuring about 120.6 × 64 × 37.8 mm, putting it in the small-to-medium group. Claw and fingertip grips are the most comfortable; medium-handed palm grippers can still use it, but large hands may find it lacking. At about 51–55g it flicks quickly, stops precisely and reduces wrist fatigue during long sessions."
+    },
+    {
+      "title": "Sensor and gaming performance",
+      "content": "The PAW3395 SE is a variant of the PAW3395 — one of the most common sensors on mid-range and high-end gaming mice. With up to 18,000 DPI, 400 IPS and 40G acceleration, it easily handles FPS games like Valorant, CS2 or PUBG, where accuracy and stable tracking matter most. DPI and polling rate can be adjusted in software. By default it runs up to 1000Hz; for 2000Hz you need to buy a 2K receiver separately."
+    },
+    {
+      "title": "Tri-mode connectivity and battery",
+      "content": "The mouse supports 2.4GHz via a receiver (recommended for gaming thanks to its low latency), Bluetooth (handy for laptops and tablets, and it doesn't use a USB port) and wired USB-C. Battery life depends on the version and polling rate: the SE+ with its roughly 500mAh battery can go several days of gaming between charges, while the SE's smaller battery needs charging more often, especially at high polling rates."
+    },
+    {
+      "title": "Should you buy the VXE R1 SE / R1 SE+?",
+      "content": "If you need a light wireless mouse with a good sensor for FPS games on a budget of a few hundred thousand VND, the VXE R1 SE/SE+ is hard to pass up. The SE+ is more balanced thanks to its larger battery; the SE suits those who want the lightest and cheapest option. It has no RGB and isn't for very large hands, but in terms of performance per price it has very few rivals."
+    }
+  ],
+  "pros": [
+    "Accurate, stable PAW3395 SE sensor — on par with mice costing many times more.",
+    "Very light (about 51–55g) for fast flicks and less fatigue in long sessions.",
+    "Tri-mode connectivity: 2.4GHz for gaming, Bluetooth for laptops/office, USB-C when charging.",
+    "Easy-to-learn symmetrical design that suits both claw and fingertip grips.",
+    "The SE+ has a battery of about 500mAh, double the SE, so you charge less often.",
+    "Extremely competitive price for the specs."
+  ],
+  "cons": [
+    "The SE's small battery needs frequent charging if you game a lot at high polling rates.",
+    "2000Hz requires buying a separate 2K receiver.",
+    "No RGB — a letdown if you like glowing mice.",
+    "Chinese brand; warranty and build quality can vary by seller.",
+    "Small-to-medium size; large-handed palm grippers may find it too small."
+  ],
+  "buying_advice": "Highly recommended for budget gamers; go for the SE+ if you don't want to charge often.",
+  "faq": [
+    {
+      "question": "Should I buy the VXE R1 SE or R1 SE+?",
+      "answer": "Choose the SE+ if you want longer battery life (about 500mAh, double the SE). Choose the SE if you want the lightest and cheapest option and don't mind charging more often."
+    },
+    {
+      "question": "Is the VXE R1 SE good for Valorant and CS2?",
+      "answer": "Yes. The PAW3395 SE sensor and light weight suit FPS games that need precise aim. Use 2.4GHz mode while gaming for the lowest latency."
+    },
+    {
+      "question": "Does the VXE R1 SE work with a MacBook?",
+      "answer": "Yes. It connects via Bluetooth or the 2.4GHz receiver (which needs a USB-A port or a USB-C adapter) and works on Windows and macOS."
+    },
+    {
+      "question": "Does it support 2000Hz?",
+      "answer": "It can reach 2000Hz, but you need to buy a separately sold 2K receiver. The included receiver supports up to 1000Hz."
+    },
+    {
+      "question": "Does the VXE R1 SE have RGB lighting?",
+      "answer": "No. It has no RGB, which keeps the weight down and saves battery."
+    }
+  ],
+  "seo_title": "VXE R1 SE / R1 SE+ Review - Affordable Ultralight Wireless Gaming Mouse",
+  "seo_description": "VXE R1 SE and R1 SE+ review: PAW3395 SE sensor, about 51–55g, tri-mode connectivity (2.4GHz, Bluetooth, USB-C). SE vs SE+ — which one should you buy?",
+  "verdict_summary": "An ultralight wireless mouse with a PAW3395 SE sensor and tri-mode connectivity for a few hundred thousand VND — one of the best deals for FPS gamers."
+}

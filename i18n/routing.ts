@@ -2,10 +2,14 @@ import { defineRouting } from "next-intl/routing"
 
 // vi là ngôn ngữ mặc định và giữ nguyên URL cũ (không tiền tố) để không mất
 // link/SEO đã có; en và zh có tiền tố /en, /zh.
+// localeDetection: false — không tự chuyển theo ngôn ngữ trình duyệt hay cookie
+// NEXT_LOCALE; vào URL không tiền tố luôn là tiếng Việt, chỉ đổi khi người
+// dùng tự chọn ở LocaleSwitcher.
 export const routing = defineRouting({
   locales: ["vi", "en", "zh"],
   defaultLocale: "vi",
   localePrefix: "as-needed",
+  localeDetection: false,
 })
 
 export type Locale = (typeof routing.locales)[number]
