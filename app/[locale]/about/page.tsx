@@ -1,21 +1,10 @@
-import {
-  Smartphone,
-  Monitor,
-  Laptop,
-  Headphones,
-  Target,
-  Zap,
-  BookOpen,
-  Users,
-  ArrowRight,
-  Mail,
-} from "lucide-react"
+import { Target, Zap, BookOpen, Users, ArrowRight, Mail } from "lucide-react"
 import type { Metadata } from "next"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { Button } from "@/components/ui/button"
 import { Link } from "@/i18n/navigation"
 import { toLocale } from "@/i18n/routing"
-import { getCategoryColor } from "@/lib/categories"
+import { CATEGORY_CONFIG, getCategoryColor } from "@/lib/categories"
 import { CONTACT_EMAIL, SITE_NAME } from "@/lib/constants"
 import { getPosts } from "@/lib/content"
 import { localeAlternates } from "@/lib/seo"
@@ -31,12 +20,10 @@ const VALUES = [
 
 const SCORING = ["design", "performance", "battery", "value"] as const
 
-const TOPICS = [
-  { icon: Smartphone, category: "phone" },
-  { icon: Monitor, category: "monitor" },
-  { icon: Laptop, category: "laptop" },
-  { icon: Headphones, category: "accessory" },
-] as const
+const TOPICS = Object.entries(CATEGORY_CONFIG).map(([category, { Icon }]) => ({
+  icon: Icon,
+  category,
+}))
 
 type Props = { params: Promise<{ locale: string }> }
 

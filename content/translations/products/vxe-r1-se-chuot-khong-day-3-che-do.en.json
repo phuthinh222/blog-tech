@@ -1,12 +1,15 @@
 {
-  "title": "VXE R1 SE / R1 SE+ Review: Is This Ultralight Wireless Gaming Mouse Under 600K VND Worth It?",
+  "title": "VXE R1 SE: An Ultralight Wireless Gaming Mouse for FPS Games",
   "summary": "The VXE R1 SE and R1 SE+ are the budget wireless mice everyone is talking about: a PAW3395 SE sensor, only about 51–55g, and tri-mode connectivity. Which version should you pick, and are they worth the money?",
   "description": "## Who is it for?\n\n- FPS players (Valorant, CS2, PUBG) who need a light mouse with precise aim.\n- Students who want a good wireless mouse on a budget of a few hundred thousand VND.\n- Laptop users who need a compact Bluetooth mouse to carry around.\n- People with small to medium hands who prefer claw or fingertip grip.\n\n## Why buy it?\n\n- A PAW3395 SE sensor for a few hundred thousand VND.\n- Weighs only about 51–55g.\n- Flexible tri-mode connectivity.\n- The SE+ has a roughly 500mAh battery.\n- Price-to-performance that is hard to beat.",
   "specs": [
     { "label": "Sensor", "value": "PixArt PAW3395 SE" },
     { "label": "DPI", "value": "Up to 18,000 DPI, adjustable in software" },
     { "label": "Speed / acceleration", "value": "400 IPS / 40G" },
-    { "label": "Polling rate", "value": "Up to 1000Hz (2000Hz with a separately sold 2K receiver)" },
+    {
+      "label": "Polling rate",
+      "value": "Up to 1000Hz (2000Hz with a separately sold 2K receiver)"
+    },
     { "label": "Connection", "value": "Tri-mode: wired USB-C, 2.4GHz, Bluetooth" },
     { "label": "Switches", "value": "Huano (SE+: Huano Blue Glow V2)" },
     { "label": "Design", "value": "Symmetrical, about 120.6 × 64 × 37.8 mm" },
@@ -77,7 +80,7 @@
       "answer": "No. It has no RGB, which keeps the weight down and saves battery."
     }
   ],
-  "seo_title": "VXE R1 SE / R1 SE+ Review - Affordable Ultralight Wireless Gaming Mouse",
+  "seo_title": "VXE R1 SE / SE+ Wireless Gaming Mouse Review: Worth It?",
   "seo_description": "VXE R1 SE and R1 SE+ review: PAW3395 SE sensor, about 51–55g, tri-mode connectivity (2.4GHz, Bluetooth, USB-C). SE vs SE+ — which one should you buy?",
   "verdict_summary": "An ultralight wireless mouse with a PAW3395 SE sensor and tri-mode connectivity for a few hundred thousand VND — one of the best deals for FPS gamers."
 }

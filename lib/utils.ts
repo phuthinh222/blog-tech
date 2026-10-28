@@ -14,8 +14,6 @@ export function formatDate(dateStr: string, locale: Locale): string {
   })
 }
 
-// ~200 từ/phút cho tiếng Việt/Anh. Tiếng Trung không tách từ bằng dấu cách
-// nên đếm theo ký tự Hán, ~400 chữ/phút.
 export function estimateReadingTime(locale: Locale, ...texts: string[]): number {
   const text = texts.join(" ").trim()
   if (locale === "zh") {

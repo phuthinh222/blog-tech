@@ -11,6 +11,26 @@ const nextConfig: NextConfig = {
     return [
       { source: "/articles", destination: "/categories", permanent: true },
       { source: "/:locale(en|zh)/articles", destination: "/:locale/categories", permanent: true },
+      // Danh mục cũ (10/2026 đổi sang 4 danh mục mới) → danh mục mới gần nhất.
+      ...Object.entries({
+        phone: "",
+        monitor: "pc-laptop",
+        laptop: "pc-laptop",
+        accessory: "desk-setup",
+        audio: "audio-video",
+      }).flatMap(([from, to]) => [
+        // to rỗng = danh mục bị bỏ hẳn → về trang tất cả danh mục.
+        {
+          source: `/categories/${from}`,
+          destination: to ? `/categories/${to}` : "/categories",
+          permanent: true,
+        },
+        {
+          source: `/:locale(en|zh)/categories/${from}`,
+          destination: to ? `/:locale/categories/${to}` : "/:locale/categories",
+          permanent: true,
+        },
+      ]),
     ]
   },
   experimental: {

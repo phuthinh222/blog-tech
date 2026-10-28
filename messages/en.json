@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Zero Technology — Honest Tech Product Reviews",
-    "description": "Honest reviews of phones, monitors, laptops and tech accessories — helping you pick the right product without wasting money."
+    "description": "Honest reviews of workspace gear, gaming gear, PCs, laptops and audio devices — helping you pick the right product without wasting money."
   },
   "Nav": {
     "home": "Home",
@@ -27,8 +27,6 @@
     "toDark": "Switch to dark theme"
   },
   "Footer": {
-    "affiliateDisclosure": "Some links on this site are affiliate links (Shopee, Amazon) — we may earn a commission when you buy, at no extra cost to you.",
-    "amazonDisclosure": "As an Amazon Associate I earn from qualifying purchases.",
     "explore": "Explore",
     "categories": "Categories",
     "company": "Company",
@@ -46,25 +44,21 @@
     "updatedAt": "Last updated: {date}"
   },
   "Categories": {
-    "phone": {
-      "name": "Phones",
-      "desc": "In-depth reviews of the latest flagship and mid-range phones from Apple, Samsung, Google and other leading brands — camera, performance, battery and real-world experience."
+    "desk-setup": {
+      "name": "Workspace",
+      "desc": "Monitor arms, monitor lights, ergonomic desks and chairs, laptop stands and desk decor — build a tidy, comfortable workspace."
     },
-    "monitor": {
-      "name": "Monitors",
-      "desc": "Reviews of 4K, OLED, gaming and design monitors — resolution, color, refresh rate and the real value you get."
+    "gaming-gear": {
+      "name": "Gaming Gear",
+      "desc": "Gaming keyboards, mice, headsets, controllers, mousepads and console accessories — pick the right gear for how you play."
     },
-    "laptop": {
-      "name": "Laptops",
-      "desc": "Analysis of office laptops, ultrabooks and gaming laptops — chip performance, battery life, design and the best value for money."
+    "pc-laptop": {
+      "name": "PC & Laptop",
+      "desc": "Laptops, PCs, monitors, CPUs, GPUs, RAM, SSDs, cooling and PC components — real-world performance and value."
     },
-    "accessory": {
-      "name": "Accessories",
-      "desc": "Headphones, mice, keyboards, fast chargers and every other tech accessory — are they worth your money?"
-    },
-    "audio": {
+    "audio-video": {
       "name": "Audio",
-      "desc": "Reviews of Bluetooth speakers, true wireless earbuds and portable audio gear — real-world sound quality, battery and durability."
+      "desc": "Bluetooth earbuds, PC speakers, studio monitors and microphones — pick the right audio gear for your needs and budget."
     }
   },
   "Rating": {
@@ -93,7 +87,7 @@
   },
   "CategoriesPage": {
     "title": "Categories",
-    "intro": "Find reviews by the type of product you care about — phones, monitors, laptops or tech accessories."
+    "intro": "Find reviews by the product group you care about — workspace, gaming gear, PC & laptop or audio."
   },
   "Common": {
     "viewAll": "View all",
@@ -213,7 +207,7 @@
   "AboutPage": {
     "metaTitle": "About Us",
     "heroTitle": "We are <highlight>{site}</highlight>",
-    "intro": "A tech review site on a mission to honestly review phones, monitors, laptops and accessories — helping you pick the right product without wasting money.",
+    "intro": "A tech review site on a mission to honestly review workspace gear, gaming gear, PCs, laptops and audio devices — helping you pick the right product without wasting money.",
     "stats": {
       "reviews": "Reviews",
       "criteria": "Scoring criteria",

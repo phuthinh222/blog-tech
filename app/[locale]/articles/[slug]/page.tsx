@@ -10,7 +10,7 @@ import { getPostBySlug, getPosts } from "@/lib/content"
 import { getGuides } from "@/lib/guides"
 import { getCategoryIcon, getCategoryColor, getRatingBreakdown } from "@/lib/categories"
 import { formatDate, estimateReadingTime } from "@/lib/utils"
-import { SITE_NAME } from "@/lib/constants"
+import { SITE_NAME, SITE_URL } from "@/lib/constants"
 import { localeAlternates, OG_LOCALES } from "@/lib/seo"
 import ArticleCard from "@/components/blog/ArticleCard"
 import { ArticleGallery } from "@/components/blog/ArticleGallery"
@@ -38,12 +38,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await getPostBySlug(slug, locale)
   if (!post) return {}
   const description = post.seo?.metaDescription || post.excerpt
+  // Tiêu đề trên Google: ưu tiên metaTitle (viết riêng cho từ khoá, ~60 ký tự,
+  // không thêm tên site để khỏi bị cắt); bài chưa có metaTitle thì dùng tiêu đề bài.
+  const seoTitle = post.seo?.metaTitle || `${post.title} — ${SITE_NAME}`
   return {
-    title: `${post.title} — ${SITE_NAME}`,
+    title: seoTitle,
     description,
     alternates: localeAlternates(`/articles/${post.slug}`, locale),
     openGraph: {
-      title: post.title,
+      title: seoTitle,
       description,
       type: "article",
       locale: OG_LOCALES[locale],
@@ -51,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
+      title: seoTitle,
       description,
       images: post.coverImage ? [post.coverImage] : [],
     },
@@ -136,7 +139,8 @@ export default async function ArticlePage({ params }: Props) {
     itemReviewed: {
       "@type": "Product",
       name: post.title,
-      ...(post.coverImage && { image: post.coverImage }),
+      // Ảnh lưu trong public/ là đường dẫn tương đối — JSON-LD cần URL tuyệt đối.
+      ...(post.coverImage && { image: new URL(post.coverImage, SITE_URL).href }),
     },
     datePublished: post.publishedAt,
     inLanguage: LOCALE_TAGS[locale],

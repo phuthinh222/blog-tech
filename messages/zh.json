@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Zero Technology — 科技产品真实评测",
-    "description": "真实评测手机、显示器、笔记本电脑和科技配件——帮您选对产品，不浪费每一分钱。"
+    "description": "真实评测工作区装备、游戏外设、电脑、笔记本和音频设备——帮您选对产品，不浪费每一分钱。"
   },
   "Nav": {
     "home": "首页",
@@ -27,8 +27,6 @@
     "toDark": "切换到深色主题"
   },
   "Footer": {
-    "affiliateDisclosure": "本网站的部分链接是联盟链接（Shopee、Amazon）——当您购买时，我们可能获得佣金，您支付的价格不变。",
-    "amazonDisclosure": "作为亚马逊联盟成员，我们会从符合条件的购买中赚取佣金（As an Amazon Associate I earn from qualifying purchases）。",
     "explore": "探索",
     "categories": "分类",
     "company": "公司",
@@ -46,25 +44,21 @@
     "updatedAt": "最后更新：{date}"
   },
   "Categories": {
-    "phone": {
-      "name": "手机",
-      "desc": "深入评测 Apple、Samsung、Google 等主流品牌最新的旗舰机和中端机——相机、性能、续航和真实使用体验。"
+    "desk-setup": {
+      "name": "工作区",
+      "desc": "显示器支架、屏幕挂灯、人体工学桌椅、笔记本支架和桌面装饰——打造整洁舒适的工作区。"
     },
-    "monitor": {
-      "name": "显示器",
-      "desc": "评测 4K、OLED、电竞显示器和设计显示器——分辨率、色彩、刷新率以及您真正得到的价值。"
+    "gaming-gear": {
+      "name": "游戏外设",
+      "desc": "游戏键盘、鼠标、耳机、手柄、鼠标垫和主机配件——为你的玩法选对装备。"
     },
-    "laptop": {
-      "name": "笔记本电脑",
-      "desc": "分析办公本、轻薄本和游戏本——芯片性能、续航时间、设计以及最值得的价格。"
+    "pc-laptop": {
+      "name": "电脑与笔记本",
+      "desc": "笔记本、台式机、显示器、CPU、GPU、内存、SSD、散热和电脑配件——真实性能与性价比。"
     },
-    "accessory": {
-      "name": "配件",
-      "desc": "耳机、鼠标、键盘、快充以及各类科技配件——它们值得您花这笔钱吗？"
-    },
-    "audio": {
+    "audio-video": {
       "name": "音频",
-      "desc": "评测蓝牙音箱、真无线耳机和便携音频设备——真实音质、续航和耐用性。"
+      "desc": "蓝牙耳机、电脑音箱、监听音箱和麦克风——按需求和预算选对音频设备。"
     }
   },
   "Rating": {
@@ -93,7 +87,7 @@
   },
   "CategoriesPage": {
     "title": "分类",
-    "intro": "按您关心的产品类型查找评测——手机、显示器、笔记本电脑或科技配件。"
+    "intro": "按您关心的产品类别查找评测——工作区、游戏外设、电脑与笔记本或音频。"
   },
   "Common": {
     "viewAll": "查看全部",
@@ -213,7 +207,7 @@
   "AboutPage": {
     "metaTitle": "关于我们",
     "heroTitle": "我们是 <highlight>{site}</highlight>",
-    "intro": "一家科技评测网站，致力于真实评测手机、显示器、笔记本电脑和配件——帮您选对产品，不浪费每一分钱。",
+    "intro": "一家科技评测网站，致力于真实评测工作区装备、游戏外设、电脑、笔记本和音频设备——帮您选对产品，不浪费每一分钱。",
     "stats": {
       "reviews": "篇评测",
       "criteria": "项评分标准",

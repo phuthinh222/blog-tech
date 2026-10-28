@@ -1,12 +1,15 @@
 {
-  "title": "AULA F75 Pro Review: The Best Tri-Mode Gasket Keyboard Under 2 Million VND?",
+  "title": "AULA F75 Pro: What's Good About This Tri-Mode Gasket-Mount Keyboard?",
   "summary": "The AULA F75 Pro packs features rarely seen under 2 million VND: a gasket mount, multi-layer sound dampening, tri-mode connectivity, 5-pin hot-swap and a volume knob. Is it really worth it for both gaming and office work?",
   "description": "## Who is it for?\n\n- Gamers who want a compact, low-latency keyboard for Valorant, CS2 or League of Legends.\n- Office workers who want a quiet, soft-sounding mechanical keyboard.\n- People who switch between PC, laptop and tablet using the three connection modes.\n- Newcomers who want a custom-keyboard experience on a budget under 2 million VND.\n- Tinkerers who like swapping switches thanks to hot-swap.\n\n## Why buy it?\n\n- Gasket mount and multi-layer dampening: a custom feel at a mainstream price.\n- Flexible tri-mode connectivity for both gaming and work.\n- 5-pin hot-swap makes future upgrades easy.\n- Durable PBT double-shot keycaps.\n- Handy volume knob.\n- Large 4000mAh battery.",
   "specs": [
     { "label": "Layout", "value": "75% — 80 keys + knob" },
     { "label": "Connection", "value": "Tri-mode: wired USB-C, 2.4GHz (receiver), Bluetooth" },
     { "label": "Structure", "value": "Gasket mount, multi-layer dampening (foam, IXPE, silicone)" },
-    { "label": "Switches", "value": "Pre-lubed (Reaper / Star Vector / Seiya depending on version)" },
+    {
+      "label": "Switches",
+      "value": "Pre-lubed (Reaper / Star Vector / Seiya depending on version)"
+    },
     { "label": "Hot-swap", "value": "Yes, supports 3-pin and 5-pin switches" },
     { "label": "Keycaps", "value": "PBT double-shot" },
     { "label": "Lighting", "value": "RGB, 16.8 million colors, multiple effects" },
@@ -83,7 +86,7 @@
       "answer": "Both share the 75% layout, gasket mount and tri-mode connectivity. The Pro adds a knob and some different switch/color options; check the exact version name on the listing before ordering."
     }
   ],
-  "seo_title": "AULA F75 Pro Review - Affordable Tri-Mode Gasket Mechanical Keyboard",
+  "seo_title": "AULA F75 Pro Mechanical Keyboard Review: Tri-Mode Gasket Value",
   "seo_description": "AULA F75 Pro review: 75% layout, gasket mount, tri-mode connectivity (USB-C, 2.4GHz, Bluetooth), 5-pin hot-swap, 4000mAh battery and a volume knob.",
   "verdict_summary": "A 75% mechanical keyboard with a gasket mount, tri-mode connectivity, hot-swap and a knob for under 2 million VND — one of the best-value picks in its segment."
 }

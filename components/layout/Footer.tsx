@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
+import { CATEGORY_CONFIG } from "@/lib/categories"
 import { SITE_NAME } from "@/lib/constants"
 
 // Nhãn là khoá trong namespace "Footer"; riêng cột danh mục lấy tên từ
@@ -17,7 +18,7 @@ const footerLinks = [
   },
   {
     key: "categories",
-    links: ["phone", "monitor", "laptop", "accessory"].map((slug) => ({
+    links: Object.keys(CATEGORY_CONFIG).map((slug) => ({
       href: `/categories/${slug}`,
       category: slug,
     })),
@@ -79,13 +80,7 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Công bố affiliate — bắt buộc theo Amazon Associates / Shopee Affiliate */}
-        <div className="text-muted-foreground mt-10 flex flex-col gap-1 text-xs leading-relaxed">
-          <p>{t("affiliateDisclosure")}</p>
-          <p>{t("amazonDisclosure")}</p>
-        </div>
-
-        <div className="border-border text-muted-foreground mt-6 flex flex-col items-center justify-between gap-3 border-t pt-6 text-xs sm:flex-row">
+        <div className="border-border text-muted-foreground mt-10 flex flex-col items-center justify-between gap-3 border-t pt-6 text-xs sm:flex-row">
           <p>
             © {currentYear} {SITE_NAME}
           </p>

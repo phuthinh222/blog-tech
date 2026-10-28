@@ -27,11 +27,10 @@ const COMMIT = process.argv.includes("--commit")
 // và slug trong lib/categories.ts. Import script này chạy bằng Node thuần
 // (không qua bundler Next) — giữ đồng bộ thủ công nếu danh mục đổi.
 const CATEGORY_NAMES = {
-  phone: "Điện Thoại",
-  monitor: "Màn Hình",
-  laptop: "Laptop",
-  accessory: "Phụ Kiện",
-  audio: "Âm Thanh",
+  "desk-setup": "Góc Làm Việc",
+  "gaming-gear": "Gaming Gear",
+  "pc-laptop": "PC & Laptop",
+  "audio-video": "Âm Thanh",
 }
 
 function loadPosts() {

@@ -9,11 +9,6 @@ function requireEnv(name: string, value: string | undefined): string {
   return value
 }
 
-// secret key (sb_secret_...) — bypass RLS. Chỉ dùng cho thao tác nội bộ cần ghi/đọc mọi
-// dòng (hiện tại: comments). KHÔNG dùng client này để đọc nội dung public.
-// Tạo lười (lần gọi đầu tiên lúc chạy request) thay vì lúc import module: bước
-// "collect page data" khi build có import route /api/comments, nếu tạo client
-// ngay thì thiếu key là hỏng cả build.
 let adminClient: SupabaseClient | null = null
 export function getSupabaseAdmin(): SupabaseClient {
   adminClient ??= createClient(
@@ -23,14 +18,12 @@ export function getSupabaseAdmin(): SupabaseClient {
   return adminClient
 }
 
-// publishable key (sb_publishable_...) — tôn trọng RLS, chỉ thấy dữ liệu PUBLISHED
-// (xem supabase/migrations/0002_rls_policies.sql). Dùng cho mọi read công khai
-// từ Server Component (products/categories/offers/translations) — xem
-// README.md mục 4 lưu ý kết nối Supabase. Trang nội dung được render lúc build
-// nên 2 biến này BẮT BUỘC có ở môi trường build (Vercel).
 export const supabasePublic = createClient(
   requireEnv("NEXT_PUBLIC_SUPABASE_URL", process.env.NEXT_PUBLIC_SUPABASE_URL),
-  requireEnv("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY", process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY)
+  requireEnv(
+    "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+  )
 )
 
 export type Comment = {

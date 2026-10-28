@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Zero Technology — Đánh Giá Sản Phẩm Công Nghệ",
-    "description": "Đánh giá trung thực về điện thoại, màn hình, laptop và phụ kiện công nghệ — giúp bạn chọn đúng sản phẩm, không lãng phí tiền bạc."
+    "description": "Đánh giá trung thực đồ góc làm việc, gaming gear, PC, laptop và thiết bị âm thanh — giúp bạn chọn đúng sản phẩm, không lãng phí tiền bạc."
   },
   "Nav": {
     "home": "Trang Chủ",
@@ -27,8 +27,6 @@
     "toDark": "Chuyển sang giao diện tối"
   },
   "Footer": {
-    "affiliateDisclosure": "Một số liên kết trên trang là liên kết affiliate (Shopee, Amazon) — chúng tôi có thể nhận hoa hồng khi bạn mua, giá bạn trả không đổi.",
-    "amazonDisclosure": "Là thành viên Amazon Associates, chúng tôi nhận hoa hồng từ các đơn hàng đủ điều kiện (As an Amazon Associate I earn from qualifying purchases).",
     "explore": "Khám Phá",
     "categories": "Danh Mục",
     "company": "Công Ty",
@@ -46,25 +44,21 @@
     "updatedAt": "Cập nhật lần cuối: {date}"
   },
   "Categories": {
-    "phone": {
-      "name": "Điện Thoại",
-      "desc": "Đánh giá chi tiết các flagship và mid-range mới nhất từ Apple, Samsung, Google và các hãng hàng đầu — camera, hiệu năng, pin và trải nghiệm thực tế."
+    "desk-setup": {
+      "name": "Góc Làm Việc",
+      "desc": "Arm màn hình, đèn màn hình, bàn ghế công thái học, giá đỡ laptop và phụ kiện trang trí — dựng góc làm việc gọn gàng, thoải mái."
     },
-    "monitor": {
-      "name": "Màn Hình",
-      "desc": "Review màn hình 4K, OLED, gaming monitor và màn hình đồ họa — độ phân giải, màu sắc, refresh rate và giá trị thực sự bạn nhận được."
+    "gaming-gear": {
+      "name": "Gaming Gear",
+      "desc": "Bàn phím, chuột, tai nghe gaming, tay cầm, mousepad và phụ kiện console — chọn đúng gear cho lối chơi của bạn."
     },
-    "laptop": {
-      "name": "Laptop",
-      "desc": "Phân tích laptop văn phòng, ultrabook, gaming laptop — hiệu năng chip, thời lượng pin, thiết kế và mức giá xứng đáng nhất."
+    "pc-laptop": {
+      "name": "PC & Laptop",
+      "desc": "Laptop, PC, màn hình, CPU, GPU, RAM, SSD, tản nhiệt và linh kiện máy tính — hiệu năng thực tế và mức giá đáng tiền."
     },
-    "accessory": {
-      "name": "Phụ Kiện",
-      "desc": "Tai nghe, chuột, bàn phím, sạc nhanh và mọi phụ kiện công nghệ — liệu chúng có đáng đồng tiền bạn bỏ ra?"
-    },
-    "audio": {
+    "audio-video": {
       "name": "Âm Thanh",
-      "desc": "Review loa bluetooth, tai nghe true wireless và thiết bị âm thanh di động — chất lượng âm thanh thực tế, pin và độ bền."
+      "desc": "Tai nghe Bluetooth, loa vi tính, loa kiểm âm và micro — chọn thiết bị âm thanh đúng nhu cầu và ngân sách."
     }
   },
   "Rating": {
@@ -93,7 +87,7 @@
   },
   "CategoriesPage": {
     "title": "Danh Mục",
-    "intro": "Tìm đánh giá theo loại sản phẩm bạn quan tâm — điện thoại, màn hình, laptop hay phụ kiện công nghệ."
+    "intro": "Tìm đánh giá theo nhóm sản phẩm bạn quan tâm — góc làm việc, gaming gear, PC & laptop hay âm thanh."
   },
   "Common": {
     "viewAll": "Xem tất cả",
@@ -213,7 +207,7 @@
   "AboutPage": {
     "metaTitle": "Về Chúng Tôi",
     "heroTitle": "Chúng tôi là <highlight>{site}</highlight>",
-    "intro": "Trang đánh giá công nghệ với sứ mệnh đánh giá trung thực điện thoại, màn hình, laptop và phụ kiện — giúp người Việt chọn đúng sản phẩm, không lãng phí tiền bạc.",
+    "intro": "Trang đánh giá công nghệ với sứ mệnh đánh giá trung thực đồ góc làm việc, gaming gear, PC, laptop và thiết bị âm thanh — giúp người Việt chọn đúng sản phẩm, không lãng phí tiền bạc.",
     "stats": {
       "reviews": "Bài đánh giá",
       "criteria": "Tiêu chí chấm điểm",
