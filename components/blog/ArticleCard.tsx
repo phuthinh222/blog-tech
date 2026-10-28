@@ -96,7 +96,7 @@ function ArticleCard({ post, variant = "default" }: Props) {
           ✎ {t("editorsPick")}
         </span>
 
-        <div className="animate-fade-in-up relative mt-auto flex flex-col gap-4 p-5 sm:gap-5 sm:p-10">
+        <div className="relative mt-auto flex flex-col gap-4 p-5 sm:gap-5 sm:p-10">
           <h2 className="line-clamp-2 max-w-4xl text-3xl leading-[1.1] font-black tracking-tight text-white decoration-white/40 underline-offset-4 group-hover:underline sm:text-5xl lg:text-7xl lg:leading-[1.05]">
             {post.title}
           </h2>

@@ -18,7 +18,9 @@ import { BookmarksProvider } from "@/contexts/BookmarksContext"
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-display",
-  subsets: ["latin", "latin-ext", "vietnamese"],
+  // subsets = các file được preload; latin-ext không cần cho tiếng Việt và vẫn
+  // tải theo unicode-range khi trang dùng tới.
+  subsets: ["latin", "vietnamese"],
   weight: "variable",
   display: "swap",
 })
@@ -26,15 +28,18 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 const beVietnamPro = Be_Vietnam_Pro({
   variable: "--font-body",
   subsets: ["latin", "vietnamese"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 })
 
 const patrickHand = Patrick_Hand({
   variable: "--font-hand",
-  subsets: ["latin", "latin-ext", "vietnamese"],
+  subsets: ["latin", "vietnamese"],
   weight: "400",
   display: "swap",
+  // Chỉ dùng cho nhãn "Lựa chọn của biên tập" — không preload để khỏi tranh
+  // băng thông với ảnh bìa (LCP).
+  preload: false,
 })
 
 // Dark-first: defaults to dark unless the visitor previously chose light.

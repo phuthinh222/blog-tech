@@ -84,7 +84,8 @@ export default async function HomePage({ params }: Props) {
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-20 px-4 py-12 sm:gap-28 sm:px-6 lg:px-8">
       {/* ── Hero featured article ─────────────────────────── */}
-      <section className="animate-fade-in-up">
+      {/* Không fade-in: ảnh bìa là LCP, opacity 0 lúc đầu làm LCP trễ. */}
+      <section>
         <ArticleCard post={featured} variant="featured" />
       </section>
 
