@@ -1,8 +1,7 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { Plus_Jakarta_Sans, Be_Vietnam_Pro, Patrick_Hand } from "next/font/google"
+import { Plus_Jakarta_Sans, Patrick_Hand } from "next/font/google"
 import Script from "next/script"
-import { GoogleAnalytics } from "@next/third-parties/google"
 import { Auth0Provider } from "@auth0/nextjs-auth0/client"
 import { hasLocale, NextIntlClientProvider } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
@@ -18,17 +17,8 @@ import { BookmarksProvider } from "@/contexts/BookmarksContext"
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-display",
-  // subsets = các file được preload; latin-ext không cần cho tiếng Việt và vẫn
-  // tải theo unicode-range khi trang dùng tới.
   subsets: ["latin", "vietnamese"],
   weight: "variable",
-  display: "swap",
-})
-
-const beVietnamPro = Be_Vietnam_Pro({
-  variable: "--font-body",
-  subsets: ["latin", "vietnamese"],
-  weight: ["400", "500", "600", "700"],
   display: "swap",
 })
 
@@ -37,16 +27,14 @@ const patrickHand = Patrick_Hand({
   subsets: ["latin", "vietnamese"],
   weight: "400",
   display: "swap",
-  // Chỉ dùng cho nhãn "Lựa chọn của biên tập" — không preload để khỏi tranh
-  // băng thông với ảnh bìa (LCP).
   preload: false,
 })
 
-// Dark-first: defaults to dark unless the visitor previously chose light.
-// Runs before paint to avoid a light-mode flash on load.
 const THEME_INIT_SCRIPT = `(function(){try{var t=localStorage.getItem("theme")==="light"?"light":"dark";document.documentElement.classList.toggle("dark",t==="dark");document.documentElement.style.colorScheme=t}catch(e){}})()`
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+
+const GA_INIT_SCRIPT = `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","${GA_ID}")`
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
@@ -91,14 +79,15 @@ export default async function LocaleLayout({
   return (
     <html
       lang={LOCALE_TAGS[locale]}
-      className={`${plusJakartaSans.variable} ${beVietnamPro.variable} ${patrickHand.variable} h-full antialiased`}
+      className={`${plusJakartaSans.variable} ${patrickHand.variable} dark h-full antialiased`}
+      style={{ colorScheme: "dark" }}
       data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
       <head>
-        <Script id="theme-init" strategy="beforeInteractive">
-          {THEME_INIT_SCRIPT}
-        </Script>
+        {/* Inline thay vì next/script beforeInteractive: bản đó chỉ chạy khi JS
+            tải xong, nên trang hiện sáng rồi mới đổi sang tối. */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       </head>
       <body className="flex min-h-full flex-col">
         <NextIntlClientProvider>
@@ -113,7 +102,17 @@ export default async function LocaleLayout({
           </Auth0Provider>
         </NextIntlClientProvider>
       </body>
-      {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+      {GA_ID && (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            strategy="lazyOnload"
+          />
+          <Script id="ga-init" strategy="lazyOnload">
+            {GA_INIT_SCRIPT}
+          </Script>
+        </>
+      )}
     </html>
   )
 }

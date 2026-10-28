@@ -7,7 +7,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-body);
+  --font-sans: var(--font-display);
   --font-display: var(--font-display);
   --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
   --color-sidebar-ring: var(--sidebar-ring);
@@ -147,7 +147,7 @@
   html:lang(zh-CN) body,
   html:lang(zh-CN) :is(h1, h2, h3, h4, h5, h6) {
     font-family:
-      var(--font-body), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+      var(--font-display), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
       "Noto Sans SC", sans-serif;
     letter-spacing: normal;
   }
