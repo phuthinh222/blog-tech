@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { Plus_Jakarta_Sans, Be_Vietnam_Pro, Patrick_Hand } from "next/font/google"
 import Script from "next/script"
+import { GoogleAnalytics } from "@next/third-parties/google"
 import { Auth0Provider } from "@auth0/nextjs-auth0/client"
 import { hasLocale, NextIntlClientProvider } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
@@ -39,6 +40,8 @@ const patrickHand = Patrick_Hand({
 // Dark-first: defaults to dark unless the visitor previously chose light.
 // Runs before paint to avoid a light-mode flash on load.
 const THEME_INIT_SCRIPT = `(function(){try{var t=localStorage.getItem("theme")==="light"?"light":"dark";document.documentElement.classList.toggle("dark",t==="dark");document.documentElement.style.colorScheme=t}catch(e){}})()`
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
@@ -105,6 +108,7 @@ export default async function LocaleLayout({
           </Auth0Provider>
         </NextIntlClientProvider>
       </body>
+      {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
     </html>
   )
 }
