@@ -52,7 +52,10 @@ function ArticleCard({ post, variant = "default" }: Props) {
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-105"
             sizes="(max-width: 1200px) 100vw, 1152px"
-            priority
+            // Ảnh LCP: preload + fetchpriority=high (priority đã deprecated ở Next 16
+            // và không tự gắn fetchpriority).
+            preload
+            fetchPriority="high"
           />
         ) : (
           <div

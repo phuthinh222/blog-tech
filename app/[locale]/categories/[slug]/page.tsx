@@ -8,7 +8,7 @@ import { toLocale } from "@/i18n/routing"
 import { getPosts, getCategories } from "@/lib/content"
 import { CATEGORY_CONFIG, getCategoryIcon, getCategoryColor } from "@/lib/categories"
 import { SITE_NAME } from "@/lib/constants"
-import { localeAlternates } from "@/lib/seo"
+import { breadcrumbLd, jsonLdHtml, localeAlternates } from "@/lib/seo"
 import ArticleCard from "@/components/blog/ArticleCard"
 
 function CategoryIcon({
@@ -48,16 +48,29 @@ export default async function CategoryPage({ params }: Props) {
   const cat = categories.find((c) => c.slug === slug)
   if (!cat) notFound()
 
-  const [t, tCat] = await Promise.all([
+  const [t, tCat, tNav] = await Promise.all([
     getTranslations("CategoryPage"),
     getTranslations("Categories"),
+    getTranslations("Nav"),
   ])
   const color = getCategoryColor(slug)
   const desc = tCat(`${slug}.desc`)
   const posts = (await getPosts(locale)).filter((p) => p.category === slug)
 
+  const jsonLd = jsonLdHtml(
+    breadcrumbLd(
+      [
+        { name: tNav("home"), href: "/" },
+        { name: tNav("categories"), href: "/categories" },
+        { name: tCat(`${slug}.name`), href: `/categories/${slug}` },
+      ],
+      locale
+    )
+  )
+
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-10 sm:px-6 lg:px-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       {/* Header */}
       <div className="border-border flex flex-col gap-6 border-b pb-8">
         <Link

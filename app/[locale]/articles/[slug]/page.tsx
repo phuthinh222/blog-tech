@@ -6,20 +6,29 @@ import { ArrowLeft, Star, Calendar, Clock, ChevronRight, BookOpen } from "lucide
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { Link } from "@/i18n/navigation"
 import { LOCALE_TAGS, toLocale } from "@/i18n/routing"
-import { getPostBySlug, getPosts } from "@/lib/content"
+import { getPostBySlug, getPostLocales, getPosts } from "@/lib/content"
 import { getGuides } from "@/lib/guides"
 import { getCategoryIcon, getCategoryColor, getRatingBreakdown } from "@/lib/categories"
 import { formatDate, estimateReadingTime } from "@/lib/utils"
 import { SITE_NAME, SITE_URL } from "@/lib/constants"
-import { localeAlternates, OG_LOCALES } from "@/lib/seo"
+import {
+  breadcrumbLd,
+  fallbackRobots,
+  jsonLdHtml,
+  localeAlternates,
+  localizedUrl,
+  OG_LOCALES,
+  ORGANIZATION_LD,
+} from "@/lib/seo"
 import ArticleCard from "@/components/blog/ArticleCard"
+import { AffiliateDisclosure } from "@/components/blog/AffiliateDisclosure"
 import { ArticleGallery } from "@/components/blog/ArticleGallery"
 import { BookmarkButton } from "@/components/blog/BookmarkButton"
 import { Comments } from "@/components/blog/Comments"
 import { ReadingProgress } from "@/components/blog/ReadingProgress"
 import { ArticleToc, type TocItem } from "@/components/blog/ArticleToc"
 import { ArticleAiSummary } from "@/components/blog/ArticleAiSummary"
-import { BuyButtons } from "@/components/blog/BuyButton"
+import { BuyButtons, buyLinkFor } from "@/components/blog/BuyButton"
 import { ComparisonTable } from "@/components/blog/ComparisonTable"
 import { PriceTag } from "@/components/blog/PriceTag"
 import { StickyBuyBar } from "@/components/blog/StickyBuyBar"
@@ -35,8 +44,9 @@ export async function generateStaticParams({ params }: { params: { locale: strin
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale: rawLocale, slug } = await params
   const locale = toLocale(rawLocale)
-  const post = await getPostBySlug(slug, locale)
+  const [post, available] = await Promise.all([getPostBySlug(slug, locale), getPostLocales(slug)])
   if (!post) return {}
+  const alternates = localeAlternates(`/articles/${post.slug}`, locale, available)
   const description = post.seo?.metaDescription || post.excerpt
   // Tiêu đề trên Google: ưu tiên metaTitle (viết riêng cho từ khoá, ~60 ký tự,
   // không thêm tên site để khỏi bị cắt); bài chưa có metaTitle thì dùng tiêu đề bài.
@@ -44,8 +54,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: seoTitle,
     description,
-    alternates: localeAlternates(`/articles/${post.slug}`, locale),
+    alternates,
+    robots: fallbackRobots(locale, available),
     openGraph: {
+      url: alternates?.canonical?.toString(),
+      siteName: SITE_NAME,
       title: seoTitle,
       description,
       type: "article",
@@ -125,15 +138,18 @@ export default async function ArticlePage({ params }: Props) {
   ]
   const relatedGuides = getGuides(locale).filter((g) => g.relatedPosts.includes(post.slug))
 
-  const jsonLd = {
-    "@context": "https://schema.org",
+  const pageUrl = localizedUrl(`/articles/${post.slug}`, locale)
+  const reviewLd = {
     "@type": "Review",
+    "@id": `${pageUrl}#review`,
+    url: pageUrl,
     name: post.title,
     reviewBody: post.excerpt,
     reviewRating: {
       "@type": "Rating",
       ratingValue: post.rating.overall,
       bestRating: 10,
+      worstRating: 0,
     },
     author: { "@type": "Organization", name: post.author },
     itemReviewed: {
@@ -141,18 +157,38 @@ export default async function ArticlePage({ params }: Props) {
       name: post.title,
       // Ảnh lưu trong public/ là đường dẫn tương đối — JSON-LD cần URL tuyệt đối.
       ...(post.coverImage && { image: new URL(post.coverImage, SITE_URL).href }),
+      // Chỉ khai báo giá khi có giá thật từ offer (không bịa giá).
+      ...(post.price != null &&
+        post.currency && {
+          offers: {
+            "@type": "Offer",
+            price: post.price,
+            priceCurrency: post.currency,
+            ...(post.affiliateUrl && { url: post.affiliateUrl }),
+          },
+        }),
     },
     datePublished: post.publishedAt,
-    inLanguage: LOCALE_TAGS[locale],
-    publisher: { "@type": "Organization", name: SITE_NAME },
+    inLanguage: LOCALE_TAGS[toLocale(post.contentLocale)],
+    publisher: { "@id": ORGANIZATION_LD["@id"] },
   }
+  const jsonLd = jsonLdHtml(
+    reviewLd,
+    ORGANIZATION_LD,
+    breadcrumbLd(
+      [
+        { name: tNav("home"), href: "/" },
+        { name: tNav("categories"), href: "/categories" },
+        { name: categoryName, href: `/categories/${post.category}` },
+        { name: post.title, href: `/articles/${post.slug}` },
+      ],
+      locale
+    )
+  )
 
   return (
     <article>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <ReadingProgress targetId="article-content" />
       <StickyBuyBar post={post} />
       {/* ── Hero ─────────────────────────────────────────────── */}
@@ -163,7 +199,10 @@ export default async function ArticlePage({ params }: Props) {
             alt={post.title}
             fill
             className="object-cover"
-            priority
+            // Ảnh LCP: preload + fetchpriority=high (priority đã deprecated ở Next 16
+            // và không tự gắn fetchpriority).
+            preload
+            fetchPriority="high"
             sizes="100vw"
           />
         ) : (
@@ -249,6 +288,9 @@ export default async function ArticlePage({ params }: Props) {
         <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
           {/* ── Left: Article Body ───────────────────────────── */}
           <div className="flex min-w-0 flex-col gap-10">
+            {/* Công bố liên kết tiếp thị — trước mọi nút/link mua trong bài */}
+            <AffiliateDisclosure />
+
             {/* Lead */}
             <p
               className="text-muted-foreground border-l-4 pl-5 text-lg leading-relaxed"
@@ -460,12 +502,13 @@ export default async function ArticlePage({ params }: Props) {
 
             {/* Mua sản phẩm — id để thanh mua dính đáy (mobile) biết khi nào nút này
                 đang hiện trên màn hình thì tự ẩn */}
-            {(post.shopeeUrl || post.amazonUrl) && (
+            {buyLinkFor(post, locale) && (
               <div id="buy-box" className="flex flex-col gap-2.5">
                 <PriceTag post={post} />
                 <BuyButtons post={post} className="flex-col" />
                 <p className="text-muted-foreground/80 px-2 text-center text-xs leading-relaxed">
-                  {t("affiliateNote")} {t("amazonNote")}
+                  {t("affiliateNote")}{" "}
+                  {buyLinkFor(post, locale)?.store === "Amazon" && t("amazonNote")}
                 </p>
               </div>
             )}

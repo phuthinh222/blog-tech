@@ -14,7 +14,7 @@ type Props = { params: Promise<{ locale: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = toLocale((await params).locale)
   const t = await getTranslations({ locale, namespace: "ProfilePage" })
-  return { title: `${t("title")} — ${SITE_NAME}` }
+  return { title: `${t("title")} — ${SITE_NAME}`, robots: { index: false, follow: false } }
 }
 
 export default async function ProfilePage({ params }: Props) {

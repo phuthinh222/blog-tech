@@ -5,8 +5,13 @@
   "category": "gaming-gear",
   "author": "Zero Technology",
   "publishedAt": "2026-10-24",
-  "coverImage": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msat18ac0glf6d",
-  "images": ["https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msat18ac0glf6d"],
+  "coverImage": "/images/products/vxe-r1-se/den-va-trang.jpg",
+  "images": [
+    "/images/products/vxe-r1-se/mau-trang.jpg",
+    "/images/products/vxe-r1-se/cover.jpg",
+    "/images/products/vxe-r1-se/ket-noi-3-che-do.jpg",
+    "/images/products/vxe-r1-se/lop-phu-be-mat.jpg"
+  ],
   "itemId": "24854507723",
   "affiliateUrl": "https://shorten.asia/YBqKbzg7",
   "rating": {

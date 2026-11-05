@@ -5,17 +5,28 @@ import { useTranslations } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import ArticleCard from "@/components/blog/ArticleCard"
 import { Link } from "@/i18n/navigation"
-import { toLocale } from "@/i18n/routing"
+import { LOCALE_TAGS, toLocale } from "@/i18n/routing"
 import { getPosts, getCategories } from "@/lib/content"
 import { getCategoryIcon, getCategoryColor } from "@/lib/categories"
-import { localeAlternates } from "@/lib/seo"
+import { SITE_NAME, SITE_URL } from "@/lib/constants"
+import { jsonLdHtml, localeAlternates, localizedUrl, OG_LOCALES, ORGANIZATION_LD } from "@/lib/seo"
 import type { Post } from "@/types"
 
 type Props = { params: Promise<{ locale: string }> }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = toLocale((await params).locale)
-  return { alternates: localeAlternates("/", locale) }
+  const alternates = localeAlternates("/", locale)
+  // openGraph ở trang ghi đè cả object của layout nên khai báo lại đủ trường.
+  return {
+    alternates,
+    openGraph: {
+      url: alternates?.canonical?.toString(),
+      siteName: SITE_NAME,
+      type: "website",
+      locale: OG_LOCALES[locale],
+    },
+  }
 }
 
 function TrendingEntry({ post, index }: { post: Post; index: number }) {
@@ -81,8 +92,21 @@ export default async function HomePage({ params }: Props) {
   const trending = posts.slice(0, 5)
   const recent = posts.slice(5, 9)
 
+  const jsonLd = jsonLdHtml(
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      name: SITE_NAME,
+      url: localizedUrl("/", locale),
+      inLanguage: LOCALE_TAGS[locale],
+      publisher: { "@id": ORGANIZATION_LD["@id"] },
+    },
+    ORGANIZATION_LD
+  )
+
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-20 px-4 py-12 sm:gap-28 sm:px-6 lg:px-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       {/* ── Hero featured article ─────────────────────────── */}
       {/* Không fade-in: ảnh bìa là LCP, opacity 0 lúc đầu làm LCP trễ. */}
       <section>

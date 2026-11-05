@@ -4,13 +4,22 @@ import { ArrowLeft, Calendar } from "lucide-react"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { Link } from "@/i18n/navigation"
 import { LOCALE_TAGS, toLocale } from "@/i18n/routing"
-import { getGuideBySlug, getGuides } from "@/lib/guides"
+import { getGuideBySlug, getGuideLocales, getGuides } from "@/lib/guides"
 import { getPosts } from "@/lib/content"
 import { getCategoryColor } from "@/lib/categories"
 import { formatDate } from "@/lib/utils"
 import { SITE_NAME } from "@/lib/constants"
-import { localeAlternates, localizedUrl, OG_LOCALES } from "@/lib/seo"
+import {
+  breadcrumbLd,
+  fallbackRobots,
+  jsonLdHtml,
+  localeAlternates,
+  localizedUrl,
+  OG_LOCALES,
+  ORGANIZATION_LD,
+} from "@/lib/seo"
 import ArticleCard from "@/components/blog/ArticleCard"
+import { AffiliateDisclosure } from "@/components/blog/AffiliateDisclosure"
 import { BestPickBox } from "@/components/blog/BestPickBox"
 
 export const revalidate = 3600 // ISR — bài review liên quan lấy từ Supabase
@@ -27,12 +36,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guide = getGuideBySlug(slug, locale)
   if (!guide) return {}
   const description = guide.seo?.metaDescription ?? guide.excerpt
+  const available = getGuideLocales(guide.slug)
+  const alternates = localeAlternates(`/guides/${guide.slug}`, locale, available)
   return {
-    title: `${guide.seo?.metaTitle ?? guide.title} — ${SITE_NAME}`,
+    // Như trang review: metaTitle viết sẵn cho từ khoá (~60 ký tự) nên không
+    // thêm tên site để khỏi bị Google cắt.
+    title: guide.seo?.metaTitle || `${guide.title} — ${SITE_NAME}`,
     description,
     keywords: guide.seo?.keywords,
-    alternates: localeAlternates(`/guides/${guide.slug}`, locale),
-    openGraph: { title: guide.title, description, type: "article", locale: OG_LOCALES[locale] },
+    alternates,
+    robots: fallbackRobots(locale, available),
+    openGraph: {
+      url: alternates?.canonical?.toString(),
+      siteName: SITE_NAME,
+      title: guide.title,
+      description,
+      type: "article",
+      locale: OG_LOCALES[locale],
+    },
   }
 }
 
@@ -43,10 +64,11 @@ export default async function GuidePage({ params }: Props) {
   const guide = getGuideBySlug(slug, locale)
   if (!guide) notFound()
 
-  const [posts, t, tCat] = await Promise.all([
+  const [posts, t, tCat, tNav] = await Promise.all([
     getPosts(locale),
     getTranslations("GuidePage"),
     getTranslations("Categories"),
+    getTranslations("Nav"),
   ])
   const color = getCategoryColor(guide.category)
   const related = guide.relatedPosts
@@ -60,24 +82,33 @@ export default async function GuidePage({ params }: Props) {
   const suggestions =
     related.length > 0 ? related : posts.filter((p) => p.category === guide.category).slice(0, 3)
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: guide.title,
-    description: guide.excerpt,
-    datePublished: guide.publishedAt,
-    inLanguage: LOCALE_TAGS[locale],
-    author: { "@type": "Organization", name: SITE_NAME },
-    publisher: { "@type": "Organization", name: SITE_NAME },
-    mainEntityOfPage: localizedUrl(`/guides/${guide.slug}`, locale),
-  }
+  const pageUrl = localizedUrl(`/guides/${guide.slug}`, locale)
+  const jsonLd = jsonLdHtml(
+    {
+      "@type": "Article",
+      "@id": `${pageUrl}#article`,
+      headline: guide.title,
+      description: guide.excerpt,
+      datePublished: guide.publishedAt,
+      inLanguage: LOCALE_TAGS[toLocale(guide.contentLocale)],
+      author: { "@id": ORGANIZATION_LD["@id"] },
+      publisher: { "@id": ORGANIZATION_LD["@id"] },
+      mainEntityOfPage: pageUrl,
+    },
+    ORGANIZATION_LD,
+    breadcrumbLd(
+      [
+        { name: tNav("home"), href: "/" },
+        { name: tNav("guides"), href: "/guides" },
+        { name: guide.title, href: `/guides/${guide.slug}` },
+      ],
+      locale
+    )
+  )
 
   return (
     <article className="flex flex-col">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
       {/* ── Hero ──────────────────────────────────────────────── */}
       <section className="border-border bg-muted/20 border-b">
@@ -107,7 +138,12 @@ export default async function GuidePage({ params }: Props) {
       </section>
 
       <div className="mx-auto flex w-full max-w-3xl flex-col gap-10 px-4 py-12 sm:px-6 lg:px-8">
-        {bestPick && <BestPickBox post={bestPick} />}
+        {bestPick && (
+          <>
+            <AffiliateDisclosure />
+            <BestPickBox post={bestPick} />
+          </>
+        )}
 
         {/* ── Sections ──────────────────────────────────────── */}
         {guide.sections.map((section, i) => (

@@ -132,6 +132,8 @@
     "pros": "优点",
     "cons": "缺点",
     "saveArticle": "收藏本文",
+    "affiliateDisclosure": "披露：本页面包含联盟营销链接。当您通过这些链接购买时，Zero Technology 可能会获得佣金，您支付的价格不变；这不会影响我们的评价或评分。",
+    "affiliateDisclosureLink": "了解我们的评测方式",
     "affiliateNote": "当您通过此链接购买时，我们可能会获得佣金，您支付的价格不变。价格可能会变动。",
     "amazonNote": "作为亚马逊联盟成员，我们会从符合条件的购买中赚取佣金（As an Amazon Associate I earn from qualifying purchases）。",
     "score": "评测得分",

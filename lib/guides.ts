@@ -13,8 +13,14 @@ const GUIDES_DIR = path.join(process.cwd(), "content", "guides")
 function readGuide(locale: Locale, file: string): Guide | null {
   const filePath = path.join(GUIDES_DIR, locale, file)
   if (!fs.existsSync(filePath)) return null
-  return JSON.parse(fs.readFileSync(filePath, "utf-8")) as Guide
+  const guide = JSON.parse(fs.readFileSync(filePath, "utf-8")) as Omit<Guide, "contentLocale">
+  return { ...guide, contentLocale: locale }
 }
+
+// Các ngôn ngữ đã có file dịch của 1 bài hướng dẫn — dùng cho hreflang/canonical.
+export const getGuideLocales = cache((slug: string): Locale[] =>
+  routing.locales.filter((l) => getGuides(l).some((g) => g.slug === slug && g.contentLocale === l))
+)
 
 export const getGuides = cache((locale: Locale): Guide[] => {
   const baseDir = path.join(GUIDES_DIR, routing.defaultLocale)

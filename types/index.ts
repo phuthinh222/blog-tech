@@ -24,6 +24,9 @@ export type Offer = {
 // offer theo market thay vì 1 CTA duy nhất.
 export type Post = {
   slug: string
+  // Ngôn ngữ của nội dung đang hiển thị — khác locale của trang khi bài chưa có
+  // bản dịch và đang dùng bản tiếng Việt (SEO: noindex, không đưa vào sitemap).
+  contentLocale: string
   title: string
   excerpt: string
   category: string
@@ -36,6 +39,7 @@ export type Post = {
   // Link mua theo từng sàn ("" = sàn đó chưa có offer → không hiện nút).
   shopeeUrl: string
   amazonUrl: string
+  taobaoUrl: string
   // Giá của best offer (null = chưa có giá thật — UI ẩn phần giá).
   price: number | null
   currency: string | null
@@ -77,6 +81,8 @@ export type Category = {
 // review liên quan, hiển thị cuối bài để dẫn về trang có nút mua.
 export type Guide = {
   slug: string
+  // Như Post.contentLocale — gán khi đọc file, không có trong JSON.
+  contentLocale: string
   title: string
   excerpt: string
   category: string

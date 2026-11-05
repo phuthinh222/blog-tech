@@ -116,6 +116,7 @@ function mapRowToPost(row: ProductRow, locale: Locale): Post | null {
 
   return {
     slug: row.slug,
+    contentLocale: translation.locale,
     title: translation.title,
     excerpt: translation.summary ?? "",
     category: row.categories?.slug ?? "",
@@ -129,6 +130,7 @@ function mapRowToPost(row: ProductRow, locale: Locale): Post | null {
     affiliateUrl: bestOffer?.affiliateUrl ?? "",
     shopeeUrl: offerUrlFor(/shopee/i) ?? "",
     amazonUrl: offerUrlFor(/amazon|amzn/i) ?? "",
+    taobaoUrl: offerUrlFor(/taobao/i) ?? "",
     price: bestOffer?.price ?? null,
     currency: bestOffer?.price != null ? bestOffer.currency : null,
     priceCheckedAt: bestOffer?.price != null ? bestOffer.lastCheckedAt : null,
@@ -184,6 +186,23 @@ export const getPostBySlug = cache(async (slug: string, locale: Locale): Promise
   if (!data) return null
 
   return mapRowToPost(data as unknown as ProductRow, locale)
+})
+
+// Các ngôn ngữ đã có bản dịch PUBLISHED của 1 bài — dùng cho hreflang/canonical.
+export const getPostLocales = cache(async (slug: string): Promise<Locale[]> => {
+  const { data, error } = await supabasePublic
+    .from("products")
+    .select("product_translations!inner ( locale )")
+    .eq("status", "PUBLISHED")
+    .eq("slug", slug)
+    .eq("product_translations.status", "PUBLISHED")
+    .maybeSingle()
+
+  if (error) throw new Error(`getPostLocales(${slug}): ${error.message}`)
+  const translated = new Set(
+    ((data?.product_translations ?? []) as { locale: string }[]).map((t) => t.locale)
+  )
+  return routing.locales.filter((l) => translated.has(l))
 })
 
 export const getCategories = cache(async (locale: Locale): Promise<Category[]> => {

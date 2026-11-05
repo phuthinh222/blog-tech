@@ -15,6 +15,7 @@ type Props = {
     | "rating"
     | "shopeeUrl"
     | "amazonUrl"
+    | "taobaoUrl"
     | "price"
     | "currency"
     | "priceCheckedAt"

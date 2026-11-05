@@ -61,6 +61,12 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
     },
+    // Xác minh Google Search Console bằng thẻ meta (Vercel → Environment
+    // Variables: GOOGLE_SITE_VERIFICATION = phần content của thẻ GSC đưa).
+    // Đã xác minh bằng DNS thì bỏ trống.
+    ...(process.env.GOOGLE_SITE_VERIFICATION && {
+      verification: { google: process.env.GOOGLE_SITE_VERIFICATION },
+    }),
   }
 }
 
