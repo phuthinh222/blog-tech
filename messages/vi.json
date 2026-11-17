@@ -48,19 +48,23 @@
   "Categories": {
     "desk-setup": {
       "name": "Góc Làm Việc",
-      "desc": "Arm màn hình, đèn màn hình, bàn ghế công thái học, giá đỡ laptop và phụ kiện trang trí — dựng góc làm việc gọn gàng, thoải mái."
+      "desc": "Arm màn hình, đèn màn hình, bàn ghế công thái học, giá đỡ laptop và phụ kiện trang trí — dựng góc làm việc gọn gàng, thoải mái.",
+      "metaTitle": "Phụ Kiện Setup Bàn Làm Việc: Giá Treo, Đèn Màn Hình"
     },
     "gaming-gear": {
       "name": "Gaming Gear",
-      "desc": "Bàn phím, chuột, tai nghe gaming, tay cầm, mousepad và phụ kiện console — chọn đúng gear cho lối chơi của bạn."
+      "desc": "Bàn phím, chuột, tai nghe gaming, tay cầm, mousepad và phụ kiện console — chọn đúng gear cho lối chơi của bạn.",
+      "metaTitle": "Review Gaming Gear Giá Rẻ: Chuột, Bàn Phím, Tai Nghe"
     },
     "pc-laptop": {
       "name": "PC & Laptop",
-      "desc": "Laptop, PC, màn hình, CPU, GPU, RAM, SSD, tản nhiệt và linh kiện máy tính — hiệu năng thực tế và mức giá đáng tiền."
+      "desc": "Laptop, PC, màn hình, CPU, GPU, RAM, SSD, tản nhiệt và linh kiện máy tính — hiệu năng thực tế và mức giá đáng tiền.",
+      "metaTitle": "Review Màn Hình & PC Giá Rẻ: Màn Gaming, Màn IPS"
     },
     "audio-video": {
       "name": "Âm Thanh",
-      "desc": "Tai nghe Bluetooth, loa vi tính, loa kiểm âm và micro — chọn thiết bị âm thanh đúng nhu cầu và ngân sách."
+      "desc": "Tai nghe Bluetooth, loa vi tính, loa kiểm âm và micro — chọn thiết bị âm thanh đúng nhu cầu và ngân sách.",
+      "metaTitle": "Review Tai Nghe, Loa Giá Rẻ: Tai Nghe Bluetooth, Loa Máy Tính"
     }
   },
   "Rating": {
