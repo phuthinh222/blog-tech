@@ -10,7 +10,9 @@ export async function proxy(request: NextRequest) {
 
   // /auth/* (login, logout, callback, profile) do Auth0 xử lý trọn vẹn, /api/*
   // không phụ thuộc ngôn ngữ — cả hai không gắn locale.
-  if (pathname.startsWith("/auth") || pathname.startsWith("/api")) {
+  // So khớp theo đoạn đường dẫn — "/authors" (trang tác giả) không phải "/auth".
+  const isPrefix = (p: string) => pathname === p || pathname.startsWith(`${p}/`)
+  if (isPrefix("/auth") || isPrefix("/api")) {
     if (!process.env.AUTH0_DOMAIN) return
     return await auth0.middleware(request)
   }
