@@ -1,0 +1,122 @@
+{
+  "title": "Xiaomi Gaming Monitor G24i: A 180 Hz IPS Monitor on a Budget",
+  "summary": "The Xiaomi Gaming Monitor G24i is a 23.8-inch 1080p Fast IPS monitor with a 180 Hz refresh rate, 1 ms GTG response, FreeSync and 99% sRGB. Here's what Xiaomi lists, the trade-offs and who it suits.",
+  "description": "## Who is it for?\n\n- Competitive FPS players on a budget.\n- Anyone upgrading from 60/75 Hz.\n- Clean, minimal desk setups.\n\n## Why consider it?\n\n- 180 Hz Fast IPS, 1 ms GTG (Xiaomi).\n- FreeSync and 99% sRGB.\n- Factory calibration (ΔE < 2, per Xiaomi).",
+  "specs": [
+    { "label": "Model", "value": "P24FCA-RGGL (global); sold in the EU as ELA5625EU" },
+    { "label": "Panel", "value": "23.8-inch Fast IPS, 1920 × 1080 (Xiaomi)" },
+    { "label": "Refresh rate", "value": "Up to 180 Hz" },
+    { "label": "Response time", "value": "1 ms GTG (Xiaomi internal lab)" },
+    { "label": "Brightness / contrast", "value": "250 nits, 1000:1 typical" },
+    { "label": "Color", "value": "99% sRGB, 16.7 million colors, ΔE < 2 (Xiaomi)" },
+    { "label": "Variable refresh", "value": "FreeSync" },
+    { "label": "Ports", "value": "DisplayPort 1.4 × 1, HDMI 2.0 × 1, audio out, DC in" },
+    { "label": "Stand", "value": "Tilt 5° forward / 15° back; no height adjustment" },
+    { "label": "VESA", "value": "75 × 75 mm (bracket not included)" },
+    { "label": "Power", "value": "External 12 V / 3 A adapter, 36 W rated" },
+    { "label": "Weight", "value": "3.0 kg with base (Xiaomi)" }
+  ],
+  "sections": [
+    {
+      "title": "What is the Xiaomi G24i?",
+      "content": "The G24i is Xiaomi's budget esports monitor, sold globally as model P24FCA-RGGL and in Europe under the ELA5625EU code. Xiaomi lists a 23.8-inch Fast IPS panel at 1080p with up to 180 Hz and 1 ms grey-to-grey response."
+    },
+    {
+      "title": "Gaming performance",
+      "content": "180 Hz is a step above the common 144–165 Hz class, and FreeSync reduces tearing with compatible GPUs. Xiaomi notes that its 1 ms GTG figure comes from its internal lab; we haven't measured it. To use 180 Hz, connect via DisplayPort and make sure your PC can push high frame rates."
+    },
+    {
+      "title": "Picture quality",
+      "content": "Xiaomi lists 250 nits, 1000:1 contrast, 99% sRGB and individual factory calibration with ΔE below 2. That is good for a budget monitor, though 250 nits is modest in bright rooms. Xiaomi mentions an HDR display enhancement, but there's no HDR certification — treat it as a picture mode, not real HDR."
+    },
+    {
+      "title": "Design, stand and ports",
+      "content": "The body is slim with narrow bezels and a joystick for the menu. The stand only tilts (5° forward, 15° back); for height adjustment you'll need a VESA 75 arm or bracket, which isn't included. Ports are DisplayPort 1.4, HDMI 2.0 and an audio output. There are no speakers, and power comes from an external adapter."
+    },
+    {
+      "title": "Who should buy it — and who shouldn't",
+      "content": "Buy it for a fast, inexpensive 180 Hz 1080p monitor with good out-of-box color. Skip it if you need speakers, height adjustment, USB-C, high brightness or a sharper 1440p panel."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used this monitor in person. This is a research roundup based on Xiaomi's global product overview and specifications pages, checked November 2026. Images are official Xiaomi product images from mi.com/global."
+    }
+  ],
+  "pros": [
+    "180 Hz Fast IPS with FreeSync.",
+    "1 ms GTG response (Xiaomi lab figure).",
+    "99% sRGB and factory calibration (ΔE < 2).",
+    "DisplayPort 1.4 and HDMI 2.0.",
+    "Slim, minimal design with joystick control.",
+    "Strong refresh rate for the price."
+  ],
+  "cons": [
+    "Tilt-only stand.",
+    "Only 250 nits brightness.",
+    "No speakers.",
+    "No real HDR certification.",
+    "External power adapter; VESA bracket not included."
+  ],
+  "buying_advice": "Great value for 180 Hz",
+  "faq": [
+    {
+      "question": "Is the Xiaomi G24i good for Valorant and CS2?",
+      "answer": "Yes. 180 Hz and FreeSync make it well suited to fast shooters."
+    },
+    {
+      "question": "What's the difference between ELA5625EU and P24FCA-RGGL?",
+      "answer": "They are regional codes for the same G24i: ELA5625EU is the EU product code; P24FCA-RGGL is the model on Xiaomi's global spec page."
+    },
+    {
+      "question": "Does it have speakers?",
+      "answer": "No. Use the audio output for headphones or external speakers."
+    },
+    {
+      "question": "Can I wall-mount it?",
+      "answer": "Yes, it supports VESA 75 × 75 mm, but the bracket isn't included."
+    },
+    {
+      "question": "Which cable for 180 Hz?",
+      "answer": "Use DisplayPort 1.4 for the full 180 Hz at 1080p."
+    },
+    {
+      "question": "G24i or ASUS VG249QE5A?",
+      "answer": "Pick the Xiaomi for 180 Hz; the ASUS for wider color gamut and built-in speakers."
+    }
+  ],
+  "seo_title": "Xiaomi G24i Review: 180 Hz Budget Gaming Monitor Worth It?",
+  "seo_description": "Xiaomi Gaming Monitor G24i: 23.8-inch Fast IPS, 180 Hz, 1 ms GTG, FreeSync, 99% sRGB. Sourced specs, pros and cons, and how it compares with ASUS VG249QE5A.",
+  "verdict_summary": "A fast, well-calibrated 180 Hz IPS monitor for budget esports. Basic stand, modest brightness and no speakers are the trade-offs.",
+  "extras": {
+    "productName": "Xiaomi Gaming Monitor G24i",
+    "regionalNote": "Sold in the EU as ELA5625EU; global model P24FCA-RGGL.",
+    "bestFor": ["Competitive FPS on a budget", "Upgrading from 60/75 Hz", "Minimal desk setups"],
+    "notFor": [
+      "Bright rooms (250 nits)",
+      "Users who want built-in speakers",
+      "Height-adjustable stands out of the box"
+    ],
+    "alternatives": [
+      {
+        "name": "ASUS TUF Gaming VG249QE5A",
+        "slug": "asus-tuf-gaming-vg249qe5a",
+        "note": "146 Hz with wider color gamut and built-in speakers."
+      },
+      {
+        "name": "North Bayou F80 monitor arm",
+        "slug": "north-bayou-f80-monitor-arm",
+        "note": "Adds height and swivel via the VESA 75 mount."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Xiaomi Global — Gaming Monitor G24i overview",
+        "url": "https://www.mi.com/global/product/xiaomi-gaming-monitor-g24i/"
+      },
+      {
+        "label": "Xiaomi Global — Gaming Monitor G24i specs",
+        "url": "https://www.mi.com/global/product/xiaomi-gaming-monitor-g24i/specs/"
+      }
+    ]
+  }
+}

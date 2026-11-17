@@ -104,7 +104,7 @@ export function LocaleSwitcher({ className = "" }: { className?: string }) {
     setOpen(false)
     if (next === locale) return
     startTransition(() => {
-      // pathname từ next-intl đã bỏ tiền tố locale, VD "/articles/iphone-16".
+      // pathname từ next-intl đã bỏ tiền tố locale, VD "/reviews/iphone-16".
       // Giữ cả query (VD ?q= của trang danh sách).
       router.replace(pathname + window.location.search, { locale: next, scroll: false })
     })

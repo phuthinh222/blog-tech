@@ -1,0 +1,125 @@
+{
+  "title": "ASUS TUF Gaming VG249QE5A: A 146 Hz IPS Monitor for Budget Esports",
+  "summary": "The ASUS TUF Gaming VG249QE5A is a 23.8-inch 1080p IPS gaming monitor with a 146 Hz refresh rate, 1 ms MPRT, 125% sRGB coverage and built-in speakers. Here are ASUS's specs, what's missing and who it suits.",
+  "description": "## Who is it for?\n\n- Players upgrading from a 60/75 Hz monitor.\n- Esports and FPS players on a budget.\n- Study and work by day, gaming by night.\n\n## Why consider it?\n\n- 146 Hz IPS with Adaptive-Sync (ASUS).\n- 125% sRGB / 90% DCI-P3 color coverage (ASUS).\n- DisplayPort + HDMI and 2 W × 2 speakers.",
+  "specs": [
+    { "label": "Panel", "value": "23.8-inch IPS, 1920 × 1080 (ASUS)" },
+    { "label": "Refresh rate", "value": "Up to 146 Hz (ASUS)" },
+    { "label": "Response time", "value": "1 ms MPRT (ASUS)" },
+    { "label": "Brightness / contrast", "value": "300 cd/m², 1500:1 typical (ASUS)" },
+    { "label": "Color gamut", "value": "125% sRGB, 90% DCI-P3 (ASUS)" },
+    { "label": "Variable refresh", "value": "Adaptive-Sync" },
+    { "label": "Ports", "value": "DisplayPort 1.2 × 1, HDMI 2.0 × 1, headphone jack" },
+    { "label": "Speakers", "value": "2 W × 2" },
+    { "label": "Stand", "value": "Tilt +23° to −5°; no height adjustment (ASUS)" },
+    { "label": "VESA", "value": "100 × 100 mm" },
+    { "label": "Weight", "value": "3.3 kg with stand (ASUS)" },
+    { "label": "Warranty", "value": "Varies by region; check ASUS's site for your country" }
+  ],
+  "sections": [
+    {
+      "title": "What is the VG249QE5A?",
+      "content": "The VG249QE5A belongs to ASUS's TUF Gaming line — the brand's value-oriented gaming range. ASUS lists a 23.8-inch IPS panel at 1080p with a maximum 146 Hz refresh rate and 1 ms MPRT response time. That puts it in the crowded budget esports class, alongside 144–180 Hz monitors from Xiaomi, AOC and others."
+    },
+    {
+      "title": "Picture quality",
+      "content": "ASUS rates the panel at 300 cd/m² brightness, 1500:1 typical contrast and 125% sRGB / 90% DCI-P3 coverage. IPS gives wide viewing angles and more vivid color than typical budget VA or TN panels. Wide gamut can make sRGB content look oversaturated unless you use an sRGB mode. ASUS's spec page does not list HDR certification, so don't buy it for HDR."
+    },
+    {
+      "title": "Gaming performance",
+      "content": "Going from 60 or 75 Hz to 146 Hz makes motion clearly smoother and easier to track in shooters. Adaptive-Sync reduces tearing with compatible graphics cards. Note that 1 ms MPRT is a motion-blur figure, not grey-to-grey pixel response; we have not measured the panel ourselves."
+    },
+    {
+      "title": "Stand, ports and speakers",
+      "content": "The stand only tilts (+23° to −5°) — no height, swivel or pivot — so a VESA 100 arm is worth considering if ergonomics matter. Inputs are one DisplayPort 1.2 and one HDMI 2.0, plus a headphone jack. The 2 W × 2 speakers are fine for calls and videos, not for games or music."
+    },
+    {
+      "title": "Who should buy it — and who shouldn't",
+      "content": "Buy it if you want a fast, colorful 1080p IPS monitor from a major brand. Skip it if you want a sharper 1440p picture, height adjustment, USB-C, or real HDR."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used this monitor in person. This is a research roundup based on ASUS's official product and tech-spec pages, checked November 2026. Images are official ASUS product images."
+    }
+  ],
+  "pros": [
+    "146 Hz IPS with Adaptive-Sync for smooth gaming.",
+    "Wide color: 125% sRGB / 90% DCI-P3 (ASUS).",
+    "300-nit brightness and 1500:1 contrast on paper.",
+    "DisplayPort and HDMI 2.0 inputs.",
+    "Built-in speakers and headphone jack.",
+    "VESA 100 mount for arms."
+  ],
+  "cons": [
+    "Stand is tilt-only.",
+    "1080p looks less sharp than 1440p at this size for desk work.",
+    "No HDR certification listed.",
+    "No USB-C or USB hub.",
+    "Speakers are basic."
+  ],
+  "buying_advice": "Solid budget esports pick",
+  "faq": [
+    {
+      "question": "Is the VG249QE5A good for FPS games?",
+      "answer": "Yes. 146 Hz and Adaptive-Sync make motion smooth; it suits Valorant, CS2 and similar games."
+    },
+    {
+      "question": "Does it support HDR?",
+      "answer": "ASUS's spec page doesn't list HDR certification, so don't expect a real HDR experience."
+    },
+    {
+      "question": "Can I adjust the height?",
+      "answer": "No, the stand only tilts. Use a VESA 100 monitor arm for height adjustment."
+    },
+    {
+      "question": "Does it work with PS5 or Xbox?",
+      "answer": "Yes via HDMI 2.0, at 1080p. Its 146 Hz maximum is mainly useful for PC."
+    },
+    {
+      "question": "VG249QE5A or Xiaomi G24i?",
+      "answer": "The ASUS has wider color, speakers and a major-brand warranty network; the Xiaomi offers 180 Hz."
+    },
+    {
+      "question": "Are the speakers any good?",
+      "answer": "They're fine for calls and video; use headphones or speakers for gaming and music."
+    }
+  ],
+  "seo_title": "ASUS TUF VG249QE5A Review: 146 Hz IPS Monitor Worth It?",
+  "seo_description": "ASUS TUF Gaming VG249QE5A: 23.8-inch IPS, 146 Hz, 1 ms MPRT, 125% sRGB, Adaptive-Sync, speakers. Sourced specs, pros and cons, and alternatives.",
+  "verdict_summary": "A fast, colorful 1080p IPS gaming monitor from a major brand. The tilt-only stand and lack of HDR are the main trade-offs.",
+  "extras": {
+    "productName": "ASUS TUF Gaming VG249QE5A",
+    "bestFor": [
+      "Upgrading from 60/75 Hz",
+      "Budget esports and FPS",
+      "Mixed work and gaming at 1080p"
+    ],
+    "notFor": [
+      "Users who need height adjustment",
+      "HDR content",
+      "Sharp text for heavy desk work (consider 1440p)"
+    ],
+    "alternatives": [
+      {
+        "name": "Xiaomi Gaming Monitor G24i",
+        "slug": "xiaomi-g24i-gaming-monitor",
+        "note": "Higher 180 Hz refresh rate, fewer extras."
+      },
+      {
+        "name": "North Bayou F80 monitor arm",
+        "slug": "north-bayou-f80-monitor-arm",
+        "note": "Adds height, swivel and pivot via the VESA 100 mount."
+      }
+    ],
+    "sources": [
+      {
+        "label": "ASUS — TUF Gaming VG249QE5A product page",
+        "url": "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg249qe5a/"
+      },
+      {
+        "label": "ASUS — TUF Gaming VG249QE5A tech specs",
+        "url": "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg249qe5a/techspec/"
+      }
+    ]
+  }
+}

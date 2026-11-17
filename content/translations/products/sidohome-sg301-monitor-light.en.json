@@ -1,0 +1,117 @@
+{
+  "title": "Sidohome SG301: A Budget RGB Monitor Light Bar — Pros, Cons and Gaps",
+  "summary": "The Sidohome SG301 is a low-cost monitor light bar with asymmetric anti-glare lighting, three color temperatures, stepless dimming, a 60-minute timer and an optional RGB backlight. It's sold mainly in Vietnam and its specs are thinly documented — here's what we know.",
+  "description": "## Who is it for?\n\n- Students and home offices on a tight budget.\n- Gaming setups that want RGB bias lighting.\n\n## Why consider it?\n\n- Anti-glare light aimed at the desk, not the screen.\n- 3000K / 4200K / 6500K and stepless dimming.\n- USB-C power, optional RGB backlight.",
+  "specs": [
+    { "label": "Type", "value": "Monitor light bar with asymmetric (anti-glare) light" },
+    { "label": "Versions", "value": "Standard and RGB backlight" },
+    { "label": "Color temperature", "value": "3000K / 4200K / 6500K (Sidohome)" },
+    { "label": "Dimming", "value": "Stepless (hold the touch button)" },
+    {
+      "label": "CRI",
+      "value": "Ra > 85 in the description, Ra > 95 in promo images — inconsistent"
+    },
+    { "label": "RGB backlight", "value": "7 colors + auto cycle (RGB version)" },
+    { "label": "Timer", "value": "Auto-off after 60 minutes" },
+    { "label": "Power", "value": "USB-C on the bar, 5 V USB" },
+    { "label": "Material", "value": "ABS plastic" },
+    {
+      "label": "Not published",
+      "value": "Bar length, power draw, brightness (lux), max monitor thickness"
+    },
+    { "label": "Availability", "value": "Sold mainly on Shopee in Vietnam" }
+  ],
+  "sections": [
+    {
+      "title": "What is the Sidohome SG301?",
+      "content": "Sidohome is a Vietnamese home and desk-lamp brand that sells mainly through Shopee. The SG301 is a light bar that hangs on top of your monitor and lights the desk in front of it, with an RGB variant that also washes color onto the wall behind. It isn't sold on Amazon, and almost all information comes from Sidohome's own store listing."
+    },
+    {
+      "title": "Light quality",
+      "content": "Like other monitor light bars, it angles light down onto the keyboard to avoid reflections on the screen. It offers three fixed color temperatures (3000K, 4200K, 6500K) plus stepless dimming. Sidohome's description says CRI Ra > 85 while its promo images say Ra > 95; assume the lower figure. Fine for reading and typing, not for color-critical photo or design work."
+    },
+    {
+      "title": "RGB backlight and controls",
+      "content": "The RGB version has an LED strip on the back with 7 colors and an auto-cycle mode — bias lighting that can make night gaming more comfortable and looks best on a light wall. Four touch buttons handle power/color, a 60-minute auto-off timer, an instant max-brightness neutral mode and the RGB. There's no remote, app or ambient light sensor."
+    },
+    {
+      "title": "Installation and gaps",
+      "content": "A folding clamp rests on the monitor's top edge, and power comes via USB-C from your monitor, PC or a 5 V charger. Sidohome doesn't publish the bar length, power draw or maximum monitor thickness, so very thick, curved or ultrawide monitors are a gamble. The bar also occupies the spot where a webcam usually sits."
+    },
+    {
+      "title": "Who should buy it — and who shouldn't",
+      "content": "Buy it if you're in Vietnam and want cheap desk lighting with RGB atmosphere. Skip it if you're outside Vietnam, need well-documented light quality for color work, or want a premium build and warranty — consider BenQ's ScreenBar or Xiaomi's Mi Computer Monitor Light Bar."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used this light in person. This is a research roundup based on Sidohome's Shopee product listing, user instructions and promotional images, checked November 2026. Specs are incomplete and partly inconsistent, as noted above."
+    }
+  ],
+  "pros": [
+    "Very low price for a monitor light bar.",
+    "Anti-glare light aimed at the desk.",
+    "Three color temperatures, stepless dimming and a 60-minute timer.",
+    "Optional RGB bias lighting.",
+    "USB-C power from a monitor or PC."
+  ],
+  "cons": [
+    "Key specs (length, power, lux, monitor thickness) not published.",
+    "Inconsistent CRI figures.",
+    "ABS plastic body.",
+    "Sold mainly in Vietnam; not on Amazon.",
+    "Takes the webcam spot on top of the monitor."
+  ],
+  "buying_advice": "Cheap pick for buyers in Vietnam",
+  "faq": [
+    {
+      "question": "Standard or RGB version?",
+      "answer": "Pick RGB if you want bias lighting behind the monitor for gaming; otherwise the standard version does the same desk lighting."
+    },
+    {
+      "question": "Does it cause glare on the screen?",
+      "answer": "It's designed to angle light down onto the desk, which limits reflections."
+    },
+    {
+      "question": "Does it fit curved monitors?",
+      "answer": "Sidohome doesn't publish compatibility limits; it sells a separate SF301 for curved monitors."
+    },
+    {
+      "question": "How is it powered?",
+      "answer": "Via USB-C from a monitor, PC or 5 V USB charger."
+    },
+    {
+      "question": "Can I buy it outside Vietnam?",
+      "answer": "It's sold mainly on Shopee Vietnam and isn't listed on Amazon. Outside Vietnam, BenQ or Xiaomi light bars are easier to find."
+    }
+  ],
+  "seo_title": "Sidohome SG301 Review: Budget RGB Monitor Light Bar",
+  "seo_description": "Sidohome SG301 monitor light bar: anti-glare light, 3 color temperatures, stepless dimming, 60-min timer, optional RGB. What's known, what's missing, and alternatives.",
+  "verdict_summary": "A very cheap monitor light with useful basics and optional RGB, but thin documentation and limited availability outside Vietnam.",
+  "extras": {
+    "productName": "Sidohome SG301 monitor light bar",
+    "amazon": false,
+    "regionalNote": "Sidohome is a Vietnamese brand sold mainly on Shopee Vietnam; it is not listed on Amazon.",
+    "bestFor": ["Budget desk lighting in Vietnam", "RGB bias lighting for gaming setups"],
+    "notFor": [
+      "Readers outside Vietnam",
+      "Color-critical work",
+      "Monitors with a top-mounted webcam"
+    ],
+    "alternatives": [
+      {
+        "name": "BenQ ScreenBar",
+        "note": "Well-documented premium monitor light with auto-dimming."
+      },
+      {
+        "name": "Xiaomi Mi Computer Monitor Light Bar",
+        "note": "Widely available mid-price option with a wireless remote."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Shopee Vietnam — Sidohome SG301 listing (Vietnamese)",
+        "url": "https://shopee.vn/product/1064883730/14698242785"
+      }
+    ]
+  }
+}

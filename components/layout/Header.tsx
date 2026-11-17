@@ -222,7 +222,7 @@ export default function Header() {
               <Search className="size-4" />
             </Button>
 
-            <LocaleSwitcher className="hidden sm:block" />
+            <LocaleSwitcher />
 
             <ThemeToggle className="hidden sm:inline-flex" />
 

@@ -1,9 +1,10 @@
 import type { Metadata } from "next"
 import Image from "next/image"
-import { ArrowRight, TrendingUp, User } from "lucide-react"
+import { ArrowRight, Award, BookOpen, LayoutGrid, TrendingUp, User } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import ArticleCard from "@/components/blog/ArticleCard"
+import { NewsletterForm } from "@/components/blog/NewsletterForm"
 import { Link } from "@/i18n/navigation"
 import { LOCALE_TAGS, toLocale } from "@/i18n/routing"
 import { getPosts, getCategories } from "@/lib/content"
@@ -33,7 +34,7 @@ function TrendingEntry({ post, index }: { post: Post; index: number }) {
   const tCat = useTranslations("Categories")
   const color = getCategoryColor(post.category)
   return (
-    <Link href={`/articles/${post.slug}`} className="group flex items-start gap-4">
+    <Link href={`/reviews/${post.slug}`} className="group flex items-start gap-4">
       <span className="text-muted-foreground/25 w-10 shrink-0 text-4xl leading-none font-black select-none">
         {String(index + 1).padStart(2, "0")}
       </span>
@@ -91,6 +92,13 @@ export default async function HomePage({ params }: Props) {
   const latest = posts.slice(1, 4)
   const trending = posts.slice(0, 5)
   const recent = posts.slice(5, 9)
+  // Lựa chọn hàng đầu = điểm cao nhất (không theo hoa hồng).
+  const bestPicks = [...posts].sort((a, b) => b.rating.overall - a.rating.overall).slice(0, 4)
+  const ctas = [
+    { href: "/categories", label: t("ctaReviews"), Icon: LayoutGrid, primary: true },
+    { href: "/#best-picks", label: t("ctaBestPicks"), Icon: Award, primary: false },
+    { href: "/guides", label: t("ctaGuides"), Icon: BookOpen, primary: false },
+  ]
 
   const jsonLd = jsonLdHtml(
     {
@@ -107,6 +115,32 @@ export default async function HomePage({ params }: Props) {
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-20 px-4 py-12 sm:gap-28 sm:px-6 lg:px-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      {/* ── Tagline + CTA ─────────────────────────────────── */}
+      <section className="-mb-10 flex flex-col items-start gap-5 sm:-mb-16">
+        <h1 className="max-w-3xl text-3xl leading-tight font-black tracking-tight sm:text-5xl">
+          {t("tagline")}
+        </h1>
+        <p className="text-muted-foreground max-w-2xl text-base leading-relaxed sm:text-lg">
+          {t("taglineSub")}
+        </p>
+        <div className="flex flex-wrap gap-3">
+          {ctas.map(({ href, label, Icon, primary }) => (
+            <Link
+              key={href}
+              href={href}
+              className={`inline-flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors ${
+                primary
+                  ? "bg-primary text-primary-foreground hover:opacity-90"
+                  : "border-border bg-card hover:bg-muted border"
+              }`}
+            >
+              <Icon className="size-4" />
+              {label}
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* ── Hero featured article ─────────────────────────── */}
       {/* Không fade-in: ảnh bìa là LCP, opacity 0 lúc đầu làm LCP trễ. */}
       <section>
@@ -138,7 +172,7 @@ export default async function HomePage({ params }: Props) {
 
           <div className="grid gap-8 md:grid-cols-2 md:gap-10">
             <Link
-              href={`/articles/${trending[0].slug}`}
+              href={`/reviews/${trending[0].slug}`}
               className="group relative flex min-h-80 flex-col justify-end overflow-hidden rounded-2xl"
             >
               {trending[0].coverImage ? (
@@ -222,6 +256,20 @@ export default async function HomePage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* ── Best picks (điểm cao nhất) ─────────────────────── */}
+      <section id="best-picks" className="flex scroll-mt-24 flex-col gap-6">
+        <SectionHeader title={t("ctaBestPicks")} href="/categories" />
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {bestPicks.map((post) => (
+            <div key={post.slug} className="reveal">
+              <ArticleCard post={post} />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <NewsletterForm source="home" />
 
       {/* ── More recent ───────────────────────────────────── */}
       <section className="animate-fade-in-up flex flex-col gap-6 delay-300">

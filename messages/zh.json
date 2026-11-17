@@ -33,12 +33,14 @@
     "newArticles": "最新评测",
     "buyingGuides": "选购指南",
     "allCategories": "分类",
-    "scoring": "评测方法",
+    "scoring": "我们如何评测",
     "aboutUs": "关于我们",
     "contact": "联系我们",
     "terms": "使用条款",
     "privacy": "隐私",
-    "cookie": "Cookie"
+    "cookie": "Cookie",
+    "editorialPolicy": "编辑政策",
+    "affiliateDisclosure": "联盟营销披露"
   },
   "Legal": {
     "updatedAt": "最后更新：{date}"
@@ -98,7 +100,12 @@
     "latest": "最新评测",
     "trending": "热门",
     "categories": "分类",
-    "recent": "近期评测"
+    "recent": "近期评测",
+    "tagline": "独立的科技产品评测、选购指南与对比。",
+    "taglineSub": "有出处的参数、坦诚的优缺点，为桌面布置、游戏外设、电脑和音频设备给出明确推荐。",
+    "ctaReviews": "浏览评测",
+    "ctaBestPicks": "精选推荐",
+    "ctaGuides": "选购指南"
   },
   "ErrorPage": {
     "title": "出错了",
@@ -132,10 +139,8 @@
     "pros": "优点",
     "cons": "缺点",
     "saveArticle": "收藏本文",
-    "affiliateDisclosure": "披露：本页面包含联盟营销链接。当您通过这些链接购买时，Zero Technology 可能会获得佣金，您支付的价格不变；这不会影响我们的评价或评分。",
-    "affiliateDisclosureLink": "了解我们的评测方式",
-    "affiliateNote": "当您通过此链接购买时，我们可能会获得佣金，您支付的价格不变。价格可能会变动。",
-    "amazonNote": "作为亚马逊联盟成员，我们会从符合条件的购买中赚取佣金（As an Amazon Associate I earn from qualifying purchases）。",
+    "affiliateDisclosure": "披露：当您通过本页面的链接购买时，我们可能获得佣金，您支付的价格不变。作为亚马逊联盟成员，我们从符合条件的购买中获得收入。这不会影响评分。",
+    "affiliateDisclosureLink": "联盟营销披露",
     "score": "评测得分",
     "breakdown": "评分详情",
     "related": "相关文章",
@@ -143,7 +148,31 @@
     "viewAll": "查看全部",
     "buy": "购买产品",
     "buyOn": "在 {store} 购买",
-    "relatedGuides": "相关选购指南"
+    "relatedGuides": "相关选购指南",
+    "updatedAt": "最后更新 {date}",
+    "methodTested": "亲自实测",
+    "methodCompiled": "资料汇总",
+    "methodTestedHint": "Zero Technology 亲自试用过该产品，文中图片为我们自行拍摄。",
+    "methodCompiledHint": "根据厂商规格、零售商信息及用户/媒体评测整理而成——我们尚未亲自试用该产品。",
+    "byline": "作者 <authorLink>{author}</authorLink> · 由 <link>{site} 编辑团队</link>审核",
+    "bestFor": "适合",
+    "notFor": "不适合",
+    "alternatives": "替代选择",
+    "readReview": "阅读评测",
+    "sources": "参考来源",
+    "sourcesIntro": "本评测中的参数和观点来自以下来源。",
+    "whereToBuy": "购买渠道与各地区价格",
+    "whereToBuyIntro": "价格经常变动且因国家而异，因此我们不列出固定价格——请查看您当地商店的当前价格。",
+    "region": "地区",
+    "store": "商店",
+    "checkPrice": "查看价格",
+    "regions": {
+      "US": "美国",
+      "UK": "英国",
+      "DE": "德国 / 欧盟"
+    },
+    "warrantyNote": "保修和供货情况因地区而异，购买前请向当地零售商确认。",
+    "bylineTeam": "由 <link>{site} 编辑团队</link>撰写和审核"
   },
   "ArticleCard": {
     "editorsPick": "编辑推荐"
@@ -267,22 +296,59 @@
     "ctaTitle": "希望合作或投稿？",
     "ctaBody": "想为 {site} 撰稿、合作推广，或只是想聊聊科技？我们随时欢迎。",
     "ctaContact": "立即联系",
-    "ctaRead": "阅读文章"
+    "ctaRead": "阅读文章",
+    "method": {
+      "title": "亲自实测与资料汇总",
+      "intro": "每篇评测都会在文章开头标注以下两种标签之一：",
+      "tested": {
+        "title": "亲自实测",
+        "desc": "我们在日常工作或娱乐中亲自使用该产品至少一周。文中图片为我们自行拍摄；评分结合了实际体验与规格参数。"
+      },
+      "compiled": {
+        "title": "资料汇总",
+        "desc": "我们尚未使用过该产品。文章根据厂商官方规格、零售商信息以及用户和媒体评测整理而成（来源列在“信息来源”一节）。图片为厂商官方图片。评分反映规格参数及各来源的一致程度，而非个人体验。"
+      },
+      "updated": "文章信息会定期复核，更新日期显示在每篇文章开头。文中价格仅为参考区间，方便您大致估算——请点击购买按钮查看平台上的实时价格。"
+    }
   },
   "Compare": {
     "title": "产品对比",
     "intro": "与我们评测过的其他{category}产品对比，按同一套标准评分。",
     "product": "产品",
     "overall": "评分",
-    "price": "价格",
     "thisProduct": "当前产品"
-  },
-  "Price": {
-    "label": "参考价格",
-    "checkedAt": "更新于 {date}"
   },
   "BestPick": {
     "title": "最佳选择",
     "readReview": "阅读评测"
+  },
+  "LinksPage": {
+    "title": "链接",
+    "intro": "科技产品评测与选购指南：键盘、鼠标、耳机、显示器和桌面布置。",
+    "latest": "最新评测",
+    "links": {
+      "home": "Zero Technology 首页",
+      "guides": "选购指南",
+      "categories": "全部分类",
+      "method": "我们如何评测",
+      "contact": "联系与合作"
+    }
+  },
+  "Newsletter": {
+    "title": "每周获取科技优惠与评测",
+    "body": "每周一封简短邮件，包含最新评测和精选优惠。绝无垃圾邮件。",
+    "label": "电子邮箱",
+    "placeholder": "you@example.com",
+    "submit": "订阅",
+    "sending": "正在订阅…",
+    "done": "订阅成功，谢谢！",
+    "error": "出错了，请重试。",
+    "privacy": "可随时退订。参见<link>隐私政策</link>。"
+  },
+  "AuthorPage": {
+    "penName": "笔名 · {site} 编辑团队",
+    "note": "{name} 是 {site} 编辑团队在{category}领域使用的笔名。以此名发布的评测遵循<link>我们如何评测</link>流程，大多为资料汇总评测，而非亲测。",
+    "reviews": "{name} 的评测",
+    "metaTitle": "{name} — {site}"
   }
 }

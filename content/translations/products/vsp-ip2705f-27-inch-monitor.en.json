@@ -1,0 +1,125 @@
+{
+  "title": "VSP IP2705F: A Budget 27-Inch IPS Monitor — What You Need to Know",
+  "summary": "The VSP IP2705F is a budget 27-inch 1080p IPS monitor from VSP, a brand sold mainly in Vietnam. Retailers disagree on whether it runs at 100 Hz or 120 Hz, and 1080p at 27 inches is a real trade-off. Here's what the listings say.",
+  "description": "## Who is it for?\n\n- Buyers in Vietnam who want a large screen on a small budget.\n- Office work, study and casual gaming.\n\n## Why consider it?\n\n- 27-inch IPS panel.\n- Higher than 60 Hz refresh (100 or 120 Hz depending on listing).\n- VESA 100 and built-in speakers.",
+  "specs": [
+    { "label": "Panel", "value": "27-inch IPS, 1920 × 1080" },
+    {
+      "label": "Refresh rate",
+      "value": "100 Hz on most retailer listings; some say 120 Hz — check the box/listing"
+    },
+    { "label": "Response time", "value": "1 ms (retailer listings)" },
+    {
+      "label": "Brightness / contrast",
+      "value": "250 cd/m²; contrast listed as 1000:1 or 1500:1 depending on retailer"
+    },
+    { "label": "Ports", "value": "VGA × 1, HDMI 1.4 × 1, audio out (retailer listing)" },
+    { "label": "Speakers", "value": "2 W built-in" },
+    { "label": "VESA", "value": "100 × 100 mm" },
+    { "label": "Related model", "value": "IP2706SG is a separate model; specs differ" },
+    { "label": "Availability", "value": "Sold mainly in Vietnam" }
+  ],
+  "sections": [
+    {
+      "title": "What is the VSP IP2705F?",
+      "content": "VSP is a monitor brand sold mainly through Vietnamese retailers, and the IP2705F is one of its cheapest 27-inch IPS models. It is not widely available outside Vietnam, and VSP doesn't publish an English spec sheet, so this review relies on retailer listings — which don't fully agree."
+    },
+    {
+      "title": "100 Hz or 120 Hz? Check before you buy",
+      "content": "Most retailer listings (FPT Shop, Hoang Ha Mobile, CellphoneS) give 100 Hz, while at least one Hacom listing and some marketplace titles say 120 Hz. There may be different production batches, or simply listing errors. The ports also matter: with HDMI 1.4 and VGA only, there's no DisplayPort. Confirm the refresh rate and inputs on the box or with the seller."
+    },
+    {
+      "title": "Picture: 1080p at 27 inches",
+      "content": "IPS gives good viewing angles and color for the price, and listings give 250 cd/m² brightness. But 1080p stretched over 27 inches means visibly larger pixels and softer text at a normal desk distance than a 24-inch 1080p or 27-inch 1440p monitor. It's fine for video and casual games; less ideal for spreadsheets and coding."
+    },
+    {
+      "title": "Who should buy it — and who shouldn't",
+      "content": "Buy it if you're in Vietnam and want the biggest IPS screen for the least money. Skip it if you're outside Vietnam (it's hard to find and support), need sharp text, competitive-grade refresh rates or DisplayPort — a 24-inch 1080p or 27-inch 1440p monitor from a global brand is a better choice."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used this monitor in person. This is a research roundup based on Vietnamese retailer listings (FPT Shop, Hoang Ha Mobile, Hacom, CellphoneS), checked November 2026. VSP does not publish an English spec sheet, and the listings disagree on refresh rate and contrast."
+    },
+    {
+      "title": "Should you buy the VSP IP2705F?",
+      "content": "Only if you're shopping in Vietnam on a tight budget and value screen size over sharpness. Confirm the refresh rate before ordering. For most readers outside Vietnam, the ASUS VG249QE5A or Xiaomi G24i are easier to buy and better documented."
+    }
+  ],
+  "pros": [
+    "Large 27-inch IPS panel for little money.",
+    "Faster than 60 Hz (100 or 120 Hz).",
+    "Built-in speakers.",
+    "VESA 100 mount.",
+    "Wide viewing angles."
+  ],
+  "cons": [
+    "Refresh rate differs between listings (100 vs 120 Hz).",
+    "1080p looks soft at 27 inches.",
+    "HDMI 1.4 and VGA only — no DisplayPort.",
+    "Sold mainly in Vietnam; limited support elsewhere.",
+    "No official English spec sheet."
+  ],
+  "buying_advice": "Only for budget buyers in Vietnam",
+  "faq": [
+    {
+      "question": "Is the VSP IP2705F 100 Hz or 120 Hz?",
+      "answer": "Most retailer listings say 100 Hz; some say 120 Hz. Check the box or ask the seller."
+    },
+    {
+      "question": "Is 1080p good enough at 27 inches?",
+      "answer": "For video and casual games, yes. For text-heavy work, 1440p looks noticeably sharper."
+    },
+    {
+      "question": "Does it have DisplayPort?",
+      "answer": "Retailer listings show VGA and HDMI 1.4 only."
+    },
+    {
+      "question": "Can I buy it outside Vietnam?",
+      "answer": "It's sold mainly through Vietnamese retailers and marketplaces, so availability and warranty elsewhere are limited."
+    },
+    {
+      "question": "Is the IP2706SG the same monitor?",
+      "answer": "No, it's a separate VSP model. Check specs for the exact model you buy."
+    }
+  ],
+  "seo_title": "VSP IP2705F Review: Budget 27-Inch IPS Monitor Explained",
+  "seo_description": "VSP IP2705F: 27-inch 1080p IPS, 100–120 Hz depending on listing, HDMI 1.4/VGA, 2 W speakers. What the listings say, pros and cons, and global alternatives.",
+  "verdict_summary": "A very cheap 27-inch IPS monitor for buyers in Vietnam. Inconsistent listings, 1080p softness at 27 inches and limited ports mean most readers should look at global-brand alternatives.",
+  "extras": {
+    "productName": "VSP IP2705F",
+    "amazon": false,
+    "regionalNote": "VSP monitors are sold mainly in Vietnam and are not listed on Amazon.",
+    "bestFor": ["Buyers in Vietnam on a tight budget", "Video and casual gaming on a big screen"],
+    "notFor": [
+      "Readers outside Vietnam",
+      "Text-heavy work that needs sharp detail",
+      "Competitive gamers who need DisplayPort and high refresh"
+    ],
+    "alternatives": [
+      {
+        "name": "ASUS TUF Gaming VG249QE5A",
+        "slug": "asus-tuf-gaming-vg249qe5a",
+        "note": "24-inch 1080p IPS at 146 Hz from a global brand."
+      },
+      {
+        "name": "Xiaomi Gaming Monitor G24i",
+        "slug": "xiaomi-g24i-gaming-monitor",
+        "note": "24-inch 1080p Fast IPS at 180 Hz with DisplayPort 1.4."
+      }
+    ],
+    "sources": [
+      {
+        "label": "FPT Shop — VSP IP2705F listing (Vietnamese)",
+        "url": "https://fptshop.com.vn/man-hinh/man-hinh-vsp-ip2705f-h27-inchfhd-1920x1080100hz"
+      },
+      {
+        "label": "Hoang Ha Mobile — VSP IP2705F listing (Vietnamese)",
+        "url": "https://hoanghamobile.com/man-hinh-may-tinh/man-hinh-vsp-ip2705f"
+      },
+      {
+        "label": "Hacom — VSP IP2705F listing (Vietnamese)",
+        "url": "https://hacom.vn/man-hinh-vsp-ip2705f-100hz"
+      }
+    ]
+  }
+}

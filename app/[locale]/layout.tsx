@@ -11,6 +11,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/constants"
 import { OG_LOCALES } from "@/lib/seo"
 import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
+import { LocaleSuggestBanner } from "@/components/layout/LocaleSuggestBanner"
 import { SearchDialog } from "@/components/layout/SearchDialog"
 import { ViewTransitions } from "@/components/layout/ViewTransitions"
 import { BookmarksProvider } from "@/contexts/BookmarksContext"
@@ -100,6 +101,7 @@ export default async function LocaleLayout({
           <Auth0Provider>
             <BookmarksProvider>
               <ViewTransitions />
+              <LocaleSuggestBanner />
               <Header />
               <SearchDialog />
               <main className="flex-1">{children}</main>

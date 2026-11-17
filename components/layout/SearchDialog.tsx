@@ -92,7 +92,7 @@ export function SearchDialog() {
     } else if (e.key === "Enter") {
       e.preventDefault()
       if (activeIdx >= 0 && filtered[activeIdx]) {
-        router.push(`/articles/${filtered[activeIdx].slug}`)
+        router.push(`/reviews/${filtered[activeIdx].slug}`)
       } else if (query.trim()) {
         router.push(`/categories?q=${encodeURIComponent(query.trim())}`)
       }
@@ -158,7 +158,7 @@ export function SearchDialog() {
               return (
                 <Link
                   key={post.slug}
-                  href={`/articles/${post.slug}`}
+                  href={`/reviews/${post.slug}`}
                   onClick={close}
                   className={`flex items-center gap-3 rounded-xl p-3 transition-colors ${
                     isActive ? "bg-muted" : "hover:bg-muted/60"

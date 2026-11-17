@@ -1,0 +1,127 @@
+{
+  "title": "AULA F75 Pro: A Budget Gasket-Mount Wireless Keyboard Worth Trying?",
+  "summary": "The AULA F75 Pro is a 75% tri-mode mechanical keyboard with a gasket mount, layered dampening, hot-swap sockets, a volume knob and a 4,000 mAh battery. Here's what the listings say, where they disagree and who it suits.",
+  "description": "## Who is it for?\n\n- First-time buyers of a \"custom-style\" keyboard on a budget.\n- Gamers and office users who want one board for both.\n- People who want wireless plus hot-swap.\n\n## Why consider it?\n\n- Gasket mount and multi-layer dampening.\n- 2.4 GHz, Bluetooth and USB-C.\n- Hot-swap switches, PBT keycaps, volume knob.",
+  "specs": [
+    {
+      "label": "Layout",
+      "value": "75%, around 80 keys plus a knob (listings say 80–81 including the knob)"
+    },
+    { "label": "Connection", "value": "USB-C wired, 2.4 GHz receiver, Bluetooth 5.0" },
+    {
+      "label": "Polling rate",
+      "value": "1,000 Hz wired and 2.4 GHz; 125 Hz Bluetooth (Newegg listing)"
+    },
+    { "label": "Structure", "value": "Gasket mount with layered foam/silicone dampening" },
+    {
+      "label": "Switches",
+      "value": "Pre-lubed linear; LEOBOG Reaper or other variants depending on version"
+    },
+    { "label": "Hot-swap", "value": "Yes" },
+    { "label": "Keycaps", "value": "PBT, side-printed or double-shot depending on version" },
+    { "label": "Lighting", "value": "South-facing RGB" },
+    {
+      "label": "Battery",
+      "value": "4,000 mAh; about 17.5 h with default lighting, much longer with lights off (retailer listing)"
+    },
+    { "label": "Weight", "value": "About 1 kg" },
+    { "label": "Warranty", "value": "Varies by seller and region" }
+  ],
+  "sections": [
+    {
+      "title": "What is the AULA F75 Pro?",
+      "content": "AULA is a Chinese peripheral brand, and the F75 Pro is its popular budget take on the enthusiast-style 75% keyboard: gasket mount, layered dampening, hot-swap sockets and tri-mode wireless. It's sold through Newegg, Amazon and many regional retailers. AULA doesn't make detailed specs easy to find, so this review relies on retailer listings and an independent spec review."
+    },
+    {
+      "title": "Layout and build",
+      "content": "The 75% layout drops the numpad but keeps the F-row and arrow keys, leaving more room for your mouse. A knob in the top-right corner handles volume. At about 1 kg it stays put on the desk but isn't a travel keyboard."
+    },
+    {
+      "title": "Gasket mount and sound",
+      "content": "The plate sits on gaskets rather than being screwed rigidly to the case, with foam and silicone layers to absorb noise. Reviews describe a softer feel and a deeper, less hollow sound than typical budget boards. That's the main reason the F75 Pro is popular."
+    },
+    {
+      "title": "Switches and keycaps: check the version",
+      "content": "The F75 Pro ships with different pre-lubed linear switches depending on the version — Newegg lists LEOBOG Reaper switches, while Turbo VS describes Star Vector switches. Hot-swap sockets let you change switches without soldering. Keycaps are PBT; listings vary between side-printed and double-shot. Check the exact switch and color variant before ordering."
+    },
+    {
+      "title": "Wireless and battery",
+      "content": "Use wired or 2.4 GHz for gaming (Newegg lists 1,000 Hz polling in both modes; Bluetooth runs at 125 Hz). The 4,000 mAh battery is large for the class; one retailer lists about 17.5 hours with the default lighting and far longer with the lights off. RGB is the main battery drain."
+    },
+    {
+      "title": "Who should buy it — and who shouldn't",
+      "content": "Buy it if you want a gasket-mount, hot-swap wireless 75% board for both gaming and typing without spending much. Skip it if you need a numpad, a light travel keyboard, polished software or consistent documentation."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used this keyboard in person. This is a research roundup based on Newegg's listing and Turbo VS's specification review, checked November 2026. Switch and keycap details differ between versions and listings, and we say so where they do."
+    }
+  ],
+  "pros": [
+    "Gasket mount and dampening for a softer, deeper sound.",
+    "Tri-mode: USB-C, 2.4 GHz and Bluetooth.",
+    "Hot-swap sockets for easy switch changes.",
+    "PBT keycaps.",
+    "Large 4,000 mAh battery.",
+    "Handy volume knob in a compact 75% layout."
+  ],
+  "cons": [
+    "Switch and keycap specs vary by version and listing.",
+    "Heavy (about 1 kg) for travel.",
+    "RGB drains the battery quickly.",
+    "No numpad.",
+    "Software is less polished than big brands'."
+  ],
+  "buying_advice": "Great value for a first gasket board",
+  "faq": [
+    {
+      "question": "Does it work with Mac and iPad?",
+      "answer": "Yes, over Bluetooth, 2.4 GHz or USB-C. Some keys may need remapping on macOS."
+    },
+    { "question": "Can I change the switches?", "answer": "Yes, the board is hot-swappable." },
+    {
+      "question": "How long does the battery last?",
+      "answer": "One retailer lists about 17.5 hours with the default lighting and much longer with lights off."
+    },
+    {
+      "question": "Which switches does it use?",
+      "answer": "It depends on the version — listings mention LEOBOG Reaper and Star Vector linear switches. Check the variant you buy."
+    },
+    {
+      "question": "Is it quiet enough for an office?",
+      "answer": "Linear switches and dampening make it quieter than clicky boards, though any mechanical keyboard makes some noise."
+    }
+  ],
+  "seo_title": "AULA F75 Pro Review: Budget Gasket Wireless Keyboard",
+  "seo_description": "AULA F75 Pro: 75% gasket-mount, tri-mode wireless, hot-swap, PBT keycaps, 4,000 mAh battery. Sourced specs, version differences, pros and cons, and alternatives.",
+  "verdict_summary": "A lot of enthusiast features — gasket mount, hot-swap, tri-mode and a big battery — for a budget price. Check the switch version and accept the 1 kg weight.",
+  "extras": {
+    "productName": "AULA F75 Pro keyboard",
+    "bestFor": [
+      "First gasket-mount keyboard on a budget",
+      "Gaming and typing on one board",
+      "Wireless with hot-swap"
+    ],
+    "notFor": ["Heavy number entry (no numpad)", "Travel", "Buyers who want polished software"],
+    "alternatives": [
+      {
+        "name": "Keychron V1 Max",
+        "note": "75% tri-mode keyboard from a better-documented brand, usually at a higher price."
+      },
+      {
+        "name": "Epomaker x AULA F75",
+        "note": "Closely related model sold by Epomaker internationally."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Newegg — AULA F75 Pro listing",
+        "url": "https://www.newegg.com/p/32N-04U2-00679"
+      },
+      {
+        "label": "Turbo VS — AULA F75 Pro specifications and review",
+        "url": "https://www.turbovs.com/review/aula-f75-pro-67913"
+      }
+    ]
+  }
+}

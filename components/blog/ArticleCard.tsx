@@ -42,7 +42,7 @@ function ArticleCard({ post, variant = "default" }: Props) {
   if (variant === "featured") {
     return (
       <Link
-        href={`/articles/${post.slug}`}
+        href={`/reviews/${post.slug}`}
         className="shimmer group relative flex h-100 w-full overflow-hidden rounded-2xl sm:h-135 lg:h-150"
       >
         {post.coverImage ? (
@@ -118,7 +118,7 @@ function ArticleCard({ post, variant = "default" }: Props) {
   /* ── COMPACT ──────────────────────────────────────────── */
   if (variant === "compact") {
     return (
-      <Link href={`/articles/${post.slug}`} className="group flex items-start gap-3 py-3.5">
+      <Link href={`/reviews/${post.slug}`} className="group flex items-start gap-3 py-3.5">
         <div className="shimmer relative size-14 shrink-0 overflow-hidden rounded-xl transition-transform duration-300 group-hover:scale-105">
           {post.coverImage ? (
             <Image
@@ -162,7 +162,7 @@ function ArticleCard({ post, variant = "default" }: Props) {
   return (
     <div className="group border-border bg-card relative flex flex-col overflow-hidden rounded-2xl border transition-all duration-300 hover:-translate-y-1.5 hover:border-transparent hover:shadow-2xl">
       <Link
-        href={`/articles/${post.slug}`}
+        href={`/reviews/${post.slug}`}
         className="absolute inset-0 z-[1]"
         aria-label={post.title}
       />

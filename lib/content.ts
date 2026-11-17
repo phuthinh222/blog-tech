@@ -1,23 +1,22 @@
 import { cache } from "react"
 import { getTranslations } from "next-intl/server"
 import { supabasePublic } from "@/lib/supabase"
+import { authorForCategory } from "@/lib/authors"
 import { CATEGORY_CONFIG } from "@/lib/categories"
-import { SITE_NAME } from "@/lib/constants"
-import { routing, type Locale } from "@/i18n/routing"
-import type { Post, Category, Offer } from "@/types"
+import { AFFILIATE_LINKS_ENABLED, SITE_NAME } from "@/lib/constants"
+import { routing, SOURCE_LOCALE, type Locale } from "@/i18n/routing"
+import type { AmazonRegion, Category, Offer, Post, RegionalLink, ReviewExtras } from "@/types"
 
 // Content đọc từ Supabase (products/product_translations/product_offers) qua
 // anon key + RLS. Mỗi sản phẩm có 1 bản dịch / locale; nếu chưa có bản dịch ở
-// locale đang xem thì dùng bản tiếng Việt (defaultLocale) thay vì ẩn bài.
-const FALLBACK_LOCALE = routing.defaultLocale
+// locale đang xem thì dùng bản gốc tiếng Việt (SOURCE_LOCALE) thay vì ẩn bài.
+const FALLBACK_LOCALE = SOURCE_LOCALE
 
+// Cột của products lấy bằng "*" để các cột thêm ở migration 0005
+// (review_method, content_updated_at) là tuỳ chọn — DB chưa chạy 0005 thì
+// field chỉ là undefined.
 const PRODUCT_SELECT = `
-  slug,
-  cover_image,
-  images,
-  specs,
-  rating,
-  created_at,
+  *,
   categories ( slug ),
   product_translations!inner ( * ),
   product_offers (
@@ -33,6 +32,9 @@ type ProductRow = {
   specs: { label: string; value: string }[] | null
   rating: Post["rating"] | null
   created_at: string
+  updated_at: string
+  review_method?: string | null
+  content_updated_at?: string | null
   categories: { slug: string } | null
   // Chọn "*" (không liệt kê cột) để cột `specs` thêm ở migration 0004 là
   // tuỳ chọn — DB chưa chạy 0004 thì field này chỉ đơn giản là undefined.
@@ -51,6 +53,7 @@ type ProductRow = {
     seo_description: string | null
     author: string | null
     verdict_summary: string | null
+    extras?: ReviewExtras | null
   }[]
   product_offers: {
     id: string
@@ -84,6 +87,48 @@ function pickBestOffer(offers: (Offer & { sourceProductId: string | null })[]) {
   })[0]
 }
 
+// Tracking ID Amazon Associates cho kênh website — mỗi marketplace một ID riêng
+// (ID của amazon.com không dùng được ở amazon.co.uk/.de). Đặt trong env:
+// AMAZON_WEB_TAG (US, VD "zerotech-web-20"), AMAZON_UK_TAG, AMAZON_DE_TAG. Các
+// kênh Pinterest/YouTube dùng ID riêng khi tạo link ở nơi đó. Link amazon.* trên
+// site luôn mang tag của đúng marketplace, kể cả khi offer trong DB lưu tag
+// khác. Link rút gọn amzn.to không sửa được — giữ nguyên.
+const AMAZON_MARKETS: Record<AmazonRegion, { host: string; tag: string | undefined }> = {
+  US: { host: "www.amazon.com", tag: process.env.AMAZON_WEB_TAG },
+  UK: { host: "www.amazon.co.uk", tag: process.env.AMAZON_UK_TAG },
+  DE: { host: "www.amazon.de", tag: process.env.AMAZON_DE_TAG },
+}
+
+function amazonTagFor(hostname: string): string | undefined {
+  const host = hostname.toLowerCase().replace(/^(www|smile)\./, "")
+  return Object.values(AMAZON_MARKETS).find((m) => m.host.replace(/^www\./, "") === host)?.tag
+}
+
+function withAmazonTag(url: string | undefined): string | undefined {
+  if (!url) return url
+  try {
+    const u = new URL(url)
+    const tag = amazonTagFor(u.hostname)
+    if (!tag) return url
+    u.searchParams.set("tag", tag)
+    return u.toString()
+  } catch {
+    return url
+  }
+}
+
+// Link tìm kiếm sản phẩm ở từng marketplace (Amazon cho phép link affiliate tới
+// trang kết quả tìm kiếm). Marketplace chưa có tag vẫn hiện link (không hoa hồng).
+function amazonSearchLinks(query: string): RegionalLink[] {
+  if (!query) return []
+  return (Object.keys(AMAZON_MARKETS) as AmazonRegion[]).map((region) => {
+    const { host, tag } = AMAZON_MARKETS[region]
+    const params = new URLSearchParams({ k: query })
+    if (tag) params.set("tag", tag)
+    return { region, url: `https://${host}/s?${params}` }
+  })
+}
+
 function mapRowToPost(row: ProductRow, locale: Locale): Post | null {
   const translation =
     row.product_translations.find((t) => t.locale === locale) ??
@@ -107,6 +152,8 @@ function mapRowToPost(row: ProductRow, locale: Locale): Post | null {
     sourceProductId: o.source_product_id,
   }))
   const bestOffer = pickBestOffer(offersWithSource)
+  const extras: ReviewExtras = translation.extras ?? {}
+  const productName = extras.productName?.trim() || translation.title.split(":")[0].trim()
   // Khớp theo merchant trước — link affiliate rút gọn (VD shorten.asia của
   // AccessTrade) không chứa tên sàn trong URL.
   const offerUrlFor = (pattern: RegExp) =>
@@ -120,17 +167,20 @@ function mapRowToPost(row: ProductRow, locale: Locale): Post | null {
     title: translation.title,
     excerpt: translation.summary ?? "",
     category: row.categories?.slug ?? "",
-    // Mọi bài đứng tên site (không có tác giả cá nhân) — bỏ qua cột author
-    // trong DB (dữ liệu cũ ghi "The Zero Tech").
-    author: SITE_NAME,
+    // Tác giả = bút danh biên tập phụ trách danh mục (lib/authors.ts); bỏ qua
+    // cột author trong DB (dữ liệu cũ ghi "The Zero Tech").
+    author: authorForCategory(row.categories?.slug ?? "")?.name ?? SITE_NAME,
+    authorSlug: authorForCategory(row.categories?.slug ?? "")?.slug ?? "",
     publishedAt: row.created_at,
+    // Ngày cập nhật do người viết ghi; chưa có thì coi như ngày đăng.
+    updatedAt: row.content_updated_at ?? row.created_at,
+    reviewMethod: row.review_method === "tested" ? "tested" : "compiled",
     coverImage: row.cover_image ?? "",
     images: row.images ?? [],
     itemId: bestOffer?.sourceProductId ?? "",
     affiliateUrl: bestOffer?.affiliateUrl ?? "",
-    shopeeUrl: offerUrlFor(/shopee/i) ?? "",
-    amazonUrl: offerUrlFor(/amazon|amzn/i) ?? "",
-    taobaoUrl: offerUrlFor(/taobao/i) ?? "",
+    amazonUrl: AFFILIATE_LINKS_ENABLED ? (withAmazonTag(offerUrlFor(/amazon|amzn/i)) ?? "") : "",
+    taobaoUrl: AFFILIATE_LINKS_ENABLED ? (offerUrlFor(/taobao/i) ?? "") : "",
     price: bestOffer?.price ?? null,
     currency: bestOffer?.price != null ? bestOffer.currency : null,
     priceCheckedAt: bestOffer?.price != null ? bestOffer.lastCheckedAt : null,
@@ -150,6 +200,10 @@ function mapRowToPost(row: ProductRow, locale: Locale): Post | null {
       keywords: [],
     },
     offers,
+    productName,
+    amazonLinks:
+      !AFFILIATE_LINKS_ENABLED || extras.amazon === false ? [] : amazonSearchLinks(productName),
+    extras,
   }
 }
 

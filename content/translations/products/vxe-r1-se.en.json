@@ -1,0 +1,146 @@
+{
+  "title": "VXE R1 SE: An Ultralight Wireless Gaming Mouse for FPS on a Budget",
+  "summary": "The VXE R1 SE and R1 SE+ (also sold as the VXE Dragonfly R1 SE) pack a PAW3395 SE sensor, a weight of roughly 51–55 g and tri-mode wireless into a budget mouse. Here is how the two versions differ, who they suit and what to check before buying.",
+  "description": "## Who is it for?\n\n- FPS players (Valorant, CS2, Apex) who want a light wireless mouse.\n- Budget buyers who want PAW3395-class tracking without paying flagship prices.\n- Laptop users who want Bluetooth as well as a low-latency 2.4 GHz mode.\n\n## Why consider it?\n\n- PixArt PAW3395 SE sensor, up to 18,000 DPI (retailer listings).\n- Roughly 51–55 g depending on version.\n- 2.4 GHz, Bluetooth and wired USB-C.",
+  "specs": [
+    {
+      "label": "Also sold as",
+      "value": "VXE Dragonfly R1 SE / R1 SE+ (part of the ATK/VXE family)"
+    },
+    {
+      "label": "Sensor",
+      "value": "PixArt PAW3395 SE, up to 18,000 DPI, 400 IPS, 40 G (retailer listings)"
+    },
+    {
+      "label": "Polling rate",
+      "value": "Up to 1,000 Hz with the included receiver; higher rates need a separately sold receiver"
+    },
+    { "label": "Connection", "value": "Tri-mode: 2.4 GHz, Bluetooth, wired USB-C" },
+    { "label": "Shape", "value": "Symmetrical, about 120.6 × 64 × 37.8 mm" },
+    {
+      "label": "Weight",
+      "value": "About 51 g (SE) / 55 g (SE+) — listings vary between 51 and 55 g"
+    },
+    {
+      "label": "Battery",
+      "value": "SE+ has the larger battery; capacity and runtime figures differ between listings"
+    },
+    { "label": "Switches", "value": "Huano (SE+: Huano Blue Glow V2, per listings)" },
+    { "label": "Lighting", "value": "None" },
+    { "label": "Warranty", "value": "Varies by region and seller; check your local retailer" }
+  ],
+  "sections": [
+    {
+      "title": "What is the VXE R1 SE?",
+      "content": "VXE is a budget gaming brand in the same family as ATK, and the R1 line (SE, SE+, Pro, Pro Max) is its best-known series. In Europe the SE+ is sold as the VXE Dragonfly R1 SE+ by retailers such as Caseking and MaxGaming. The SE and SE+ are the entry models: same shell and sensor, different battery and switches."
+    },
+    {
+      "title": "R1 SE vs R1 SE+: which one?",
+      "content": "Both use the same symmetrical shell and a PAW3395 SE sensor. The SE is the lightest (about 51 g) with a smaller battery; the SE+ adds a bigger battery and Huano Blue Glow V2 switches at about 55 g. Retailer listings disagree on exact battery capacity and runtime, so treat any single number with caution. If you hate charging, pick the SE+; if you want the lightest, cheapest option, the SE is enough. Check which version the listing actually ships."
+    },
+    {
+      "title": "Shape and grip",
+      "content": "At about 120.6 × 64 × 37.8 mm, the R1 SE is a small-to-medium symmetrical mouse. It suits claw and fingertip grips; palm grippers with large hands may find it short. The low weight makes fast flicks easier and reduces wrist fatigue over long sessions."
+    },
+    {
+      "title": "Sensor and performance",
+      "content": "Retailers list the PAW3395 SE at up to 18,000 DPI, 400 IPS and 40 G — a cut-down variant of PixArt's popular PAW3395, which is used in many mid-range and high-end mice. Some listings for the R1 series quote the full PAW3395 at 26,000 DPI, so check the variant you are buying. The included receiver runs at up to 1,000 Hz; higher polling rates need a separate receiver. We have not measured tracking or latency ourselves."
+    },
+    {
+      "title": "Who should buy it — and who shouldn't",
+      "content": "Buy it if you want a light wireless mouse with modern tracking for FPS games on a tight budget. Skip it if you want RGB, polished software from a major brand, a large ergonomic shape for palm grip, or a long, well-documented warranty — after-sales support depends heavily on where you buy."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used this mouse in person. This is a research roundup based on European retailer listings (Caseking, MaxGaming) and ATK's store page, checked November 2026. Specifications differ between listings; where they conflict we say so. Images are VXE product photos."
+    },
+    {
+      "title": "Should you buy the VXE R1 SE / SE+?",
+      "content": "For a budget wireless FPS mouse, the R1 SE/SE+ offers a lot: PAW3395-class tracking, about 51–55 g and tri-mode connectivity. The SE+ is the more balanced pick thanks to its larger battery. Just accept that specs are less consistently documented than with Logitech or Razer, and that warranty depends on the seller."
+    }
+  ],
+  "pros": [
+    "PAW3395 SE sensor — tracking class usually found on pricier mice.",
+    "Very light at roughly 51–55 g.",
+    "Tri-mode: 2.4 GHz for gaming, Bluetooth for laptops, USB-C wired.",
+    "Simple symmetrical shape that suits claw and fingertip grips.",
+    "SE+ adds a bigger battery for less frequent charging.",
+    "Strong value compared with big-brand wireless mice."
+  ],
+  "cons": [
+    "Specs (weight, battery, sensor variant) differ between retailer listings.",
+    "Higher polling rates need a separately sold receiver.",
+    "No RGB lighting.",
+    "Small-to-medium size; not ideal for large hands with a palm grip.",
+    "Warranty and support depend on the seller and region."
+  ],
+  "buying_advice": "Great budget wireless pick; choose the SE+",
+  "faq": [
+    {
+      "question": "Should I buy the VXE R1 SE or R1 SE+?",
+      "answer": "Choose the SE+ for the bigger battery and upgraded switches; choose the SE if you want the lightest and cheapest version and don't mind charging more often."
+    },
+    {
+      "question": "Is the VXE R1 SE good for Valorant and CS2?",
+      "answer": "Its light weight and PAW3395 SE sensor suit FPS games well. Use the 2.4 GHz receiver while gaming rather than Bluetooth."
+    },
+    {
+      "question": "Is the VXE R1 SE the same as the VXE Dragonfly R1 SE?",
+      "answer": "Yes. European retailers sell it under the Dragonfly R1 SE / SE+ name."
+    },
+    {
+      "question": "Does it work with a Mac?",
+      "answer": "Yes, it works as a standard mouse over Bluetooth, the 2.4 GHz receiver or USB-C on Windows and macOS."
+    },
+    {
+      "question": "How does it compare with the Logitech G102 / G203?",
+      "answer": "The VXE is wireless and lighter (about 51–55 g vs 85 g); the Logitech is wired, has RGB and comes from a larger brand with clearer warranty terms."
+    },
+    {
+      "question": "Does it have RGB?",
+      "answer": "No. There is no lighting, which helps keep the weight down."
+    }
+  ],
+  "seo_title": "VXE R1 SE / SE+ Review: Ultralight Budget Wireless Mouse",
+  "seo_description": "VXE R1 SE and SE+ (Dragonfly): PAW3395 SE sensor, about 51–55 g, 2.4 GHz, Bluetooth and USB-C. Sourced specs, pros and cons, SE vs SE+ and alternatives.",
+  "verdict_summary": "An ultralight tri-mode wireless mouse with PAW3395-class tracking at a budget price. Specs are documented less consistently than big brands, but for FPS on a budget it is hard to beat.",
+  "extras": {
+    "productName": "VXE Dragonfly R1 SE",
+    "regionalNote": "Also sold as the VXE Dragonfly R1 SE / SE+; availability on Amazon varies by country.",
+    "bestFor": [
+      "FPS players on a budget",
+      "Claw and fingertip grips",
+      "Laptop users who want Bluetooth plus 2.4 GHz"
+    ],
+    "notFor": [
+      "Large hands with a palm grip",
+      "Buyers who want RGB or polished software",
+      "Anyone who needs a clearly documented warranty"
+    ],
+    "alternatives": [
+      {
+        "name": "Logitech G102 / G203 LIGHTSYNC",
+        "slug": "logitech-g102-gen-2",
+        "note": "Wired and heavier (85 g), but a major brand with RGB and simple software."
+      },
+      {
+        "name": "Logitech G305 LIGHTSPEED",
+        "note": "Wireless from a major brand; heavier and runs on a AA battery."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Caseking — VXE Dragonfly R1 SE+ listing",
+        "url": "https://www.caseking.de/en/vxe-dragonfly-r1-se-wireless-gaming-mouse-paw3395-se-ultra-light-black/GAMO-1397.html"
+      },
+      {
+        "label": "MaxGaming — VXE R1 SE+ listing",
+        "url": "https://www.maxgaming.com/en/wireless-mouses/vxe-r1-se-wireless-gaming-mouse-black"
+      },
+      {
+        "label": "ATK Store — VXE Dragonfly R1 series",
+        "url": "https://www.atk.store/products/vxe-dragonfly-r1-series-wireless-mouse"
+      }
+    ]
+  }
+}

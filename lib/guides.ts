@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { cache } from "react"
-import { routing, type Locale } from "@/i18n/routing"
+import { routing, SOURCE_LOCALE, type Locale } from "@/i18n/routing"
 import type { Guide } from "@/types"
 
 // Bài hướng dẫn là nội dung biên tập tĩnh, đọc thẳng từ repo (không qua
@@ -23,12 +23,12 @@ export const getGuideLocales = cache((slug: string): Locale[] =>
 )
 
 export const getGuides = cache((locale: Locale): Guide[] => {
-  const baseDir = path.join(GUIDES_DIR, routing.defaultLocale)
+  const baseDir = path.join(GUIDES_DIR, SOURCE_LOCALE)
   if (!fs.existsSync(baseDir)) return []
   return fs
     .readdirSync(baseDir)
     .filter((file) => file.endsWith(".json"))
-    .map((file) => readGuide(locale, file) ?? readGuide(routing.defaultLocale, file))
+    .map((file) => readGuide(locale, file) ?? readGuide(SOURCE_LOCALE, file))
     .filter((guide): guide is Guide => guide !== null)
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
 })
