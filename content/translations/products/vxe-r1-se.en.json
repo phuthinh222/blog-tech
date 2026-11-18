@@ -15,8 +15,14 @@
       "label": "Polling rate",
       "value": "Up to 1,000 Hz with the included receiver; higher rates need a separately sold receiver"
     },
-    { "label": "Connection", "value": "Tri-mode: 2.4 GHz, Bluetooth, wired USB-C" },
-    { "label": "Shape", "value": "Symmetrical, about 120.6 × 64 × 37.8 mm" },
+    {
+      "label": "Connection",
+      "value": "Tri-mode: 2.4 GHz, Bluetooth, wired USB-C"
+    },
+    {
+      "label": "Shape",
+      "value": "Symmetrical, about 120.6 × 64 × 37.8 mm"
+    },
     {
       "label": "Weight",
       "value": "About 51 g (SE) / 55 g (SE+) — listings vary between 51 and 55 g"
@@ -25,9 +31,18 @@
       "label": "Battery",
       "value": "SE+ has the larger battery; capacity and runtime figures differ between listings"
     },
-    { "label": "Switches", "value": "Huano (SE+: Huano Blue Glow V2, per listings)" },
-    { "label": "Lighting", "value": "None" },
-    { "label": "Warranty", "value": "Varies by region and seller; check your local retailer" }
+    {
+      "label": "Switches",
+      "value": "Huano (SE+: Huano Blue Glow V2, per listings)"
+    },
+    {
+      "label": "Lighting",
+      "value": "None"
+    },
+    {
+      "label": "Warranty",
+      "value": "Varies by region and seller; check your local retailer"
+    }
   ],
   "sections": [
     {
@@ -93,8 +108,8 @@
       "answer": "Yes, it works as a standard mouse over Bluetooth, the 2.4 GHz receiver or USB-C on Windows and macOS."
     },
     {
-      "question": "How does it compare with the Logitech G102 / G203?",
-      "answer": "The VXE is wireless and lighter (about 51–55 g vs 85 g); the Logitech is wired, has RGB and comes from a larger brand with clearer warranty terms."
+      "question": "How does it compare with the Logitech G305 X SUPERLIGHT?",
+      "answer": "Both are tri-mode wireless mice with a similar size. The VXE is a little lighter (about 51–55 g vs 59 g) and far cheaper; the Logitech has RGB, G HUB software, an 8,000 Hz upgrade path and comes from a larger brand with clearer warranty terms."
     },
     {
       "question": "Does it have RGB?",
@@ -119,13 +134,9 @@
     ],
     "alternatives": [
       {
-        "name": "Logitech G102 / G203 LIGHTSYNC",
-        "slug": "logitech-g102-gen-2",
-        "note": "Wired and heavier (85 g), but a major brand with RGB and simple software."
-      },
-      {
-        "name": "Logitech G305 LIGHTSPEED",
-        "note": "Wireless from a major brand; heavier and runs on a AA battery."
+        "name": "Logitech G305 X SUPERLIGHT",
+        "slug": "logitech-g305-x-superlight",
+        "note": "Similar size and tri-mode, 59 g, from a major brand with RGB and 8,000 Hz support — at several times the price."
       }
     ],
     "sources": [

@@ -5,6 +5,7 @@
   "category": "gaming-gear",
   "author": "Zero Technology",
   "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "reviewMethod": "compiled",
   "coverImage": "/images/products/logitech-g502-x-lightspeed/cover.jpg",
   "images": [
@@ -107,11 +108,11 @@
     },
     {
       "title": "So sánh các bản G502: chọn đúng mẫu",
-      "content": "Tên G502 có nhiều phiên bản dễ nhầm, hãy kiểm tra đúng tên khi mua:\n\n- **G502 X** (có dây): cùng thiết kế và switch LIGHTFORCE, nhẹ hơn (khoảng 89g), rẻ nhất trong bộ ba — hợp nếu không cần không dây.\n- **G502 X LIGHTSPEED** (bài này): không dây, 102g, không RGB, pin tới 140 giờ.\n- **G502 X PLUS**: giống bản LIGHTSPEED nhưng thêm 8 vùng RGB LIGHTSYNC, nặng 106g, pin tới 130 giờ khi tắt RGB, đắt hơn khoảng 20 USD. Tom's Guide cho rằng bản LIGHTSPEED đáng mua hơn vì RGB không đáng thêm tiền.\n- **G502 LIGHTSPEED** (đời 2019, thế hệ trước): không dây, 114g, có tạ, sạc micro-USB, switch cơ thường. Chỉ nên mua khi giá giảm sâu.\n\nSo với **Logitech G102 / G203 LIGHTSYNC** đã có trên Zero Technology: G102 có dây, đối xứng, 6 nút, khoảng 85g và giá chỉ bằng một phần nhỏ — hợp người cần chuột gaming cơ bản. Nếu ưu tiên chuột không dây siêu nhẹ cho FPS thì **VXE R1 SE** (khoảng 51–55g) là hướng khác hẳn."
+      "content": "Tên G502 có nhiều phiên bản dễ nhầm, hãy kiểm tra đúng tên khi mua:\n\n- **G502 X** (có dây): cùng thiết kế và switch LIGHTFORCE, nhẹ hơn (khoảng 89g), rẻ nhất trong bộ ba — hợp nếu không cần không dây.\n- **G502 X LIGHTSPEED** (bài này): không dây, 102g, không RGB, pin tới 140 giờ.\n- **G502 X PLUS**: giống bản LIGHTSPEED nhưng thêm 8 vùng RGB LIGHTSYNC, nặng 106g, pin tới 130 giờ khi tắt RGB, đắt hơn khoảng 20 USD. Tom's Guide cho rằng bản LIGHTSPEED đáng mua hơn vì RGB không đáng thêm tiền.\n- **G502 LIGHTSPEED** (đời 2019, thế hệ trước): không dây, 114g, có tạ, sạc micro-USB, switch cơ thường. Chỉ nên mua khi giá giảm sâu.\n\nSo với **Logitech G305 X SUPERLIGHT** đã có trên Zero Technology: G305 X không dây, đối xứng, 6 nút, chỉ 59g, có Bluetooth và rẻ bằng khoảng một nửa — hợp game thủ FPS tay nhỏ đến trung bình. Nếu muốn chuột siêu nhẹ giá rẻ nhất thì **VXE R1 SE** (khoảng 51–55g) là hướng khác hẳn."
     },
     {
       "title": "Ai nên mua và ai không nên mua?",
-      "content": "**Nên mua nếu bạn:**\n- Cầm chuột kiểu palm, tay trung bình đến lớn, dùng tay phải.\n- Chơi MMO, MOBA hoặc game cần nhiều phím tắt, hoặc dùng macro cho công việc.\n- Muốn chuột không dây pin lâu, sạc USB-C, không cần RGB.\n- Đang dùng G502 cũ và muốn bản nhẹ hơn, sạc tiện hơn mà vẫn giữ dáng quen.\n\n**Không nên mua nếu bạn:**\n- Chơi FPS cạnh tranh và thích chuột dưới 70g hoặc cần polling 4000–8000Hz.\n- Thích chỉnh trọng lượng bằng tạ như G502 cũ.\n- Cần Bluetooth để dùng với máy tính bảng hoặc laptop ít cổng.\n- Thuận tay trái, hoặc cầm claw/fingertip với tay nhỏ.\n- Chỉ cần chuột cơ bản — G102 hoặc G502 X có dây rẻ hơn nhiều."
+      "content": "**Nên mua nếu bạn:**\n- Cầm chuột kiểu palm, tay trung bình đến lớn, dùng tay phải.\n- Chơi MMO, MOBA hoặc game cần nhiều phím tắt, hoặc dùng macro cho công việc.\n- Muốn chuột không dây pin lâu, sạc USB-C, không cần RGB.\n- Đang dùng G502 cũ và muốn bản nhẹ hơn, sạc tiện hơn mà vẫn giữ dáng quen.\n\n**Không nên mua nếu bạn:**\n- Chơi FPS cạnh tranh và thích chuột dưới 70g hoặc cần polling 4000–8000Hz.\n- Thích chỉnh trọng lượng bằng tạ như G502 cũ.\n- Cần Bluetooth để dùng với máy tính bảng hoặc laptop ít cổng.\n- Thuận tay trái, hoặc cầm claw/fingertip với tay nhỏ.\n- Chỉ cần chuột gọn nhẹ ít nút — G305 X SUPERLIGHT hoặc G502 X có dây rẻ hơn nhiều."
     },
     {
       "title": "Nguồn thông tin của bài viết",
@@ -141,11 +142,11 @@
     },
     {
       "question": "G502 X LIGHTSPEED có hợp chơi FPS như Valorant, CS2 không?",
-      "answer": "Cảm biến và switch đủ tốt cho FPS, nhưng 102g và dáng to khá nặng so với chuột FPS hiện đại. Nếu chơi FPS là chính và hay vẩy chuột, chuột nhẹ như VXE R1 SE hoặc Logitech G102 (khoảng 85g) sẽ hợp hơn."
+      "answer": "Cảm biến và switch đủ tốt cho FPS, nhưng 102g và dáng to khá nặng so với chuột FPS hiện đại. Nếu chơi FPS là chính và hay vẩy chuột, chuột nhẹ như VXE R1 SE hoặc Logitech G305 X SUPERLIGHT (59g) sẽ hợp hơn."
     },
     {
-      "question": "So với Logitech G102, G502 X LIGHTSPEED hơn ở điểm nào?",
-      "answer": "G502 X LIGHTSPEED không dây, có 13 điều khiển lập trình (G102 có 6 nút), switch LIGHTFORCE, cảm biến HERO cao cấp hơn và dáng ôm tay phải. Đổi lại, G102 nhẹ hơn, đối xứng và rẻ hơn rất nhiều."
+      "question": "So với Logitech G305 X SUPERLIGHT, G502 X LIGHTSPEED hơn ở điểm nào?",
+      "answer": "G502 X LIGHTSPEED có 13 điều khiển lập trình (G305 X SUPERLIGHT có 6 nút), switch LIGHTFORCE, con lăn cuộn siêu nhanh, pin lâu hơn và dáng ôm tay phải cho người cầm palm. Đổi lại, G305 X SUPERLIGHT nhẹ hơn nhiều (59g so với 102g), đối xứng, có Bluetooth và rẻ hơn khoảng một nửa."
     }
   ],
   "verdict": {
