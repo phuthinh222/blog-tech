@@ -7,25 +7,46 @@
       "label": "Layout",
       "value": "75%, around 80 keys plus a knob (listings say 80–81 including the knob)"
     },
-    { "label": "Connection", "value": "USB-C wired, 2.4 GHz receiver, Bluetooth 5.0" },
+    {
+      "label": "Connection",
+      "value": "USB-C wired, 2.4 GHz receiver, Bluetooth 5.0"
+    },
     {
       "label": "Polling rate",
       "value": "1,000 Hz wired and 2.4 GHz; 125 Hz Bluetooth (Newegg listing)"
     },
-    { "label": "Structure", "value": "Gasket mount with layered foam/silicone dampening" },
+    {
+      "label": "Structure",
+      "value": "Gasket mount with layered foam/silicone dampening"
+    },
     {
       "label": "Switches",
       "value": "Pre-lubed linear; LEOBOG Reaper or other variants depending on version"
     },
-    { "label": "Hot-swap", "value": "Yes" },
-    { "label": "Keycaps", "value": "PBT, side-printed or double-shot depending on version" },
-    { "label": "Lighting", "value": "South-facing RGB" },
+    {
+      "label": "Hot-swap",
+      "value": "Yes"
+    },
+    {
+      "label": "Keycaps",
+      "value": "PBT, side-printed or double-shot depending on version"
+    },
+    {
+      "label": "Lighting",
+      "value": "South-facing RGB"
+    },
     {
       "label": "Battery",
       "value": "4,000 mAh; about 17.5 h with default lighting, much longer with lights off (retailer listing)"
     },
-    { "label": "Weight", "value": "About 1 kg" },
-    { "label": "Warranty", "value": "Varies by seller and region" }
+    {
+      "label": "Weight",
+      "value": "About 1 kg"
+    },
+    {
+      "label": "Warranty",
+      "value": "Varies by seller and region"
+    }
   ],
   "sections": [
     {
@@ -54,7 +75,7 @@
     },
     {
       "title": "Sources for this review",
-      "content": "Zero Technology has not used this keyboard in person. This is a research roundup based on Newegg's listing and Turbo VS's specification review, checked November 2026. Switch and keycap details differ between versions and listings, and we say so where they do."
+      "content": "Zero Technology has not used this keyboard in person. This is a research roundup based on Newegg's listing and Turbo VS's specification review, checked November 2026. Switch and keycap details differ between versions and listings, and we say so where they do. Images are official AULA product photos from its global store (aulagaming.com)."
     }
   ],
   "pros": [
@@ -78,7 +99,10 @@
       "question": "Does it work with Mac and iPad?",
       "answer": "Yes, over Bluetooth, 2.4 GHz or USB-C. Some keys may need remapping on macOS."
     },
-    { "question": "Can I change the switches?", "answer": "Yes, the board is hot-swappable." },
+    {
+      "question": "Can I change the switches?",
+      "answer": "Yes, the board is hot-swappable."
+    },
     {
       "question": "How long does the battery last?",
       "answer": "One retailer lists about 17.5 hours with the default lighting and much longer with lights off."

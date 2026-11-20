@@ -5,9 +5,17 @@
   "category": "gaming-gear",
   "author": "Zero Technology",
   "publishedAt": "2026-10-24",
-  "updatedAt": "2026-11-17",
-  "coverImage": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-muhvkxoe84qw3b",
-  "images": ["https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-muhvkxoe84qw3b"],
+  "updatedAt": "2026-11-20",
+  "coverImage": "/images/products/aula-f75-pro/cover.jpg",
+  "images": [
+    "/images/products/aula-f75-pro/mau-den.jpg",
+    "/images/products/aula-f75-pro/cau-truc-gasket.jpg",
+    "/images/products/aula-f75-pro/hot-swap-switch-keycap.jpg",
+    "/images/products/aula-f75-pro/ket-noi-3-mode.jpg",
+    "/images/products/aula-f75-pro/pin-4000mah.jpg",
+    "/images/products/aula-f75-pro/den-rgb.jpg",
+    "/images/products/aula-f75-pro/phan-mem-driver.jpg"
+  ],
   "rating": {
     "overall": 8.9,
     "design": 9,

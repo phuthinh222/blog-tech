@@ -5,13 +5,16 @@
   "category": "desk-setup",
   "author": "Zero Technology",
   "publishedAt": "2026-06-17",
-  "updatedAt": "2026-11-17",
-  "coverImage": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjqs6i6udkp3a7.webp",
+  "updatedAt": "2026-11-20",
   "images": [
-    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/i/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-1.jpg",
-    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/i/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-2.jpg",
-    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/i/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-3.jpg",
-    "https://cdn2.cellphones.com.vn/x/media/catalog/product/g/i/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80-4.jpg"
+    "/images/products/north-bayou-f80-monitor-arm/khi-su-dung.jpg",
+    "/images/products/north-bayou-f80-monitor-arm/kep-ban.jpg",
+    "/images/products/north-bayou-f80-monitor-arm/mat-sau-vesa.jpg",
+    "/images/products/north-bayou-f80-monitor-arm/xoay-goc.jpg",
+    "/images/products/north-bayou-f80-monitor-arm/nang-ha-chieu-cao.jpg",
+    "/images/products/north-bayou-f80-monitor-arm/nghieng-va-cach-lap.jpg",
+    "/images/products/north-bayou-f80-monitor-arm/xoay-doc-ngang.jpg",
+    "/images/products/north-bayou-f80-monitor-arm/mau-trang.jpg"
   ],
   "rating": {
     "overall": 9.1,
@@ -123,5 +126,6 @@
     "Điều chỉnh màn hình dễ dàng theo từng nhu cầu.",
     "Giúp setup làm việc và gaming chuyên nghiệp hơn.",
     "Đầu tư lâu dài cho sức khỏe và hiệu suất làm việc."
-  ]
+  ],
+  "coverImage": "/images/products/north-bayou-f80-monitor-arm/cover.jpg"
 }

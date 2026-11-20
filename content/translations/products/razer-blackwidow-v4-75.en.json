@@ -1,0 +1,214 @@
+{
+  "title": "Razer BlackWidow V4 75%: Is Razer's Hot-Swap Gasket Keyboard Worth It?",
+  "summary": "The Razer BlackWidow V4 75% is Razer's first hot-swappable keyboard: a 75% layout with an aluminum top, a gasket-mounted FR4 plate, a factory tape-modded PCB, two layers of foam, Orange Tactile Gen-3 switches and up to 8,000 Hz polling. The trade-offs are a wired-only design, ABS keycaps and a price well above budget wireless 75% boards — is it worth buying?",
+  "description": "## Who is it for?\n\n- Gamers who want a big-brand 75% keyboard that types like a custom board.\n- First-time modders who want to try new switches and stabilizers without building from scratch.\n- Razer users who want their Chroma lighting in sync.\n\n## Why consider it?\n\n- Gasket-mounted FR4 plate, tape-enhanced PCB, two foam layers and lubed stabilizers out of the box.\n- Hot-swap sockets for 3-pin and 5-pin switches, plus screw-in stabilizer support.\n- Up to 8,000 Hz polling, Snap Tap and an included magnetic wrist rest.",
+  "specs": [
+    {
+      "label": "Layout",
+      "value": "75% with function row, arrow keys and an Insert/Delete/PgUp/PgDn column; multi-function roller + 2 media keys (Razer)"
+    },
+    {
+      "label": "Connection",
+      "value": "Wired only: detachable USB-C to USB-A cable, about 2 m (Tom's Hardware). No 2.4 GHz, no Bluetooth"
+    },
+    {
+      "label": "Polling rate",
+      "value": "Up to 8,000 Hz (Razer); 1,000 Hz by default, adjustable in Razer Synapse"
+    },
+    {
+      "label": "Switches",
+      "value": "Razer Orange Tactile Gen-3, factory-lubed with Krytox GPL 205g0 (Razer); 50 g actuation force, 2 mm actuation, 3.5 mm total travel (Tom's Hardware)"
+    },
+    {
+      "label": "Hot-swap",
+      "value": "Yes, accepts most 3-pin and 5-pin mechanical switches; 2-in-1 keycap/switch puller included"
+    },
+    {
+      "label": "Construction",
+      "value": "Gasket-mounted FR4 plate (Poron gaskets), tape-enhanced PCB, two layers of dampening foam, lubed plate-mounted stabilizers, PCB holes for screw-in stabilizers"
+    },
+    {
+      "label": "Case",
+      "value": "Black/White: 5052 aluminum top case, ABS plastic bottom. Phantom editions: translucent ABS plastic top case (Razer)"
+    },
+    {
+      "label": "Keycaps",
+      "value": "Doubleshot ABS (Phantom editions: translucent ABS pudding-style)"
+    },
+    {
+      "label": "Lighting",
+      "value": "Razer Chroma per-key RGB + two-side underglow"
+    },
+    {
+      "label": "Gaming features",
+      "value": "N-key rollover, anti-ghosting, Snap Tap via Razer Synapse 4, 5 onboard profiles"
+    },
+    {
+      "label": "Dimensions",
+      "value": "321 × 155.5 × 24 mm (Tom's Hardware)"
+    },
+    {
+      "label": "Weight",
+      "value": "About 815 g without the wrist rest (Tom's Hardware, PC Gamer)"
+    },
+    {
+      "label": "In the box",
+      "value": "Magnetic plush leatherette wrist rest (not with Barebones), USB-C cable, 2-in-1 puller"
+    },
+    {
+      "label": "Editions",
+      "value": "Black, White, Phantom Green, Phantom White, Barebones Black/White, Xbox 25th Anniversary (varies by region)"
+    },
+    {
+      "label": "Release date",
+      "value": "August 17, 2023 (black)"
+    },
+    {
+      "label": "Warranty",
+      "value": "Up to 2 years per Razer; varies by region — check your local retailer. Internal damage from modding is not covered"
+    },
+    {
+      "label": "Reference price",
+      "value": "$189.99 (Black/White), $199.99 (Phantom) and $139.99 (Barebones Black) on Razer's US store (November 2026); frequently discounted at retailers"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Overview: what is the Razer BlackWidow V4 75%?",
+      "content": "The Razer BlackWidow V4 75% launched in August 2023 as Razer's first hot-swappable keyboard. Rather than simply shrinking the full-size BlackWidow V4, Razer borrowed from the custom keyboard scene: a gasket-mounted FR4 plate, a PCB with factory-applied tape (the \"tape mod\"), two layers of dampening foam and pre-lubed stabilizers.\n\nIt is a wired-only keyboard (USB-C) with up to 8,000 Hz polling, Razer Orange Tactile Gen-3 switches and a magnetic wrist rest. Razer's US store lists it at $189.99, though retailers often discount it.\n\nDon't confuse it with the BlackWidow V4 Pro 75% (2024). The Pro adds wireless, a touch OLED display and a command dial for $299.99 — it is a different product."
+    },
+    {
+      "title": "Design: compact 75% layout, aluminum top, magnetic wrist rest",
+      "content": "Tom's Hardware measured it at 321 × 155.5 × 24 mm and about 815 g. Unlike many 75% boards, the arrow cluster and the Insert/Delete/PgUp/PgDn column sit flush against the main keys with no gap, which makes it a few millimeters shorter than the ASUS ROG Azoth. You keep the function row, arrows and navigation keys and lose only the numpad and a few rarely used keys.\n\nThe Black and White models have a 5052 aluminum top case over an ABS plastic bottom. In the top-right corner are a multi-function roller and two metal media keys. According to Tom's Hardware, the mute key can be reprogrammed, but the round left key is fixed to play/pause (double-tap to skip, triple-tap to go back). Two-stage feet add 6° or 9° of tilt.\n\nThe included magnetic plush leatherette wrist rest was singled out by PC Gamer as very comfortable compared with hard plastic rests. Lighting is per-key Chroma RGB plus underglow on the two sides (not along the bottom edge like the BlackWidow V4 Pro)."
+    },
+    {
+      "title": "Typing feel and modding: gasket FR4 plate, tape mod, hot-swap",
+      "content": "The stock switches are Razer Orange Tactile Gen-3, factory-lubed with Krytox GPL 205g0 according to Razer. Tom's Hardware lists 50 g actuation force, 2 mm actuation and 3.5 mm travel — similar to Cherry MX Brown but slightly heavier (MX Brown is 45 g), with a mild bump and no click.\n\nReviewers were impressed by the sound:\n\n• Tom's Hardware: \"springy-but-quiet\", with the tape and foam clearly audible in the result, and better-sounding than 99% of mainstream gaming keyboards — though the Enter and Backspace stabilizers still rattled a little.\n\n• KitGuru (8.5/10): good sound out of the box, with stock stabilizers much better than previous off-the-shelf boards.\n\n• PC Gamer (75/100): the Orange switches are noticeably quieter than Razer's Green clicky switches but louder than the analog optical switches in the Huntsman V3 Pro TKL.\n\nOne caveat from Tom's Hardware: the 50 g tactile switches may tire your fingers if you're used to light linear switches. There's also no Rapid Trigger or adjustable actuation — these are regular mechanical switches, not magnetic or analog optical ones.\n\nThis is the main reason to pick it over the standard BlackWidow V4:\n\n• 3-pin and 5-pin hot-swap: pull switches with the included 2-in-1 tool and drop in new ones, no soldering needed.\n\n• Screw-in stabilizers: the PCB already has the mounting holes, though you need to open the case.\n\n• Easy disassembly: Razer and TechRadar mention six screws on the bottom, while PC Gamer counted five Phillips screws. Either way, a standard screwdriver does the job.\n\nRazer states that its warranty does not cover internal damage caused by modifications, so take care when removing the plate or swapping stabilizers.\n\nNo spare switches come in the box. Razer sells 36-packs of Yellow (linear) or Green (clicky) switches for about $25 (per PC Gamer and Tom's Hardware). If you already own switches and keycaps, the Barebones edition (no switches, keycaps or wrist rest) is about $50 cheaper on Razer's US store."
+    },
+    {
+      "title": "Gaming features and Razer Synapse",
+      "content": "• 8,000 Hz polling: the default is 1,000 Hz; 8,000 Hz is enabled in Synapse. Razer warns it may reduce frame rates in CPU-bound games, though Tom's Hardware saw no drop in Baldur's Gate 3.\n\n• Snap Tap: added through Razer Synapse 4. When you hold two keys (for example A and D), the most recent input wins without releasing the first — useful for strafing in FPS games. Some tournaments and games restrict this kind of feature, so check the rules first.\n\n• N-key rollover, anti-ghosting and 5 onboard profiles (KitGuru, Tom's Hardware).\n\n• Synapse: two-layer remapping (HyperShift), RGB and macros. Tom's Hardware, no fan of Synapse, found it more bearable here because there's less to configure.\n\nWhat it doesn't have: wireless, Bluetooth, USB passthrough, the Pro model's display or dial, or Rapid Trigger. Razer's product page doesn't list macOS software support — it will type on a Mac like any USB keyboard, but check before buying if you need lighting or macro control there."
+    },
+    {
+      "title": "Editions compared, plus similar keyboards",
+      "content": "BlackWidow V4 75% editions (make sure you buy the one you want; prices from Razer's US store, November 2026):\n\n• Black / White ($189.99): 5052 aluminum top, doubleshot ABS keycaps, Orange switches and wrist rest included.\n\n• Phantom Green / Phantom White ($199.99): translucent ABS top case and translucent ABS keycaps for brighter shine-through — no aluminum top.\n\n• Barebones Black / White ($139.99 / $149.99): no switches, keycaps or wrist rest — for builders.\n\n• Xbox 25th Anniversary ($209.99): a special Xbox colorway, available in select regions.\n\nAt launch the White model cost $10 more than the Black; Razer's US store now lists both at the same price.\n\nCompared with similar keyboards:\n\n• AULA F75 Pro (reviewed on Zero Technology): also a 75% gasket-mount board with 3/5-pin hot-swap, but it adds tri-mode wireless, a 4,000 mAh battery and PBT keycaps for well under half the price. The BlackWidow wins on 8,000 Hz polling, Snap Tap, the aluminum top, the included wrist rest and Razer's Chroma/Synapse ecosystem; it loses on wireless and price.\n\n• Razer BlackWidow V4 Pro 75%: adds HyperSpeed wireless, Bluetooth, a touch OLED display and a dial for $299.99.\n\n• ASUS ROG Azoth: wireless 75% with an OLED screen, around $250 according to PC Gamer, and much heavier (about 1.19 kg)."
+    },
+    {
+      "title": "Who should buy it — and who shouldn't?",
+      "content": "Buy it if you:\n\n• Want a big-brand gaming keyboard that types and sounds like a custom board without modding from scratch.\n\n• Want to experiment with switches and stabilizers over time — PC Gamer calls it a good \"first foray into keyboard modding\".\n\n• Already use Razer mice or headsets and want synced Chroma lighting.\n\n• Use a fixed desk setup and don't mind a cable.\n\nSkip it if you:\n\n• Need a wireless keyboard for a laptop or tablet — look at the AULA F75 Pro or the BlackWidow V4 Pro 75%.\n\n• Just want a keyboard you'll never open — PC Gamer notes that Razer sells cheaper boards with the same gaming performance.\n\n• Want durable PBT keycaps that won't shine — you'll need to buy a separate set.\n\n• Need a numpad or an ISO layout (KitGuru notes there's no UK ISO version)."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used the Razer BlackWidow V4 75% hands-on. This review was compiled (updated November 2026) from:\n\n• Razer's product page and press release (US/international): materials, construction, switches, polling, Snap Tap, editions and list prices.\n\n• Reviews by Tom's Hardware, PC Gamer, TechRadar and KitGuru: dimensions, weight, switch specs, typing and gaming impressions, and weaknesses.\n\n• Retailer listings for reference pricing and warranty.\n\nWhere sources disagree: the number of case screws (Razer and TechRadar say six, PC Gamer five), and the White model's launch price ($199.99) versus its current Razer store price ($189.99). Older reviews used Synapse 3; Snap Tap arrived later via Synapse 4.\n\nAll images are official Razer product images from its international website."
+    },
+    {
+      "title": "Should you buy the Razer BlackWidow V4 75%?",
+      "content": "Yes — if you want a wired 75% gaming keyboard that sounds good out of the box and is ready for modding. The BlackWidow V4 75% bundles most popular mods (gasket, tape, foam, lubed stabilizers) into an off-the-shelf product and adds 8,000 Hz polling, Snap Tap and a comfortable wrist rest. Reviews are consistently positive: KitGuru 8.5/10, PC Gamer 75/100, and TechRadar called it \"a little beast of a keyboard\".\n\nThe downsides are no wireless, ABS keycaps and a high list price. Budget boards such as the AULA F75 Pro offer a similar gasket, hot-swap experience plus wireless for far less — though with less polish and weaker software than Razer.\n\nOur advice: buy it on sale (the Black model is often discounted), go Barebones if you already own switches and keycaps, and double-check the name — BlackWidow V4 75%, not the full-size V4 or the V4 Pro 75%."
+    }
+  ],
+  "pros": [
+    "Ships with mods enthusiasts usually do themselves: gasket FR4 plate, tape-enhanced PCB, two foam layers and lubed stabilizers — Tom's Hardware says it sounds better than most mainstream gaming keyboards.",
+    "Hot-swap sockets for 3-pin and 5-pin switches, screw-in stabilizer support and a case that opens with a few bottom screws.",
+    "75% layout is smaller than TKL yet keeps the function row, arrows and a navigation column, freeing up mouse space.",
+    "Up to 8,000 Hz polling and Snap Tap via Synapse 4 — gaming specs on par with premium boards.",
+    "Comfortable magnetic leatherette wrist rest included (praised by PC Gamer and TechRadar), plus a metal roller and media keys.",
+    "Plenty of options: standard, translucent Phantom and a cheaper Barebones edition for people who already own switches."
+  ],
+  "cons": [
+    "Wired only: no 2.4 GHz or Bluetooth — wireless means stepping up to the far pricier BlackWidow V4 Pro 75%.",
+    "ABS keycaps; Tom's Hardware has found Razer's ABS keycaps start to shine within months, and Razer didn't offer PBT keycaps in a 75% layout at the time of its review.",
+    "Plastic bottom case, and the Phantom editions have a plastic top too — this isn't an all-aluminum board.",
+    "Tom's Hardware noticed some Enter and Backspace stabilizer rattle despite the factory lube.",
+    "Only sold with Orange tactile switches; Yellow (linear) or Green (clicky) require a separate 36-pack of about $25.",
+    "Costs more than twice as much as wireless budget alternatives such as the AULA F75 Pro."
+  ],
+  "buying_advice": "Worth buying for gamers who want a Razer keyboard with custom-board acoustics, use it wired at a desk and plan to mod over time — ideally on sale. If you need wireless at a lower price, look at the AULA F75 Pro; if you want wireless from Razer, the BlackWidow V4 Pro 75%.",
+  "faq": [
+    {
+      "question": "Is the Razer BlackWidow V4 75% wireless?",
+      "answer": "No. It connects only by a detachable USB-C cable. The wireless model is the BlackWidow V4 Pro 75% (HyperSpeed 2.4 GHz, Bluetooth, OLED display), which costs considerably more."
+    },
+    {
+      "question": "Which switches work in the BlackWidow V4 75%?",
+      "answer": "According to Razer, most standard 3-pin and 5-pin mechanical switches are compatible, including Razer's Yellow (linear) and Green (clicky) switches sold separately. The included 2-in-1 puller removes switches without soldering."
+    },
+    {
+      "question": "What's the difference between the Black, Phantom and Barebones editions?",
+      "answer": "Black/White have an aluminum top case and doubleshot ABS keycaps. Phantom editions use a translucent ABS top case and translucent ABS keycaps for brighter lighting. Barebones ships without switches, keycaps or wrist rest and only makes sense if you already have parts."
+    },
+    {
+      "question": "Do you need 8,000 Hz polling?",
+      "answer": "Not really. The keyboard defaults to 1,000 Hz. 8,000 Hz shaves a tiny amount of input delay but uses more CPU, and Razer warns it can lower frame rates in CPU-bound games. Competitive FPS players can try it; 1,000 Hz is fine for everyone else."
+    },
+    {
+      "question": "Razer BlackWidow V4 75% or AULA F75 Pro?",
+      "answer": "The AULA F75 Pro costs less than half as much and adds tri-mode wireless, a 4,000 mAh battery and PBT keycaps — better for value and laptop use. The BlackWidow V4 75% suits buyers who want the Razer brand, 8,000 Hz polling, Snap Tap, an aluminum top, an included wrist rest and Chroma sync, and don't mind a cable."
+    },
+    {
+      "question": "Does modding the BlackWidow V4 75% void the warranty?",
+      "answer": "Swapping switches and keycaps is normal use. However, Razer states that its warranty does not cover internal damage caused by opening and modifying the keyboard (for example, installing screw-in stabilizers). Razer offers up to 2 years of warranty, but terms vary by region — check with your retailer before opening it."
+    }
+  ],
+  "seo_title": "Razer BlackWidow V4 75% Review: Worth Buying in 2026?",
+  "seo_description": "Razer BlackWidow V4 75% review: hot-swap, gasket FR4 plate, tape mod, Orange Gen-3 switches, 8K polling, wired only. Pros, cons, editions and who should buy.",
+  "verdict_summary": "A wired 75% gaming keyboard that sounds great out of the box thanks to its gasket FR4 plate, tape mod and foam, with easy hot-swap modding and 8,000 Hz polling — but no wireless, ABS keycaps and a high list price.",
+  "extras": {
+    "productName": "Razer BlackWidow V4 75%",
+    "regionalNote": "Same name worldwide. Editions differ: Black/White (aluminum top), Phantom Green/White (translucent plastic top and keycaps), Barebones (no switches, keycaps or wrist rest) and a regional Xbox 25th Anniversary edition. Layouts vary by region (KitGuru notes no UK ISO version). Don't confuse it with the full-size BlackWidow V4 or the wireless BlackWidow V4 Pro 75%.",
+    "bestFor": [
+      "Gamers who want custom-keyboard acoustics from a major brand",
+      "First-time modders who want hot-swap and screw-in stabilizer support",
+      "Razer Chroma users with a fixed, wired desk setup"
+    ],
+    "notFor": [
+      "Anyone who needs wireless or Bluetooth",
+      "Buyers on a tight budget",
+      "People who want PBT keycaps or a numpad out of the box"
+    ],
+    "alternatives": [
+      {
+        "name": "AULA F75 Pro",
+        "slug": "aula-f75-pro",
+        "note": "75% gasket hot-swap board with tri-mode wireless and PBT keycaps for well under half the price."
+      },
+      {
+        "name": "Razer BlackWidow V4 Pro 75%",
+        "note": "Wireless (HyperSpeed + Bluetooth) version with a touch OLED display and command dial, about $299.99."
+      },
+      {
+        "name": "Razer BlackWidow V4 75% Barebones",
+        "note": "Same board without switches, keycaps or wrist rest, about $50 cheaper — for builders with their own parts."
+      },
+      {
+        "name": "ASUS ROG Azoth",
+        "note": "Wireless 75% gasket keyboard with an OLED screen; pricier and heavier."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Razer — BlackWidow V4 75% product page (US)",
+        "url": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-75"
+      },
+      {
+        "label": "Razer Newsroom — Introducing the Razer BlackWidow V4 75%",
+        "url": "https://www.razer.com/newsroom/product-news/introducing-the-razer-blackwidow-v4-75-the-pinnacle-of-customizable-keyboards"
+      },
+      {
+        "label": "Tom's Hardware — Razer BlackWidow V4 75% review",
+        "url": "https://www.tomshardware.com/reviews/razer-blackwidow-v4-75"
+      },
+      {
+        "label": "PC Gamer — Razer BlackWidow V4 75% review",
+        "url": "https://www.pcgamer.com/hardware/gaming-keyboards/razer-blackwidow-v4-75-review/"
+      },
+      {
+        "label": "TechRadar — Razer BlackWidow V4 75% review",
+        "url": "https://www.techradar.com/computing/computer-gaming-accessories/razer-blackwidow-v4-75-review"
+      },
+      {
+        "label": "KitGuru — Razer BlackWidow V4 75% keyboard review",
+        "url": "https://www.kitguru.net/peripherals/mat-mynett/razer-blackwidow-v4-75-keyboard-review/"
+      }
+    ]
+  }
+}

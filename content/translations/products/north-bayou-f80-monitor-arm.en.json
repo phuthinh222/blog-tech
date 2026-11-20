@@ -3,7 +3,10 @@
   "summary": "The North Bayou (NB) F80 is one of the best-known budget gas-spring monitor arms: VESA 75/100, tilt, swivel and rotation, desk clamp or grommet mount. Its weight and screen-size limits matter more than anything else — here's what listings say.",
   "description": "## Who is it for?\n\n- Anyone whose monitor stand is tilt-only.\n- Programmers who want portrait mode.\n- Small desks that need the space under the screen.\n\n## Why consider it?\n\n- Gas-spring height adjustment, tilt, swivel and 360° rotation.\n- VESA 75 × 75 / 100 × 100.\n- Clamp or grommet mounting, internal cable routing.",
   "specs": [
-    { "label": "Type", "value": "Single gas-spring monitor arm" },
+    {
+      "label": "Type",
+      "value": "Single gas-spring monitor arm"
+    },
     {
       "label": "Screen size",
       "value": "17–27 inch (AU retailer listing); some listings say up to 30 or 32 inch"
@@ -12,12 +15,30 @@
       "label": "Load capacity",
       "value": "2–6.5 kg (AU retailer listing); other listings up to 9 kg — check your version"
     },
-    { "label": "VESA", "value": "75 × 75 / 100 × 100 mm" },
-    { "label": "Tilt / swivel / rotation", "value": "+35° to −50° / 180° / 360°" },
-    { "label": "Height travel", "value": "About 250 mm" },
-    { "label": "Mounting", "value": "Desk clamp or grommet" },
-    { "label": "Material", "value": "Aluminium alloy with plastic covers" },
-    { "label": "Cable management", "value": "Cables route inside the arm" }
+    {
+      "label": "VESA",
+      "value": "75 × 75 / 100 × 100 mm"
+    },
+    {
+      "label": "Tilt / swivel / rotation",
+      "value": "+35° to −50° / 180° / 360°"
+    },
+    {
+      "label": "Height travel",
+      "value": "About 250 mm"
+    },
+    {
+      "label": "Mounting",
+      "value": "Desk clamp or grommet"
+    },
+    {
+      "label": "Material",
+      "value": "Aluminium alloy with plastic covers"
+    },
+    {
+      "label": "Cable management",
+      "value": "Cables route inside the arm"
+    }
   ],
   "sections": [
     {
@@ -42,7 +63,7 @@
     },
     {
       "title": "Sources for this review",
-      "content": "Zero Technology has not used this arm in person. This is a research roundup based on international retailer listings and the product manual, checked November 2026. Because listings disagree on screen size and load capacity, we quote the more conservative figures."
+      "content": "Zero Technology has not used this arm in person. This is a research roundup based on international retailer listings and the product manual, checked November 2026. Because listings disagree on screen size and load capacity, we quote the more conservative figures. North Bayou has no official website, so product images come from international retailer listings (The Wires Zone, AHW Store)."
     }
   ],
   "pros": [
@@ -70,7 +91,10 @@
       "question": "How much weight can it hold?",
       "answer": "Listings range from 2–6.5 kg to 2–9 kg. Use the figure on the listing you buy from and weigh your monitor without its stand."
     },
-    { "question": "Can I rotate my monitor to portrait?", "answer": "Yes, the arm rotates 360°." },
+    {
+      "question": "Can I rotate my monitor to portrait?",
+      "answer": "Yes, the arm rotates 360°."
+    },
     {
       "question": "Does my monitor need VESA holes?",
       "answer": "Yes, 75 × 75 or 100 × 100 mm. Monitors without VESA need an adapter."

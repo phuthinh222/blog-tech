@@ -23,7 +23,7 @@ Cập nhật: 2026-11-17. Mỗi URL nhắm **1 keyword chính** (một ý địn
 
 Title danh mục đã đổi theo bảng này (khoá `Categories.<slug>.metaTitle` trong `messages/*.json`).
 
-## 3. Bài review (15 bài)
+## 3. Bài review (16 bài)
 
 Keyword chính nên nằm ở đầu `seo_title` + H1 + câu đầu bài. Keyword phụ dùng trong H2/FAQ (đã có sẵn phần lớn).
 
@@ -32,6 +32,7 @@ Keyword chính nên nằm ở đầu `seo_title` + H1 + câu đầu bài. Keywor
 | `logitech-g305-x-superlight`   | logitech g305 x superlight review  | g304 x superlight, g305 x superlight vs g305, g305 x superlight 8k, g305 x superlight skates                            | đánh giá logitech g304 x superlight  | Trung bình            |
 | `logitech-g502-x-lightspeed`   | logitech g502 x lightspeed review  | g502 x lightspeed vs g502 x plus, g502 x lightspeed vs g502 lightspeed, g502 x lightspeed battery life, hero 44k update | đánh giá logitech g502 x lightspeed  | Trung bình–Cao        |
 | `vxe-r1-se`                    | vxe r1 se review                   | vxe dragonfly r1 se, r1 se vs r1 se+, vxe r1 se software                                                                | đánh giá vxe r1 se                   | **Thấp**              |
+| `razer-blackwidow-v4-75`       | razer blackwidow v4 75 review      | blackwidow v4 75 vs v4 pro 75, blackwidow v4 75 barebones, blackwidow v4 75 vs aula f75 pro, blackwidow v4 75 switches  | đánh giá razer blackwidow v4 75%     | Trung bình–Cao        |
 | `aula-f75-pro`                 | aula f75 pro review                | aula f75 pro vs f75, aula f75 pro switches, aula f75 pro software                                                       | đánh giá aula f75 pro                | **Thấp**              |
 | `hyperx-cloud-stinger-2-core`  | hyperx cloud stinger 2 core review | stinger 2 core vs stinger 2, stinger 2 core mic, ps5/xbox                                                               | đánh giá hyperx cloud stinger 2 core | Trung bình            |
 | `xiaomi-g24i-gaming-monitor`   | xiaomi g24i review                 | xiaomi gaming monitor g24i 180hz, g24i settings, g24i vs g24                                                            | đánh giá xiaomi g24i                 | **Thấp**              |
