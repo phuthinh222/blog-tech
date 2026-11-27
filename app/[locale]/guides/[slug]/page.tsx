@@ -79,7 +79,9 @@ export default async function GuidePage({ params }: Props) {
   // Lựa chọn tốt nhất = review điểm cao nhất trong các review guide trỏ tới.
   // Không lấy từ gợi ý cùng danh mục để tránh gợi ý sai loại (VD chuột cho bài
   // về bàn phím).
-  const bestPick = [...related].sort((a, b) => b.rating.overall - a.rating.overall)[0]
+  const bestPick = guide.hideBestPick
+    ? undefined
+    : [...related].sort((a, b) => b.rating.overall - a.rating.overall)[0]
   // Không có review đúng sản phẩm thì gợi ý review cùng danh mục.
   const suggestions =
     related.length > 0 ? related : posts.filter((p) => p.category === guide.category).slice(0, 3)

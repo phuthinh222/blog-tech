@@ -122,6 +122,9 @@ export type Guide = {
   sections: { title: string; content: string }[]
   faq: { question: string; answer: string }[]
   relatedPosts: string[]
+  // true = không hiện hộp "Lựa chọn tốt nhất" (VD bài gom nhiều loại sản phẩm,
+  // điểm khác danh mục không so sánh được với nhau).
+  hideBestPick?: boolean
   seo?: {
     metaTitle: string
     metaDescription: string
