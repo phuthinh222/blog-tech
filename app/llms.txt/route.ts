@@ -49,7 +49,6 @@ export async function GET() {
     line("About", "/about"),
     line("How we review", "/how-we-review"),
     line("Editorial policy", "/editorial-policy"),
-    line("Affiliate disclosure", "/affiliate-disclosure"),
     line("Contact", "/contact"),
     "",
     "## Optional",

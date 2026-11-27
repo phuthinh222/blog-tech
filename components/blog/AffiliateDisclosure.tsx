@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl"
-import { Link } from "@/i18n/navigation"
 import { AFFILIATE_LINKS_ENABLED } from "@/lib/constants"
 
 // Công bố liên kết tiếp thị — đặt phía trên nút/link mua đầu tiên của trang
@@ -12,10 +11,7 @@ export function AffiliateDisclosure({ className = "" }: { className?: string }) 
     <p
       className={`border-border bg-muted/30 text-muted-foreground rounded-xl border px-4 py-3 text-xs leading-relaxed ${className}`}
     >
-      {t("affiliateDisclosure")}{" "}
-      <Link href="/affiliate-disclosure" className="text-foreground underline underline-offset-2">
-        {t("affiliateDisclosureLink")}
-      </Link>
+      {t("affiliateDisclosure")}
     </p>
   )
 }

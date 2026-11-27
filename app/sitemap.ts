@@ -19,7 +19,6 @@ const STATIC_PAGES = [
   "/about",
   "/how-we-review",
   "/editorial-policy",
-  "/affiliate-disclosure",
   "/contact",
   "/privacy",
   "/terms",

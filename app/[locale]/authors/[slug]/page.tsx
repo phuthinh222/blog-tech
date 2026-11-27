@@ -48,11 +48,11 @@ export default async function AuthorPage({ params }: Props) {
   const category = tCat(`${author.category}.name`)
   const jsonLd = jsonLdHtml(
     {
-      "@type": "Person",
+      "@type": "Organization",
       name: author.name,
       url: localizedUrl(`/authors/${author.slug}`, locale),
       description: author.bio[locale],
-      worksFor: { "@id": ORGANIZATION_LD["@id"] },
+      parentOrganization: { "@id": ORGANIZATION_LD["@id"] },
     },
     ORGANIZATION_LD
   )

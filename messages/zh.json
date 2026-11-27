@@ -39,8 +39,7 @@
     "terms": "使用条款",
     "privacy": "隐私",
     "cookie": "Cookie",
-    "editorialPolicy": "编辑政策",
-    "affiliateDisclosure": "联盟营销披露"
+    "editorialPolicy": "编辑政策"
   },
   "Legal": {
     "updatedAt": "最后更新：{date}"
@@ -102,14 +101,15 @@
   },
   "HomePage": {
     "latest": "最新评测",
-    "trending": "热门",
     "categories": "分类",
     "recent": "近期评测",
     "tagline": "独立的科技产品评测、选购指南与对比。",
     "taglineSub": "有出处的参数、坦诚的优缺点，为桌面布置、游戏外设、电脑和音频设备给出明确推荐。",
     "ctaReviews": "浏览评测",
     "ctaBestPicks": "精选推荐",
-    "ctaGuides": "选购指南"
+    "ctaGuides": "选购指南",
+    "moreReviews": "更多评测",
+    "moreReviewsDescription": "更多评测，较新的文章排在前面。"
   },
   "ErrorPage": {
     "title": "出错了",
@@ -143,8 +143,7 @@
     "pros": "优点",
     "cons": "缺点",
     "saveArticle": "收藏本文",
-    "affiliateDisclosure": "披露：当您通过本页面的链接购买时，我们可能获得佣金，您支付的价格不变。作为亚马逊联盟成员，我们从符合条件的购买中获得收入。这不会影响评分。",
-    "affiliateDisclosureLink": "联盟营销披露",
+    "affiliateDisclosure": "您通过本页链接购买时，我们可能获得佣金。As an Amazon Associate I earn from qualifying purchases. 这不会影响我们的评分。",
     "score": "评测得分",
     "breakdown": "评分详情",
     "related": "相关文章",
@@ -176,7 +175,9 @@
       "DE": "德国 / 欧盟"
     },
     "warrantyNote": "保修和供货情况因地区而异，购买前请向当地零售商确认。",
-    "bylineTeam": "由 <link>{site} 编辑团队</link>撰写和审核"
+    "bylineTeam": "由 <link>{site} 编辑团队</link>撰写和审核",
+    "scoreBasisCompiled": "资料汇总评测的分数是基于公开参数和所引来源的编辑判断，并非亲自测试所得。",
+    "checkPriceOnAmazon": "查看亚马逊价格"
   },
   "ArticleCard": {
     "editorsPick": "编辑推荐"

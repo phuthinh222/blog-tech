@@ -39,8 +39,7 @@
     "terms": "Điều Khoản",
     "privacy": "Bảo Mật",
     "cookie": "Cookie",
-    "editorialPolicy": "Chính sách biên tập",
-    "affiliateDisclosure": "Công bố liên kết tiếp thị"
+    "editorialPolicy": "Chính sách biên tập"
   },
   "Legal": {
     "updatedAt": "Cập nhật lần cuối: {date}"
@@ -102,14 +101,15 @@
   },
   "HomePage": {
     "latest": "Đánh Giá Mới Nhất",
-    "trending": "Đang Thịnh Hành",
     "categories": "Danh Mục",
     "recent": "Đánh Giá Gần Đây",
     "tagline": "Đánh giá công nghệ độc lập, hướng dẫn chọn mua và so sánh sản phẩm.",
     "taglineSub": "Thông số có nguồn, ưu nhược điểm thẳng thắn và gợi ý rõ ràng cho góc làm việc, gaming gear, PC và âm thanh.",
     "ctaReviews": "Xem bài đánh giá",
     "ctaBestPicks": "Lựa chọn hàng đầu",
-    "ctaGuides": "Hướng dẫn chọn mua"
+    "ctaGuides": "Hướng dẫn chọn mua",
+    "moreReviews": "Bài Đánh Giá Khác",
+    "moreReviewsDescription": "Các bài đánh giá khác, bài mới hơn được ưu tiên trước."
   },
   "ErrorPage": {
     "title": "Đã xảy ra lỗi",
@@ -143,8 +143,7 @@
     "pros": "Điểm Cộng",
     "cons": "Điểm Trừ",
     "saveArticle": "Lưu bài viết này",
-    "affiliateDisclosure": "Công bố: bài viết có liên kết tiếp thị (affiliate). Khi bạn mua qua các liên kết này, Zero Technology có thể nhận hoa hồng mà giá bạn trả không đổi; điều này không ảnh hưởng đến nhận xét hay điểm số.",
-    "affiliateDisclosureLink": "Công bố liên kết tiếp thị",
+    "affiliateDisclosure": "Chúng tôi có thể nhận hoa hồng nếu bạn mua qua liên kết trên trang này. As an Amazon Associate I earn from qualifying purchases. Điều này không ảnh hưởng đến điểm số.",
     "score": "Điểm Đánh Giá",
     "breakdown": "Chi Tiết Đánh Giá",
     "related": "Bài Liên Quan",
@@ -176,7 +175,9 @@
       "DE": "Đức / EU"
     },
     "warrantyNote": "Bảo hành và tình trạng hàng khác nhau theo nơi bán; hãy kiểm tra với nhà bán lẻ trước khi mua.",
-    "bylineTeam": "Viết và duyệt bởi <link>đội ngũ biên tập {site}</link>"
+    "bylineTeam": "Viết và duyệt bởi <link>đội ngũ biên tập {site}</link>",
+    "scoreBasisCompiled": "Với bài tổng hợp, đây là nhận định biên tập dựa trên thông số đã công bố và các nguồn được dẫn; không phải điểm từ trải nghiệm trực tiếp.",
+    "checkPriceOnAmazon": "Xem giá trên Amazon"
   },
   "ArticleCard": {
     "editorsPick": "Lựa chọn của Editor"

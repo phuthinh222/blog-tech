@@ -51,7 +51,13 @@ export function BuyButton({ url, store: storeProp, size = "md", className = "" }
       } ${className}`}
     >
       <ShoppingBag className={size === "sm" ? "size-4" : "size-4.5"} />
-      {store ? (size === "sm" ? store : t("buyOn", { store })) : t("buy")}
+      {store === "Amazon"
+        ? t("checkPriceOnAmazon")
+        : store
+          ? size === "sm"
+            ? store
+            : t("buyOn", { store })
+          : t("buy")}
       <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
     </a>
   )

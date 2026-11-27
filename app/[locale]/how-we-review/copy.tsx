@@ -105,8 +105,7 @@ export const HOW_WE_REVIEW_COPY: Record<Locale, LegalCopy> = {
             Each review shows a &quot;Last updated&quot; date. We revise reviews when a product
             changes, a better alternative appears or a reader reports an error. Found a mistake?{" "}
             <Link href="/contact">Tell us</Link> and we will correct it. See also our{" "}
-            <Link href="/editorial-policy">Editorial Policy</Link> and{" "}
-            <Link href="/affiliate-disclosure">Affiliate Disclosure</Link>.
+            <Link href="/editorial-policy">Editorial Policy</Link>.
           </p>
         ),
       },
@@ -206,8 +205,7 @@ export const HOW_WE_REVIEW_COPY: Record<Locale, LegalCopy> = {
             Mỗi bài có ngày &quot;Cập nhật lần cuối&quot;. Chúng tôi sửa bài khi sản phẩm thay đổi,
             có lựa chọn tốt hơn hoặc bạn đọc báo lỗi. Thấy sai sót?{" "}
             <Link href="/contact">Báo cho chúng tôi</Link>. Xem thêm{" "}
-            <Link href="/editorial-policy">Chính sách biên tập</Link> và{" "}
-            <Link href="/affiliate-disclosure">Công bố liên kết tiếp thị</Link>.
+            <Link href="/editorial-policy">Chính sách biên tập</Link>.
           </p>
         ),
       },
@@ -291,8 +289,7 @@ export const HOW_WE_REVIEW_COPY: Record<Locale, LegalCopy> = {
         content: (
           <p>
             每篇评测都显示“最后更新”日期。发现错误？<Link href="/contact">请告诉我们</Link>
-            。另请参阅<Link href="/editorial-policy">编辑政策</Link>和
-            <Link href="/affiliate-disclosure">联盟营销披露</Link>。
+            。另请参阅<Link href="/editorial-policy">编辑政策</Link>。
           </p>
         ),
       },

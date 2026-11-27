@@ -25,9 +25,8 @@ export const EDITORIAL_POLICY_COPY: Record<Locale, LegalCopy> = {
               buying guide, and they do not see reviews before publication.
             </p>
             <p>
-              We earn money through affiliate links (see our{" "}
-              <Link href="/affiliate-disclosure">Affiliate Disclosure</Link>). Whether a product has
-              an affiliate link, or how much commission it pays, never affects its score.
+              We may earn money through affiliate links. Whether a product has an affiliate link, or
+              how much commission it pays, never affects its score.
             </p>
           </>
         ),
@@ -54,7 +53,7 @@ export const EDITORIAL_POLICY_COPY: Record<Locale, LegalCopy> = {
         content: (
           <p>
             Reviews are written and reviewed by the {SITE_NAME} editorial team. Each product
-            category has a byline under an editorial pen name (for example Ethan Hale for gaming
+            category has a byline under an editorial pen name (for example Jordan Pike for gaming
             gear); pen names are not separate individuals, and their author pages say so. Before
             publishing, each review is checked against its sources for specs, model names and
             claims.
@@ -102,9 +101,8 @@ export const EDITORIAL_POLICY_COPY: Record<Locale, LegalCopy> = {
               trong bài hướng dẫn, và không được xem bài trước khi đăng.
             </p>
             <p>
-              Chúng tôi có thu nhập từ liên kết tiếp thị (xem{" "}
-              <Link href="/affiliate-disclosure">Công bố liên kết tiếp thị</Link>). Việc sản phẩm có
-              link tiếp thị hay mức hoa hồng không bao giờ ảnh hưởng tới điểm số.
+              Chúng tôi có thể nhận hoa hồng từ liên kết tiếp thị. Việc sản phẩm có link tiếp thị
+              hay mức hoa hồng không bao giờ ảnh hưởng tới điểm số.
             </p>
           </>
         ),
@@ -129,7 +127,7 @@ export const EDITORIAL_POLICY_COPY: Record<Locale, LegalCopy> = {
         content: (
           <p>
             Bài được viết và duyệt bởi đội ngũ biên tập {SITE_NAME}. Mỗi danh mục đứng tên một bút
-            danh biên tập (VD Ethan Hale cho gaming gear); bút danh không phải cá nhân riêng lẻ và
+            danh biên tập (VD Jordan Pike cho gaming gear); bút danh không phải cá nhân riêng lẻ và
             trang tác giả có ghi rõ điều này. Trước khi đăng, thông số, tên phiên bản và các nhận
             định được đối chiếu lại với nguồn.
           </p>
@@ -170,10 +168,7 @@ export const EDITORIAL_POLICY_COPY: Record<Locale, LegalCopy> = {
             <p>
               品牌和零售商无法付费购买评测、评分、排名或指南中的位置，也不会在发布前看到评测内容。
             </p>
-            <p>
-              我们通过联盟链接获得收入（见<Link href="/affiliate-disclosure">联盟营销披露</Link>
-              ）。产品是否有联盟链接或佣金高低，绝不影响评分。
-            </p>
+            <p>我们可能通过联盟链接获得收入。产品是否有联盟链接或佣金高低，绝不影响评分。</p>
           </>
         ),
       },

@@ -39,8 +39,7 @@
     "terms": "Terms",
     "privacy": "Privacy",
     "cookie": "Cookies",
-    "editorialPolicy": "Editorial Policy",
-    "affiliateDisclosure": "Affiliate Disclosure"
+    "editorialPolicy": "Editorial Policy"
   },
   "Legal": {
     "updatedAt": "Last updated: {date}"
@@ -102,14 +101,15 @@
   },
   "HomePage": {
     "latest": "Latest Reviews",
-    "trending": "Trending",
     "categories": "Categories",
     "recent": "Recent Reviews",
     "tagline": "Independent tech reviews, buying guides and comparisons.",
     "taglineSub": "Sourced specs, honest pros and cons, and clear picks for desk setups, gaming gear, PCs and audio.",
     "ctaReviews": "Explore reviews",
     "ctaBestPicks": "Best picks",
-    "ctaGuides": "Buying guides"
+    "ctaGuides": "Buying guides",
+    "moreReviews": "More Reviews",
+    "moreReviewsDescription": "More reviews, with newer articles appearing first."
   },
   "ErrorPage": {
     "title": "Something went wrong",
@@ -143,8 +143,7 @@
     "pros": "Pros",
     "cons": "Cons",
     "saveArticle": "Save this article",
-    "affiliateDisclosure": "We may earn a commission when you buy through links on this page. As an Amazon Associate, we earn from qualifying purchases. This never affects our scores.",
-    "affiliateDisclosureLink": "Affiliate disclosure",
+    "affiliateDisclosure": "We may earn a commission when you buy through links on this page. As an Amazon Associate I earn from qualifying purchases. This never affects our scores.",
     "score": "Our Score",
     "breakdown": "Score Breakdown",
     "related": "Related Articles",
@@ -176,7 +175,9 @@
       "DE": "Germany / EU"
     },
     "warrantyNote": "Warranty and availability vary by region; check the local retailer before you buy.",
-    "bylineTeam": "Written and reviewed by the <link>{site} editorial team</link>"
+    "bylineTeam": "Written and reviewed by the <link>{site} editorial team</link>",
+    "scoreBasisCompiled": "For research roundups, this is an editorial assessment based on published specifications and cited sources; it is not a hands-on test score.",
+    "checkPriceOnAmazon": "Check price on Amazon"
   },
   "ArticleCard": {
     "editorsPick": "Editor's Pick"

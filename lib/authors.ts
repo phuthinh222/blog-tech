@@ -13,8 +13,8 @@ export type Author = {
 
 export const AUTHORS: Author[] = [
   {
-    slug: "ethan-hale",
-    name: "Ethan Hale",
+    slug: "jordan-pike",
+    name: "Jordan Pike",
     category: "gaming-gear",
     bio: {
       en: "Covers gaming mice, keyboards and headsets: sensors, weight, switches and what actually matters for competitive and casual play.",
@@ -23,8 +23,8 @@ export const AUTHORS: Author[] = [
     },
   },
   {
-    slug: "liam-archer",
-    name: "Liam Archer",
+    slug: "casey-rowan",
+    name: "Casey Rowan",
     category: "pc-laptop",
     bio: {
       en: "Covers monitors, PCs and laptops: panels, refresh rates, ports and value for gaming and everyday work.",
@@ -33,8 +33,8 @@ export const AUTHORS: Author[] = [
     },
   },
   {
-    slug: "nora-quinn",
-    name: "Nora Quinn",
+    slug: "morgan-ellis",
+    name: "Morgan Ellis",
     category: "audio-video",
     bio: {
       en: "Covers earbuds, headphones and speakers: noise cancellation, battery life, codecs and how specs translate to real listening.",
@@ -43,8 +43,8 @@ export const AUTHORS: Author[] = [
     },
   },
   {
-    slug: "maya-ellison",
-    name: "Maya Ellison",
+    slug: "taylor-finch",
+    name: "Taylor Finch",
     category: "desk-setup",
     bio: {
       en: "Covers desk setups: monitor arms, light bars and organisers that make a workspace tidier and more comfortable.",

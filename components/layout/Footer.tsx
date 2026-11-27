@@ -2,7 +2,7 @@ import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
 import { CATEGORY_CONFIG } from "@/lib/categories"
-import { SITE_NAME } from "@/lib/constants"
+import { AFFILIATE_LINKS_ENABLED, SITE_NAME } from "@/lib/constants"
 
 // Nhãn là khoá trong namespace "Footer"; riêng cột danh mục lấy tên từ
 // "Categories.<slug>.name".
@@ -28,7 +28,6 @@ const footerLinks = [
     links: [
       { href: "/about", key: "aboutUs" },
       { href: "/editorial-policy", key: "editorialPolicy" },
-      { href: "/affiliate-disclosure", key: "affiliateDisclosure" },
       { href: "/contact", key: "contact" },
     ],
   },
@@ -81,6 +80,12 @@ export default function Footer() {
             </div>
           ))}
         </div>
+
+        {AFFILIATE_LINKS_ENABLED && (
+          <p className="text-muted-foreground mt-8 text-xs leading-relaxed">
+            As an Amazon Associate I earn from qualifying purchases.
+          </p>
+        )}
 
         <div className="border-border text-muted-foreground mt-10 flex flex-col items-center justify-between gap-3 border-t pt-6 text-xs sm:flex-row">
           <p>

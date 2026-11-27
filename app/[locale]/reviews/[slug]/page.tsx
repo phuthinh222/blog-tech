@@ -164,11 +164,10 @@ export default async function ArticlePage({ params }: Props) {
   const pageUrl = localizedUrl(`/reviews/${post.slug}`, locale)
   const contentLang = LOCALE_TAGS[toLocale(post.contentLocale)]
   const coverUrl = post.coverImage ? new URL(post.coverImage, SITE_URL).href : undefined
-  // Bút danh biên tập → Person kèm trang tác giả; bài không có bút danh đứng
-  // tên tổ chức.
+  // Bút danh là nhãn của editorial desk, không phải một người riêng lẻ.
   const authorLd = post.authorSlug
     ? {
-        "@type": "Person",
+        "@type": "Organization",
         name: post.author,
         url: localizedUrl(`/authors/${post.authorSlug}`, locale),
       }
@@ -777,6 +776,11 @@ export default async function ArticlePage({ params }: Props) {
                 {post.rating.overall}
               </div>
               <div className="text-muted-foreground mt-1 text-sm">/ 10</div>
+              {post.reviewMethod === "compiled" && (
+                <p className="text-muted-foreground mt-3 max-w-64 text-xs leading-relaxed">
+                  {t("scoreBasisCompiled")}
+                </p>
+              )}
               <div className="mt-3 flex justify-center gap-0.5">
                 {Array.from({ length: 10 }).map((_, i) => (
                   <div
@@ -792,7 +796,7 @@ export default async function ArticlePage({ params }: Props) {
             </div>
 
             {/* Rating Breakdown */}
-            {breakdown.length > 0 && (
+            {post.reviewMethod === "tested" && breakdown.length > 0 && (
               <div className="border-border bg-card rounded-2xl border p-5">
                 <h3 className="text-muted-foreground mb-4 text-sm font-bold tracking-wider uppercase">
                   {t("breakdown")}

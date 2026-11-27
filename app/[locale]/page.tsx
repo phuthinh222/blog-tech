@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Image from "next/image"
-import { ArrowRight, Award, BookOpen, LayoutGrid, TrendingUp, User } from "lucide-react"
+import { ArrowRight, Award, BookOpen, LayoutGrid, User } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import ArticleCard from "@/components/blog/ArticleCard"
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-function TrendingEntry({ post, index }: { post: Post; index: number }) {
+function MoreReviewEntry({ post, index }: { post: Post; index: number }) {
   const tCat = useTranslations("Categories")
   const color = getCategoryColor(post.category)
   return (
@@ -90,8 +90,10 @@ export default async function HomePage({ params }: Props) {
 
   const featured = posts[0]
   const latest = posts.slice(1, 4)
-  const trending = posts.slice(0, 5)
-  const recent = posts.slice(5, 9)
+  // No analytics-backed popularity data is available, so label this section
+  // honestly and keep it separate from Latest Reviews.
+  const moreReviews = posts.slice(4, 9)
+  const recent = posts.slice(9, 13)
   // Lựa chọn hàng đầu = điểm cao nhất (không theo hoa hồng).
   const bestPicks = [...posts].sort((a, b) => b.rating.overall - a.rating.overall).slice(0, 4)
   const ctas = [
@@ -159,26 +161,29 @@ export default async function HomePage({ params }: Props) {
         </div>
       </section>
 
-      {/* ── Trending + Sidebar ────────────────────────────── */}
+      {/* ── More reviews + Sidebar ────────────────────────── */}
       <section className="animate-fade-in-up grid gap-16 delay-200 lg:grid-cols-3">
-        {/* Trending — bài #1 dạng thẻ lớn, #2–#5 xếp dọc bên cạnh */}
+        {/* More reviews — article range separate from Latest Reviews */}
         <div className="flex flex-col gap-8 lg:col-span-2">
           <div className="flex items-center gap-2.5">
             <div className="flex size-8 items-center justify-center rounded-lg bg-gradient-to-br from-orange-400 to-rose-500 shadow-md shadow-orange-400/30">
-              <TrendingUp className="size-4 text-white" />
+              <BookOpen className="size-4 text-white" />
             </div>
-            <h2 className="text-xl font-bold tracking-tight">{t("trending")}</h2>
+            <div>
+              <h2 className="text-xl font-bold tracking-tight">{t("moreReviews")}</h2>
+              <p className="text-muted-foreground mt-1 text-sm">{t("moreReviewsDescription")}</p>
+            </div>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 md:gap-10">
             <Link
-              href={`/reviews/${trending[0].slug}`}
+              href={`/reviews/${moreReviews[0].slug}`}
               className="group relative flex min-h-80 flex-col justify-end overflow-hidden rounded-2xl"
             >
-              {trending[0].coverImage ? (
+              {moreReviews[0].coverImage ? (
                 <Image
-                  src={trending[0].coverImage}
-                  alt={trending[0].title}
+                  src={moreReviews[0].coverImage}
+                  alt={moreReviews[0].title}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, 40vw"
@@ -187,7 +192,7 @@ export default async function HomePage({ params }: Props) {
                 <div
                   className="absolute inset-0"
                   style={{
-                    background: `linear-gradient(135deg, ${getCategoryColor(trending[0].category)}99, ${getCategoryColor(trending[0].category)}33)`,
+                    background: `linear-gradient(135deg, ${getCategoryColor(moreReviews[0].category)}99, ${getCategoryColor(moreReviews[0].category)}33)`,
                   }}
                 />
               )}
@@ -197,22 +202,22 @@ export default async function HomePage({ params }: Props) {
               </span>
               <div className="relative flex flex-col gap-2 p-6 sm:p-8">
                 <span className="text-xs font-bold tracking-widest text-white/70 uppercase sm:text-[11px]">
-                  {tCat(`${trending[0].category}.name`)}
+                  {tCat(`${moreReviews[0].category}.name`)}
                 </span>
                 <h3 className="line-clamp-3 text-2xl leading-tight font-black text-white sm:text-3xl">
-                  {trending[0].title}
+                  {moreReviews[0].title}
                 </h3>
                 <span className="mt-1 flex items-center gap-1.5 text-xs text-white/60">
                   <User className="size-3" />
-                  {trending[0].author}
+                  {moreReviews[0].author}
                 </span>
               </div>
             </Link>
 
             <div className="divide-border/70 flex flex-col divide-y">
-              {trending.slice(1).map((post, i) => (
+              {moreReviews.slice(1).map((post, i) => (
                 <div key={post.slug} className="py-5 first:pt-0 last:pb-0">
-                  <TrendingEntry post={post} index={i + 1} />
+                  <MoreReviewEntry post={post} index={i + 1} />
                 </div>
               ))}
             </div>
