@@ -1,0 +1,134 @@
+{
+  "title": "SoundPEATS T3 Pro: What Do These Budget ANC Earbuds Get Right?",
+  "summary": "The SoundPEATS T3 Pro bring active noise cancellation (rated up to 35 dB), a transparency mode, Bluetooth 5.4 and 12 mm drivers to a budget price. Here's what the specs say, where sources disagree and who should buy them.",
+  "description": "## Who is it for?\n\n- Commuters who want ANC on a small budget.\n- Listeners who like a bass-forward sound.\n- Anyone trying noise cancellation for the first time.\n\n## Why consider it?\n\n- ANC rated up to 35 dB plus transparency mode (SoundPEATS).\n- 12 mm dynamic drivers and an EQ app.\n- 4 mics for calls, Bluetooth 5.4, IPX4.",
+  "specs": [
+    { "label": "Type", "value": "True wireless, in-ear with short stems" },
+    { "label": "Noise control", "value": "ANC up to 35 dB, transparency mode (SoundPEATS)" },
+    { "label": "Driver", "value": "12 mm dynamic (SoundPEATS)" },
+    { "label": "Microphones", "value": "4 mics with call noise reduction" },
+    { "label": "Bluetooth", "value": "5.4 (one retailer lists 5.2 — check the listing)" },
+    { "label": "Codecs", "value": "SBC; AAC listed by some sources but not others" },
+    {
+      "label": "Battery",
+      "value": "About 7 h per charge, 28 h with case (ANC off, SoundPEATS figures)"
+    },
+    { "label": "Water resistance", "value": "IPX4" },
+    { "label": "Weight", "value": "4.15 g per earbud" },
+    { "label": "App", "value": "PeatsAudio: ANC/transparency, EQ, game mode, touch controls" },
+    { "label": "Warranty", "value": "Varies by region and seller" }
+  ],
+  "sections": [
+    {
+      "title": "What are the SoundPEATS T3 Pro?",
+      "content": "SoundPEATS is a Chinese audio brand known for feature-packed, affordable earbuds. The T3 Pro are a short-stem true wireless model whose headline features are active noise cancellation, which SoundPEATS rates at up to 35 dB, and a transparency mode. Don't confuse them with the original T3 (Bluetooth 5.2, weaker ANC), which some older reviews cover."
+    },
+    {
+      "title": "Noise cancellation and transparency",
+      "content": "According to SoundPEATS, the ANC reduces noise by up to 35 dB — a manufacturer figure, not an independent measurement. Budget ANC like this mainly reduces steady low-frequency noise (bus engines, air conditioning) and does much less against voices. Independent reviews describe it as effective for everyday noise at this price. Transparency mode lets you hear announcements or conversations without removing the earbuds. Some people feel ear pressure with ANC; if so, use it only when needed."
+    },
+    {
+      "title": "Sound and codecs",
+      "content": "The 12 mm drivers are larger than the 10 mm drivers common in budget earbuds, and reviews describe a bass-forward tuning that suits pop and EDM. The PeatsAudio app offers EQ to rebalance it. Codec support is unclear: some listings mention AAC, while at least one retailer spec sheet and a user review say SBC only. If AAC matters to you (for example on iPhone), check the listing you buy from."
+    },
+    {
+      "title": "Battery, calls and app",
+      "content": "SoundPEATS rates about 7 hours per charge and 28 hours with the case, with ANC off; expect less with ANC on. Four microphones handle call noise reduction, and the app adds a low-latency game mode and touch-control customisation. Multipoint (two devices at once) isn't clearly listed, so don't count on it."
+    },
+    {
+      "title": "Who should buy them — and who shouldn't",
+      "content": "Buy them if you want working ANC and transparency on a tight budget and like a bassy sound. Skip them if you need flight-grade ANC, guaranteed AAC/LDAC, multipoint, or the longest battery life — the Redmi Buds 6 Play last longer but have no ANC."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used these earbuds in person. This is a research roundup based on SoundPEATS' official T3 Pro page, an independent spec comparison (Turbo VS) and published reviews, checked November 2026. Where sources disagree (Bluetooth version, AAC) we say so. Images are official SoundPEATS photos."
+    },
+    {
+      "title": "Should you buy the SoundPEATS T3 Pro?",
+      "content": "They are a sensible, low-cost way to try ANC: transparency mode, 12 mm drivers, an EQ app and IPX4. Battery life is average and some specs are inconsistently documented, so check the listing before you buy."
+    }
+  ],
+  "pros": [
+    "ANC rated up to 35 dB plus a transparency mode — uncommon at this price.",
+    "12 mm drivers with a punchy, bass-forward sound.",
+    "PeatsAudio app with EQ, game mode and touch customisation.",
+    "4 mics for call noise reduction.",
+    "Light 4.15 g earbuds with IPX4 splash resistance.",
+    "Bluetooth 5.4 on current listings."
+  ],
+  "cons": [
+    "Battery life (about 7 h / 28 h, ANC off) is only average and drops with ANC on.",
+    "AAC support is unclear — some sources list SBC only.",
+    "Budget ANC can't match premium earbuds, especially against voices.",
+    "Multipoint isn't clearly listed.",
+    "Default tuning is bass-heavy and may need EQ."
+  ],
+  "buying_advice": "Good budget ANC pick",
+  "faq": [
+    {
+      "question": "Do the SoundPEATS T3 Pro have ANC?",
+      "answer": "Yes. SoundPEATS rates the active noise cancellation at up to 35 dB, and there is also a transparency mode."
+    },
+    {
+      "question": "How long does the battery last?",
+      "answer": "About 7 hours per charge and 28 hours with the case according to SoundPEATS, with ANC off. Expect less with ANC on."
+    },
+    {
+      "question": "Do they support AAC for iPhone?",
+      "answer": "Sources disagree: some list AAC, others SBC only. Check the listing if AAC is important to you."
+    },
+    {
+      "question": "Are the T3 Pro the same as the T3?",
+      "answer": "No. The original T3 uses Bluetooth 5.2 and has weaker ANC; the T3 Pro is the newer model."
+    },
+    {
+      "question": "T3 Pro or Redmi Buds 6 Play?",
+      "answer": "Pick the T3 Pro for ANC and transparency. Pick the Redmi Buds 6 Play for longer battery life (Xiaomi rates 36 hours) if you don't need ANC."
+    },
+    {
+      "question": "Are they water resistant?",
+      "answer": "They are rated IPX4, which covers sweat and splashes, not submersion."
+    }
+  ],
+  "seo_title": "SoundPEATS T3 Pro Review: Budget ANC Earbuds Worth It?",
+  "seo_description": "SoundPEATS T3 Pro: ANC up to 35 dB, transparency, 12 mm drivers, Bluetooth 5.4, IPX4. Sourced specs, pros and cons, and how they compare with Redmi Buds 6 Play.",
+  "verdict_summary": "A low-cost way to get working ANC and transparency, with 12 mm drivers and a useful app. Battery life is average and codec support is inconsistently documented.",
+  "extras": {
+    "productName": "SoundPEATS T3 Pro",
+    "bestFor": [
+      "First-time ANC buyers on a budget",
+      "Commuters in steady background noise",
+      "Bass-forward music"
+    ],
+    "notFor": [
+      "Frequent flyers who need strong ANC",
+      "Listeners who need guaranteed AAC/LDAC",
+      "Anyone who needs multipoint"
+    ],
+    "alternatives": [
+      {
+        "name": "Redmi Buds 6 Play",
+        "slug": "redmi-buds-6-play",
+        "note": "Longer battery (36 h rated) and very light, but no ANC."
+      },
+      {
+        "name": "Soundcore Life P3i",
+        "note": "Another popular budget ANC option from Anker's audio brand."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SoundPEATS — T3 Pro official product page",
+        "url": "https://soundpeats.com/products/t3-pro-wireless-earbuds-with-call-noise-cancellation-at-a-great-price"
+      },
+      {
+        "label": "Turbo VS — SoundPEATS T3 Pro specifications",
+        "url": "https://www.turbovs.com/review/soundpeats-t3-pro-56015"
+      },
+      {
+        "label": "Allround Review — SoundPEATS T3 Pro review",
+        "url": "https://www.allroundreview.com/soundpeats-t3-pro-review-budget-earbuds-that-beat-expectations"
+      }
+    ]
+  }
+}
