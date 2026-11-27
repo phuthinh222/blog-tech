@@ -10,6 +10,8 @@ Cập nhật: 2026-11-17. Mỗi URL nhắm **1 keyword chính** (một ý địn
 - **Tránh đối đầu trực diện** keyword đầu (VD "best gaming mouse", "best monitor") — để sau khi site có uy tín.
 - **Cụm chủ đề (topic cluster):** mỗi danh mục = 1 trang danh mục (pillar) + guide (ý định "cách chọn") + review (ý định "<sản phẩm> review") + bài so sánh "A vs B" (ý định gần mua). Liên kết qua lại trong cụm.
 - Brand "Zero Technology" chỉ cần ở trang chủ; trang con đặt keyword lên đầu title.
+- Với nội dung nhắm độc giả Amazon US, xác minh listing và đúng model tại amazon.com trước khi ưu tiên bài để kiếm affiliate. Không có listing thì vẫn có thể giữ bài hữu ích cho SEO, nhưng không gắn Amazon link; ưu tiên sản phẩm có sẵn ở thị trường mục tiêu.
+- Bài roundup phải nêu phương pháp tổng hợp và nguồn; không dùng điểm số hay câu khuyên mua khiến người đọc tưởng sản phẩm đã được test. Chỉ gọi là hands-on khi đã trải nghiệm trực tiếp. Tác giả hiển thị là bút danh tiếng Anh của desk biên tập, không tạo nhân thân giả.
 
 ## 2. Trang chủ & danh mục
 
@@ -51,17 +53,19 @@ Ghi chú:
 - **G305 X SUPERLIGHT:** ở Việt Nam/châu Á bán tên "G304 X SUPERLIGHT" → keyword vi dùng G304 X, bài nhắc cả hai tên ngay đoạn đầu.
 - **Sidohome, pegboard:** người đọc quốc tế không tìm theo tên hãng → nhắm keyword loại sản phẩm.
 - **VSP, Microlab:** gần như chỉ có người Việt tìm → ưu tiên tối ưu bản `/vi`.
+- **Amazon US availability:** VSP IP2705F được xác định trong bài là không có trên Amazon; không gắn Amazon US link. Với Xiaomi G24i, Redmi Buds, VXE, Microlab và các model khác, availability cần kiểm tra lại trực tiếp trước khi tạo offer; đừng kết luận theo tên hãng.
 
 ## 4. Bài hướng dẫn (guides)
 
-| Guide (slug hiện tại)                          | Keyword chính (en)                     | Keyword chính (vi)                | Review liên kết tới                          |
-| ---------------------------------------------- | -------------------------------------- | --------------------------------- | -------------------------------------------- |
-| `chon-man-hinh-gaming-24-inch-pho-thong`       | how to choose a 24 inch gaming monitor | cách chọn màn hình gaming 24 inch | Xiaomi G24i, ASUS VG249QE5A                  |
-| `cach-chon-man-hinh-27-inch-de-lap-trinh`      | 27 inch monitor for coding             | màn hình 27 inch cho lập trình    | VSP IP2705F, North Bayou F80                 |
-| `co-nen-mua-gia-treo-man-hinh`                 | is a monitor arm worth it              | có nên mua giá treo màn hình      | North Bayou F80                              |
-| `chuot-cho-lap-trinh-vien-va-dan-van-phong`    | best mouse for programmers             | chuột cho lập trình viên          | G305 X SUPERLIGHT, VXE R1 SE (nên thêm link) |
-| `ban-phim-co-van-phong-yen-tinh`               | quiet mechanical keyboard for office   | bàn phím cơ yên tĩnh văn phòng    | AULA F75 Pro (nên thêm link)                 |
-| `chon-laptop-van-phong-va-lap-trinh-tam-trung` | mid-range laptop for programming       | laptop lập trình tầm trung        | (chưa có review laptop)                      |
+| Guide (slug hiện tại)                  | Keyword chính (en)                     | Keyword chính (vi)                | Review liên kết tới                          |
+| -------------------------------------- | -------------------------------------- | --------------------------------- | -------------------------------------------- |
+| `how-to-choose-24-inch-gaming-monitor` | how to choose a 24 inch gaming monitor | cách chọn màn hình gaming 24 inch | Xiaomi G24i, ASUS VG249QE5A                  |
+| `27-inch-monitor-for-coding`           | 27 inch monitor for coding             | màn hình 27 inch cho lập trình    | VSP IP2705F, North Bayou F80                 |
+| `is-a-monitor-arm-worth-it`            | is a monitor arm worth it              | có nên mua giá treo màn hình      | North Bayou F80                              |
+| `best-mouse-for-programmers`           | best mouse for programmers             | chuột cho lập trình viên          | G305 X SUPERLIGHT, VXE R1 SE (nên thêm link) |
+| `quiet-mechanical-keyboard-for-office` | quiet mechanical keyboard for office   | bàn phím cơ yên tĩnh văn phòng    | AULA F75 Pro (nên thêm link)                 |
+| `mid-range-laptop-for-programming`     | mid-range laptop for programming       | laptop lập trình tầm trung        | (chưa có review laptop)                      |
+| `gaming-gifts`                         | gaming gifts under $80                 | quà tặng gaming                   | G305 X SUPERLIGHT                            |
 
 Tránh tranh keyword: guide nhắm "how to choose / is it worth it", review nhắm "<sản phẩm> review" — không đặt tên sản phẩm cụ thể lên title guide.
 
@@ -87,7 +91,7 @@ Trang `/best/…` chỉ nên làm khi có ≥ 3 review cùng loại (xem todo.md
 ## 6. Việc tiếp theo
 
 - [ ] Nối Google Search Console (đã nộp `/sitemap.xml`) → sau 4–8 tuần xem truy vấn thật, chỉnh lại bảng (keyword có hiển thị nhưng CTR thấp → sửa title/description).
-- [ ] Đổi slug guide sang tiếng Anh theo keyword en ở mục 4 (+ 301), cùng cách đổi slug review.
+- [x] Đổi slug guide sang tiếng Anh theo keyword en ở mục 4 và thêm 301 từ slug cũ (`lib/guide-slug-redirects.json`).
 - [ ] Thêm link từ guide chuột → VXE R1 SE, guide bàn phím → AULA F75 Pro.
 - [ ] Viết bài so sánh #1–#4 trước (dễ nhất, dùng lại nội dung đã có).
 - [ ] Khi viết bài mới: chọn keyword chính trước, thêm dòng vào bảng mục 3.

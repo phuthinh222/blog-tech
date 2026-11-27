@@ -1,123 +1,38 @@
 # Zero Technology
 
-Blog đánh giá sản phẩm công nghệ tiêu dùng bằng tiếng Việt — điện thoại, màn hình, laptop và phụ kiện. Xây dựng bằng Next.js App Router với Tailwind CSS v4.
+Zero Technology is a multilingual consumer technology review site built with Next.js 16, React 19, TypeScript, Tailwind CSS v4, `next-intl`, and Supabase. English is the default locale; Vietnamese and Chinese use `/vi` and `/zh` prefixes. Product content is authored in Vietnamese and translated into `content/translations/products/`.
 
-## Tech Stack
+## Project structure
 
-- **Next.js 16** — App Router, Server Components
-- **React 19** — Client Components cho interactive UI
-- **Tailwind CSS v4** — Styling với oklch color system
-- **shadcn/ui** — Button, Card components
-- **lucide-react** — Icons
-- **TypeScript** — Strict typing
+- `app/[locale]/` — localized pages, reviews, guides, policies, and author pages.
+- `components/` — shared layout and review UI.
+- `content/posts/` — Vietnamese source product records.
+- `content/translations/products/` — English and Chinese product translations.
+- `content/guides/` — localized guide JSON files.
+- `lib/content.ts` — Supabase content queries and mapping.
+- `lib/authors.ts` — disclosed editorial pseudonyms and category bios.
+- `supabase/migrations/` — database schema and policy changes.
+- `scripts/` — content import, translation import, and slug migration helpers.
+- `seo-keywords.md` — keyword map and editorial SEO plan.
+- `todo.md` — implementation status and remaining work.
 
-## Cấu trúc dự án
+## Local development
 
-```
-├── app/
-│   ├── layout.tsx          # Root layout (Header + Footer)
-│   ├── page.tsx            # Trang chủ
-│   ├── articles/page.tsx   # Danh sách tất cả đánh giá
-│   ├── categories/page.tsx # Danh mục sản phẩm
-│   └── about/page.tsx      # Giới thiệu đội ngũ
-│
-├── components/
-│   ├── layout/
-│   │   ├── Header.tsx      # Navigation bar
-│   │   └── Footer.tsx      # Footer với newsletter
-│   ├── blog/
-│   │   └── ArticleCard.tsx # Card bài đánh giá (3 variants: default, featured, compact)
-│   └── ui/
-│       ├── button.tsx      # shadcn Button
-│       └── card.tsx        # shadcn Card
-│
-├── lib/
-│   ├── posts.ts            # Mock data bài viết (9 reviews)
-│   ├── categories.ts       # Danh mục + icons + mô tả
-│   ├── team.ts             # Thông tin đội ngũ reviewer
-│   └── constants.ts        # SITE_NAME, SITE_DESCRIPTION, NAV_LINKS
-│
-└── types/
-    └── index.ts            # Post, Category types
-```
-
-## Danh mục
-
-| Slug        | Tên        | Icon       |
-| ----------- | ---------- | ---------- |
-| `dienthoai` | Điện Thoại | Smartphone |
-| `manhinh`   | Màn Hình   | Monitor    |
-| `laptop`    | Laptop     | Laptop     |
-| `phukien`   | Phụ Kiện   | Headphones |
-
-## Data Model
-
-```typescript
-type Post = {
-  id: string
-  slug: string
-  title: string
-  excerpt: string
-  category: string // Tên hiển thị
-  categorySlug: string // "dienthoai" | "manhinh" | "laptop" | "phukien"
-  author: string
-  date: string // ISO format "YYYY-MM-DD"
-  readTime: number // Phút đọc
-  coverColor: string // Hex color cho overlay
-  coverImage: string // URL ảnh bìa (picsum.photos)
-  rating: number // Điểm đánh giá 0–10
-}
-```
-
-## Cài đặt & chạy
+Use Node.js and pnpm. Set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` in `.env.local` for public content reads. Import scripts also require the service key documented in `supabase/README.md`; never commit secrets.
 
 ```bash
-# Cài dependencies
 pnpm install
-
-# Chạy dev server
 pnpm dev
 ```
 
-Mở [http://localhost:3000](http://localhost:3000) trên trình duyệt.
+## Content workflow
 
-```bash
-# Build production
-pnpm build
+Follow [CLAUDE.md](CLAUDE.md) when adding or updating reviews. Keep claims traceable to sources, label compiled research as compiled, and never imply hands-on testing unless it happened. Editorial author names are English pseudonyms for category desks; the author pages and editorial policy identify them as pseudonyms rather than real individual reviewers.
 
-# Chạy production
-pnpm start
-```
+## Affiliate status
 
-## Thêm bài đánh giá mới
+Affiliate links are currently disabled in `lib/constants.ts` while the site builds readership. Amazon readiness requirements and the activation checklist are tracked in [todo.md](todo.md) and [supabase/README.md](supabase/README.md). Do not add live Amazon links, product prices, or Amazon-sourced images while the feature is disabled.
 
-Thêm object vào mảng `POSTS` trong [lib/posts.ts](lib/posts.ts):
+## Database setup
 
-```typescript
-{
-  id: "10",
-  slug: "ten-san-pham-review",
-  title: "Tên Sản Phẩm: Tiêu Đề Hấp Dẫn",
-  excerpt: "Mô tả ngắn 1–2 câu về điểm nổi bật...",
-  category: "Điện Thoại",          // Tên hiển thị
-  categorySlug: "dienthoai",       // slug danh mục
-  author: "Nguyễn Văn An",         // Tên trong lib/team.ts
-  date: "2026-06-15",
-  readTime: 10,
-  coverColor: "#7c3aed",           // Màu tint overlay
-  coverImage: "https://picsum.photos/seed/ten-san-pham/800/450",
-  rating: 8.5,
-}
-```
-
-Cập nhật `count` tương ứng trong `CATEGORIES`.
-
-## External Images
-
-Ảnh bìa dùng [picsum.photos](https://picsum.photos) với seed cố định. Ảnh tác giả dùng [randomuser.me](https://randomuser.me). Cả hai domain đã được cấu hình trong `next.config.ts`.
-
-## Deploy
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
-
-Đẩy lên GitHub rồi import vào [Vercel](https://vercel.com) — không cần cấu hình thêm.
+See [supabase/README.md](supabase/README.md) for migration order, content imports, and Amazon-related data guidance. Apply migrations through the Supabase Dashboard SQL Editor unless the project has been linked to the Supabase CLI.

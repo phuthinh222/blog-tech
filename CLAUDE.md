@@ -10,7 +10,18 @@ Site review sản phẩm công nghệ + affiliate, hướng tới người đọ
 
 ## Viết bài review sản phẩm
 
-**Hiện tạm KHÔNG dùng link affiliate** (giai đoạn xây traffic): đã bỏ hẳn Shopee/AccessTrade; `AFFILIATE_LINKS_ENABLED = false` trong `lib/constants.ts` ẩn mọi nút mua, bảng "Where to buy", thanh mua dính đáy, hộp công bố affiliate trong bài. Không tạo link AccessTrade, không thêm `itemId`/`affiliateUrl`/`productUrl` vào bài; `import-content.mjs` không tạo offer. Khi bật lại affiliate (VD Amazon Associates): đổi cờ thành `true` (link Amazon tự gắn tag theo env `AMAZON_WEB_TAG` / `AMAZON_UK_TAG` / `AMAZON_DE_TAG`).
+**Affiliate hiện đang tắt**: `AFFILIATE_LINKS_ENABLED = false` trong `lib/constants.ts` ẩn các CTA, bảng Where to buy và disclosure ở cấp bài. Không thêm live affiliate links/offers cho đến khi được chỉ đạo bật lại. Các profile tác giả là **bút danh tiếng Anh** của các desk biên tập theo danh mục; không tạo người, ảnh chân dung, kinh nghiệm hoặc hoạt động thử nghiệm giả. About/Editorial Policy và bio phải nói rõ đây là bút danh.
+
+### Amazon Associates — checklist khi được bật lại
+
+- Chỉ đăng ký khi site công khai có nội dung gốc, gần đây và có bình luận/phân tích riêng. Amazon xem xét sau 3 qualifying sales; đơn tự mua không tính; hồ sơ có thể bị rút nếu không có đủ qualifying sales trong 180 ngày. Xác minh marketplace và điều khoản hiện hành trước khi đăng ký.
+- Khai báo mọi website/kênh sẽ dùng, thông tin liên hệ chính xác, hoàn thành tax interview và chọn phương thức thanh toán trong Associates Central.
+- Hiển thị nguyên câu `As an Amazon Associate I earn from qualifying purchases.` rõ ràng trên site; đặt disclosure dễ thấy gần review/link affiliate và trước CTA mua đầu tiên. Không cho rằng disclosure ở footer là đủ.
+- Giữ câu chuẩn trên footer mọi trang khi affiliate bật, đồng thời giữ link-level disclosure trước CTA đầu tiên. Bài `compiled` không dùng điểm thành phần tạo cảm giác đã test; nếu có điểm tổng thể phải giải thích đó là nhận định biên tập dựa trên thông số và nguồn đã dẫn.
+- Không tự mua qua link của mình, không dùng quảng cáo nhắm từ khóa Amazon để quảng bá Special Links. Newsletter chỉ được gửi Special Links khi người nhận đã opt in và mọi điều khoản/email marketing đều được đáp ứng; phương án mặc định của site là chỉ link về bài trên website. Không nhúng link vào ebook/tài liệu offline.
+- Không chép ảnh Amazon hoặc gõ giá/availability Amazon thủ công. Hiển thị giá và availability chỉ qua định dạng Amazon cung cấp hoặc Creators API/PA API theo license hiện hành. Dùng ảnh tự chụp hoặc ảnh hãng có quyền sử dụng.
+- Link phải dùng đúng Associate tag theo marketplace; dùng `rel="sponsored nofollow noopener"`, `target="_blank"`; CTA dùng ngôn ngữ như “Check price on Amazon”. Ghi marketplace/ASIN trong dữ liệu bài khi đã được cấp phép và có lý do sử dụng.
+- Creators API hiện yêu cầu Associates được chấp nhận cuối cùng và tối thiểu 10 qualifying sales trong 30 ngày gần nhất. Kiểm tra trang chính thức trước khi triển khai vì eligibility có thể đổi.
 
 0. **Keyword** — chọn keyword chính theo [seo-keywords.md](seo-keywords.md) (1 keyword/URL, không trùng bài khác), đặt ở đầu `seo.metaTitle`/title; thêm dòng mới vào bảng mục 3.
 1. **Sản phẩm** — người dùng gửi tên/link sản phẩm (link Shopee chỉ dùng làm nguồn tham khảo, không đặt link mua).
@@ -38,7 +49,7 @@ Site review sản phẩm công nghệ + affiliate, hướng tới người đọ
    - **Bản en viết cho người đọc toàn cầu, không dịch máy móc**: bỏ "người dùng Việt Nam", bảo hành/giá Việt Nam (ghi "warranty varies by region; check your local retailer"); giá tham khảo theo USD nếu có nguồn (VD giá niêm yết trên store Mỹ của hãng); nêu tên gọi khác theo khu vực (VD G305 X SUPERLIGHT = G304 X SUPERLIGHT ở châu Á).
    - Thông số quan trọng ghi nguồn ngay trong câu ("Logitech lists…", "according to the manufacturer…") hoặc "(Logitech)" trong `specs`; con số không xác minh được với hãng thì nói rõ hoặc bỏ. Không viết "we tested".
    - `extras` (cột `product_translations.extras`, migration 0006): `productName` (tên dùng tìm trên Amazon), `regionalNote`, `bestFor[]`, `notFor[]`, `alternatives[{name, slug?, note}]` (slug = bài có trên site), `sources[{label, url}]`. Mẫu: `content/translations/products/logitech-g305-x-superlight.en.json`.
-   - Khi bật affiliate, bản en tự có bảng "Where to buy" Amazon US/UK/DE (link tìm kiếm theo `productName`), không ghi giá.
+   - Khi affiliate được bật hợp lệ, chỉ hiển thị marketplace và link đã được cấu hình, không ghi giá Amazon tĩnh. Xác nhận sản phẩm thực sự có mặt trên marketplace tương ứng trước khi thêm link.
 7. **Kiểm tra & đăng** — `pnpm exec prettier --write` các file mới → `npm run check` → `node --env-file=.env scripts/import-content.mjs --commit` → `node --env-file=.env scripts/import-translations.mjs --commit` (đúng thứ tự; script đọc `.env`, không phải `.env.local`) → đọc lại Supabase xác nhận PUBLISHED, đủ vi/en/zh.
 8. **Báo cáo** — bảng tóm tắt (tiêu đề, SEO title, URL, meta description, danh mục, điểm), điểm cần người dùng kiểm tra (thông tin chưa thống nhất), và danh sách nguồn dạng link.
 

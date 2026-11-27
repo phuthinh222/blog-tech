@@ -76,7 +76,7 @@ Thứ tự đề xuất: **Phase 1 → 2 → 3 → 4** trước (nền tảng d�
 
 - [x] en ở URL gốc, vi → `/vi`, zh → `/zh`; 301 từ URL cũ (`next.config.ts`).
 - [x] Slug tiếng Anh + `/reviews/` (`lib/slug-redirects.json`, `scripts/rename-slugs.mjs`).
-- [x] Trang How We Review, Editorial Policy, Affiliate Disclosure; About bản en viết lại.
+- [x] Trang How We Review, Editorial Policy; About bản en viết lại. Disclosure hiển thị cạnh link affiliate và ở footer khi affiliate bật, không dùng trang disclosure riêng.
 - [x] Disclosure FTC + Amazon đầu mỗi bài; byline, Last updated, Best for/Not for, Alternatives, Sources, Where to buy (Amazon US/UK/DE).
 - [x] Trang chủ: tagline, CTA, Best picks, form email (bảng `subscribers`, migration 0006).
 - [x] Bài mẫu G102 bản en viết lại theo chuẩn global.
@@ -84,4 +84,30 @@ Thứ tự đề xuất: **Phase 1 → 2 → 3 → 4** trước (nền tảng d�
 - [ ] Bản zh vẫn là bản dịch cũ (còn giá VND, bảo hành Việt Nam).
 - [ ] Trang `/best/...` (VD best budget gaming mice) — cần thêm bài review cùng loại.
 - [ ] Gửi email bản tin (chưa có công cụ gửi; danh sách lưu ở `subscribers`).
-- [ ] Đổi tên slug bài hướng dẫn (đang là tiếng Việt).
+- [x] Đổi slug guide sang tiếng Anh và thêm redirect 301 từ slug cũ (`lib/guide-slug-redirects.json`).
+
+## Phase 10 — Amazon Associates readiness (feature vẫn tắt)
+
+`AFFILIATE_LINKS_ENABLED = false`; đây là hạng mục chuẩn bị, không phải tín hiệu bật affiliate ngay. Hoàn tất và rà soát điều khoản hiện hành trước khi mở link.
+
+- [ ] Kiểm tra traffic/độc giả mục tiêu và chọn marketplace phù hợp; xác minh thị trường bán hàng Amazon cho từng sản phẩm trước khi thêm vào kế hoạch affiliate. Ưu tiên sản phẩm có listing Amazon US nếu nhắm Amazon.com; bỏ khỏi Amazon plan các sản phẩm chỉ bán tại Việt Nam.
+- [ ] Kiểm tra site có nội dung gốc, mới, thông tin vận hành/liên hệ đáng tin cậy; About khớp với thông tin đăng ký. Tác giả hiện là bút danh tiếng Anh của editorial desks, không phải người thật: duy trì việc công khai rõ pseudonym trên About, bio, và Editorial Policy; không thêm chân dung/chức danh/kinh nghiệm bịa.
+- [ ] Khi đăng ký: khai đủ mọi website/kênh, hoàn tất tax interview (thường W-8BEN cho cá nhân không phải người Mỹ nếu phù hợp) và xác nhận payment methods khả dụng trực tiếp trong Associates Central. Amazon xem hồ sơ sau 3 qualifying sales; không tính đơn tự mua; hồ sơ có thể bị rút nếu không có qualifying sales trong 180 ngày.
+- [ ] Bổ sung câu chuẩn `As an Amazon Associate I earn from qualifying purchases.` trên site và link-level disclosure cạnh mỗi review/link, trước CTA đầu tiên. Disclosure đặt ở footer một mình là chưa đủ.
+- [ ] Trước khi bật nút mua: thêm `asin` và marketplace vào metadata có kiểm soát; tạo link với Associate tag đúng marketplace, kiểm tra URL/redirect; nút ghi “Check price on Amazon”; link có `rel="sponsored nofollow noopener"` và `target="_blank"`.
+- [ ] Không nhập giá/availability Amazon bằng tay. Chỉ hiển thị thông tin đó qua link/format Amazon hoặc API được cấp quyền theo điều khoản. Chỉ dùng ảnh tự chụp hoặc ảnh hãng được phép, không lưu ảnh Amazon. Dùng SiteStripe/Associates Central cho link tĩnh khi đủ điều kiện.
+- [ ] Tạo tracking ID cho vị trí link, không gắn định danh tracking tới cá nhân. Không click/mua qua link của mình, không chạy quảng cáo nhắm từ khóa Amazon.
+- [ ] Giữ newsletter chỉ trỏ về bài viết trên site theo mặc định. Chính sách Amazon hiện cho phép email/SMS/direct message có Special Links trong điều kiện giới hạn, bao gồm opt-in và tuân thủ điều khoản; xác minh kỹ trước mọi thay đổi. Không đưa link vào tài liệu offline/ebook.
+- [ ] Creators API chỉ sau khi Associates được chấp nhận cuối cùng và đạt ngưỡng hiện tại (10 qualifying sales trong 30 ngày theo tài liệu API); xác minh lại khi triển khai.
+- [x] Bài roundup hiển thị rõ phương pháp tổng hợp; trang review ẩn điểm thành phần cho bài chưa test và giải thích điểm tổng hợp dựa trên thông số/nguồn công bố.
+- [x] Đổi khu homepage “Trending” thành “More Reviews” vì chưa có dữ liệu lượt xem; chọn dải bài khác với “Latest Reviews”.
+- [x] Sửa lỗi ngữ pháp “The SoundPEATS T3 Pro bring…” thành “brings…”.
+- [x] Hiển thị câu Amazon chuẩn ở footer toàn site khi affiliate được bật; disclosure trong bài đứng trước CTA và nêu câu chuẩn. Tính năng vẫn tắt.
+- [x] Product/Review JSON-LD đã có trên trang review; giữ không khai báo giá Amazon tĩnh.
+- [ ] Hoàn tất kiểm tra nội dung còn lại: xác minh mâu thuẫn từng giá/phiên bản bằng nguồn chính hãng, kiểm kê alt text cho toàn bộ liên kết ảnh, kiểm tra ngày đăng/redmi và grammar các bản dịch, và rà soát từng model Amazon US.
+- [ ] Cập nhật thông tin chủ site và email theo tên miền sau khi có tên pháp nhân/người vận hành và hộp thư domain đã xác minh; không tạo thông tin liên hệ giả.
+- [ ] Bổ sung ASIN/marketplace, link Amazon theo ASIN và tracking ID theo vị trí sau khi có quyền Associates hợp lệ và dữ liệu ASIN đã xác minh.
+- [ ] Bổ sung ảnh hands-on chỉ khi đội ngũ thực sự sở hữu/dùng sản phẩm và có thể tự chụp; hiện chưa có căn cứ để tuyên bố có trải nghiệm đó.
+- [ ] Sau khi được chấp nhận, khai báo mọi domain/kênh đã dùng và kiểm tra trực tiếp điều khoản Associates mới nhất trước mỗi thay đổi lớn.
+
+Nguồn và hướng dẫn vận hành được ghi tại `supabase/README.md`.
