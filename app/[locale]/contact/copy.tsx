@@ -61,7 +61,7 @@ export const CONTACT_COPY: Record<Locale, LegalCopy> = {
         content: (
           <p>
             {SITE_NAME} không bán hàng trực tiếp. Với các câu hỏi về đơn hàng, giao hàng, bảo hành
-            hay đổi trả, vui lòng liên hệ trực tiếp nơi bạn đã mua sản phẩm (ví dụ Shopee).
+            hay đổi trả, vui lòng liên hệ trực tiếp nơi bạn đã mua sản phẩm.
           </p>
         ),
       },
@@ -109,8 +109,7 @@ export const CONTACT_COPY: Record<Locale, LegalCopy> = {
         content: (
           <p>
             {SITE_NAME} does not sell products directly. For questions about orders, shipping,
-            warranty or returns, please contact the store where you bought the product (for example
-            Shopee).
+            warranty or returns, please contact the store where you bought the product.
           </p>
         ),
       },
@@ -157,8 +156,7 @@ export const CONTACT_COPY: Record<Locale, LegalCopy> = {
         content: (
           <p>
             {SITE_NAME}
-            不直接销售商品。有关订单、配送、保修或退换货的问题，请直接联系您购买产品的商家（例如
-            Shopee）。
+            不直接销售商品。有关订单、配送、保修或退换货的问题，请直接联系您购买产品的商家。
           </p>
         ),
       },

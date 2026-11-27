@@ -44,8 +44,20 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
+        id: "newsletter",
+        title: "3. Nhận bản tin qua email",
+        content: (
+          <p>
+            Nếu bạn đăng ký nhận bản tin, chúng tôi lưu email, ngôn ngữ và nơi bạn đăng ký (VD trang
+            chủ) trong cơ sở dữ liệu Supabase, chỉ để gửi bản tin về bài đánh giá và ưu đãi công
+            nghệ. Bạn có thể huỷ bất cứ lúc nào bằng cách trả lời email hoặc liên hệ chúng tôi;
+            chúng tôi không bán hay chia sẻ danh sách email.
+          </p>
+        ),
+      },
+      {
         id: "cookies",
-        title: "3. Cookie và lưu trữ trên trình duyệt",
+        title: "4. Cookie và lưu trữ trên trình duyệt",
         content: (
           <>
             <p>{SITE_NAME} sử dụng:</p>
@@ -75,14 +87,13 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "4. Liên kết affiliate và website bên ngoài",
+        title: "5. Liên kết affiliate và website bên ngoài",
         content: (
           <>
             <p>
-              Một số liên kết trên website là liên kết affiliate (ví dụ tới Shopee, có thể đi qua
-              nền tảng AccessTrade). Khi bạn bấm vào, bạn rời khỏi {SITE_NAME}; nhà bán hàng và nền
-              tảng affiliate có thể đặt cookie để ghi nhận đơn hàng đến từ chúng tôi, theo chính
-              sách bảo mật riêng của họ.
+              Một số liên kết trên website có thể là liên kết affiliate. Khi bạn bấm vào, bạn rời
+              khỏi {SITE_NAME}; nhà bán hàng và nền tảng affiliate có thể đặt cookie để ghi nhận đơn
+              hàng đến từ chúng tôi, theo chính sách bảo mật riêng của họ.
             </p>
             <p>
               Chúng tôi không nhận được thông tin cá nhân hay thông tin thanh toán của bạn từ các
@@ -92,7 +103,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "5. Mục đích sử dụng dữ liệu",
+        title: "6. Mục đích sử dụng dữ liệu",
         content: (
           <ul>
             <li>Cho phép bạn đăng nhập, bình luận và quản lý bình luận của mình.</li>
@@ -102,7 +113,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "6. Chia sẻ dữ liệu",
+        title: "7. Chia sẻ dữ liệu",
         content: (
           <p>
             Chúng tôi <strong>không bán</strong> dữ liệu cá nhân. Dữ liệu chỉ được xử lý bởi các nhà
@@ -112,7 +123,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "7. Quyền của bạn",
+        title: "8. Quyền của bạn",
         content: (
           <>
             <p>Theo Nghị định 13/2023/NĐ-CP, bạn có quyền:</p>
@@ -130,7 +141,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "8. Lưu trữ và thay đổi chính sách",
+        title: "9. Lưu trữ và thay đổi chính sách",
         content: (
           <p>
             Dữ liệu tài khoản và bình luận được lưu cho đến khi bạn yêu cầu xóa. Khi chính sách thay
@@ -146,8 +157,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
     intro: (
       <p>
         This policy explains what data {SITE_NAME} (zerotech-lab.site) collects when you use the
-        website, what it is used for and what rights you have, in the spirit of Vietnam&apos;s
-        Decree 13/2023/ND-CP on personal data protection.
+        website, what it is used for and what rights you have.
       </p>
     ),
     sections: [
@@ -178,8 +188,20 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
+        id: "newsletter",
+        title: "3. Email newsletter",
+        content: (
+          <p>
+            If you subscribe to our newsletter, we store your email address, language and where you
+            signed up (for example the home page) in our Supabase database, only to send you our
+            tech reviews and deals. You can unsubscribe at any time by replying to any email or
+            contacting us; we never sell or share the list.
+          </p>
+        ),
+      },
+      {
         id: "cookies",
-        title: "3. Cookies and browser storage",
+        title: "4. Cookies and browser storage",
         content: (
           <>
             <p>{SITE_NAME} uses:</p>
@@ -207,14 +229,13 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "4. Affiliate links and external websites",
+        title: "5. Affiliate links and external websites",
         content: (
           <>
             <p>
-              Some links on the website are affiliate links (for example to Shopee, possibly via the
-              AccessTrade platform). When you click one, you leave {SITE_NAME}; the retailer and
-              affiliate platform may set cookies to attribute orders to us, under their own privacy
-              policies.
+              Some links on the website may be affiliate links. When you click one, you leave{" "}
+              {SITE_NAME}; the retailer and affiliate platform may set cookies to attribute orders
+              to us, under their own privacy policies.
             </p>
             <p>
               We never receive your personal or payment information from these transactions — only
@@ -224,7 +245,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "5. How we use data",
+        title: "6. How we use data",
         content: (
           <ul>
             <li>To let you sign in, comment and manage your comments.</li>
@@ -234,7 +255,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "6. Data sharing",
+        title: "7. Data sharing",
         content: (
           <p>
             We <strong>do not sell</strong> personal data. Data is only processed by the service
@@ -244,7 +265,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "7. Your rights",
+        title: "8. Your rights",
         content: (
           <>
             <p>Under Decree 13/2023/ND-CP, you have the right to:</p>
@@ -261,7 +282,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "8. Retention and policy changes",
+        title: "9. Retention and policy changes",
         content: (
           <p>
             Account data and comments are kept until you ask us to delete them. When this policy
@@ -307,8 +328,18 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
+        id: "newsletter",
+        title: "3. 邮件订阅",
+        content: (
+          <p>
+            如果您订阅我们的邮件，我们会在 Supabase
+            数据库中保存您的邮箱、语言和订阅位置（例如首页），仅用于发送科技评测与优惠信息。您可随时回复邮件或联系我们退订；我们绝不出售或分享邮箱列表。
+          </p>
+        ),
+      },
+      {
         id: "cookies",
-        title: "3. Cookie 与浏览器存储",
+        title: "4. Cookie 与浏览器存储",
         content: (
           <>
             <p>{SITE_NAME} 使用：</p>
@@ -333,12 +364,11 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "4. 联盟链接与外部网站",
+        title: "5. 联盟链接与外部网站",
         content: (
           <>
             <p>
-              网站上的部分链接是联盟链接（例如前往 Shopee，可能经由 AccessTrade
-              平台）。点击后您将离开 {SITE_NAME}
+              网站上的部分链接可能是联盟链接。点击后您将离开 {SITE_NAME}
               ；商家和联盟平台可能会根据其各自的隐私政策设置 Cookie，以记录来自我们的订单。
             </p>
             <p>我们不会从这些交易中获得您的个人信息或支付信息，只会获得点击量和订单的汇总数据。</p>
@@ -346,7 +376,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "5. 数据使用目的",
+        title: "6. 数据使用目的",
         content: (
           <ul>
             <li>让您能够登录、发表评论并管理自己的评论。</li>
@@ -356,7 +386,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "6. 数据共享",
+        title: "7. 数据共享",
         content: (
           <p>
             我们<strong>不出售</strong>
@@ -365,7 +395,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "7. 您的权利",
+        title: "8. 您的权利",
         content: (
           <>
             <p>根据第 13/2023/NĐ-CP 号议定，您有权：</p>
@@ -380,7 +410,7 @@ export const PRIVACY_COPY: Record<Locale, LegalCopy> = {
         ),
       },
       {
-        title: "8. 数据保存与政策变更",
+        title: "9. 数据保存与政策变更",
         content: (
           <p>
             账户数据和评论将保存至您要求删除为止。本政策变更时，页面顶部的“最后更新”日期会随之更新。

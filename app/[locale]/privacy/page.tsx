@@ -6,7 +6,7 @@ import { legalMetadata } from "@/lib/legal"
 import { formatDate } from "@/lib/utils"
 import { PRIVACY_COPY } from "./copy"
 
-const UPDATED_AT = "2026-10-12"
+const UPDATED_AT = "2026-11-17"
 
 type Props = { params: Promise<{ locale: string }> }
 

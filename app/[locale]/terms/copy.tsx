@@ -22,8 +22,7 @@ export const TERMS_COPY: Record<Locale, LegalCopy> = {
           <p>
             {SITE_NAME} là website đánh giá sản phẩm công nghệ (điện thoại, màn hình, laptop, phụ
             kiện). Chúng tôi <strong>không bán hàng trực tiếp</strong>. Mọi giao dịch mua bán diễn
-            ra tại website của nhà bán hàng (ví dụ Shopee) và chịu sự điều chỉnh của điều khoản nơi
-            đó.
+            ra tại website của nhà bán hàng và chịu sự điều chỉnh của điều khoản nơi đó.
           </p>
         ),
       },
@@ -119,8 +118,7 @@ export const TERMS_COPY: Record<Locale, LegalCopy> = {
           <p>
             {SITE_NAME} is a tech product review website (phones, monitors, laptops, accessories).
             We <strong>do not sell products directly</strong>. All purchases take place on the
-            retailer&apos;s website (for example Shopee) and are governed by that retailer&apos;s
-            terms.
+            retailer&apos;s website and are governed by that retailer&apos;s terms.
           </p>
         ),
       },
@@ -216,7 +214,7 @@ export const TERMS_COPY: Record<Locale, LegalCopy> = {
           <p>
             {SITE_NAME} 是一个科技产品评测网站（手机、显示器、笔记本电脑、配件）。我们
             <strong>不直接销售商品</strong>
-            。所有交易均在商家网站（例如 Shopee）上进行，并受该商家条款的约束。
+            。所有交易均在商家网站上进行，并受该商家条款的约束。
           </p>
         ),
       },

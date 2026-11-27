@@ -13,7 +13,7 @@ const footerLinks = [
       { href: "/categories", key: "newArticles" },
       { href: "/guides", key: "buyingGuides" },
       { href: "/categories", key: "allCategories" },
-      { href: "/about#phuong-phap-danh-gia", key: "scoring" },
+      { href: "/how-we-review", key: "scoring" },
     ],
   },
   {
@@ -27,6 +27,8 @@ const footerLinks = [
     key: "company",
     links: [
       { href: "/about", key: "aboutUs" },
+      { href: "/editorial-policy", key: "editorialPolicy" },
+      { href: "/affiliate-disclosure", key: "affiliateDisclosure" },
       { href: "/contact", key: "contact" },
     ],
   },

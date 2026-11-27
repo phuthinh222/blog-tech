@@ -154,6 +154,24 @@ export default async function AboutPage({ params }: Props) {
               </div>
             ))}
           </div>
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-bold">{t("method.title")}</h3>
+            <p className="text-muted-foreground">{t("method.intro")}</p>
+            <div className="grid gap-6 sm:grid-cols-2">
+              {(["tested", "compiled"] as const).map((key) => (
+                <div
+                  key={key}
+                  className="border-border bg-card flex flex-col gap-1 rounded-xl border p-5"
+                >
+                  <h4 className="font-semibold">{t(`method.${key}.title`)}</h4>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {t(`method.${key}.desc`)}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <p className="text-muted-foreground text-sm">{t("method.updated")}</p>
+          </div>
           <div className="border-border bg-muted/20 flex flex-col gap-2 rounded-xl border p-5">
             <h3 className="font-semibold">{t("commissionTitle")}</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">{t("commissionBody")}</p>
