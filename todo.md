@@ -46,7 +46,7 @@ Thứ tự đề xuất: **Phase 1 → 2 → 3 → 4** trước (nền tảng d�
 ## Phase 5 — i18n & routing (`/reviews`, `/vi/reviews`)
 
 - [x] Quyết định giải pháp i18n: dùng `next-intl` (vi/en/zh, `localePrefix: "as-needed"` — vi giữ URL cũ, `/en`, `/zh`). Xem `i18n/routing.ts`.
-- [ ] Đổi route `app/articles/[slug]` → `app/reviews/[slug]` (và giữ redirect 301 từ `/articles/*` cũ nếu đã có traffic/SEO index).
+- [x] Đổi route `app/articles/[slug]` → `app/reviews/[slug]` (và giữ redirect 301 từ `/articles/*` cũ nếu đã có traffic/SEO index).
 - [x] Cấu trúc `app/[locale]/...` chung cho mọi trang (đổi `/articles` → `/reviews` vẫn để mục trên).
 - [x] Bỏ hardcode `<html lang="vi">`, set động theo locale (`app/[locale]/layout.tsx`).
 - [x] Thêm Language switcher (`VI | EN | 中文`) — `components/layout/LocaleSwitcher.tsx` trong Header.
@@ -55,15 +55,15 @@ Thứ tự đề xuất: **Phase 1 → 2 → 3 → 4** trước (nền tảng d�
 
 ## Phase 6 — SEO còn thiếu
 
-- [ ] Tạo `app/sitemap.ts` (Next 16 native sitemap generator) — hiện chưa tồn tại dù `proxy.ts` đã loại trừ path này như thể có sẵn.
-- [ ] Tạo `app/robots.ts`.
-- [ ] Thêm `canonical` vào `generateMetadata` của `app/reviews/[slug]/page.tsx` (hiện chỉ có ở trang category).
-- [ ] Thêm Breadcrumb JSON-LD (mục 28) vào trang review.
-- [ ] Thêm Organization/WebSite JSON-LD ở `app/layout.tsx` (hiện chưa có schema global nào).
+- [x] Tạo `app/sitemap.ts` (Next 16 native sitemap generator) — hiện chưa tồn tại dù `proxy.ts` đã loại trừ path này như thể có sẵn.
+- [x] Tạo `app/robots.ts`.
+- [x] Thêm `canonical` vào `generateMetadata` của `app/reviews/[slug]/page.tsx` (hiện chỉ có ở trang category).
+- [x] Thêm Breadcrumb JSON-LD (mục 28) vào trang review.
+- [x] Thêm Organization/WebSite JSON-LD ở `app/layout.tsx` (hiện chưa có schema global nào).
 
 ## Phase 7 — Compliance
 
-- [ ] Thêm affiliate disclosure cố định (template-level, không cần AI sinh) render trên mọi trang review có affiliate offer — theo yêu cầu Amazon Associates + FTC đã thêm vào README mục 19.
+- [x] Thêm affiliate disclosure cố định (template-level, không cần AI sinh) render trên mọi trang review có affiliate offer — theo yêu cầu Amazon Associates + FTC đã thêm vào README mục 19.
 - [ ] Thêm dòng disclosure tương ứng nếu sau này hiển thị nội dung Facebook preview trên site (nếu có).
 
 ## Phase 8 — Data model hoàn thiện (có thể làm song song/sau Phase 1–2)
@@ -71,3 +71,17 @@ Thứ tự đề xuất: **Phase 1 → 2 → 3 → 4** trước (nền tảng d�
 - [ ] Chuyển `lib/categories.ts` từ flat 5-category hardcode sang đọc `categories` table có `parent_id` (hỗ trợ phân cấp như README mục 5 ví dụ Technology → Computer → Developer Gear → Keyboard).
 - [ ] Thêm `brands` table + liên kết vào `products.brand_id`; hiển thị brand trên trang review (hiện `author` đang bị dùng nhầm làm "reviewer", không phải brand).
 - [ ] Giữ `lib/team.ts` (TEAM hardcode) riêng biệt — đây là editorial team, không liên quan Product/Brand, không cần đổi.
+
+## Phase 9 — Global (en mặc định)
+
+- [x] en ở URL gốc, vi → `/vi`, zh → `/zh`; 301 từ URL cũ (`next.config.ts`).
+- [x] Slug tiếng Anh + `/reviews/` (`lib/slug-redirects.json`, `scripts/rename-slugs.mjs`).
+- [x] Trang How We Review, Editorial Policy, Affiliate Disclosure; About bản en viết lại.
+- [x] Disclosure FTC + Amazon đầu mỗi bài; byline, Last updated, Best for/Not for, Alternatives, Sources, Where to buy (Amazon US/UK/DE).
+- [x] Trang chủ: tagline, CTA, Best picks, form email (bảng `subscribers`, migration 0006).
+- [x] Bài mẫu G102 bản en viết lại theo chuẩn global.
+- [x] Viết lại bản en của 13 bài còn lại theo mẫu G102 (extras + nguồn).
+- [ ] Bản zh vẫn là bản dịch cũ (còn giá VND, bảo hành Việt Nam).
+- [ ] Trang `/best/...` (VD best budget gaming mice) — cần thêm bài review cùng loại.
+- [ ] Gửi email bản tin (chưa có công cụ gửi; danh sách lưu ở `subscribers`).
+- [ ] Đổi tên slug bài hướng dẫn (đang là tiếng Việt).
