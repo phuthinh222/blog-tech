@@ -1,0 +1,199 @@
+{
+  "title": "Logitech G502 X LIGHTSPEED: Is the 13-Button Wireless G502 Worth Buying?",
+  "summary": "The G502 X LIGHTSPEED (2022) is the wireless model in Logitech's redesigned G502 X family: LIGHTFORCE hybrid optical-mechanical switches, 13 programmable controls, 102 g, USB-C charging, up to 140 hours of battery and a HERO sensor upgraded to 44K by a 2026 firmware update. No RGB, no weights and no Bluetooth — is it worth the money?",
+  "description": "## Who is it for?\n\n- Right-handed palm grippers with medium to large hands.\n- MMO and MOBA players who want lots of buttons for macros.\n- Anyone who wants a long-lasting, USB-C wireless mouse and doesn't care about RGB.\n\n## Why consider it?\n\n- LIGHTFORCE hybrid switches and 13 programmable controls.\n- Up to 140 hours of battery (Logitech), USB-C charging and POWERPLAY support.\n- A free 2026 firmware update takes the HERO sensor to 44K and adds separate X/Y sensitivity.",
+  "specs": [
+    {
+      "label": "Model number",
+      "value": "Varies by region and color, e.g. 910-006178 (black) and 910-006187 (white) in the US"
+    },
+    { "label": "Release", "value": "2022 (alongside the wired G502 X and the G502 X PLUS)" },
+    {
+      "label": "Sensor",
+      "value": "HERO; 100–25,600 DPI at launch, now listed as HERO 44K on Logitech's product page after a 2026 G HUB firmware update"
+    },
+    { "label": "Speed / acceleration", "value": "400+ IPS, 40+ G (Logitech)" },
+    { "label": "Report rate", "value": "1,000 Hz (1 ms) — no 4,000/8,000 Hz mode" },
+    {
+      "label": "Connection",
+      "value": "LIGHTSPEED 2.4 GHz wireless via USB-A receiver, or wired over USB-C; no Bluetooth"
+    },
+    {
+      "label": "Buttons",
+      "value": "11 buttons, 13 programmable controls; LIGHTFORCE hybrid optical-mechanical main switches"
+    },
+    {
+      "label": "DPI-Shift button",
+      "value": "Can be rotated 180° or removed and replaced with a cover (Logitech)"
+    },
+    {
+      "label": "Scroll wheel",
+      "value": "Hyper-fast (free-spin) and notched modes, left/right tilt"
+    },
+    { "label": "Onboard memory", "value": "Yes, 5 profiles (Logitech)" },
+    { "label": "Dimensions", "value": "131.4 × 79.2 × 41.1 mm (Logitech)" },
+    {
+      "label": "Weight",
+      "value": "102 g (black), 101.5 g (white) (Logitech); no adjustable weights"
+    },
+    {
+      "label": "Battery",
+      "value": "Rechargeable Li-polymer, up to 140 hours according to Logitech's product page"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C; POWERPLAY wireless charging compatible (mat sold separately)"
+    },
+    { "label": "Lighting", "value": "No RGB; a single status LED at the front" },
+    { "label": "Software", "value": "Logitech G HUB (Windows 10+, macOS 10.14+)" },
+    { "label": "Warranty", "value": "Varies by region; check your local retailer" },
+    {
+      "label": "Reference price",
+      "value": "US$159.99 list on Logitech's US store, on sale for US$139.99 (November 2026)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "What is the Logitech G502 X LIGHTSPEED?",
+      "content": "The G502 is Logitech's best-known gaming mouse line, famous for its sculpted right-handed shape and lots of buttons. In 2022 Logitech replaced the whole line with the **G502 X** generation, in three versions: the wired G502 X, the wireless **G502 X LIGHTSPEED** (this review) and the wireless, RGB-equipped G502 X PLUS.\n\nThe G502 X LIGHTSPEED keeps the familiar G502 silhouette in a redesigned shell, switches to LIGHTFORCE hybrid switches, charges over USB-C and drops the tunable weights. Logitech lists it at 102 g (black) with up to 140 hours of battery, and says its updated LIGHTSPEED protocol responds 68% faster than the previous generation (a manufacturer claim). Logitech's US store lists it at US$159.99, currently on sale for US$139.99 (November 2026)."
+    },
+    {
+      "title": "Shape, weight and the DPI-Shift button",
+      "content": "At 131.4 × 79.2 × 41.1 mm it's a large, right-handed ergonomic mouse with a thumb rest on the left. It suits a palm grip and medium to large hands best; Tom's Hardware describes it as a large mouse that feels large in the hand.\n\nLogitech lists 102 g for the black model and 101.5 g for the white one — lighter than the 2019 G502 LIGHTSPEED (114 g), but still heavy next to modern FPS mice. Tom's Guide notes that at 3.6 oz it \"isn't incredibly light\" and may put off esports players. Unlike older G502s, the X has **no weight system**, so you can't tune weight or balance.\n\nThe headline design change is the DPI-Shift (\"sniper\") button under your thumb: Logitech says it can be rotated 180° to sit closer to your thumb, or removed and replaced with a blank cover if you keep pressing it by accident."
+    },
+    {
+      "title": "HERO sensor, LIGHTFORCE switches and scroll wheel",
+      "content": "At launch the mouse used the HERO 25K sensor (100–25,600 DPI, 400+ IPS, 40+ G). At G PLAY 2026, Logitech announced a G HUB firmware update that takes it to **HERO 44K** (up to 44,000 DPI) and adds independent X/Y sensitivity, free for existing G502 X LIGHTSPEED and G502 X PLUS owners. Logitech's product page now lists HERO 44K, while its Support specification page still shows a 25,600 DPI maximum — update G HUB to get the new firmware. Very few players will ever use that much DPI; separate X/Y sensitivity is the more practical change. The report rate stays at 1,000 Hz.\n\nThe main buttons use LIGHTFORCE hybrid switches: optical actuation for speed and durability, plus a mechanical element for a familiar click feel. There are 11 physical buttons and 13 programmable controls (counting wheel tilt). The wheel switches between hyper-fast free-spin and notched modes; Tom's Hardware found the notched mode stiff, clunky and very loud. Onboard memory stores 5 profiles for use on computers without G HUB."
+    },
+    {
+      "title": "Battery, USB-C charging and POWERPLAY",
+      "content": "Logitech's product page rates the battery at up to **140 hours** — longer than the G502 X PLUS (up to 130 hours with RGB off), because the LIGHTSPEED model has no RGB, just one status LED. Note that Logitech's Support specification page lists a different figure (up to 500 hours in performance mode) that doesn't match the product page; we use the 140-hour product-page figure here.\n\nIt charges over **USB-C** (the 2019 G502 LIGHTSPEED used micro-USB) and you can play while it charges. It also works with Logitech's POWERPLAY wireless charging mat (sold separately) if you never want to plug it in. There is **no Bluetooth** — wireless use needs the USB-A receiver, so USB-C-only laptops will need an adapter."
+    },
+    {
+      "title": "G502 versions compared — pick the right one",
+      "content": "The G502 name covers several models, so check the exact one before you buy:\n\n- **G502 X** (wired): same design and LIGHTFORCE switches, lighter (about 89 g) and the cheapest of the three — the pick if you don't need wireless.\n- **G502 X LIGHTSPEED** (this review): wireless, 102 g, no RGB, up to 140 hours of battery.\n- **G502 X PLUS**: the LIGHTSPEED plus 8-zone LIGHTSYNC RGB, 106 g, up to 130 hours with RGB off, about US$20 more. Tom's Guide considers the LIGHTSPEED the better buy because the RGB isn't worth the extra money.\n- **G502 LIGHTSPEED** (2019, previous generation): wireless, 114 g, tunable weights, micro-USB, standard mechanical switches. Only worth it at a deep discount.\n\nCompared with the **Logitech G102 / G203 LIGHTSYNC** we've also covered, the G203 is wired, symmetrical, 6 buttons and about 85 g for a fraction of the price — the better basic gaming mouse on a budget. If you want an ultralight wireless FPS mouse, the **VXE R1 SE** (about 51–55 g) is a completely different approach."
+    },
+    {
+      "title": "Who should buy it — and who shouldn't",
+      "content": "**Buy it if you:**\n- Use a palm grip with medium to large right hands.\n- Play MMOs, MOBAs or anything that benefits from extra buttons, or use macros for work.\n- Want a long-lasting wireless mouse with USB-C charging and don't need RGB.\n- Own an older G502 and want something lighter and easier to charge with the same feel.\n\n**Skip it if you:**\n- Play competitive FPS and prefer mice under 70 g or want 4,000–8,000 Hz polling.\n- Like tuning weight with removable weights, as on older G502s.\n- Need Bluetooth for a tablet or a laptop with few ports.\n- Are left-handed or use a claw or fingertip grip with small hands.\n- Just need a basic mouse — the G203 or the wired G502 X cost far less."
+    },
+    {
+      "title": "Sources for this review",
+      "content": "Zero Technology has not used this mouse in person. This is a research roundup based on Logitech G's product page (HERO 44K sensor, LIGHTFORCE switches, battery, US list price) and Logitech Support's specification page (dimensions, weight, buttons, onboard memory, POWERPLAY); coverage of the HERO 44K firmware update announced at G PLAY 2026; and reviews from Tom's Hardware, Tom's Guide and Reviewed (size, weight, scroll wheel, comparison with the PLUS), all checked in November 2026. Logitech's two pages disagree on battery life and maximum DPI, as noted above. See the Sources list at the end of this review. Images are official Logitech G product photos."
+    },
+    {
+      "title": "Should you buy the Logitech G502 X LIGHTSPEED?",
+      "content": "The G502 X LIGHTSPEED fixes the biggest weaknesses of the 2019 G502 LIGHTSPEED: it's lighter, charges over USB-C, lasts far longer per charge and uses more durable LIGHTFORCE switches — and it just got a free sensor upgrade. In exchange it drops the tunable weights, still lacks Bluetooth and stays at 1,000 Hz. It's a strong pick for right-handed palm grippers who want lots of buttons, **especially on sale**; if you don't need wireless the wired G502 X costs less, and if FPS is your main genre a lighter mouse will serve you better."
+    }
+  ],
+  "pros": [
+    "13 programmable controls and a dual-mode wheel — still a great many-button mouse for MMOs, MOBAs and productivity shortcuts.",
+    "LIGHTFORCE hybrid optical-mechanical switches: optical speed with a mechanical feel and less risk of double-clicking.",
+    "Much lighter than the 2019 G502 LIGHTSPEED: 102 g versus 114 g (Logitech).",
+    "USB-C charging and up to 140 hours of battery (Logitech), plus POWERPLAY support.",
+    "Free 2026 firmware update upgrades the HERO sensor to 44K and adds separate X/Y sensitivity.",
+    "Rotatable or removable DPI-Shift button and 5 onboard profiles."
+  ],
+  "cons": [
+    "Still 102 g — nearly twice the weight of ultralight FPS mice such as the VXE R1 SE.",
+    "No tunable weights, unlike earlier G502s.",
+    "No Bluetooth: 2.4 GHz receiver or cable only.",
+    "1,000 Hz report rate, behind newer esports mice at 4,000–8,000 Hz in this price range.",
+    "Tom's Hardware found the notched scroll mode stiff, clunky and loud.",
+    "Pricey at full list price."
+  ],
+  "buying_advice": "Worth buying for right-handed palm grippers who want lots of buttons and long battery life, ideally on sale. Skip the PLUS unless you want RGB; FPS-first players should look at lighter mice.",
+  "faq": [
+    {
+      "question": "What's the difference between the G502 X LIGHTSPEED and the original G502 LIGHTSPEED?",
+      "answer": "The X is redesigned: lighter (102 g vs 114 g), LIGHTFORCE hybrid switches, USB-C instead of micro-USB, up to 140 hours of battery (vs up to 60) and a removable DPI-Shift button. In exchange, it drops the tunable weights."
+    },
+    {
+      "question": "G502 X LIGHTSPEED vs G502 X PLUS — what's different?",
+      "answer": "They're nearly identical. The PLUS adds 8-zone RGB, weighs slightly more (106 g) and costs about US$20 more; the LIGHTSPEED has no RGB, so its battery lasts longer (up to 140 hours per Logitech)."
+    },
+    {
+      "question": "Does the G502 X LIGHTSPEED have Bluetooth?",
+      "answer": "No. It connects wirelessly only through the LIGHTSPEED 2.4 GHz USB-A receiver, or by USB-C cable."
+    },
+    {
+      "question": "What is the HERO 44K update?",
+      "answer": "In 2026 Logitech released a G HUB firmware update that raises the HERO sensor's maximum from 25,600 to 44,000 DPI and adds independent X/Y sensitivity, free for existing owners. The report rate remains 1,000 Hz."
+    },
+    {
+      "question": "Is the G502 X LIGHTSPEED good for FPS games like Valorant and CS2?",
+      "answer": "The sensor and switches are more than good enough, but 102 g and a large shape are heavy by modern FPS standards. If FPS is your main genre and you flick a lot, a lighter mouse such as the VXE R1 SE or the Logitech G203 (about 85 g) will suit you better."
+    },
+    {
+      "question": "How does it compare with the Logitech G102 / G203?",
+      "answer": "The G502 X LIGHTSPEED is wireless, has 13 programmable controls (the G203 has 6 buttons), LIGHTFORCE switches, a higher-end HERO sensor and a right-handed shape. The G203 is lighter, symmetrical and far cheaper."
+    }
+  ],
+  "seo_title": "Logitech G502 X LIGHTSPEED Review: Worth Buying in 2026?",
+  "seo_description": "Logitech G502 X LIGHTSPEED review: HERO 44K, LIGHTFORCE switches, 13 controls, 102 g, 140-hour battery, USB-C. Pros, cons, G502 X PLUS compared, who should buy.",
+  "verdict_summary": "The successor fixes the old G502's weak spots — lighter, USB-C, 140-hour battery, LIGHTFORCE switches — but drops the weights, lacks Bluetooth and stays at 1,000 Hz.",
+  "extras": {
+    "productName": "Logitech G502 X LIGHTSPEED",
+    "regionalNote": "Part numbers vary by region and color (for example 910-006178 black and 910-006187 white in the US). Don't confuse it with the wired G502 X, the RGB G502 X PLUS or the older 2019 G502 LIGHTSPEED.",
+    "bestFor": [
+      "Right-handed palm grippers with medium to large hands",
+      "MMO and MOBA players who use lots of buttons",
+      "Anyone who wants long battery life and USB-C without RGB"
+    ],
+    "notFor": [
+      "Competitive FPS players who want a light mouse or high polling rates",
+      "Anyone who needs Bluetooth or adjustable weights",
+      "Left-handed users or small hands with a claw grip"
+    ],
+    "alternatives": [
+      {
+        "name": "Logitech G502 X PLUS",
+        "note": "Same mouse with 8-zone RGB, 106 g and a slightly shorter battery life, for about US$20 more."
+      },
+      {
+        "name": "Logitech G502 X (wired)",
+        "note": "Same design and LIGHTFORCE switches, about 89 g and much cheaper if you don't need wireless."
+      },
+      {
+        "name": "Logitech G102 / G203 LIGHTSYNC",
+        "slug": "logitech-g102-gen-2",
+        "note": "Wired, symmetrical, 6 buttons and about 85 g — the budget pick."
+      },
+      {
+        "name": "VXE R1 SE / SE+",
+        "slug": "vxe-r1-se",
+        "note": "Ultralight tri-mode wireless mouse (about 51–55 g) for FPS players."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Logitech G — G502 X LIGHTSPEED product page (US)",
+        "url": "https://www.logitechg.com/en-us/shop/p/g502-x-wireless-lightforce.910-006187"
+      },
+      {
+        "label": "Logitech Support — G502 X LIGHTSPEED specifications",
+        "url": "https://support.logi.com/hc/en-in/articles/7639086777111-Specification-G502-X-LIGHTSPEED-Gaming-Mouse"
+      },
+      {
+        "label": "Logitech Support — G502 X PLUS specifications",
+        "url": "https://support.logi.com/hc/en-au/articles/7639125500183-Specification-G502-X-PLUS-Wireless-RGB-Gaming-Mouse"
+      },
+      {
+        "label": "Tom's Hardware — Logitech G502 X Lightspeed review",
+        "url": "https://www.tomshardware.com/peripherals/gaming-mice/logitech-g502-x-lightspeed-review"
+      },
+      {
+        "label": "Tom's Guide — Logitech G502 X Lightspeed review",
+        "url": "https://www.tomsguide.com/reviews/logitech-g502-x-lightspeed"
+      },
+      {
+        "label": "Reviewed — Logitech G502 X Lightspeed review",
+        "url": "https://reviewed.com/gaming/content/logitech-g502-x-lightspeed-2022-review-improving-favorite"
+      },
+      {
+        "label": "Mediaberry — HERO 44K firmware update for the G502 X",
+        "url": "https://mediaberry.co.uk/your-logitech-g502-x-just-got-a-free-upgrade/"
+      }
+    ]
+  }
+}
