@@ -4,22 +4,10 @@ import { useEffect, useState } from "react"
 import Image from "next/image"
 import { Star } from "lucide-react"
 import { BuyButtons } from "@/components/blog/BuyButton"
-import { PriceTag } from "@/components/blog/PriceTag"
 import type { Post } from "@/types"
 
 type Props = {
-  post: Pick<
-    Post,
-    | "title"
-    | "coverImage"
-    | "rating"
-    | "shopeeUrl"
-    | "amazonUrl"
-    | "taobaoUrl"
-    | "price"
-    | "currency"
-    | "priceCheckedAt"
-  >
+  post: Pick<Post, "title" | "coverImage" | "rating" | "amazonUrl" | "taobaoUrl" | "amazonLinks">
 }
 
 // Thanh "Mua sản phẩm" dính đáy màn hình — chỉ trên điện thoại/iPad dọc (dưới
@@ -79,7 +67,6 @@ export function StickyBuyBar({ post }: Props) {
               <Star className="size-3 fill-yellow-500" />
               {post.rating.overall}
             </span>
-            <PriceTag post={post} compact />
           </p>
         </div>
         <BuyButtons post={post} size="sm" className="shrink-0" />

@@ -3,7 +3,6 @@ import { ArrowRight, Award, Star } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
 import { BuyButtons } from "@/components/blog/BuyButton"
-import { PriceTag } from "@/components/blog/PriceTag"
 import type { Post } from "@/types"
 
 // Hộp "Lựa chọn tốt nhất" ở đầu bài hướng dẫn: sản phẩm điểm cao nhất trong
@@ -20,7 +19,7 @@ export function BestPickBox({ post }: { post: Post }) {
       <div className="flex flex-col gap-5 p-5 sm:flex-row sm:items-center">
         {post.coverImage && (
           <Link
-            href={`/articles/${post.slug}`}
+            href={`/reviews/${post.slug}`}
             className="relative aspect-4/3 w-full shrink-0 overflow-hidden rounded-xl sm:w-40"
           >
             <Image
@@ -33,7 +32,7 @@ export function BestPickBox({ post }: { post: Post }) {
           </Link>
         )}
         <div className="flex min-w-0 flex-1 flex-col gap-2">
-          <Link href={`/articles/${post.slug}`} className="leading-snug font-bold hover:underline">
+          <Link href={`/reviews/${post.slug}`} className="leading-snug font-bold hover:underline">
             {post.title}
           </Link>
           <div className="flex items-center gap-3 text-sm">
@@ -41,7 +40,6 @@ export function BestPickBox({ post }: { post: Post }) {
               <Star className="size-3.5 fill-yellow-500" />
               {post.rating.overall}/10
             </span>
-            <PriceTag post={post} compact />
           </div>
           {post.verdict.summary && (
             <p className="text-muted-foreground line-clamp-2 text-sm">{post.verdict.summary}</p>
@@ -49,7 +47,7 @@ export function BestPickBox({ post }: { post: Post }) {
           <div className="mt-1 flex flex-wrap items-center gap-3">
             <BuyButtons post={post} size="sm" />
             <Link
-              href={`/articles/${post.slug}`}
+              href={`/reviews/${post.slug}`}
               className="text-primary flex items-center gap-1 text-sm font-medium hover:underline"
             >
               {t("readReview")} <ArrowRight className="size-3.5" />

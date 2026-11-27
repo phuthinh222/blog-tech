@@ -2,8 +2,8 @@ import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
 import { BuyButtons } from "@/components/blog/BuyButton"
-import { PriceTag } from "@/components/blog/PriceTag"
 import { batteryLabelKey } from "@/lib/categories"
+import { AFFILIATE_LINKS_ENABLED } from "@/lib/constants"
 import type { Post } from "@/types"
 
 type Props = {
@@ -19,7 +19,6 @@ export function ComparisonTable({ current, others }: Props) {
   const t = useTranslations("Compare")
   const tRating = useTranslations("Rating")
   const rows = [current, ...others]
-  const showPrice = rows.some((p) => p.price != null)
   const best = Math.max(...rows.map((p) => p.rating.overall))
 
   return (
@@ -36,8 +35,7 @@ export function ComparisonTable({ current, others }: Props) {
                 {tRating(c === "battery" ? batteryLabelKey(current.category) : c)}
               </th>
             ))}
-            {showPrice && <th className="px-3 py-3 font-semibold">{t("price")}</th>}
-            <th className="px-4 py-3" />
+            {AFFILIATE_LINKS_ENABLED && <th className="px-4 py-3" />}
           </tr>
         </thead>
         <tbody className="divide-border divide-y">
@@ -65,7 +63,7 @@ export function ComparisonTable({ current, others }: Props) {
                         <span className="line-clamp-2 font-semibold">{post.title}</span>
                       ) : (
                         <Link
-                          href={`/articles/${post.slug}`}
+                          href={`/reviews/${post.slug}`}
                           className="line-clamp-2 font-semibold hover:underline"
                         >
                           {post.title}
@@ -93,14 +91,11 @@ export function ComparisonTable({ current, others }: Props) {
                     {post.rating[c]}
                   </td>
                 ))}
-                {showPrice && (
-                  <td className="px-3 py-3 text-center whitespace-nowrap">
-                    {post.price != null ? <PriceTag post={post} compact /> : "—"}
+                {AFFILIATE_LINKS_ENABLED && (
+                  <td className="px-4 py-3 text-right">
+                    <BuyButtons post={post} size="sm" className="flex-col" />
                   </td>
                 )}
-                <td className="px-4 py-3 text-right">
-                  <BuyButtons post={post} size="sm" className="flex-col" />
-                </td>
               </tr>
             )
           })}
