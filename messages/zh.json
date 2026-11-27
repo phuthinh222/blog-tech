@@ -39,7 +39,8 @@
     "terms": "使用条款",
     "privacy": "隐私",
     "cookie": "Cookie",
-    "editorialPolicy": "编辑政策"
+    "editorialPolicy": "编辑政策",
+    "affiliateDisclosure": "联盟营销披露"
   },
   "Legal": {
     "updatedAt": "最后更新：{date}"

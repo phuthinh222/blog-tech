@@ -39,7 +39,8 @@
     "terms": "Điều Khoản",
     "privacy": "Bảo Mật",
     "cookie": "Cookie",
-    "editorialPolicy": "Chính sách biên tập"
+    "editorialPolicy": "Chính sách biên tập",
+    "affiliateDisclosure": "Công Bố Liên Kết Tiếp Thị"
   },
   "Legal": {
     "updatedAt": "Cập nhật lần cuối: {date}"

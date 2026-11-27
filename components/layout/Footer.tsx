@@ -28,6 +28,7 @@ const footerLinks = [
     links: [
       { href: "/about", key: "aboutUs" },
       { href: "/editorial-policy", key: "editorialPolicy" },
+      { href: "/affiliate-disclosure", key: "affiliateDisclosure" },
       { href: "/contact", key: "contact" },
     ],
   },

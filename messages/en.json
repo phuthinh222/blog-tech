@@ -39,7 +39,8 @@
     "terms": "Terms",
     "privacy": "Privacy",
     "cookie": "Cookies",
-    "editorialPolicy": "Editorial Policy"
+    "editorialPolicy": "Editorial Policy",
+    "affiliateDisclosure": "Affiliate Disclosure"
   },
   "Legal": {
     "updatedAt": "Last updated: {date}"
