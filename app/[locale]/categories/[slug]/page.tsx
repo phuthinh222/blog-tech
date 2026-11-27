@@ -7,7 +7,6 @@ import { Link } from "@/i18n/navigation"
 import { toLocale } from "@/i18n/routing"
 import { getPosts, getCategories } from "@/lib/content"
 import { CATEGORY_CONFIG, getCategoryIcon, getCategoryColor } from "@/lib/categories"
-import { SITE_NAME } from "@/lib/constants"
 import { breadcrumbLd, jsonLdHtml, localeAlternates } from "@/lib/seo"
 import ArticleCard from "@/components/blog/ArticleCard"
 
@@ -34,7 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = toLocale(rawLocale)
   const t = await getTranslations({ locale, namespace: "Categories" })
   return {
-    title: `${t(`${slug}.name`)} — ${SITE_NAME}`,
+    // Keyword chính của danh mục — xem seo-keywords.md mục 2.
+    title: t(`${slug}.metaTitle`),
     description: t(`${slug}.desc`),
     alternates: localeAlternates(`/categories/${slug}`, locale),
   }

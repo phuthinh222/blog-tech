@@ -48,19 +48,23 @@
   "Categories": {
     "desk-setup": {
       "name": "Desk Setup",
-      "desc": "Monitor arms, monitor lights, ergonomic desks and chairs, laptop stands and desk decor — build a tidy, comfortable workspace."
+      "desc": "Monitor arms, monitor lights, ergonomic desks and chairs, laptop stands and desk decor — build a tidy, comfortable workspace.",
+      "metaTitle": "Desk Setup Accessories Reviews: Monitor Arms & Lights"
     },
     "gaming-gear": {
       "name": "Gaming Gear",
-      "desc": "Gaming keyboards, mice, headsets, controllers, mousepads and console accessories — pick the right gear for how you play."
+      "desc": "Gaming keyboards, mice, headsets, controllers, mousepads and console accessories — pick the right gear for how you play.",
+      "metaTitle": "Budget Gaming Gear Reviews: Mice, Keyboards & Headsets"
     },
     "pc-laptop": {
       "name": "PCs & Monitors",
-      "desc": "Laptops, PCs, monitors, CPUs, GPUs, RAM, SSDs, cooling and PC components — real-world performance and value."
+      "desc": "Laptops, PCs, monitors, CPUs, GPUs, RAM, SSDs, cooling and PC components — real-world performance and value.",
+      "metaTitle": "Budget Monitor & PC Reviews: Gaming and IPS Monitors"
     },
     "audio-video": {
       "name": "Audio",
-      "desc": "Bluetooth earbuds, PC speakers, studio monitors and microphones — pick the right audio gear for your needs and budget."
+      "desc": "Bluetooth earbuds, PC speakers, studio monitors and microphones — pick the right audio gear for your needs and budget.",
+      "metaTitle": "Budget Audio Reviews: Earbuds, PC Speakers & Monitors"
     }
   },
   "Rating": {
