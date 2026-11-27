@@ -107,6 +107,18 @@ async function main() {
     rows.push(toRow(t, product.id, vi?.author ?? null))
   }
 
+  // Cột extras (migration 0006): chỉ gửi khi có ít nhất 1 file dùng — DB chưa
+  // chạy 0006 vẫn import được bản dịch cũ. Gửi cho mọi dòng (thiếu thì {}) vì
+  // upsert nhiều dòng dùng chung 1 danh sách cột.
+  if (translations.some((t) => t.data.extras)) {
+    for (const row of rows) {
+      const t = translations.find(
+        (x) => x.locale === row.locale && bySlug[x.slug]?.id === row.product_id
+      )
+      row.extras = t?.data.extras ?? {}
+    }
+  }
+
   if (!COMMIT) {
     console.log(`\nDry-run xong — sẽ upsert ${rows.length} dòng. Thêm --commit để ghi thật.`)
     return
@@ -116,6 +128,11 @@ async function main() {
     .from("product_translations")
     .upsert(rows, { onConflict: "product_id,locale" })
   if (upsertErr) {
+    if (/extras/.test(upsertErr.message)) {
+      console.error(
+        "Có vẻ chưa chạy supabase/migrations/0006_review_extras_subscribers.sql — chạy migration trước."
+      )
+    }
     if (/locale_check|column .*specs/.test(upsertErr.message)) {
       console.error(
         "Có vẻ chưa chạy supabase/migrations/0004_i18n_zh_locale.sql — chạy migration trước."

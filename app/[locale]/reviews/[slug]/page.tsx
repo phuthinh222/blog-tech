@@ -2,7 +2,21 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import React from "react"
-import { ArrowLeft, Star, Calendar, Clock, ChevronRight, BookOpen } from "lucide-react"
+import {
+  ArrowLeft,
+  Star,
+  Calendar,
+  Clock,
+  ChevronRight,
+  BookOpen,
+  RefreshCw,
+  FlaskConical,
+  ClipboardList,
+  ExternalLink,
+  UserCheck,
+  ThumbsUp,
+  ThumbsDown,
+} from "lucide-react"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { Link } from "@/i18n/navigation"
 import { LOCALE_TAGS, toLocale } from "@/i18n/routing"
@@ -30,8 +44,8 @@ import { ArticleToc, type TocItem } from "@/components/blog/ArticleToc"
 import { ArticleAiSummary } from "@/components/blog/ArticleAiSummary"
 import { BuyButtons, buyLinkFor } from "@/components/blog/BuyButton"
 import { ComparisonTable } from "@/components/blog/ComparisonTable"
-import { PriceTag } from "@/components/blog/PriceTag"
 import { StickyBuyBar } from "@/components/blog/StickyBuyBar"
+import { NewsletterForm } from "@/components/blog/NewsletterForm"
 
 export const revalidate = 3600 // ISR — content giờ động (Supabase), xem todo.md Phase 2
 
@@ -46,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = toLocale(rawLocale)
   const [post, available] = await Promise.all([getPostBySlug(slug, locale), getPostLocales(slug)])
   if (!post) return {}
-  const alternates = localeAlternates(`/articles/${post.slug}`, locale, available)
+  const alternates = localeAlternates(`/reviews/${post.slug}`, locale, available)
   const description = post.seo?.metaDescription || post.excerpt
   // Tiêu đề trên Google: ưu tiên metaTitle (viết riêng cho từ khoá, ~60 ký tự,
   // không thêm tên site để khỏi bị cắt); bài chưa có metaTitle thì dùng tiêu đề bài.
@@ -126,6 +140,12 @@ export default async function ArticlePage({ params }: Props) {
     post.verdict.summary
   )
 
+  const { bestFor = [], notFor = [], alternatives = [], sources = [], regionalNote } = post.extras
+  // Bảng nơi mua theo khu vực: chỉ bản tiếng Anh (Amazon US/UK/DE); vi/zh giữ 1
+  // nút mua theo sàn của ngôn ngữ đó.
+  const showWhereToBuy = locale === "en" && post.amazonLinks.length > 0
+  const postSlugs = new Set(allPosts.map((p) => p.slug))
+
   const tocItems: TocItem[] = [
     ...(post.specs.length > 0 ? [{ id: "specs", label: t("specs") }] : []),
     ...post.sections.map((s, i) => ({ id: `section-${i}`, label: s.title })),
@@ -134,53 +154,78 @@ export default async function ArticlePage({ params }: Props) {
       : []),
     ...(post.faq && post.faq.length > 0 ? [{ id: "faq", label: t("faq") }] : []),
     { id: "ket-luan", label: t("verdict") },
+    ...(showWhereToBuy ? [{ id: "where-to-buy", label: t("whereToBuy") }] : []),
     ...(related.length > 0 ? [{ id: "compare", label: tCompare("title") }] : []),
+    ...(alternatives.length > 0 ? [{ id: "alternatives", label: t("alternatives") }] : []),
+    ...(sources.length > 0 ? [{ id: "sources", label: t("sources") }] : []),
   ]
   const relatedGuides = getGuides(locale).filter((g) => g.relatedPosts.includes(post.slug))
 
-  const pageUrl = localizedUrl(`/articles/${post.slug}`, locale)
-  const reviewLd = {
-    "@type": "Review",
-    "@id": `${pageUrl}#review`,
-    url: pageUrl,
-    name: post.title,
-    reviewBody: post.excerpt,
-    reviewRating: {
-      "@type": "Rating",
-      ratingValue: post.rating.overall,
-      bestRating: 10,
-      worstRating: 0,
-    },
-    author: { "@type": "Organization", name: post.author },
-    itemReviewed: {
-      "@type": "Product",
-      name: post.title,
-      // Ảnh lưu trong public/ là đường dẫn tương đối — JSON-LD cần URL tuyệt đối.
-      ...(post.coverImage && { image: new URL(post.coverImage, SITE_URL).href }),
-      // Chỉ khai báo giá khi có giá thật từ offer (không bịa giá).
-      ...(post.price != null &&
-        post.currency && {
-          offers: {
-            "@type": "Offer",
-            price: post.price,
-            priceCurrency: post.currency,
-            ...(post.affiliateUrl && { url: post.affiliateUrl }),
-          },
-        }),
-    },
+  const pageUrl = localizedUrl(`/reviews/${post.slug}`, locale)
+  const contentLang = LOCALE_TAGS[toLocale(post.contentLocale)]
+  const coverUrl = post.coverImage ? new URL(post.coverImage, SITE_URL).href : undefined
+  // Bút danh biên tập → Person kèm trang tác giả; bài không có bút danh đứng
+  // tên tổ chức.
+  const authorLd = post.authorSlug
+    ? {
+        "@type": "Person",
+        name: post.author,
+        url: localizedUrl(`/authors/${post.authorSlug}`, locale),
+      }
+    : { "@id": ORGANIZATION_LD["@id"] }
+  const articleLd = {
+    "@type": "Article",
+    "@id": `${pageUrl}#article`,
+    mainEntityOfPage: pageUrl,
+    headline: post.title,
+    description: post.seo?.metaDescription || post.excerpt,
+    ...(coverUrl && { image: coverUrl }),
     datePublished: post.publishedAt,
-    inLanguage: LOCALE_TAGS[toLocale(post.contentLocale)],
+    dateModified: post.updatedAt,
+    inLanguage: contentLang,
+    author: authorLd,
     publisher: { "@id": ORGANIZATION_LD["@id"] },
   }
+  // Product là node gốc, Review lồng trong `review`. Nếu để Product nằm trong
+  // Review.itemReviewed mà không có offers/review/aggregateRating, Google Search
+  // Console báo mục Product không hợp lệ ("Phải chỉ định offers, review hoặc
+  // aggregateRating"). Không thêm `offers` vì site không hiển thị giá chính xác.
+  const productLd = {
+    "@type": "Product",
+    "@id": `${pageUrl}#product`,
+    name: post.productName,
+    description: post.seo?.metaDescription || post.excerpt,
+    // Ảnh lưu trong public/ là đường dẫn tương đối — JSON-LD cần URL tuyệt đối.
+    ...(coverUrl && { image: coverUrl }),
+    review: {
+      "@type": "Review",
+      "@id": `${pageUrl}#review`,
+      url: pageUrl,
+      name: post.title,
+      reviewBody: post.excerpt,
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: post.rating.overall,
+        bestRating: 10,
+        worstRating: 0,
+      },
+      author: authorLd,
+      datePublished: post.publishedAt,
+      dateModified: post.updatedAt,
+      inLanguage: contentLang,
+      publisher: { "@id": ORGANIZATION_LD["@id"] },
+    },
+  }
   const jsonLd = jsonLdHtml(
-    reviewLd,
+    articleLd,
+    productLd,
     ORGANIZATION_LD,
     breadcrumbLd(
       [
         { name: tNav("home"), href: "/" },
         { name: tNav("categories"), href: "/categories" },
         { name: categoryName, href: `/categories/${post.category}` },
-        { name: post.title, href: `/articles/${post.slug}` },
+        { name: post.title, href: `/reviews/${post.slug}` },
       ],
       locale
     )
@@ -190,7 +235,7 @@ export default async function ArticlePage({ params }: Props) {
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <ReadingProgress targetId="article-content" />
-      <StickyBuyBar post={post} />
+      {buyLinkFor(post, locale) && <StickyBuyBar post={post} />}
       {/* ── Hero ─────────────────────────────────────────────── */}
       <div className="relative flex min-h-105 w-full items-end overflow-hidden sm:min-h-135">
         {post.coverImage ? (
@@ -256,6 +301,22 @@ export default async function ArticlePage({ params }: Props) {
             <span className="inline-flex items-center gap-1 rounded-full border border-white/20 bg-white/15 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
               {post.verdict.recommendation}
             </span>
+            <Link
+              href="/how-we-review"
+              title={t(post.reviewMethod === "tested" ? "methodTestedHint" : "methodCompiledHint")}
+              className={`inline-flex items-center gap-1 rounded-full border px-3 py-1 text-xs font-semibold backdrop-blur-sm ${
+                post.reviewMethod === "tested"
+                  ? "border-emerald-400/30 bg-emerald-400/20 text-emerald-200"
+                  : "border-sky-400/30 bg-sky-400/20 text-sky-200"
+              }`}
+            >
+              {post.reviewMethod === "tested" ? (
+                <FlaskConical className="size-3" />
+              ) : (
+                <ClipboardList className="size-3" />
+              )}
+              {t(post.reviewMethod === "tested" ? "methodTested" : "methodCompiled")}
+            </Link>
           </div>
 
           <h1 className="max-w-3xl text-2xl leading-tight font-bold text-white sm:text-4xl">
@@ -268,8 +329,39 @@ export default async function ArticlePage({ params }: Props) {
               {formatDate(post.publishedAt, locale)}
             </span>
             <span className="flex items-center gap-1.5">
+              <RefreshCw className="size-3.5" />
+              <time dateTime={post.updatedAt.slice(0, 10)}>
+                {t("updatedAt", { date: formatDate(post.updatedAt, locale) })}
+              </time>
+            </span>
+            <span className="flex items-center gap-1.5">
               <Clock className="size-3.5" />
               {t("readingTime", { minutes: readingTime })}
+            </span>
+            <span className="flex items-center gap-1.5">
+              <UserCheck className="size-3.5" />
+              <span>
+                {t.rich(post.authorSlug ? "byline" : "bylineTeam", {
+                  site: SITE_NAME,
+                  author: post.author,
+                  authorLink: (chunks) => (
+                    <Link
+                      href={`/authors/${post.authorSlug}`}
+                      className="font-semibold underline underline-offset-2 hover:text-white"
+                    >
+                      {chunks}
+                    </Link>
+                  ),
+                  link: (chunks) => (
+                    <Link
+                      href="/editorial-policy"
+                      className="underline underline-offset-2 hover:text-white"
+                    >
+                      {chunks}
+                    </Link>
+                  ),
+                })}
+              </span>
             </span>
           </div>
         </div>
@@ -291,6 +383,21 @@ export default async function ArticlePage({ params }: Props) {
             {/* Công bố liên kết tiếp thị — trước mọi nút/link mua trong bài */}
             <AffiliateDisclosure />
 
+            {/* Bài test thực tế hay tổng hợp — nói rõ ngay đầu bài */}
+            <p className="text-muted-foreground -mt-6 flex items-start gap-2 px-1 text-xs leading-relaxed">
+              {post.reviewMethod === "tested" ? (
+                <FlaskConical className="mt-0.5 size-3.5 shrink-0 text-emerald-500" />
+              ) : (
+                <ClipboardList className="mt-0.5 size-3.5 shrink-0 text-sky-500" />
+              )}
+              <span>
+                <strong className="text-foreground font-semibold">
+                  {t(post.reviewMethod === "tested" ? "methodTested" : "methodCompiled")}:
+                </strong>{" "}
+                {t(post.reviewMethod === "tested" ? "methodTestedHint" : "methodCompiledHint")}
+              </span>
+            </p>
+
             {/* Lead */}
             <p
               className="text-muted-foreground border-l-4 pl-5 text-lg leading-relaxed"
@@ -298,6 +405,49 @@ export default async function ArticlePage({ params }: Props) {
             >
               {post.excerpt}
             </p>
+
+            {/* Hợp với ai / không hợp với ai */}
+            {(bestFor.length > 0 || notFor.length > 0) && (
+              <div className="grid gap-4 sm:grid-cols-2">
+                {[
+                  { key: "bestFor", items: bestFor, Icon: ThumbsUp, tone: "emerald" },
+                  { key: "notFor", items: notFor, Icon: ThumbsDown, tone: "rose" },
+                ]
+                  .filter((col) => col.items.length > 0)
+                  .map(({ key, items, Icon, tone }) => (
+                    <div
+                      key={key}
+                      className={`border-border bg-card rounded-2xl border p-5 ${
+                        tone === "emerald"
+                          ? "border-l-4 border-l-emerald-500"
+                          : "border-l-4 border-l-rose-500"
+                      }`}
+                    >
+                      <h2 className="mb-3 flex items-center gap-2 text-sm font-bold tracking-wider uppercase">
+                        <Icon
+                          className={`size-4 ${tone === "emerald" ? "text-emerald-500" : "text-rose-500"}`}
+                        />
+                        {t(key as "bestFor" | "notFor")}
+                      </h2>
+                      <ul className="flex flex-col gap-2">
+                        {items.map((item) => (
+                          <li
+                            key={item}
+                            className="text-muted-foreground flex items-start gap-2 text-sm leading-relaxed"
+                          >
+                            <span
+                              className={`mt-1.5 size-1.5 shrink-0 rounded-full ${
+                                tone === "emerald" ? "bg-emerald-500" : "bg-rose-500"
+                              }`}
+                            />
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+              </div>
+            )}
 
             {/* Image Gallery */}
             {(() => {
@@ -445,6 +595,58 @@ export default async function ArticlePage({ params }: Props) {
               </span>
             </div>
 
+            {/* Nơi mua theo khu vực — link tìm sản phẩm ở từng marketplace, không ghi giá */}
+            {showWhereToBuy && (
+              <section id="where-to-buy" className="flex scroll-mt-24 flex-col gap-4">
+                <div className="flex flex-col gap-1">
+                  <h2 className="text-xl font-bold">{t("whereToBuy")}</h2>
+                  <p className="text-muted-foreground text-sm">{t("whereToBuyIntro")}</p>
+                </div>
+                <div className="border-border overflow-hidden rounded-2xl border">
+                  <table className="w-full text-sm">
+                    <thead className="bg-muted/40 text-muted-foreground text-left text-xs tracking-wider uppercase">
+                      <tr>
+                        <th scope="col" className="px-4 py-3 font-semibold">
+                          {t("region")}
+                        </th>
+                        <th scope="col" className="px-4 py-3 font-semibold">
+                          {t("store")}
+                        </th>
+                        <th scope="col" className="px-4 py-3">
+                          <span className="sr-only">{t("checkPrice")}</span>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-border divide-y">
+                      {post.amazonLinks.map((link) => (
+                        <tr key={link.region}>
+                          <td className="px-4 py-3 font-medium">{t(`regions.${link.region}`)}</td>
+                          <td className="text-muted-foreground px-4 py-3">
+                            {new URL(link.url).hostname.replace(/^www\./, "")}
+                          </td>
+                          <td className="px-4 py-3 text-right">
+                            <a
+                              href={link.url}
+                              target="_blank"
+                              rel="sponsored nofollow noopener noreferrer"
+                              className="inline-flex items-center gap-1.5 rounded-lg bg-[#FF9900] px-3 py-1.5 text-xs font-semibold whitespace-nowrap text-black transition-colors hover:bg-[#e68a00]"
+                            >
+                              {t("checkPrice")}
+                              <ExternalLink className="size-3.5" />
+                            </a>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-muted-foreground text-xs leading-relaxed">
+                  {regionalNote ? `${regionalNote} ` : ""}
+                  {t("warrantyNote")}
+                </p>
+              </section>
+            )}
+
             {/* So sánh với sản phẩm cùng danh mục */}
             {related.length > 0 && (
               <section id="compare" className="flex scroll-mt-24 flex-col gap-4">
@@ -479,6 +681,61 @@ export default async function ArticlePage({ params }: Props) {
                 </div>
               </section>
             )}
+
+            {/* Lựa chọn thay thế (có thể là sản phẩm chưa có bài trên site) */}
+            {alternatives.length > 0 && (
+              <section id="alternatives" className="flex scroll-mt-24 flex-col gap-3">
+                <h2 className="text-xl font-bold">{t("alternatives")}</h2>
+                <ul className="flex flex-col gap-2">
+                  {alternatives.map((alt) => (
+                    <li
+                      key={alt.name}
+                      className="border-border bg-card flex flex-col gap-1 rounded-xl border p-4 sm:flex-row sm:items-center sm:gap-4"
+                    >
+                      <div className="flex min-w-0 flex-1 flex-col gap-1">
+                        <span className="text-sm font-semibold">{alt.name}</span>
+                        <span className="text-muted-foreground text-sm leading-relaxed">
+                          {alt.note}
+                        </span>
+                      </div>
+                      {alt.slug && postSlugs.has(alt.slug) && (
+                        <Link
+                          href={`/reviews/${alt.slug}`}
+                          className="text-primary inline-flex shrink-0 items-center gap-1 text-sm font-medium hover:underline"
+                        >
+                          {t("readReview")}
+                          <ChevronRight className="size-4" />
+                        </Link>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* Nguồn tham khảo */}
+            {sources.length > 0 && (
+              <section id="sources" className="flex scroll-mt-24 flex-col gap-3">
+                <h2 className="text-xl font-bold">{t("sources")}</h2>
+                <p className="text-muted-foreground text-sm">{t("sourcesIntro")}</p>
+                <ol className="text-muted-foreground flex list-decimal flex-col gap-1.5 pl-5 text-sm">
+                  {sources.map((src) => (
+                    <li key={src.url}>
+                      <a
+                        href={src.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-foreground underline-offset-2 hover:underline"
+                      >
+                        {src.label}
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+
+            <NewsletterForm source={`review:${post.slug}`} />
           </div>
 
           {/* ── Right: Sidebar ───────────────────────────────── */}
@@ -504,12 +761,7 @@ export default async function ArticlePage({ params }: Props) {
                 đang hiện trên màn hình thì tự ẩn */}
             {buyLinkFor(post, locale) && (
               <div id="buy-box" className="flex flex-col gap-2.5">
-                <PriceTag post={post} />
                 <BuyButtons post={post} className="flex-col" />
-                <p className="text-muted-foreground/80 px-2 text-center text-xs leading-relaxed">
-                  {t("affiliateNote")}{" "}
-                  {buyLinkFor(post, locale)?.store === "Amazon" && t("amazonNote")}
-                </p>
               </div>
             )}
 
@@ -563,7 +815,7 @@ export default async function ArticlePage({ params }: Props) {
                   {related.map((p) => (
                     <Link
                       key={p.slug}
-                      href={`/articles/${p.slug}`}
+                      href={`/reviews/${p.slug}`}
                       className="group flex items-start gap-3 py-3.5 first:pt-0 last:pb-0"
                     >
                       <div className="relative size-14 shrink-0 overflow-hidden rounded-xl">

@@ -1,4 +1,6 @@
-// One-off import: content/posts/*.json → Supabase (products / product_translations / product_offers).
+// One-off import: content/posts/*.json → Supabase (products / product_translations).
+// Không tạo offer/link affiliate (đã bỏ Shopee; tạm chưa dùng affiliate —
+// xem AFFILIATE_LINKS_ENABLED trong lib/constants.ts).
 //
 // Mặc định chạy dry-run (chỉ in ra sẽ làm gì, KHÔNG ghi DB). Thêm --commit để ghi thật.
 //
@@ -11,7 +13,7 @@
 //
 // Script idempotent: chạy lại nhiều lần sẽ upsert (không tạo trùng), dựa trên
 // unique constraint của từng bảng (products.slug, product_translations
-// (product_id, locale), product_offers (product_id, source_id, merchant, market)).
+// (product_id, locale)).
 
 import { createClient } from "@supabase/supabase-js"
 import { readdirSync, readFileSync } from "node:fs"
@@ -65,9 +67,6 @@ function buildSpecs(post) {
 // được cho cả dry-run lẫn commit.
 function planProduct(post) {
   const warnings = []
-  if (!post.itemId) warnings.push("thiếu itemId (source_product_id)")
-  if (post.priceRange)
-    warnings.push(`price = NULL — cần nhập tay (priceRange gốc: "${post.priceRange}")`)
   warnings.push(
     "brand_id = NULL — content/posts hiện không có field brand, cần bổ sung thủ công (xem todo.md Phase 8)"
   )
@@ -88,6 +87,10 @@ function planProduct(post) {
       rating: post.rating ?? {},
       tags: post.tags ?? [],
       created_at: post.publishedAt ? new Date(post.publishedAt).toISOString() : undefined,
+      // Cột từ migration 0005 — chỉ ghi khi JSON có field, để DB chưa chạy 0005
+      // vẫn import được.
+      ...(post.reviewMethod && { review_method: post.reviewMethod }),
+      ...(post.updatedAt && { content_updated_at: new Date(post.updatedAt).toISOString() }),
     },
     translation: {
       locale: "vi",
@@ -104,18 +107,6 @@ function planProduct(post) {
       seo_title: post.seo?.metaTitle ?? null,
       seo_description: post.seo?.metaDescription ?? null,
       status: "PUBLISHED",
-    },
-    offer: {
-      source_product_id: post.itemId ?? null,
-      merchant: "Shopee",
-      market: "VN",
-      currency: "VND",
-      price: null, // xem warnings — priceRange chỉ là bucket, không phải giá thật
-      affiliate_url: post.affiliateUrl,
-      source_url: post.productUrl ?? null,
-      commission_rate: null,
-      commission_type: null,
-      availability: "IN_STOCK",
     },
     warnings,
   }
@@ -155,6 +146,23 @@ async function main() {
 
   const supabase = createClient(url, serviceKey, { auth: { persistSession: false } })
 
+  // Chặn tạo sản phẩm trùng: file đã dùng slug mới (lib/slug-redirects.json)
+  // nhưng Supabase vẫn còn slug cũ → phải chạy scripts/rename-slugs.mjs trước.
+  const slugMap = JSON.parse(
+    readFileSync(path.join(__dirname, "..", "lib", "slug-redirects.json"), "utf8")
+  )
+  const { data: existing, error: existingErr } = await supabase.from("products").select("slug")
+  if (existingErr) throw existingErr
+  const existingSlugs = new Set(existing.map((p) => p.slug))
+  const notRenamed = Object.entries(slugMap).filter(
+    ([from, to]) => existingSlugs.has(from) && !existingSlugs.has(to)
+  )
+  if (notRenamed.length) {
+    throw new Error(
+      `Supabase còn slug cũ (${notRenamed.map(([f]) => f).join(", ")}) — chạy scripts/rename-slugs.mjs --commit trước.`
+    )
+  }
+
   // 1. Categories (upsert theo slug).
   const categorySlugs = [...new Set(plans.map((p) => p.categorySlug))]
   const categoryRows = categorySlugs.map((slug) => ({
@@ -168,15 +176,7 @@ async function main() {
   if (categoryErr) throw categoryErr
   const categoryIdBySlug = Object.fromEntries(categories.map((c) => [c.slug, c.id]))
 
-  // 2. Product source (Shopee).
-  const { data: source, error: sourceErr } = await supabase
-    .from("product_sources")
-    .upsert({ name: "Shopee", type: "marketplace", country: "VN" }, { onConflict: "name" })
-    .select("id")
-    .single()
-  if (sourceErr) throw sourceErr
-
-  // 3. Products, translations, offers — theo thứ tự vì cần product.id làm FK.
+  // 2. Products, translations — theo thứ tự vì cần product.id làm FK.
   for (const plan of plans) {
     const { data: product, error: productErr } = await supabase
       .from("products")
@@ -193,19 +193,11 @@ async function main() {
       .upsert({ ...plan.translation, product_id: product.id }, { onConflict: "product_id,locale" })
     if (translationErr) throw translationErr
 
-    const { error: offerErr } = await supabase
-      .from("product_offers")
-      .upsert(
-        { ...plan.offer, product_id: product.id, source_id: source.id },
-        { onConflict: "product_id,source_id,merchant,market" }
-      )
-    if (offerErr) throw offerErr
-
     console.log(`✓ Đã import ${plan.slug}`)
   }
 
   console.log(`\nHoàn tất — ${plans.length} sản phẩm đã upsert vào Supabase.`)
-  console.log("Nhắc lại: brand_id, model, price đang NULL cho toàn bộ — cần bổ sung thủ công.")
+  console.log("Nhắc lại: brand_id, model đang NULL cho toàn bộ — cần bổ sung thủ công.")
 }
 
 main().catch((err) => {

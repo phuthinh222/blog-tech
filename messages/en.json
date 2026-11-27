@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Zero Technology — Honest Tech Product Reviews",
-    "description": "Honest reviews of workspace gear, gaming gear, PCs, laptops and audio devices — helping you pick the right product without wasting money."
+    "title": "Zero Technology — Independent Tech Reviews & Buying Guides",
+    "description": "Independent tech reviews, buying guides and comparisons for desk setups, gaming gear, PCs, monitors and audio — with sourced specs and clear pros and cons."
   },
   "Nav": {
     "home": "Home",
@@ -33,19 +33,21 @@
     "newArticles": "Latest Reviews",
     "buyingGuides": "Buying Guides",
     "allCategories": "Categories",
-    "scoring": "Review Methodology",
+    "scoring": "How We Review",
     "aboutUs": "About Us",
     "contact": "Contact",
     "terms": "Terms",
     "privacy": "Privacy",
-    "cookie": "Cookies"
+    "cookie": "Cookies",
+    "editorialPolicy": "Editorial Policy",
+    "affiliateDisclosure": "Affiliate Disclosure"
   },
   "Legal": {
     "updatedAt": "Last updated: {date}"
   },
   "Categories": {
     "desk-setup": {
-      "name": "Workspace",
+      "name": "Desk Setup",
       "desc": "Monitor arms, monitor lights, ergonomic desks and chairs, laptop stands and desk decor — build a tidy, comfortable workspace."
     },
     "gaming-gear": {
@@ -53,7 +55,7 @@
       "desc": "Gaming keyboards, mice, headsets, controllers, mousepads and console accessories — pick the right gear for how you play."
     },
     "pc-laptop": {
-      "name": "PC & Laptop",
+      "name": "PCs & Monitors",
       "desc": "Laptops, PCs, monitors, CPUs, GPUs, RAM, SSDs, cooling and PC components — real-world performance and value."
     },
     "audio-video": {
@@ -98,7 +100,12 @@
     "latest": "Latest Reviews",
     "trending": "Trending",
     "categories": "Categories",
-    "recent": "Recent Reviews"
+    "recent": "Recent Reviews",
+    "tagline": "Independent tech reviews, buying guides and comparisons.",
+    "taglineSub": "Sourced specs, honest pros and cons, and clear picks for desk setups, gaming gear, PCs and audio.",
+    "ctaReviews": "Explore reviews",
+    "ctaBestPicks": "Best picks",
+    "ctaGuides": "Buying guides"
   },
   "ErrorPage": {
     "title": "Something went wrong",
@@ -132,10 +139,8 @@
     "pros": "Pros",
     "cons": "Cons",
     "saveArticle": "Save this article",
-    "affiliateDisclosure": "Disclosure: this page contains affiliate links. If you buy through them, Zero Technology may earn a commission at no extra cost to you; this never affects our opinions or scores.",
-    "affiliateDisclosureLink": "Learn how we review",
-    "affiliateNote": "We may earn a commission when you buy through this link, at no extra cost to you. Prices may change.",
-    "amazonNote": "As an Amazon Associate I earn from qualifying purchases.",
+    "affiliateDisclosure": "We may earn a commission when you buy through links on this page. As an Amazon Associate, we earn from qualifying purchases. This never affects our scores.",
+    "affiliateDisclosureLink": "Affiliate disclosure",
     "score": "Our Score",
     "breakdown": "Score Breakdown",
     "related": "Related Articles",
@@ -143,7 +148,31 @@
     "viewAll": "View all",
     "buy": "Buy product",
     "buyOn": "Buy on {store}",
-    "relatedGuides": "Related Buying Guides"
+    "relatedGuides": "Related Buying Guides",
+    "updatedAt": "Last updated {date}",
+    "methodTested": "Hands-on tested",
+    "methodCompiled": "Research roundup",
+    "methodTestedHint": "Zero Technology used this product in person; photos in this review are our own.",
+    "methodCompiledHint": "Compiled from manufacturer specs, retailer listings and user/press reviews — we have not used this product in person.",
+    "byline": "Written by <authorLink>{author}</authorLink> · Reviewed by the <link>{site} editorial team</link>",
+    "bestFor": "Best for",
+    "notFor": "Not for",
+    "alternatives": "Alternatives",
+    "readReview": "Read review",
+    "sources": "Sources",
+    "sourcesIntro": "Specifications and claims in this review come from the sources below.",
+    "whereToBuy": "Where to buy & price by region",
+    "whereToBuyIntro": "Prices change often and differ by country, so we don't list fixed prices — check the current price at your local store.",
+    "region": "Region",
+    "store": "Store",
+    "checkPrice": "Check price",
+    "regions": {
+      "US": "United States",
+      "UK": "United Kingdom",
+      "DE": "Germany / EU"
+    },
+    "warrantyNote": "Warranty and availability vary by region; check the local retailer before you buy.",
+    "bylineTeam": "Written and reviewed by the <link>{site} editorial team</link>"
   },
   "ArticleCard": {
     "editorsPick": "Editor's Pick"
@@ -209,7 +238,7 @@
   "AboutPage": {
     "metaTitle": "About Us",
     "heroTitle": "We are <highlight>{site}</highlight>",
-    "intro": "A tech review site on a mission to honestly review workspace gear, gaming gear, PCs, laptops and audio devices — helping you pick the right product without wasting money.",
+    "intro": "Zero Technology publishes independent tech reviews, buying guides and comparisons for desk setups, gaming gear, PCs, monitors and audio — so you can buy the right product the first time.",
     "stats": {
       "reviews": "Reviews",
       "criteria": "Scoring criteria",
@@ -217,10 +246,10 @@
       "free": "Free"
     },
     "mission": {
-      "title": "Why do we do this?",
-      "p1": "Vietnam's tech market is flooded with ads and sponsored reviews. It is hard to find a truly honest review before spending millions — or tens of millions — of dong.",
-      "p2": "{site} was created to change that. Every review lays out the specs, pros and cons, and scores the product against the same set of criteria — we never take money from brands in exchange for opinions or scores.",
-      "p3": "Our goal is simple: help you make smarter buying decisions, save money and be happier with the product you choose."
+      "title": "Why we do this",
+      "p1": "Tech shopping is full of ads, sponsored rankings and spec sheets that don't tell you what matters. It's hard to find a review that is clear about where its information comes from.",
+      "p2": "{site} was created to change that. Every review attributes its key specs to a named source, lists real pros and cons, and scores the product against the same criteria. Brands never pay for opinions or scores.",
+      "p3": "Our goal is simple: help you make a confident buying decision, wherever you shop."
     },
     "valuesTitle": "Our core values",
     "valuesIntro": "The principles behind every article we publish.",
@@ -235,11 +264,11 @@
       },
       "honest": {
         "title": "We Name the Downsides",
-        "desc": "Every review includes clear specs, pros and cons. If you spot a mistake, let us know and we will fix it."
+        "desc": "Every review lists sourced specs, clear pros and cons and the features a product doesn't have. Spot a mistake? Tell us and we'll fix it."
       },
       "local": {
-        "title": "Made for Vietnam",
-        "desc": "Reviews reflect the needs of buyers in Vietnam — local prices, where to buy, after-sales service and in-country warranty."
+        "title": "Built for Buyers Everywhere",
+        "desc": "Model names, prices and warranties vary by country, so we point out regional differences and link to stores in several regions."
       }
     },
     "scoringTitle": "Our review methodology",
@@ -255,11 +284,11 @@
       },
       "battery": {
         "title": "Battery & durability",
-        "desc": "Battery life (for battery-powered devices), durability and warranty terms in Vietnam."
+        "desc": "Battery life (for battery-powered devices), expected durability and warranty terms, which vary by region."
       },
       "value": {
         "title": "Value",
-        "desc": "What you get for the money, compared with similarly priced options on the Vietnamese market."
+        "desc": "What you get for the money, compared with similarly priced alternatives."
       }
     },
     "commissionTitle": "Scores never depend on commissions",
@@ -267,22 +296,59 @@
     "ctaTitle": "Want to collaborate or contribute?",
     "ctaBody": "Want to write for {site}, partner with us on promotion, or just talk tech? We'd love to hear from you.",
     "ctaContact": "Contact Us",
-    "ctaRead": "Read Articles"
+    "ctaRead": "Read Articles",
+    "method": {
+      "title": "Hands-on tests vs. research roundups",
+      "intro": "Every review carries one of two labels, shown at the top of the article:",
+      "tested": {
+        "title": "Hands-on tested",
+        "desc": "We used the product ourselves in daily work or play for at least a week. Photos in the article are our own; the score combines that experience with the specs."
+      },
+      "compiled": {
+        "title": "Research roundup",
+        "desc": "We have not used the product. The article is compiled from manufacturer specs, retailer listings and user and press reviews (sources are listed in the \"Sources\" section). Images are official manufacturer photos. The score reflects the specs and how consistent the sources are, not personal experience."
+      },
+      "updated": "Article details are re-checked regularly; the update date is shown at the top of each article. Prices in articles are rough reference ranges — use the buy button to see the exact current price on the marketplace."
+    }
   },
   "Compare": {
     "title": "Compare Products",
     "intro": "How it stacks up against other {category} we have reviewed, scored on the same criteria.",
     "product": "Product",
     "overall": "Score",
-    "price": "Price",
     "thisProduct": "This product"
-  },
-  "Price": {
-    "label": "Reference price",
-    "checkedAt": "Updated {date}"
   },
   "BestPick": {
     "title": "Our top pick",
     "readReview": "Read the review"
+  },
+  "LinksPage": {
+    "title": "Links",
+    "intro": "Tech reviews & buying guides: keyboards, mice, headphones, monitors and desk setups.",
+    "latest": "Latest reviews",
+    "links": {
+      "home": "Zero Technology home",
+      "guides": "Buying guides",
+      "categories": "All categories",
+      "method": "How we review",
+      "contact": "Contact & partnerships"
+    }
+  },
+  "Newsletter": {
+    "title": "Get weekly tech deals & reviews",
+    "body": "One short email a week with our newest reviews and the best deals we find. No spam.",
+    "label": "Email address",
+    "placeholder": "you@example.com",
+    "submit": "Subscribe",
+    "sending": "Subscribing…",
+    "done": "You're subscribed. Thanks!",
+    "error": "Something went wrong. Please try again.",
+    "privacy": "Unsubscribe anytime. See our <link>Privacy Policy</link>."
+  },
+  "AuthorPage": {
+    "penName": "Pen name · {site} editorial team",
+    "note": "{name} is a pen name used by the {site} editorial team for {category} coverage. Reviews published under this name follow our <link>How We Review</link> process; most are research roundups, not hands-on tests.",
+    "reviews": "Reviews by {name}",
+    "metaTitle": "{name} — {site}"
   }
 }

@@ -33,12 +33,14 @@
     "newArticles": "Bài Viết Mới",
     "buyingGuides": "Hướng Dẫn Chọn Mua",
     "allCategories": "Danh Mục",
-    "scoring": "Phương Pháp Đánh Giá",
+    "scoring": "Cách chúng tôi đánh giá",
     "aboutUs": "Về Chúng Tôi",
     "contact": "Liên Hệ",
     "terms": "Điều Khoản",
     "privacy": "Bảo Mật",
-    "cookie": "Cookie"
+    "cookie": "Cookie",
+    "editorialPolicy": "Chính sách biên tập",
+    "affiliateDisclosure": "Công bố liên kết tiếp thị"
   },
   "Legal": {
     "updatedAt": "Cập nhật lần cuối: {date}"
@@ -98,7 +100,12 @@
     "latest": "Đánh Giá Mới Nhất",
     "trending": "Đang Thịnh Hành",
     "categories": "Danh Mục",
-    "recent": "Đánh Giá Gần Đây"
+    "recent": "Đánh Giá Gần Đây",
+    "tagline": "Đánh giá công nghệ độc lập, hướng dẫn chọn mua và so sánh sản phẩm.",
+    "taglineSub": "Thông số có nguồn, ưu nhược điểm thẳng thắn và gợi ý rõ ràng cho góc làm việc, gaming gear, PC và âm thanh.",
+    "ctaReviews": "Xem bài đánh giá",
+    "ctaBestPicks": "Lựa chọn hàng đầu",
+    "ctaGuides": "Hướng dẫn chọn mua"
   },
   "ErrorPage": {
     "title": "Đã xảy ra lỗi",
@@ -132,10 +139,8 @@
     "pros": "Điểm Cộng",
     "cons": "Điểm Trừ",
     "saveArticle": "Lưu bài viết này",
-    "affiliateDisclosure": "Công bố: bài viết có chứa liên kết tiếp thị (affiliate). Khi bạn mua qua các liên kết này, Zero Technology có thể nhận hoa hồng mà giá bạn trả không đổi; điều này không ảnh hưởng đến nhận xét hay điểm số.",
-    "affiliateDisclosureLink": "Tìm hiểu cách chúng tôi đánh giá",
-    "affiliateNote": "Chúng tôi có thể nhận hoa hồng khi bạn mua qua link này, giá bạn trả không đổi. Giá có thể thay đổi.",
-    "amazonNote": "Là thành viên Amazon Associates, chúng tôi nhận hoa hồng từ các đơn hàng đủ điều kiện (As an Amazon Associate I earn from qualifying purchases).",
+    "affiliateDisclosure": "Công bố: bài viết có liên kết tiếp thị (affiliate). Khi bạn mua qua các liên kết này, Zero Technology có thể nhận hoa hồng mà giá bạn trả không đổi; điều này không ảnh hưởng đến nhận xét hay điểm số.",
+    "affiliateDisclosureLink": "Công bố liên kết tiếp thị",
     "score": "Điểm Đánh Giá",
     "breakdown": "Chi Tiết Đánh Giá",
     "related": "Bài Liên Quan",
@@ -143,7 +148,31 @@
     "viewAll": "Xem tất cả",
     "buy": "Mua sản phẩm",
     "buyOn": "Mua trên {store}",
-    "relatedGuides": "Hướng Dẫn Chọn Mua Liên Quan"
+    "relatedGuides": "Hướng Dẫn Chọn Mua Liên Quan",
+    "updatedAt": "Cập nhật lần cuối {date}",
+    "methodTested": "Đã test thực tế",
+    "methodCompiled": "Tổng hợp",
+    "methodTestedHint": "Zero Technology đã trực tiếp dùng thử sản phẩm; ảnh trong bài do chúng tôi tự chụp.",
+    "methodCompiledHint": "Tổng hợp từ thông số của hãng, nhà bán lẻ và đánh giá của người dùng/báo chí — chúng tôi chưa trực tiếp dùng thử.",
+    "byline": "Viết bởi <authorLink>{author}</authorLink> · Duyệt bởi <link>đội ngũ biên tập {site}</link>",
+    "bestFor": "Phù hợp với",
+    "notFor": "Không phù hợp với",
+    "alternatives": "Lựa chọn thay thế",
+    "readReview": "Xem bài đánh giá",
+    "sources": "Nguồn tham khảo",
+    "sourcesIntro": "Thông số và nhận định trong bài lấy từ các nguồn dưới đây.",
+    "whereToBuy": "Nơi mua & giá theo khu vực",
+    "whereToBuyIntro": "Giá thay đổi liên tục và khác nhau theo khu vực — xem giá hiện tại tại cửa hàng gần bạn.",
+    "region": "Khu vực",
+    "store": "Cửa hàng",
+    "checkPrice": "Xem giá",
+    "regions": {
+      "US": "Mỹ",
+      "UK": "Anh",
+      "DE": "Đức / EU"
+    },
+    "warrantyNote": "Bảo hành và tình trạng hàng khác nhau theo nơi bán; hãy kiểm tra với nhà bán lẻ trước khi mua.",
+    "bylineTeam": "Viết và duyệt bởi <link>đội ngũ biên tập {site}</link>"
   },
   "ArticleCard": {
     "editorsPick": "Lựa chọn của Editor"
@@ -267,22 +296,59 @@
     "ctaTitle": "Hợp tác hoặc đóng góp?",
     "ctaBody": "Bạn muốn viết bài cho {site}, hợp tác quảng bá hoặc chỉ đơn giản là muốn nói chuyện về công nghệ? Chúng tôi luôn sẵn lòng.",
     "ctaContact": "Liên Hệ Ngay",
-    "ctaRead": "Đọc Bài Viết"
+    "ctaRead": "Đọc Bài Viết",
+    "method": {
+      "title": "Bài test thực tế và bài tổng hợp",
+      "intro": "Mỗi bài review gắn một trong hai nhãn, hiển thị ngay đầu bài:",
+      "tested": {
+        "title": "Đã test thực tế",
+        "desc": "Chúng tôi trực tiếp dùng sản phẩm trong công việc/giải trí hằng ngày ít nhất một tuần. Ảnh trong bài do chúng tôi tự chụp; điểm số dựa trên trải nghiệm đó cộng với thông số."
+      },
+      "compiled": {
+        "title": "Tổng hợp",
+        "desc": "Chúng tôi chưa dùng sản phẩm. Bài được tổng hợp từ thông số chính hãng, thông tin nhà bán lẻ và đánh giá của người dùng, báo chí (ghi rõ nguồn trong mục \"Nguồn thông tin của bài viết\"). Ảnh là ảnh chính thức của hãng. Điểm số phản ánh thông số và mức độ nhất quán giữa các nguồn, không phải trải nghiệm cá nhân."
+      },
+      "updated": "Thông tin trong bài được kiểm tra lại định kỳ; ngày cập nhật ghi ở đầu mỗi bài. Giá trong bài chỉ là khoảng giá tham khảo để bạn ước chừng — bấm nút mua để xem giá chính xác hiện tại trên sàn."
+    }
   },
   "Compare": {
     "title": "So Sánh Sản Phẩm",
     "intro": "Đặt cạnh các sản phẩm {category} khác đã được đánh giá, chấm theo cùng bộ tiêu chí.",
     "product": "Sản phẩm",
     "overall": "Điểm",
-    "price": "Giá",
     "thisProduct": "Đang xem"
-  },
-  "Price": {
-    "label": "Giá tham khảo",
-    "checkedAt": "Cập nhật {date}"
   },
   "BestPick": {
     "title": "Lựa chọn tốt nhất",
     "readReview": "Đọc đánh giá"
+  },
+  "LinksPage": {
+    "title": "Liên kết",
+    "intro": "Review & hướng dẫn chọn mua đồ công nghệ: bàn phím, chuột, tai nghe, màn hình, setup bàn làm việc.",
+    "latest": "Bài review mới nhất",
+    "links": {
+      "home": "Trang chủ Zero Technology",
+      "guides": "Hướng dẫn chọn mua",
+      "categories": "Tất cả danh mục",
+      "method": "Cách chúng tôi đánh giá",
+      "contact": "Liên hệ hợp tác"
+    }
+  },
+  "Newsletter": {
+    "title": "Nhận ưu đãi & bài đánh giá công nghệ mỗi tuần",
+    "body": "Mỗi tuần một email ngắn với bài đánh giá mới nhất và ưu đãi đáng chú ý. Không spam.",
+    "label": "Địa chỉ email",
+    "placeholder": "ban@example.com",
+    "submit": "Đăng ký",
+    "sending": "Đang đăng ký…",
+    "done": "Đăng ký thành công. Cảm ơn bạn!",
+    "error": "Có lỗi xảy ra, vui lòng thử lại.",
+    "privacy": "Huỷ đăng ký bất cứ lúc nào. Xem <link>Chính sách bảo mật</link>."
+  },
+  "AuthorPage": {
+    "penName": "Bút danh · đội ngũ biên tập {site}",
+    "note": "{name} là bút danh của đội ngũ biên tập {site} cho mảng {category}. Các bài đăng dưới tên này theo quy trình <link>Cách chúng tôi đánh giá</link>; phần lớn là bài tổng hợp, không phải trải nghiệm thực tế.",
+    "reviews": "Bài đánh giá của {name}",
+    "metaTitle": "{name} — {site}"
   }
 }

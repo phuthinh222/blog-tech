@@ -22,6 +22,28 @@ export type Offer = {
 // theo thuật toán ở README mục 10. Field `offers` chứa toàn bộ danh sách offer
 // — Phase 3 (tách Product ≠ Offer trong UI) sẽ dùng field này để render nhiều
 // offer theo market thay vì 1 CTA duy nhất.
+// Nơi mua Amazon theo khu vực — link tìm kiếm (gắn tracking ID của đúng
+// marketplace) khi chưa có offer Amazon cụ thể. Không kèm giá: giá đổi liên tục.
+export type AmazonRegion = "US" | "UK" | "DE"
+export type RegionalLink = { region: AmazonRegion; url: string }
+
+// Phần bổ sung của bài review (cột product_translations.extras, migration 0006)
+// — tất cả tuỳ chọn, bài cũ chưa có thì UI ẩn mục tương ứng.
+export type ReviewExtras = {
+  // Tên sản phẩm để tìm trên Amazon (VD "Logitech G203 LIGHTSYNC" — tên bán ở
+  // Mỹ/châu Âu khác tên ở châu Á). Bỏ trống thì lấy phần trước ":" của title.
+  productName?: string
+  // Ghi chú theo khu vực (tên gọi khác, bảo hành, phiên bản).
+  regionalNote?: string
+  // false = sản phẩm không bán trên Amazon (VD thương hiệu chỉ có ở Việt Nam):
+  // ẩn bảng "Where to buy" và nút mua Amazon.
+  amazon?: boolean
+  bestFor?: string[]
+  notFor?: string[]
+  alternatives?: { name: string; slug?: string; note: string }[]
+  sources?: { label: string; url: string }[]
+}
+
 export type Post = {
   slug: string
   // Ngôn ngữ của nội dung đang hiển thị — khác locale của trang khi bài chưa có
@@ -31,13 +53,18 @@ export type Post = {
   excerpt: string
   category: string
   author: string
+  // Slug trang tác giả (/authors/<slug>); "" = đứng tên site.
+  authorSlug: string
   publishedAt: string
+  // Ngày cập nhật nội dung/giá gần nhất (= publishedAt nếu chưa cập nhật).
+  updatedAt: string
+  // "tested" = đã test thực tế, "compiled" = tổng hợp từ thông số + đánh giá.
+  reviewMethod: "tested" | "compiled"
   coverImage: string
   images?: string[]
   itemId: string
   affiliateUrl: string
   // Link mua theo từng sàn ("" = sàn đó chưa có offer → không hiện nút).
-  shopeeUrl: string
   amazonUrl: string
   taobaoUrl: string
   // Giá của best offer (null = chưa có giá thật — UI ẩn phần giá).
@@ -67,6 +94,9 @@ export type Post = {
   }
   // Mới ở Phase 2 — không phá vỡ UI hiện tại (chỉ thêm), dùng cho Phase 3.
   offers: Offer[]
+  productName: string
+  amazonLinks: RegionalLink[]
+  extras: ReviewExtras
 }
 
 export type Category = {
