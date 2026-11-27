@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { Plus_Jakarta_Sans, Patrick_Hand } from "next/font/google"
 import Script from "next/script"
 import { Auth0Provider } from "@auth0/nextjs-auth0/client"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { hasLocale, NextIntlClientProvider } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import "../globals.css"
@@ -109,6 +110,8 @@ export default async function LocaleLayout({
             </BookmarksProvider>
           </Auth0Provider>
         </NextIntlClientProvider>
+        {/* Core Web Vitals từ người dùng thật (Vercel → Speed Insights). */}
+        <SpeedInsights />
       </body>
       {GA_ID && (
         <>
