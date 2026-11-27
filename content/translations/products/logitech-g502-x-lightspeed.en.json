@@ -7,13 +7,22 @@
       "label": "Model number",
       "value": "Varies by region and color, e.g. 910-006178 (black) and 910-006187 (white) in the US"
     },
-    { "label": "Release", "value": "2022 (alongside the wired G502 X and the G502 X PLUS)" },
+    {
+      "label": "Release",
+      "value": "2022 (alongside the wired G502 X and the G502 X PLUS)"
+    },
     {
       "label": "Sensor",
       "value": "HERO; 100–25,600 DPI at launch, now listed as HERO 44K on Logitech's product page after a 2026 G HUB firmware update"
     },
-    { "label": "Speed / acceleration", "value": "400+ IPS, 40+ G (Logitech)" },
-    { "label": "Report rate", "value": "1,000 Hz (1 ms) — no 4,000/8,000 Hz mode" },
+    {
+      "label": "Speed / acceleration",
+      "value": "400+ IPS, 40+ G (Logitech)"
+    },
+    {
+      "label": "Report rate",
+      "value": "1,000 Hz (1 ms) — no 4,000/8,000 Hz mode"
+    },
     {
       "label": "Connection",
       "value": "LIGHTSPEED 2.4 GHz wireless via USB-A receiver, or wired over USB-C; no Bluetooth"
@@ -30,8 +39,14 @@
       "label": "Scroll wheel",
       "value": "Hyper-fast (free-spin) and notched modes, left/right tilt"
     },
-    { "label": "Onboard memory", "value": "Yes, 5 profiles (Logitech)" },
-    { "label": "Dimensions", "value": "131.4 × 79.2 × 41.1 mm (Logitech)" },
+    {
+      "label": "Onboard memory",
+      "value": "Yes, 5 profiles (Logitech)"
+    },
+    {
+      "label": "Dimensions",
+      "value": "131.4 × 79.2 × 41.1 mm (Logitech)"
+    },
     {
       "label": "Weight",
       "value": "102 g (black), 101.5 g (white) (Logitech); no adjustable weights"
@@ -44,9 +59,18 @@
       "label": "Charging",
       "value": "USB-C; POWERPLAY wireless charging compatible (mat sold separately)"
     },
-    { "label": "Lighting", "value": "No RGB; a single status LED at the front" },
-    { "label": "Software", "value": "Logitech G HUB (Windows 10+, macOS 10.14+)" },
-    { "label": "Warranty", "value": "Varies by region; check your local retailer" },
+    {
+      "label": "Lighting",
+      "value": "No RGB; a single status LED at the front"
+    },
+    {
+      "label": "Software",
+      "value": "Logitech G HUB (Windows 10+, macOS 10.14+)"
+    },
+    {
+      "label": "Warranty",
+      "value": "Varies by region; check your local retailer"
+    },
     {
       "label": "Reference price",
       "value": "US$159.99 list on Logitech's US store, on sale for US$139.99 (November 2026)"
@@ -71,11 +95,11 @@
     },
     {
       "title": "G502 versions compared — pick the right one",
-      "content": "The G502 name covers several models, so check the exact one before you buy:\n\n- **G502 X** (wired): same design and LIGHTFORCE switches, lighter (about 89 g) and the cheapest of the three — the pick if you don't need wireless.\n- **G502 X LIGHTSPEED** (this review): wireless, 102 g, no RGB, up to 140 hours of battery.\n- **G502 X PLUS**: the LIGHTSPEED plus 8-zone LIGHTSYNC RGB, 106 g, up to 130 hours with RGB off, about US$20 more. Tom's Guide considers the LIGHTSPEED the better buy because the RGB isn't worth the extra money.\n- **G502 LIGHTSPEED** (2019, previous generation): wireless, 114 g, tunable weights, micro-USB, standard mechanical switches. Only worth it at a deep discount.\n\nCompared with the **Logitech G102 / G203 LIGHTSYNC** we've also covered, the G203 is wired, symmetrical, 6 buttons and about 85 g for a fraction of the price — the better basic gaming mouse on a budget. If you want an ultralight wireless FPS mouse, the **VXE R1 SE** (about 51–55 g) is a completely different approach."
+      "content": "The G502 name covers several models, so check the exact one before you buy:\n\n- **G502 X** (wired): same design and LIGHTFORCE switches, lighter (about 89 g) and the cheapest of the three — the pick if you don't need wireless.\n- **G502 X LIGHTSPEED** (this review): wireless, 102 g, no RGB, up to 140 hours of battery.\n- **G502 X PLUS**: the LIGHTSPEED plus 8-zone LIGHTSYNC RGB, 106 g, up to 130 hours with RGB off, about US$20 more. Tom's Guide considers the LIGHTSPEED the better buy because the RGB isn't worth the extra money.\n- **G502 LIGHTSPEED** (2019, previous generation): wireless, 114 g, tunable weights, micro-USB, standard mechanical switches. Only worth it at a deep discount.\n\nCompared with the **Logitech G305 X SUPERLIGHT** we've also covered, the G305 X is wireless, symmetrical, 6 buttons and just 59 g with Bluetooth, for about half the price — the better pick for FPS players with small to medium hands. If you want an ultralight wireless FPS mouse, the **VXE R1 SE** (about 51–55 g) is a completely different approach."
     },
     {
       "title": "Who should buy it — and who shouldn't",
-      "content": "**Buy it if you:**\n- Use a palm grip with medium to large right hands.\n- Play MMOs, MOBAs or anything that benefits from extra buttons, or use macros for work.\n- Want a long-lasting wireless mouse with USB-C charging and don't need RGB.\n- Own an older G502 and want something lighter and easier to charge with the same feel.\n\n**Skip it if you:**\n- Play competitive FPS and prefer mice under 70 g or want 4,000–8,000 Hz polling.\n- Like tuning weight with removable weights, as on older G502s.\n- Need Bluetooth for a tablet or a laptop with few ports.\n- Are left-handed or use a claw or fingertip grip with small hands.\n- Just need a basic mouse — the G203 or the wired G502 X cost far less."
+      "content": "**Buy it if you:**\n- Use a palm grip with medium to large right hands.\n- Play MMOs, MOBAs or anything that benefits from extra buttons, or use macros for work.\n- Want a long-lasting wireless mouse with USB-C charging and don't need RGB.\n- Own an older G502 and want something lighter and easier to charge with the same feel.\n\n**Skip it if you:**\n- Play competitive FPS and prefer mice under 70 g or want 4,000–8,000 Hz polling.\n- Like tuning weight with removable weights, as on older G502s.\n- Need Bluetooth for a tablet or a laptop with few ports.\n- Are left-handed or use a claw or fingertip grip with small hands.\n- Want a light mouse with fewer buttons — the G305 X SUPERLIGHT or the wired G502 X cost far less."
     },
     {
       "title": "Sources for this review",
@@ -122,11 +146,11 @@
     },
     {
       "question": "Is the G502 X LIGHTSPEED good for FPS games like Valorant and CS2?",
-      "answer": "The sensor and switches are more than good enough, but 102 g and a large shape are heavy by modern FPS standards. If FPS is your main genre and you flick a lot, a lighter mouse such as the VXE R1 SE or the Logitech G203 (about 85 g) will suit you better."
+      "answer": "The sensor and switches are more than good enough, but 102 g and a large shape are heavy by modern FPS standards. If FPS is your main genre and you flick a lot, a lighter mouse such as the VXE R1 SE or the Logitech G305 X SUPERLIGHT (59 g) will suit you better."
     },
     {
-      "question": "How does it compare with the Logitech G102 / G203?",
-      "answer": "The G502 X LIGHTSPEED is wireless, has 13 programmable controls (the G203 has 6 buttons), LIGHTFORCE switches, a higher-end HERO sensor and a right-handed shape. The G203 is lighter, symmetrical and far cheaper."
+      "question": "How does it compare with the Logitech G305 X SUPERLIGHT?",
+      "answer": "The G502 X LIGHTSPEED has 13 programmable controls (the G305 X has 6 buttons), LIGHTFORCE switches, a free-spin wheel, longer battery life and a right-handed palm-grip shape. The G305 X SUPERLIGHT is far lighter (59 g vs 102 g), symmetrical, adds Bluetooth and costs about half as much."
     }
   ],
   "seo_title": "Logitech G502 X LIGHTSPEED Review: Worth Buying in 2026?",
@@ -155,9 +179,9 @@
         "note": "Same design and LIGHTFORCE switches, about 89 g and much cheaper if you don't need wireless."
       },
       {
-        "name": "Logitech G102 / G203 LIGHTSYNC",
-        "slug": "logitech-g102-gen-2",
-        "note": "Wired, symmetrical, 6 buttons and about 85 g — the budget pick."
+        "name": "Logitech G305 X SUPERLIGHT",
+        "slug": "logitech-g305-x-superlight",
+        "note": "59 g symmetrical tri-mode mouse with Bluetooth and 6 buttons, for about half the price — better for FPS."
       },
       {
         "name": "VXE R1 SE / SE+",
