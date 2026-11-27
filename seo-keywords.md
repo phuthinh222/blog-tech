@@ -29,7 +29,7 @@ Keyword chính nên nằm ở đầu `seo_title` + H1 + câu đầu bài. Keywor
 
 | URL `/reviews/…`               | Keyword chính (en)                 | Keyword phụ / câu hỏi (en)                                                                                              | Keyword chính (vi)                   | Cạnh tranh            |
 | ------------------------------ | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | --------------------- |
-| `logitech-g102-gen-2`          | logitech g203 review               | g102 vs g203, g203 lightsync dpi, g203 for fps, logitech g102 review                                                    | đánh giá logitech g102               | Cao                   |
+| `logitech-g305-x-superlight`   | logitech g305 x superlight review  | g304 x superlight, g305 x superlight vs g305, g305 x superlight 8k, g305 x superlight skates                            | đánh giá logitech g304 x superlight  | Trung bình            |
 | `logitech-g502-x-lightspeed`   | logitech g502 x lightspeed review  | g502 x lightspeed vs g502 x plus, g502 x lightspeed vs g502 lightspeed, g502 x lightspeed battery life, hero 44k update | đánh giá logitech g502 x lightspeed  | Trung bình–Cao        |
 | `vxe-r1-se`                    | vxe r1 se review                   | vxe dragonfly r1 se, r1 se vs r1 se+, vxe r1 se software                                                                | đánh giá vxe r1 se                   | **Thấp**              |
 | `aula-f75-pro`                 | aula f75 pro review                | aula f75 pro vs f75, aula f75 pro switches, aula f75 pro software                                                       | đánh giá aula f75 pro                | **Thấp**              |
@@ -47,20 +47,20 @@ Keyword chính nên nằm ở đầu `seo_title` + H1 + câu đầu bài. Keywor
 
 Ghi chú:
 
-- **G102:** ở Mỹ/EU người ta tìm "G203" nhiều hơn → title en đã đổi để "G203" đứng đầu.
+- **G305 X SUPERLIGHT:** ở Việt Nam/châu Á bán tên "G304 X SUPERLIGHT" → keyword vi dùng G304 X, bài nhắc cả hai tên ngay đoạn đầu.
 - **Sidohome, pegboard:** người đọc quốc tế không tìm theo tên hãng → nhắm keyword loại sản phẩm.
 - **VSP, Microlab:** gần như chỉ có người Việt tìm → ưu tiên tối ưu bản `/vi`.
 
 ## 4. Bài hướng dẫn (guides)
 
-| Guide (slug hiện tại)                          | Keyword chính (en)                     | Keyword chính (vi)                | Review liên kết tới                  |
-| ---------------------------------------------- | -------------------------------------- | --------------------------------- | ------------------------------------ |
-| `chon-man-hinh-gaming-24-inch-pho-thong`       | how to choose a 24 inch gaming monitor | cách chọn màn hình gaming 24 inch | Xiaomi G24i, ASUS VG249QE5A          |
-| `cach-chon-man-hinh-27-inch-de-lap-trinh`      | 27 inch monitor for coding             | màn hình 27 inch cho lập trình    | VSP IP2705F, North Bayou F80         |
-| `co-nen-mua-gia-treo-man-hinh`                 | is a monitor arm worth it              | có nên mua giá treo màn hình      | North Bayou F80                      |
-| `chuot-cho-lap-trinh-vien-va-dan-van-phong`    | best mouse for programmers             | chuột cho lập trình viên          | G102/G203, VXE R1 SE (nên thêm link) |
-| `ban-phim-co-van-phong-yen-tinh`               | quiet mechanical keyboard for office   | bàn phím cơ yên tĩnh văn phòng    | AULA F75 Pro (nên thêm link)         |
-| `chon-laptop-van-phong-va-lap-trinh-tam-trung` | mid-range laptop for programming       | laptop lập trình tầm trung        | (chưa có review laptop)              |
+| Guide (slug hiện tại)                          | Keyword chính (en)                     | Keyword chính (vi)                | Review liên kết tới                          |
+| ---------------------------------------------- | -------------------------------------- | --------------------------------- | -------------------------------------------- |
+| `chon-man-hinh-gaming-24-inch-pho-thong`       | how to choose a 24 inch gaming monitor | cách chọn màn hình gaming 24 inch | Xiaomi G24i, ASUS VG249QE5A                  |
+| `cach-chon-man-hinh-27-inch-de-lap-trinh`      | 27 inch monitor for coding             | màn hình 27 inch cho lập trình    | VSP IP2705F, North Bayou F80                 |
+| `co-nen-mua-gia-treo-man-hinh`                 | is a monitor arm worth it              | có nên mua giá treo màn hình      | North Bayou F80                              |
+| `chuot-cho-lap-trinh-vien-va-dan-van-phong`    | best mouse for programmers             | chuột cho lập trình viên          | G305 X SUPERLIGHT, VXE R1 SE (nên thêm link) |
+| `ban-phim-co-van-phong-yen-tinh`               | quiet mechanical keyboard for office   | bàn phím cơ yên tĩnh văn phòng    | AULA F75 Pro (nên thêm link)                 |
+| `chon-laptop-van-phong-va-lap-trinh-tam-trung` | mid-range laptop for programming       | laptop lập trình tầm trung        | (chưa có review laptop)                      |
 
 Tránh tranh keyword: guide nhắm "how to choose / is it worth it", review nhắm "<sản phẩm> review" — không đặt tên sản phẩm cụ thể lên title guide.
 
@@ -68,18 +68,18 @@ Tránh tranh keyword: guide nhắm "how to choose / is it worth it", review nh�
 
 Ưu tiên theo mức dễ + gần ý định mua, tận dụng review đã có:
 
-| #   | Keyword                                | Loại bài   | Dùng lại review                        |
-| --- | -------------------------------------- | ---------- | -------------------------------------- |
-| 1   | vxe r1 se vs logitech g203             | So sánh    | VXE R1 SE, G102                        |
-| 2   | xiaomi g24i vs asus vg249qe5a          | So sánh    | Xiaomi G24i, ASUS                      |
-| 3   | soundpeats t3 pro vs redmi buds 6 play | So sánh    | SoundPEATS, Redmi                      |
-| 4   | edifier mr3 vs microlab m105           | So sánh    | Edifier, Microlab                      |
-| 5   | best budget gaming mouse under $30     | `/best/…`  | G203, VXE R1 SE (+ cần 1–2 review nữa) |
-| 6   | best budget 24 inch gaming monitor     | `/best/…`  | Xiaomi G24i, ASUS (+ 1 review nữa)     |
-| 7   | best budget wireless earbuds with anc  | `/best/…`  | SoundPEATS, Redmi (+ 1 review nữa)     |
-| 8   | budget desk setup ideas                | Guide      | North Bayou, Sidohome, pegboard, VSP   |
-| 9   | 144hz vs 165hz vs 180hz monitor        | Giải thích | ASUS, Xiaomi                           |
-| 10  | gasket mount keyboard explained        | Giải thích | AULA F75 Pro                           |
+| #   | Keyword                                 | Loại bài   | Dùng lại review                      |
+| --- | --------------------------------------- | ---------- | ------------------------------------ |
+| 1   | vxe r1 se vs logitech g305 x superlight | So sánh    | VXE R1 SE, G305 X SUPERLIGHT         |
+| 2   | xiaomi g24i vs asus vg249qe5a           | So sánh    | Xiaomi G24i, ASUS                    |
+| 3   | soundpeats t3 pro vs redmi buds 6 play  | So sánh    | SoundPEATS, Redmi                    |
+| 4   | edifier mr3 vs microlab m105            | So sánh    | Edifier, Microlab                    |
+| 5   | best budget gaming mouse under $30      | `/best/…`  | VXE R1 SE (+ cần 1–2 review nữa)     |
+| 6   | best budget 24 inch gaming monitor      | `/best/…`  | Xiaomi G24i, ASUS (+ 1 review nữa)   |
+| 7   | best budget wireless earbuds with anc   | `/best/…`  | SoundPEATS, Redmi (+ 1 review nữa)   |
+| 8   | budget desk setup ideas                 | Guide      | North Bayou, Sidohome, pegboard, VSP |
+| 9   | 144hz vs 165hz vs 180hz monitor         | Giải thích | ASUS, Xiaomi                         |
+| 10  | gasket mount keyboard explained         | Giải thích | AULA F75 Pro                         |
 
 Trang `/best/…` chỉ nên làm khi có ≥ 3 review cùng loại (xem todo.md).
 
