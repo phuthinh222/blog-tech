@@ -57,15 +57,16 @@ Ghi chú:
 
 ## 4. Bài hướng dẫn (guides)
 
-| Guide (slug hiện tại)                  | Keyword chính (en)                     | Keyword chính (vi)                | Review liên kết tới                          |
-| -------------------------------------- | -------------------------------------- | --------------------------------- | -------------------------------------------- |
-| `how-to-choose-24-inch-gaming-monitor` | how to choose a 24 inch gaming monitor | cách chọn màn hình gaming 24 inch | Xiaomi G24i, ASUS VG249QE5A                  |
-| `27-inch-monitor-for-coding`           | 27 inch monitor for coding             | màn hình 27 inch cho lập trình    | VSP IP2705F, North Bayou F80                 |
-| `is-a-monitor-arm-worth-it`            | is a monitor arm worth it              | có nên mua giá treo màn hình      | North Bayou F80                              |
-| `best-mouse-for-programmers`           | best mouse for programmers             | chuột cho lập trình viên          | G305 X SUPERLIGHT, VXE R1 SE (nên thêm link) |
-| `quiet-mechanical-keyboard-for-office` | quiet mechanical keyboard for office   | bàn phím cơ yên tĩnh văn phòng    | AULA F75 Pro (nên thêm link)                 |
-| `mid-range-laptop-for-programming`     | mid-range laptop for programming       | laptop lập trình tầm trung        | (chưa có review laptop)                      |
-| `gaming-gifts`                         | gaming gifts under $80                 | quà tặng gaming                   | G305 X SUPERLIGHT                            |
+| Guide (slug hiện tại)                  | Keyword chính (en)                     | Keyword chính (vi)                | Review liên kết tới                           |
+| -------------------------------------- | -------------------------------------- | --------------------------------- | --------------------------------------------- |
+| `how-to-choose-24-inch-gaming-monitor` | how to choose a 24 inch gaming monitor | cách chọn màn hình gaming 24 inch | Xiaomi G24i, ASUS VG249QE5A                   |
+| `27-inch-monitor-for-coding`           | 27 inch monitor for coding             | màn hình 27 inch cho lập trình    | VSP IP2705F, North Bayou F80                  |
+| `is-a-monitor-arm-worth-it`            | is a monitor arm worth it              | có nên mua giá treo màn hình      | North Bayou F80                               |
+| `best-mouse-for-programmers`           | best mouse for programmers             | chuột cho lập trình viên          | G305 X SUPERLIGHT, VXE R1 SE (nên thêm link)  |
+| `quiet-mechanical-keyboard-for-office` | quiet mechanical keyboard for office   | bàn phím cơ yên tĩnh văn phòng    | AULA F75 Pro (nên thêm link)                  |
+| `mid-range-laptop-for-programming`     | mid-range laptop for programming       | laptop lập trình tầm trung        | (chưa có review laptop)                       |
+| `gaming-gifts`                         | gaming gifts under $80                 | quà tặng gaming                   | G305 X SUPERLIGHT                             |
+| `cyber-monday-budget-desk-gear`        | cyber monday budget desk gear          | đồ setup bàn giá rẻ cyber monday  | AULA F75 Pro, Stinger 2 Core, North Bayou F80 |
 
 Tránh tranh keyword: guide nhắm "how to choose / is it worth it", review nhắm "<sản phẩm> review" — không đặt tên sản phẩm cụ thể lên title guide.
 
