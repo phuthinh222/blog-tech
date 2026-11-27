@@ -1,16 +1,17 @@
 {
   "slug": "microlab-m105",
   "title": "Microlab M105: Loa Vi Tính 2.1 Có Sub Giá Rẻ Cho Phòng Nhỏ",
-  "excerpt": "Microlab M105 là bộ loa vi tính 2.1 giá rẻ có loa siêu trầm riêng: tổng 10W, thùng gỗ, sub 4 inch bắn xuống sàn kèm lỗ thoát hơi phía trước, dải tần 40Hz–20kHz. Với giá khoảng 530–560 nghìn, nó có đáng mua để nâng cấp loa laptop hay góc học tập?",
+  "excerpt": "Microlab M105 là bộ loa vi tính 2.1 giá rẻ có loa siêu trầm riêng: tổng 10W theo Microlab, thùng gỗ, sub 4 inch bắn xuống dưới kèm lỗ thoát hơi phía trước, một ngõ vào 3.5 mm. Với giá khoảng 530–560 nghìn, nó có đáng mua để nâng cấp loa laptop hay góc học tập — và nó thiếu những gì so với Edifier MR3?",
   "category": "audio-video",
   "author": "Zero Technology",
   "publishedAt": "2026-10-28",
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-25",
+  "reviewMethod": "compiled",
   "coverImage": "/images/products/microlab-m105/cover.jpg",
   "images": [],
   "rating": {
-    "overall": 7.4,
-    "design": 7.6,
+    "overall": 7.3,
+    "design": 7.4,
     "performance": 7,
     "battery": 7.6,
     "value": 8.2
@@ -18,23 +19,23 @@
   "specs": [
     {
       "label": "Loại loa",
-      "value": "Loa vi tính 2.1 có dây (1 loa siêu trầm + 2 loa vệ tinh)"
+      "value": "Loa vi tính 2.1 có dây (1 loa siêu trầm chứa ampli + 2 loa vệ tinh thụ động)"
     },
     {
       "label": "Công suất",
-      "value": "2,5W × 2 (vệ tinh) + 5W (siêu trầm) — tổng 10W RMS"
+      "value": "2,5W × 2 (vệ tinh) + 5W (siêu trầm) — tổng 10W RMS (bảng thông số Microlab)"
     },
     {
       "label": "Củ loa",
-      "value": "Vệ tinh 2,5 inch × 2 (4Ω); siêu trầm 4 inch (2Ω) đặt ở đáy hộp"
+      "value": "Vệ tinh 2,5 inch × 2 (4Ω); siêu trầm 4 inch (2Ω) đặt ở đáy hộp, bắn xuống dưới (Microlab)"
     },
     {
       "label": "Dải tần",
-      "value": "40Hz – 20kHz"
+      "value": "40Hz – 20kHz (Microlab)"
     },
     {
       "label": "Thông số khác",
-      "value": "Méo tiếng < 0,5% (1W, 1kHz), S/N > 70 dB, độ tách kênh > 40 dB"
+      "value": "Méo tiếng < 0,5% (1W, 1kHz), S/N > 70 dB, độ tách kênh > 40 dB (Microlab)"
     },
     {
       "label": "Thùng loa",
@@ -42,23 +43,31 @@
     },
     {
       "label": "Kết nối",
-      "value": "Ngõ vào jack 3.5 mm (kèm cáp AUX 3.5 mm – 3.5 mm)"
+      "value": "Một ngõ vào jack 3.5 mm (kèm cáp AUX 3.5 mm – 3.5 mm)"
     },
     {
       "label": "Điều khiển",
-      "value": "Một núm âm lượng tổng trên loa siêu trầm; không có điều khiển từ xa"
+      "value": "Một núm âm lượng tổng ở mặt sau loa siêu trầm; không có núm bass/treble, không có điều khiển từ xa"
+    },
+    {
+      "label": "Dây cáp",
+      "value": "Dây loa vệ tinh và dây nguồn loa sub gắn liền, không tháo rời (3DNews)"
     },
     {
       "label": "Kích thước",
-      "value": "Siêu trầm 135 × 215 × 165 mm; vệ tinh 70 × 85 × 145 mm"
+      "value": "Siêu trầm 135 × 215 × 165 mm; vệ tinh 70 × 85 × 145 mm (Microlab)"
     },
     {
       "label": "Trọng lượng",
-      "value": "Khoảng 1,7 kg (cả bộ)"
+      "value": "1,7 kg (cả bộ, Microlab)"
+    },
+    {
+      "label": "Nguồn điện",
+      "value": "AC 220V / 50Hz (Microlab)"
     },
     {
       "label": "Không có",
-      "value": "Bluetooth, USB, núm chỉnh bass riêng"
+      "value": "Bluetooth, USB, cổng quang, cổng tai nghe, núm chỉnh bass riêng, remote"
     },
     {
       "label": "Bảo hành",
@@ -66,71 +75,71 @@
     },
     {
       "label": "Giá tham khảo",
-      "value": "Khoảng 529–560 nghìn (10/2026)"
+      "value": "Khoảng 529–560 nghìn (11/2026)"
     }
   ],
   "pros": [
-    "Có loa siêu trầm riêng nên âm trầm dày hơn hẳn loa laptop và loa 2.0 cùng giá.",
-    "Thùng gỗ, sub 4 inch bắn xuống đáy kèm lỗ thoát hơi phía trước giúp bass sâu hơn.",
-    "Gọn: loa vệ tinh nhỏ đặt hai bên màn hình, sub đặt dưới gầm bàn hoặc góc bàn.",
-    "Kết nối jack 3.5 mm đơn giản, cắm được máy tính, laptop, điện thoại, TV có cổng 3.5 mm.",
-    "Thương hiệu Microlab lâu năm, bảo hành chính hãng 12 tháng.",
+    "Có loa siêu trầm 4 inch riêng nên âm trầm dày hơn hẳn loa laptop và loa 2.0 cùng giá.",
+    "3DNews nhận xét âm thanh sạch trong tầm giá, bass gọn, không bị ù lấn át.",
+    "Gọn: loa vệ tinh nhỏ đặt hai bên màn hình, sub đặt góc bàn hoặc dưới gầm bàn.",
+    "Kết nối jack 3.5 mm đơn giản, cắm là dùng, không cần app hay driver.",
+    "Bảo hành chính hãng 12 tháng tại Việt Nam.",
     "Giá khoảng 530–560 nghìn cho một bộ 2.1."
   ],
   "cons": [
-    "Công suất 10W chỉ hợp phòng nhỏ, góc học tập; mở to dễ bị méo tiếng.",
-    "Không có Bluetooth — muốn phát từ điện thoại phải cắm dây.",
-    "Chỉ có một núm âm lượng tổng, không chỉnh riêng được bass.",
-    "Chỉ có ngõ vào 3.5 mm, không có USB hay cổng quang.",
-    "Thiết kế ra mắt đã khá lâu, một số nơi bán ghi đã ngừng kinh doanh — nên kiểm tra tình trạng hàng.",
+    "Tổng 10W chỉ hợp phòng nhỏ, góc học tập; không đủ cho phòng khách.",
+    "Không có Bluetooth, USB, cổng quang hay cổng tai nghe — chỉ một ngõ vào 3.5 mm.",
+    "Chỉ có một núm âm lượng tổng nằm ở mặt sau loa sub; không chỉnh được bass, không có remote.",
+    "Dây loa vệ tinh và dây nguồn sub gắn liền (3DNews), hỏng dây khó thay.",
+    "Mẫu ra mắt đã lâu (3DNews review năm 2018), một số nơi ghi ngừng kinh doanh — nên kiểm tra tình trạng hàng.",
     "Âm thanh thiên giải trí, không trung thực bằng loa kiểm âm như Edifier MR3."
   ],
   "sections": [
     {
       "title": "Microlab M105 là loa gì?",
-      "content": "Microlab là thương hiệu loa vi tính lâu năm, phổ biến ở Việt Nam nhờ giá mềm. M105 là bộ loa 2.1 nhỏ gọn gồm một loa siêu trầm (subwoofer) và hai loa vệ tinh, được Microlab mô tả là 'hệ thống 2.1 cổ điển cỡ mini' với thùng gỗ. Tại Việt Nam, M105 được bán chính hãng với giá khoảng 529–560 nghìn đồng (Phúc Anh, ThinkPro, Meta.vn), bảo hành 12 tháng. Đây là lựa chọn phổ biến cho người muốn nâng cấp từ loa laptop lên một bộ loa có bass rõ ràng mà không tốn nhiều tiền."
+      "content": "Microlab là thương hiệu loa vi tính lâu năm của Trung Quốc, rất phổ biến ở Việt Nam nhờ giá mềm. M105 (bảng thông số ghi M-105) là bộ loa 2.1 cỡ nhỏ gồm một loa siêu trầm chứa ampli và hai loa vệ tinh thụ động, được Microlab mô tả là 'hệ thống 2.1 cổ điển cỡ mini' với thùng gỗ kiểu vintage.\n\nĐây không phải mẫu mới: trang 3DNews (Nga) đã review M105 từ tháng 9/2018, và một số trang catalog đã đánh dấu là mẫu cũ, nên tình trạng hàng và phiên bản có thể khác nhau tùy nơi. Tại Việt Nam, M105 được bán chính hãng khoảng 529–560 nghìn đồng (Phúc Anh, ThinkPro, Meta.vn), bảo hành 12 tháng. Lưu ý tên mẫu khi mua: M-105 chỉ có dây, còn M105BT là mẫu riêng có Bluetooth với thông số khác. Bài này nói về bản M-105 có dây."
     },
     {
-      "title": "Thiết kế: thùng gỗ, sub bắn xuống sàn",
-      "content": "Loa siêu trầm có kích thước 135 × 215 × 165 mm, thùng gỗ màu đen, mặt trước có lỗ thoát hơi (bass reflex) để tăng âm trầm. Điểm đáng chú ý là củ loa siêu trầm 4 inch được đặt ở đáy hộp, bắn xuống sàn hoặc mặt bàn — cách bố trí này giúp bass lan tỏa và 'dày' hơn, nhưng cũng có nghĩa vị trí đặt sub ảnh hưởng nhiều đến âm thanh (đặt trên sàn gỗ hoặc mặt bàn cứng sẽ cho bass rõ hơn thảm). Hai loa vệ tinh nhỏ gọn 70 × 85 × 145 mm, có mặt lưới che, đặt vừa hai bên màn hình. Cả bộ nặng khoảng 1,7 kg."
+      "title": "Thiết kế: thùng gỗ, sub bắn xuống dưới",
+      "content": "Theo Microlab, loa siêu trầm có kích thước 135 × 215 × 165 mm, đủ nhỏ để đặt góc bàn hoặc dưới sàn. Củ loa 4 inch được gắn ở mặt đáy, bắn xuống dưới, kết hợp lỗ thoát hơi (bass reflex) ở mặt trước. Cách bố trí này tận dụng tối đa thùng loa nhỏ, nhưng cũng có nghĩa bề mặt bên dưới quyết định nhiều đến tiếng bass: mặt bàn cứng hay sàn gỗ/gạch làm bass rõ hơn, còn thảm dày sẽ 'nuốt' bớt bass. Nên chừa khoảng trống quanh lỗ thoát hơi và không nhét sub vào hộc tủ kín.\n\nHai loa vệ tinh 70 × 85 × 145 mm, có mặt lưới che, đặt vừa hai bên màn hình 24 inch. 3DNews lưu ý dây loa vệ tinh và dây nguồn loa sub đều gắn liền, không tháo rời — lắp đặt đơn giản, nhưng giới hạn khoảng cách đặt loa và nếu đứt dây thì không thể thay dây rời. Cả bộ nặng khoảng 1,7 kg."
     },
     {
-      "title": "Âm thanh: bass dày, hợp phòng nhỏ",
-      "content": "Bộ loa có tổng công suất 10W RMS: 5W cho loa siêu trầm và 2,5W cho mỗi loa vệ tinh, dải tần 40Hz–20kHz, méo tiếng dưới 0,5%, tỷ lệ tín hiệu/nhiễu trên 70 dB. Nhờ có sub riêng, âm trầm dày và có lực hơn rõ so với loa laptop hay loa 2.0 giá rẻ — hợp xem phim, nghe nhạc trẻ, chơi game giải trí ở góc học tập, phòng ngủ. Tuy nhiên 10W là mức công suất nhỏ: đủ to cho phòng khoảng 10–15 m², còn mở hết cỡ dễ bị rè, méo. Chất âm thiên giải trí (bass nổi), không phải âm thanh trung thực cho làm nhạc hay nghe kỹ."
+      "title": "Âm thanh: 10W và sub 4 inch nghĩa là gì?",
+      "content": "Bảng thông số Microlab ghi 2,5W cho mỗi loa vệ tinh và 5W cho loa sub — tổng 10W RMS, dải tần 40Hz–20kHz, méo tiếng dưới 0,5% ở 1W. Con số 40Hz nên hiểu thận trọng: củ 4 inch trong thùng nhỏ chỉ gợi được âm trầm thấp, không tái tạo có lực như loa sub lớn.\n\nBài review của 3DNews tích cực hơn mức thông số gợi ý: người viết mô tả bass sạch và gọn, không bị ù — bass bổ trợ phần loa vệ tinh nhỏ không làm được thay vì lấn át; dải mid dày, dải cao kém chi tiết hơn một chút nhưng không có lỗi rõ ràng. 3DNews cho biết không nghe thấy méo tiếng rõ rệt trên toàn dải âm lượng trong phòng thử, và đánh giá bộ loa hợp nhạc pop, điện tử, jazz, phim và game, dù không tạo được sân khấu âm rộng.\n\nKỳ vọng thực tế là: nâng cấp rõ so với loa laptop cho phòng ngủ, góc học tập khoảng 10–15 m², chứ không phải loa cho phòng khách hay tiệc tùng. 10W là giới hạn vật lý; nếu thường xuyên cần mở to hơn, không cách đặt loa nào bù được. Đây cũng là loa giải trí, không cho âm thanh trung tính để dựng video hay làm nhạc. Zero Technology chưa nghe thử hay đo loa này."
     },
     {
-      "title": "Kết nối và điều khiển",
-      "content": "M105 chỉ có ngõ vào jack 3.5 mm (kèm sẵn cáp AUX 3.5 mm – 3.5 mm), cắm được vào máy tính, laptop, điện thoại hoặc TV có cổng 3.5 mm. Loa không có Bluetooth, USB hay cổng quang. Điều khiển chỉ gồm một núm âm lượng tổng trên loa siêu trầm (theo Microlab đặt ở mặt sau), không có núm chỉnh bass riêng và không có điều khiển từ xa — nếu thấy bass quá nhiều hay quá ít, bạn chỉnh bằng EQ trên máy tính hoặc thay đổi vị trí đặt sub. Điện thoại chỉ có cổng USB-C sẽ cần thêm bộ chuyển USB-C sang 3.5 mm."
+      "title": "Kết nối, điều khiển và nguồn điện",
+      "content": "M105 chỉ có một ngõ vào jack 3.5 mm (kèm sẵn cáp), cắm được vào máy tính, laptop, điện thoại, máy tính bảng có cổng tai nghe hoặc TV có ngõ ra 3.5 mm. Điện thoại, laptop chỉ có USB-C cần thêm bộ chuyển USB-C sang 3.5 mm — nên mua loại tốt, vì đầu chuyển quá rẻ có thể gây nhiễu hoặc nhỏ tiếng.\n\nNhững thứ không có cũng cần biết: không Bluetooth, không USB audio, không cổng quang, không cổng tai nghe và không điều khiển từ xa. Điều khiển duy nhất là núm âm lượng tổng ở mặt sau loa sub, cạnh công tắc nguồn — khá bất tiện nếu sub đặt dưới gầm bàn, nên thực tế bạn sẽ chỉnh âm lượng trên máy tính. Không có núm chỉnh bass riêng; nếu bass quá nhiều, hãy dời sub ra xa tường và góc phòng, hoặc dùng EQ trên máy tính.\n\nBảng thông số ghi nguồn AC 220V / 50Hz — phù hợp điện lưới Việt Nam. Nếu mua làm quà cho người ở nước dùng điện 110–120V (Mỹ, Nhật…), đây không phải lựa chọn phù hợp."
     },
     {
-      "title": "Microlab M105 hay Edifier MR3?",
-      "content": "Hai sản phẩm phục vụ hai nhu cầu khác nhau. Microlab M105 (khoảng 550 nghìn) là loa 2.1 giải trí có sub riêng, bass dày, rẻ, hợp xem phim, nghe nhạc thư giãn ở phòng nhỏ. Edifier MR3 (khoảng 2 triệu) là loa kiểm âm 2.0 với âm thanh trung thực, có Bluetooth 5.4, cổng TRS/RCA và cổng tai nghe — hợp nghe nhạc nghiêm túc, làm nhạc, dựng video. Nếu ngân sách dưới 600 nghìn và bạn thích bass, M105 là lựa chọn hợp lý; nếu cần chất âm chính xác và nhiều kết nối, hãy dồn tiền lên MR3."
+      "title": "Microlab M105 hay Edifier MR3 và các bộ 2.1 khác?",
+      "content": "Trên site, **Edifier MR3** (có bài review riêng) là bước nâng cấp rõ nhất, nhưng là một loại sản phẩm khác. MR3 là cặp loa kiểm âm 2.0 giá khoảng 2 triệu (gấp gần 4 lần M105): chất âm phẳng, trung thực, cổng TRS cân bằng, RCA, AUX, Bluetooth 5.4 kết nối 2 thiết bị và cổng tai nghe mặt trước. M105 cho nhiều bass hơn ngay khi cắm nhờ loa sub, hợp xem phim, chơi game; còn MR3 nghe sạch hơn, to hơn và dùng được để dựng audio/video.\n\nQuy tắc đơn giản: ngân sách dưới 600 nghìn, chủ yếu xem video và chơi game thì M105 là đủ. Nếu bạn dựng video, làm nhạc, nghe nhạc kỹ hoặc cần Bluetooth và nhiều cổng, hãy dồn tiền lên MR3.\n\nNgoài site, Microlab M105BT là phiên bản có thêm Bluetooth cùng ý tưởng; Logitech Z313 là bộ 2.1 giá rẻ phổ biến có cục chỉnh âm lượng rời — tiện nếu sub phải đặt xa tầm tay."
     },
     {
       "title": "Ai nên mua và ai không nên mua?",
-      "content": "Nên mua nếu bạn là học sinh, sinh viên muốn nâng cấp loa laptop với ngân sách khoảng 500–600 nghìn; cần loa có bass cho xem phim, nghe nhạc ở phòng ngủ, góc học tập; hoặc thích loa đơn giản, cắm dây là dùng. Không nên mua nếu bạn cần Bluetooth để phát từ điện thoại, cần loa to cho phòng khách, muốn chỉnh bass riêng, hoặc cần âm thanh trung thực cho làm nhạc. Khi đó nên xem các mẫu 2.1 có Bluetooth của Microlab/Edifier cao hơn hoặc loa kiểm âm như Edifier MR3."
+      "content": "Nên mua nếu bạn là học sinh, sinh viên muốn nâng cấp loa laptop với chi phí thấp nhất, chủ yếu để xem video, nghe nhạc thư giãn, chơi game ở phòng nhỏ; thích loa cắm là chạy, không app, không ghép nối; hoặc cần bộ loa gọn thứ hai cho bàn học.\n\nKhông nên mua nếu bạn cần Bluetooth, cổng tai nghe hoặc nhiều ngõ vào; cần mở to cho phòng khách; muốn chỉnh bass riêng; hoặc cần âm thanh trung thực để dựng video, làm nhạc — khi đó hãy xem Edifier MR3."
     },
     {
       "title": "Nguồn thông tin của bài viết",
-      "content": "Zero Technology chưa trực tiếp sử dụng sản phẩm này. Bài viết tổng hợp và phân tích từ bảng thông số chính thức của Microlab cho M-105, cùng giá và chính sách bảo hành tại các nhà bán lẻ Việt Nam (Phúc Anh, ThinkPro, Meta.vn), cập nhật tháng 10/2026. Ảnh trong bài là ảnh sản phẩm từ tài liệu chính thức của Microlab. Nhận xét về âm thanh dựa trên thông số và định vị sản phẩm, không phải phép đo của chúng tôi. Giá và tình trạng hàng có thể thay đổi — hãy kiểm tra trên trang bán trước khi đặt hàng."
+      "content": "Zero Technology chưa trực tiếp sử dụng sản phẩm này. Bài viết tổng hợp và phân tích từ bảng thông số chính thức của Microlab cho M-105 (đăng trên Global Sources), bài review thực tế của 3DNews (tháng 9/2018), trang catalog E-Catalog, cùng giá và chính sách bảo hành tại các nhà bán lẻ Việt Nam (Phúc Anh, ThinkPro, Meta.vn), cập nhật tháng 11/2026. Công suất, kích thước, nguồn điện lấy từ bảng thông số Microlab; nhận xét âm thanh trích từ 3DNews. Ảnh trong bài là ảnh sản phẩm từ tài liệu chính thức của Microlab. Giá và tình trạng hàng có thể thay đổi — hãy kiểm tra trên trang bán trước khi đặt hàng."
     },
     {
       "title": "Có nên mua Microlab M105?",
-      "content": "Microlab M105 là bộ loa 2.1 rẻ và đáng tiền để thay loa laptop: có sub riêng cho bass dày, thùng gỗ, gọn gàng và bảo hành chính hãng, chỉ khoảng 550 nghìn. Đổi lại, công suất 10W chỉ hợp phòng nhỏ, không có Bluetooth và không chỉnh được bass riêng. Nếu bạn cần một bộ loa có bass cho góc học tập hay phòng ngủ với chi phí thấp, M105 là lựa chọn an toàn."
+      "content": "Nếu bạn muốn có bass hơn loa laptop với rất ít tiền và loa đặt trên bàn nhỏ, câu trả lời là có — M105 là bộ 2.1 đơn giản, gọn, được 3DNews nhận xét âm sạch trong tầm giá, kèm bảo hành chính hãng. Chỉ cần hiểu rõ đây là thiết kế có dây đã cũ: 10W, một ngõ 3.5 mm, không Bluetooth, núm âm lượng ở sau loa sub và dây gắn liền. Nếu một trong những điểm đó là vấn đề, khoản tiền thêm cho Edifier MR3 là xứng đáng."
     }
   ],
   "faq": [
     {
       "question": "Microlab M105 có Bluetooth không?",
-      "answer": "Không. M105 chỉ kết nối qua jack 3.5 mm. Nếu cần phát nhạc không dây từ điện thoại, bạn cần mua thêm bộ thu Bluetooth cắm cổng 3.5 mm hoặc chọn mẫu loa có Bluetooth."
+      "answer": "Không. M-105 chỉ kết nối qua một jack 3.5 mm. Nếu cần phát nhạc không dây, bạn có thể mua thêm bộ thu Bluetooth cắm cổng 3.5 mm hoặc chọn mẫu M105BT có Bluetooth."
     },
     {
       "question": "Công suất 10W có đủ to không?",
-      "answer": "Đủ cho phòng nhỏ khoảng 10–15 m² như phòng ngủ, góc học tập. Với phòng khách lớn hoặc khi cần mở rất to, 10W sẽ thiếu và dễ bị méo tiếng."
+      "answer": "Đủ cho phòng nhỏ khoảng 10–15 m² như phòng ngủ, góc học tập. Với phòng khách lớn hoặc khi cần mở rất to, 10W sẽ thiếu — đây là giới hạn của ampli và củ loa."
     },
     {
       "question": "Loa có chỉnh bass riêng được không?",
-      "answer": "Không. M105 chỉ có một núm âm lượng tổng. Bạn có thể chỉnh bass bằng EQ trên máy tính hoặc thay đổi vị trí đặt loa siêu trầm."
+      "answer": "Không. M105 chỉ có một núm âm lượng tổng. Bạn có thể chỉnh bass bằng EQ trên máy tính hoặc dời loa sub: mặt cứng và góc tường tăng bass, thảm và chỗ trống giảm bass."
     },
     {
       "question": "Microlab M105 cắm được vào TV không?",
@@ -138,22 +147,23 @@
     },
     {
       "question": "Nên mua Microlab M105 hay Edifier MR3?",
-      "answer": "Chọn M105 (khoảng 550 nghìn) nếu muốn loa 2.1 rẻ, bass dày để xem phim, nghe nhạc giải trí. Chọn Edifier MR3 (khoảng 2 triệu) nếu cần âm thanh trung thực, Bluetooth và nhiều cổng kết nối hơn."
+      "answer": "Chọn M105 (khoảng 550 nghìn) nếu muốn loa 2.1 rẻ, nhiều bass để xem phim, chơi game ở bàn nhỏ. Chọn Edifier MR3 (khoảng 2 triệu) nếu cần âm thanh trung thực, dựng video/làm nhạc, Bluetooth kết nối 2 thiết bị và nhiều cổng hơn."
     },
     {
       "question": "Bảo hành Microlab M105 bao lâu?",
-      "answer": "Các nhà bán lẻ chính hãng như Phúc Anh, ThinkPro, Meta.vn ghi bảo hành 12 tháng."
+      "answer": "Các nhà bán lẻ chính hãng như Phúc Anh, ThinkPro, Meta.vn ghi bảo hành 12 tháng; bảng thông số Microlab cũng ghi bảo hành 1 năm."
     }
   ],
   "verdict": {
-    "summary": "Bộ loa 2.1 khoảng 550 nghìn có sub riêng, thùng gỗ và bass dày — đáng tiền để nâng cấp loa laptop cho góc học tập, phòng ngủ, nhưng chỉ 10W và không có Bluetooth.",
-    "recommendation": "Đáng mua cho học sinh, sinh viên và phòng nhỏ cần loa có bass giá rẻ; cần Bluetooth hay âm thanh trung thực thì chọn mẫu cao hơn."
+    "summary": "Bộ loa 2.1 khoảng 550 nghìn có sub riêng, thùng gỗ và bass gọn — đáng tiền để nâng cấp loa laptop cho góc học tập, phòng ngủ, nhưng chỉ 10W, một ngõ 3.5 mm, không Bluetooth và không chỉnh được bass.",
+    "recommendation": "Đáng mua cho học sinh, sinh viên và phòng nhỏ cần loa có bass giá rẻ; cần Bluetooth hay âm thanh trung thực thì chọn mẫu cao hơn như Edifier MR3."
   },
   "seo": {
-    "metaTitle": "Loa Vi Tính 2.1 Microlab M105: Review, Có Đáng Mua Dưới 600K?",
-    "metaDescription": "Review loa vi tính Microlab M105 2.1: tổng 10W, sub 4 inch, thùng gỗ, dải tần 40Hz–20kHz, jack 3.5 mm. Ưu nhược điểm, so với Edifier MR3 và ai nên mua.",
+    "metaTitle": "Loa Vi Tính 2.1 Microlab M105: Đánh Giá, Có Đáng Mua Dưới 600K?",
+    "metaDescription": "Đánh giá loa vi tính Microlab M105 2.1: tổng 10W, sub 4 inch bắn xuống, thùng gỗ, 40Hz–20kHz, jack 3.5 mm, không Bluetooth. Ưu nhược điểm, so với Edifier MR3.",
     "keywords": [
       "Microlab M105",
+      "đánh giá loa Microlab M105",
       "loa Microlab M105 2.1",
       "loa vi tính 2.1 giá rẻ",
       "loa máy tính có sub",
@@ -171,7 +181,7 @@
     "Người có không gian nhỏ, cần loa gọn."
   ],
   "buyReasons": [
-    "Có loa siêu trầm riêng, bass dày.",
+    "Có loa siêu trầm riêng, bass gọn.",
     "Thùng gỗ, sub 4 inch kèm lỗ thoát hơi.",
     "Kết nối jack 3.5 mm đơn giản.",
     "Bảo hành chính hãng 12 tháng.",

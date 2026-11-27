@@ -1,11 +1,12 @@
 {
   "slug": "north-bayou-f80-monitor-arm",
-  "title": "North Bayou F80: Nâng Cấp Góc Làm Việc Với Arm Màn Hình Giá Rẻ",
-  "excerpt": "North Bayou F80 cùng các phiên bản tương đương như EZ90, EMA7304 và Warrior WA-MH0801 là giải pháp công thái học giúp tối ưu không gian làm việc, hỗ trợ màn hình từ 17 đến 32 inch với khả năng điều chỉnh linh hoạt bằng lò xo khí.",
+  "title": "North Bayou F80: Arm Màn Hình Lò Xo Khí Giá Rẻ Có Đáng Lắp?",
+  "excerpt": "North Bayou (NB) F80 là arm màn hình lò xo khí giá rẻ phổ biến nhất: VESA 75/100, nâng hạ, nghiêng, xoay ngang, xoay dọc, kẹp bàn hoặc xuyên bàn. Điểm cần chú ý nhất là tải trọng — các nhà bán ghi từ 2–6,5 kg đến 2–9 kg — và màn hình quá nhẹ cũng không hợp. Có đáng mua không?",
   "category": "desk-setup",
   "author": "Zero Technology",
-  "publishedAt": "2026-06-17",
-  "updatedAt": "2026-11-20",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-25",
+  "reviewMethod": "compiled",
   "images": [
     "/images/products/north-bayou-f80-monitor-arm/khi-su-dung.jpg",
     "/images/products/north-bayou-f80-monitor-arm/kep-ban.jpg",
@@ -17,115 +18,177 @@
     "/images/products/north-bayou-f80-monitor-arm/mau-trang.jpg"
   ],
   "rating": {
-    "overall": 9.1,
-    "design": 9.2,
-    "performance": 9.5,
-    "battery": 8.8,
-    "value": 9
+    "overall": 8,
+    "design": 7.8,
+    "performance": 8.2,
+    "battery": 7.6,
+    "value": 8.8
   },
   "specs": [
     {
       "label": "Loại sản phẩm",
-      "value": "Giá treo màn hình lò xo khí"
+      "value": "Arm 1 màn hình, lò xo khí (gas spring), kẹp bàn"
     },
     {
-      "label": "Kích thước hỗ trợ",
-      "value": "17 - 32 inch"
+      "label": "Mã sản phẩm",
+      "value": "NB-F80 (đen); F80W (trắng); một số nơi bán thêm màu xám, xanh, vàng, rêu (HACOM)"
+    },
+    {
+      "label": "Kích thước màn hình",
+      "value": "17–27 inch (Zylax, Newegg Canada, Staples Canada); 17–30 inch (GearVN, Umart, nhiều listing Amazon); một số nơi ghi 17–32 inch — chưa thống nhất"
+    },
+    {
+      "label": "Tải trọng",
+      "value": "2–6,5 kg (Zylax, Newegg Canada); 2–9 kg (Woolworths, Thế Giới Di Động); CellphoneS ghi dưới 7 kg — xem đúng listing bạn mua"
     },
     {
       "label": "Chuẩn VESA",
-      "value": "75x75mm, 100x100mm"
+      "value": "75 × 75 mm và 100 × 100 mm"
     },
     {
-      "label": "Điều chỉnh",
-      "value": "Nâng hạ, xoay ngang, xoay dọc, nghiêng"
+      "label": "Góc nghiêng",
+      "value": "+35° đến −50° (Zylax, Newegg Canada) hoặc +85° đến −30° (một số listing khác) — nguồn ghi khác nhau"
+    },
+    {
+      "label": "Xoay ngang / xoay dọc",
+      "value": "Khoảng 180° / 360°"
+    },
+    {
+      "label": "Hành trình nâng hạ",
+      "value": "Khoảng 250 mm (Zylax) hoặc 260 mm (Woolworths, Frontdeskreview)"
     },
     {
       "label": "Lắp đặt",
-      "value": "Kẹp bàn hoặc xuyên bàn"
+      "value": "Kẹp mép bàn (C-clamp) hoặc xuyên lỗ bàn (grommet); độ dày bàn tối đa chưa được hãng công bố rõ — một nhà bán lẻ Mỹ ghi khoảng 3,1 inch (~79 mm)"
+    },
+    {
+      "label": "Chất liệu",
+      "value": "Hợp kim nhôm, ốp nhựa; đi dây trong thân arm"
+    },
+    {
+      "label": "Độ bền lò xo khí",
+      "value": "Nhà bán ghi 20.000 lần thử chuyển động (thông tin từ nhà bán, chưa có kiểm định độc lập)"
+    },
+    {
+      "label": "Không có",
+      "value": "Cổng USB, tay đỡ laptop (có bản FP80 riêng), tháo nhanh VESA kiểu cao cấp, tay 2 khớp duỗi xa"
+    },
+    {
+      "label": "Bảo hành",
+      "value": "12 tháng (Hoàng Hà Mobile, Thế Giới Di Động) đến 24 tháng (GearVN) — tùy nơi bán"
+    },
+    {
+      "label": "Giá tham khảo",
+      "value": "Khoảng 360–400 nghìn đồng tại Việt Nam (Hoàng Hà Mobile, GearVN, 11/2026)"
     }
   ],
   "pros": [
-    "Giúp cải thiện tư thế ngồi và giảm đau mỏi cổ vai gáy.",
-    "Giải phóng đáng kể diện tích mặt bàn.",
-    "Điều chỉnh linh hoạt với cơ chế lò xo khí.",
-    "Hỗ trợ xoay màn hình dọc cho lập trình và đọc tài liệu.",
-    "Tương thích với đa số màn hình từ 17 đến 32 inch.",
-    "Có hệ thống đi dây giúp góc làm việc gọn gàng hơn.",
-    "Khung kim loại chắc chắn và độ bền cao."
+    "Giá rất thấp cho một arm lò xo khí: khoảng 360–400 nghìn đồng, rẻ hơn nhiều so với tiền mua một màn hình có chân nâng hạ.",
+    "Biến chân đế chỉ nghiêng (như ASUS VG249QE5A, Xiaomi G24i) thành setup chỉnh được chiều cao, xoay ngang và xoay dọc.",
+    "Hỗ trợ cả VESA 75 và 100 — phủ gần hết màn hình phổ thông 24–27 inch.",
+    "Hai cách lắp: kẹp mép bàn hoặc xuyên lỗ bàn; dây cáp đi gọn trong thân arm.",
+    "Có nhiều màu (đen, trắng, một số màu khác) và bán rộng rãi, dễ mua phụ tùng hoặc đổi trả.",
+    "Người dùng lâu năm trên Limteam cho biết arm giữ màn hình 27 inch không rung, lò xo khí chưa thấy xuống cấp sau nhiều năm."
   ],
   "cons": [
-    "Cần kiểm tra tải trọng màn hình trước khi lắp đặt.",
-    "Người mới có thể mất thời gian làm quen khi lắp.",
-    "Không phù hợp với một số loại bàn quá mỏng hoặc quá dày.",
-    "Chi phí cao hơn so với chân đế màn hình thông thường."
+    "Thông số tải trọng, kích thước và góc nghiêng ghi khác nhau giữa các nhà bán (2–6,5 kg hay 2–9 kg) — dễ chọn nhầm.",
+    "Có tải tối thiểu khoảng 2 kg: màn hình quá nhẹ (màn di động, một số 22–24 inch mỏng) có thể bị bật ngược lên.",
+    "Một người mua trên eBay cho biết với màn hình Dell P2717H 27 inch, chỉ cần va vào bàn là arm bắt đầu tụt xuống — màn 27 inch nặng là giới hạn thật.",
+    "Hành trình nâng hạ khoảng 250–260 mm, thấp nhất trong nhóm 11 arm mà Frontdeskreview so sánh; người cao dùng bàn đứng có thể thiếu chiều cao.",
+    "Tay dưới xoay quanh chân đế dễ quét đổ đồ trên bàn, và không có chỗ cất lục giác chỉnh lực (MyByWays).",
+    "Logo vàng khá nổi (Limteam) và độ dày bàn kẹp được không được hãng công bố rõ ràng."
   ],
   "sections": [
     {
-      "title": "Thiết kế và chất lượng hoàn thiện",
-      "content": "North Bayou F80 được hoàn thiện từ kim loại chắc chắn với thiết kế hiện đại phù hợp cho cả môi trường văn phòng lẫn góc gaming. Hệ thống quản lý dây cáp tích hợp giúp bàn làm việc trở nên gọn gàng và chuyên nghiệp hơn."
+      "title": "Tổng quan: North Bayou F80 là gì?",
+      "content": "North Bayou (thường in logo **NB**) là hãng Trung Quốc chuyên giá treo màn hình giá rẻ, và **F80** là mẫu arm một màn hình dùng lò xo khí nổi tiếng nhất của hãng. Arm gồm một trụ ngắn kẹp vào mép bàn, một tay dưới xoay ngang, và một tay trên có lò xo khí để nâng hạ; đầu arm là tấm VESA 75/100 để bắt vít vào lưng màn hình.\n\nLý do F80 được nhắc nhiều là giá: tại Việt Nam khoảng 360–400 nghìn đồng (Hoàng Hà Mobile, GearVN, 11/2026). North Bayou không công bố giá niêm yết chính thức; giá ở nước ngoài chênh nhau nhiều tùy nhà bán và thường có giảm giá. Với số tiền đó bạn có được thứ mà nhiều màn hình phổ thông không có: chỉnh chiều cao, xoay dọc và giải phóng mặt bàn.\n\nLưu ý về tên gọi: trên sàn thương mại điện tử Việt Nam, F80 hay bị gộp chung tiêu đề với các mã như EZ90, EMA7304 hay Warrior WA-MH0801. Zero Technology không xác minh được đây là cùng một sản phẩm — có thể là arm của hãng khác có hình dáng tương tự. Bài này chỉ nói về **NB F80 chính hãng**."
     },
     {
-      "title": "Khả năng điều chỉnh linh hoạt",
-      "content": "Điểm mạnh lớn nhất của F80 nằm ở cơ chế lò xo khí cho phép nâng hạ màn hình nhẹ nhàng. Người dùng có thể thay đổi chiều cao, góc nghiêng, xoay ngang hoặc xoay dọc chỉ trong vài giây."
+      "title": "Tải trọng: thông số quan trọng nhất (và đang bị ghi lệch)",
+      "content": "Arm lò xo khí chỉ hoạt động đúng khi màn hình nằm trong khoảng tải trọng: nặng quá thì màn hình tụt dần xuống, nhẹ quá thì arm bật ngược lên dù đã nới hết lực. Vấn đề là các nguồn ghi khác nhau:\n\n- **2–6,5 kg, 17–27 inch:** Zylax (Úc), Newegg Canada, Staples Canada.\n- **2–9 kg, 17–30 inch:** Woolworths (Úc), Umart, nhiều listing Amazon (Frontdeskreview trích 9 kg/19,8 lb), Thế Giới Di Động.\n- **Dưới 7 kg:** CellphoneS.\n\nZero Technology không chọn con số đẹp hơn. Cách an toàn là coi **6,5 kg là giới hạn thoải mái** và 9 kg là mức tối đa có thể. Thực tế, phản hồi người dùng cũng nghiêng về hướng này: một người mua trên eBay nói arm giữ tốt màn 24 inch, nhưng với Dell P2717H 27 inch thì chỉ cần va vào bàn là arm bắt đầu tụt — họ không đồng ý arm \"dành cho 27 inch\". Ngược lại, tác giả Limteam dùng F80 với màn 27 inch nhiều năm và thấy không rung. Khác biệt có thể đến từ cân nặng từng màn và việc chỉnh lực.\n\n**Mặt còn lại ít ai nhắc là tải tối thiểu 2 kg.** Ví dụ Xiaomi G24i nặng 3,0 kg **kể cả chân đế** (Xiaomi); tháo chân ra, phần màn hình còn nhẹ hơn khá nhiều. Hãy cân màn hình không chân đế (hoặc xem thông số \"weight without stand\" trên trang hãng) và chắc chắn nó nằm gọn trong khoảng tải của listing bạn mua. Nếu bạn định gắn thêm đèn treo màn hình như Sidohome SG301 hay webcam, cộng cả trọng lượng đó vào."
     },
     {
-      "title": "Lợi ích công thái học",
-      "content": "Việc đặt màn hình đúng tầm mắt giúp giảm áp lực lên cổ, vai và lưng khi làm việc trong thời gian dài. Đây là nâng cấp đáng giá cho những người ngồi máy tính nhiều giờ mỗi ngày."
+      "title": "Biên độ điều chỉnh và lợi ích công thái học thực tế",
+      "content": "Theo Zylax và Newegg Canada, F80 nâng hạ khoảng **250 mm**, nghiêng **+35° đến −50°**, xoay ngang khoảng 180° và xoay màn hình 360°; một số listing khác (và bài của Limteam) ghi nghiêng +85° đến −30° và nâng hạ 260 mm. Dù theo số nào, F80 cũng đủ cho ba việc người dùng hay cần nhất:\n\n- **Đưa mép trên màn hình về ngang tầm mắt** — điều mà chân đế chỉ nghiêng của ASUS TUF VG249QE5A hay Xiaomi G24i không làm được. Limteam cho rằng đây là thay đổi giúp họ đỡ đau cổ, lưng.\n- **Xoay dọc** cho lập trình, đọc tài liệu dài, xem log.\n- **Đẩy màn hình ra sau hoặc gập sang bên** khi cần mặt bàn trống để viết, vẽ hoặc dùng lót chuột lớn.\n\nGiới hạn cần biết: hành trình 250–260 mm là mức **thấp nhất trong 11 arm** mà Frontdeskreview so sánh. Với bàn ngồi thông thường thì đủ; nếu bạn cao và dùng bàn đứng, hoặc muốn đặt màn hình rất cao phía trên laptop, có thể thiếu. F80 cũng chỉ có một tay dưới ngắn chứ không phải tay hai khớp duỗi xa, nên đừng kỳ vọng kéo màn hình ra xa mép bàn như arm cao cấp. MyByWays (người dùng cả F80 lẫn H80) còn lưu ý tay dưới xoay quanh chân đế dễ quét đổ đồ đặt gần đó."
     },
     {
-      "title": "Khả năng tương thích",
-      "content": "Giá treo hỗ trợ hầu hết màn hình từ 17 đến 32 inch sử dụng chuẩn VESA phổ biến. Tuy nhiên người dùng cần kiểm tra tải trọng thực tế của màn hình trước khi mua."
+      "title": "Lắp đặt: kiểm tra bàn trước khi kiểm tra arm",
+      "content": "F80 có hai cách lắp: **kẹp mép bàn** (C-clamp) hoặc **xuyên qua lỗ luồn dây** (grommet). North Bayou không có trang thông số chính thức ghi rõ độ dày bàn tối đa; một nhà bán lẻ Mỹ ghi khoảng 3,1 inch (~79 mm), nhưng Zero Technology chưa xác minh được với tài liệu của hãng. Trước khi mua, hãy kiểm tra:\n\n- **Mép bàn đặc và đủ cứng.** Mặt bàn ván dăm mỏng, mặt kính hoặc bàn có viền rỗng không chịu được lực đòn bẩy của màn hình đặt xa chân đế. Nên đặt thêm tấm kim loại hoặc gỗ cứng dưới má kẹp để chia lực.\n- **Không có thanh ngang hay hộc kéo** ngay dưới vị trí kẹp.\n- **Khoảng trống phía sau.** Arm kẹp ở mép sau bàn; nếu bàn sát tường, tay arm cần chỗ để xoay. Nếu bạn định dùng thêm pegboard kẹp bàn, hai bộ kẹp sẽ tranh nhau mép bàn — xem mục so sánh bên dưới.\n\nSau khi bắt màn hình, bạn phải **chỉnh lực lò xo** bằng lục giác theo trọng lượng màn hình. Đây là bước người mới hay bỏ qua rồi kết luận arm \"bị tụt\" hoặc \"bị bật\". Theo Limteam, lắp đặt khá đơn giản, dù họ ghi nhận có người gặp khó; thời gian thường khoảng 15–30 phút."
+    },
+    {
+      "title": "So sánh: các bản F80, arm khác của North Bayou và sản phẩm trên Zero Technology",
+      "content": "**Trong họ North Bayou:**\n\n- **F80 / F80W** (bài này): cùng thông số, khác màu (đen/trắng; một số nơi có thêm màu xám, xanh, vàng, rêu).\n- **FP80**: bản có khay đỡ laptop thay cho tấm VESA — sản phẩm khác, đừng nhầm khi đặt hàng.\n- **H80**: dạng trụ đứng, chiều cao tay ngang gần như cố định; MyByWays dùng cả hai và thích H80 hơn vì hoàn thiện tốt, nhưng chỉnh lại trụ phải dùng dụng cụ.\n- **F100A**: tay hai khớp duỗi xa, cho màn 22–35 inch (Memory Express) — hợp màn to, nặng hơn F80.\n- **F160**: arm đôi cho hai màn 17–27 inch.\n\n**Với màn hình đã review trên Zero Technology:**\n\n- **ASUS TUF Gaming VG249QE5A**: VESA 100, nặng 3,3 kg kể cả chân đế (ASUS), chân chỉ nghiêng — cặp đôi hợp lý nhất với F80.\n- **Xiaomi G24i**: VESA 75, 3,0 kg kể cả chân đế (Xiaomi), chân chỉ nghiêng. Lắp được, nhưng cần kiểm tra trọng lượng màn không chân vẫn trên 2 kg.\n- **VSP IP2705F 27 inch**: VESA 100; trọng lượng chưa được nhà bán công bố rõ, nên cân trước khi mua arm.\n\n**Với phụ kiện cùng danh mục:** pegboard kẹp bàn và F80 cùng cần mép sau của bàn; hãy đo để chừa chỗ cho cả hai và nhớ tay dưới F80 quét một vòng phía sau. Đèn treo màn hình Sidohome SG301 gác lên màn hình nên di chuyển cùng arm — tiện, nhưng thêm chút tải lên lò xo."
+    },
+    {
+      "title": "Ai nên mua và ai không nên mua?",
+      "content": "**Nên mua nếu bạn:**\n- Dùng màn hình 22–27 inch có lỗ VESA 75/100, trọng lượng (không chân) nằm giữa khoảng 2–6,5 kg.\n- Đang dùng màn hình chân chỉ nghiêng (ASUS VG249QE5A, Xiaomi G24i…) và muốn chỉnh chiều cao, xoay dọc mà không đổi màn.\n- Bàn nhỏ, cần trống chỗ dưới màn hình cho bàn phím, lót chuột lớn hoặc sổ tay.\n- Có ngân sách dưới nửa triệu đồng.\n\n**Không nên mua nếu bạn:**\n- Dùng màn ultrawide 34 inch, màn cong lớn hoặc màn 27–32 inch nặng gần 7–9 kg — nên chọn arm tải cao hơn (VD NB F100A hoặc arm cao cấp).\n- Dùng màn rất nhẹ (màn di động, một số mẫu siêu mỏng) dưới 2 kg.\n- Bàn kính, ván dăm mỏng, mép bàn rỗng hoặc có thanh ngang ngay dưới.\n- Cần nâng màn hình rất cao (bàn đứng, người cao) hoặc kéo màn ra xa mép bàn.\n- Màn hình không có lỗ VESA (cần mua thêm adapter, có thể không chắc chắn)."
+    },
+    {
+      "title": "Nguồn thông tin của bài viết",
+      "content": "Zero Technology **chưa trực tiếp sử dụng** North Bayou F80. Bài viết tổng hợp và phân tích từ: listing của các nhà bán lẻ quốc tế Zylax, Umart, Woolworths (Úc), Newegg và Staples (Canada) — tải trọng, kích thước, góc nghiêng, hành trình nâng hạ; hướng dẫn sử dụng F80 trên Manuals+ (hai cách lắp); trang so sánh Frontdeskreview (dữ liệu từ Amazon, không thử trực tiếp); trải nghiệm người dùng lâu năm của Limteam và MyByWays; nhận xét người mua trên eBay; giá và bảo hành tại Hoàng Hà Mobile, GearVN, Thế Giới Di Động, CellphoneS, HACOM. Các nguồn ghi khác nhau về tải trọng (2–6,5 kg hay 2–9 kg), kích thước màn hình và góc nghiêng — bài đã nêu rõ và khuyên dùng mức thận trọng hơn. North Bayou không có trang sản phẩm quốc tế chính thức đầy đủ, nên ảnh trong bài lấy từ listing của nhà bán lẻ quốc tế (The Wires Zone, AHW Store). Cập nhật tháng 11/2026."
     },
     {
       "title": "Có nên mua North Bayou F80?",
-      "content": "Nếu bạn muốn tối ưu không gian làm việc, cải thiện tư thế ngồi và nâng cấp góc setup chuyên nghiệp hơn thì North Bayou F80 là một trong những phụ kiện đáng đầu tư nhất hiện nay."
+      "content": "Có — với điều kiện màn hình của bạn nằm gọn trong khoảng tải. F80 là cách rẻ nhất để biến một màn hình chân chỉ nghiêng thành setup chỉnh được chiều cao, xoay dọc và giải phóng mặt bàn; với màn 24 inch VESA 100 như ASUS VG249QE5A, đây gần như là nâng cấp đáng tiền nhất bạn có thể mua thêm. Điểm số 8,0 (thay vì trên 9 như trước) phản ánh đúng những giới hạn đã nêu: thông số tải trọng chưa thống nhất, màn 27 inch nặng có thể tụt khi va bàn, hành trình nâng hạ ngắn và hoàn thiện ở mức giá rẻ. Nếu màn hình của bạn nặng trên 6,5 kg, là ultrawide hoặc bàn không chắc, hãy chi thêm cho arm tải cao hơn thay vì cố dùng F80."
     }
   ],
   "faq": [
     {
-      "question": "North Bayou F80 hỗ trợ màn hình bao nhiêu inch?",
-      "answer": "Sản phẩm hỗ trợ đa số màn hình từ 17 đến 32 inch sử dụng chuẩn VESA 75x75mm hoặc 100x100mm."
+      "question": "North Bayou F80 chịu được màn hình nặng bao nhiêu?",
+      "answer": "Các nhà bán ghi khác nhau: 2–6,5 kg (Zylax, Newegg Canada) hoặc 2–9 kg (Woolworths, Thế Giới Di Động). An toàn nhất là coi 6,5 kg là giới hạn thoải mái, và cân màn hình không chân đế trước khi mua."
     },
     {
-      "question": "Có thể xoay màn hình dọc được không?",
-      "answer": "Có. Giá treo hỗ trợ xoay dọc 90 độ rất phù hợp cho lập trình viên, designer hoặc người đọc tài liệu."
+      "question": "F80 có dùng được cho màn hình 27 inch không?",
+      "answer": "Thường được nếu màn hình đủ nhẹ. Người dùng Limteam giữ màn 27 inch nhiều năm không rung, nhưng một người mua trên eBay thấy màn Dell P2717H 27 inch bị tụt khi va vào bàn. Màn 27 inch nặng hoặc màn cong lớn nên chọn arm tải cao hơn."
     },
     {
-      "question": "Lắp đặt có khó không?",
-      "answer": "Quá trình lắp đặt tương đối đơn giản nếu làm theo hướng dẫn. Tuy nhiên người mới có thể cần khoảng 15-30 phút để hoàn thành."
+      "question": "Màn hình quá nhẹ có lắp được không?",
+      "answer": "Cần cẩn thận: F80 có tải tối thiểu khoảng 2 kg. Màn quá nhẹ sẽ bị lò xo đẩy bật lên dù đã nới hết lực. Ví dụ Xiaomi G24i nặng 3,0 kg kể cả chân đế, nên hãy kiểm tra trọng lượng khi đã tháo chân."
+    },
+    {
+      "question": "Nên lắp F80 cho ASUS VG249QE5A hay Xiaomi G24i?",
+      "answer": "Cả hai đều có chân chỉ nghiêng nên hưởng lợi rõ từ F80. ASUS VG249QE5A dùng VESA 100 và nặng 3,3 kg kể cả chân đế — hợp nhất. Xiaomi G24i dùng VESA 75 và nhẹ hơn, cần kiểm tra không dưới mức tải tối thiểu."
+    },
+    {
+      "question": "Dùng chung F80 với pegboard kẹp bàn được không?",
+      "answer": "Được nếu mép sau bàn đủ dài cho hai bộ kẹp và bạn chừa chỗ cho tay dưới F80 xoay. Nên đặt arm ở một phía, pegboard ở phía còn lại và đo trước khi mua."
+    },
+    {
+      "question": "F80, F80W và FP80 khác nhau thế nào?",
+      "answer": "F80 và F80W là cùng một arm, khác màu (đen/trắng). FP80 là bản có khay đỡ laptop thay tấm VESA — không dùng để bắt màn hình."
     }
   ],
   "verdict": {
-    "summary": "Một trong những giá treo màn hình phổ biến và đáng mua nhất hiện nay nhờ khả năng điều chỉnh linh hoạt, độ bền cao và giá thành hợp lý.",
-    "recommendation": "Rất đáng mua cho dân văn phòng, lập trình viên và game thủ."
+    "summary": "Arm lò xo khí rẻ và linh hoạt, nâng cấp rõ rệt cho màn hình chân chỉ nghiêng — nhưng tải trọng ghi chưa thống nhất, màn 27 inch nặng dễ tụt và hành trình nâng hạ ngắn.",
+    "recommendation": "Đáng mua cho màn 22–27 inch VESA 75/100 nặng khoảng 2–6,5 kg khi không có chân; màn nặng, ultrawide hoặc bàn yếu nên chọn arm tải cao hơn."
   },
   "seo": {
-    "metaTitle": "Giá Treo Màn Hình North Bayou F80: Ưu, Nhược Điểm & Ai Nên Mua",
-    "metaDescription": "Đánh giá chi tiết giá treo màn hình North Bayou F80, giải pháp công thái học giúp tối ưu không gian làm việc và gaming với khả năng điều chỉnh linh hoạt.",
+    "metaTitle": "Giá Treo Màn Hình North Bayou F80: Có Đáng Mua?",
+    "metaDescription": "Đánh giá North Bayou F80: lò xo khí, VESA 75/100, tải 2–6,5 hoặc 2–9 kg tùy nguồn, kẹp hoặc xuyên bàn. Ưu nhược điểm, so sánh và ai nên mua.",
     "keywords": [
       "North Bayou F80",
+      "đánh giá giá treo North Bayou F80",
       "giá treo màn hình F80",
-      "review North Bayou F80",
-      "giá treo màn hình công thái học",
-      "giá treo màn hình gaming",
+      "NB F80 tải trọng",
+      "arm màn hình lò xo khí",
+      "giá treo màn hình giá rẻ",
       "tay đỡ màn hình F80"
     ]
   },
-  "productName": "Giá Treo Màn Hình North Bayou F80 EZ90 EMA7304 Warrior WA MH0801 Đen Trắng 17-32 Inch",
+  "productName": "Giá treo màn hình North Bayou NB-F80",
+  "contentType": "review",
+  "tags": ["north-bayou", "monitor-arm", "gas-spring", "vesa", "desk-setup", "budget"],
   "targetUsers": [
-    "Nhân viên văn phòng làm việc nhiều giờ trước màn hình.",
-    "Game thủ muốn tối ưu không gian bàn chơi game.",
-    "Lập trình viên sử dụng màn hình xoay dọc.",
-    "Designer và editor cần điều chỉnh góc nhìn linh hoạt.",
-    "Người làm việc tại nhà muốn xây dựng góc setup chuyên nghiệp."
+    "Người dùng màn hình 22–27 inch chân chỉ nghiêng muốn chỉnh chiều cao và xoay dọc.",
+    "Lập trình viên, người đọc tài liệu cần màn hình xoay dọc.",
+    "Người có bàn nhỏ muốn trống chỗ dưới màn hình.",
+    "Người có ngân sách dưới nửa triệu đồng cho nâng cấp công thái học."
   ],
   "buyReasons": [
-    "Cải thiện đáng kể công thái học khi làm việc.",
-    "Tăng không gian sử dụng trên mặt bàn.",
-    "Điều chỉnh màn hình dễ dàng theo từng nhu cầu.",
-    "Giúp setup làm việc và gaming chuyên nghiệp hơn.",
-    "Đầu tư lâu dài cho sức khỏe và hiệu suất làm việc."
+    "Giá khoảng 360–400 nghìn đồng.",
+    "Nâng hạ, nghiêng, xoay ngang, xoay dọc với lò xo khí.",
+    "VESA 75 và 100, kẹp hoặc xuyên bàn.",
+    "Đi dây gọn trong thân arm."
   ],
   "coverImage": "/images/products/north-bayou-f80-monitor-arm/cover.jpg"
 }

@@ -1,124 +1,154 @@
 {
   "title": "Edifier MR3: Affordable Bluetooth Studio Monitors for Your Desk",
-  "summary": "The Edifier MR3 are compact powered studio monitors with 3.5-inch woofers, silk-dome tweeters, 36 W total, a 52 Hz–40 kHz response, Hi-Res certification, Bluetooth 5.4 and TRS, RCA and AUX inputs. Here's who they suit and when the bigger MR5 makes more sense.",
-  "description": "## Who is it for?\n\n- Desk listeners upgrading from laptop or cheap PC speakers.\n- Beginners in music production, video editing or podcasting.\n- Small rooms and near-field listening.\n\n## Why consider it?\n\n- Flat 52 Hz–40 kHz response, Hi-Res certified (Edifier).\n- Balanced TRS, RCA, 3.5 mm AUX and Bluetooth 5.4.\n- Front headphone output and room tuning.",
+  "summary": "The Edifier MR3 is a pair of compact powered studio monitors with 3.5-inch woofers, silk-dome tweeters, 36 W total, a 52 Hz–40 kHz response, Hi-Res certification, Bluetooth 5.4 multipoint and TRS, RCA and AUX inputs. Independent measurements back up the neutral tuning but show limited bass and volume. Here's who it suits, and when the MR4, MR5 or a cheap 2.1 set makes more sense.",
+  "description": "## Who is it for?\n\n- Desk users upgrading from laptop or cheap PC speakers.\n- Beginners in music production, video editing or podcasting.\n- Small rooms and near-field listening, roughly arm's length away.\n\n## Why consider it?\n\n- Neutral tuning that independent reviewers (Erin's Audio Corner, KitGuru) describe as accurate for the price.\n- Balanced TRS, RCA, 3.5 mm AUX and Bluetooth 5.4 with two-device multipoint (Edifier).\n- Front headphone output, rear tone knobs and room compensation via the ConneX app.",
   "specs": [
-    { "label": "Type", "value": "Powered 2.0 near-field studio monitors" },
-    { "label": "Drivers", "value": "3.5-inch mid/bass + 1-inch silk-dome tweeter (Edifier)" },
-    { "label": "Power", "value": "18 W × 2 RMS, max SPL 92.5 dB @ 1 m (Edifier)" },
+    {
+      "label": "Type",
+      "value": "Powered 2.0 near-field studio monitors (one active, one passive speaker)"
+    },
+    {
+      "label": "Drivers",
+      "value": "3.5-inch mid/bass + 1-inch silk-dome tweeter in a waveguide (Edifier)"
+    },
+    { "label": "Power", "value": "18 W + 18 W RMS, bi-amped class-D (Edifier, B&H)" },
+    {
+      "label": "Max SPL",
+      "value": "92.5 dB @ 1 m (Edifier); Erin's Audio Corner puts usable maximum output nearer 86 dB"
+    },
     { "label": "Frequency response", "value": "52 Hz – 40 kHz (Edifier)" },
-    { "label": "Hi-Res", "value": "Hi-Res Audio certified, 24-bit/96 kHz" },
+    { "label": "Signal-to-noise ratio", "value": "≥ 85 dB(A) (Edifier)" },
+    { "label": "Hi-Res", "value": "Hi-Res Audio certified, 24-bit/96 kHz processing (Edifier)" },
     {
       "label": "Inputs",
-      "value": "Balanced ¼\" TRS, RCA, 3.5 mm AUX, Bluetooth; ⅛\" headphone out"
+      "value": "Balanced ¼\" TRS, RCA, 3.5 mm AUX, Bluetooth; ⅛\" headphone out on the front"
     },
-    { "label": "Bluetooth", "value": "5.4, SBC codec" },
+    { "label": "Bluetooth", "value": "5.4, SBC codec only, two devices at once (Edifier)" },
     {
       "label": "Tuning",
-      "value": "Rear high/low knobs (±6 dB) and room compensation via the ConneX app"
+      "value": "Rear high (±6 dB above 10 kHz) and low (±6 dB around 125 Hz) knobs; room compensation (Low Cutoff, Acoustic Space, Desktop Control) via knobs or ConneX app (Edifier)"
+    },
+    {
+      "label": "Not included",
+      "value": "Optical input, USB audio input, subwoofer output, XLR input, stands"
     },
     { "label": "Cabinet", "value": "MDF; black or white" },
-    { "label": "Size / weight", "value": "125.5 × 220 × 185 mm (active); 3.85 kg net (Edifier)" },
-    { "label": "List price", "value": "US$149.99 at Edifier's US store (Nov 2026)" },
-    { "label": "Warranty", "value": "Varies by region; check Edifier's site for your country" }
+    {
+      "label": "Size / weight",
+      "value": "125.5 × 220 × 185 mm (active speaker); 3.85 kg net for the pair (Edifier)"
+    },
+    {
+      "label": "Reference price",
+      "value": "Edifier lists US$149.99 on its US store (November 2026); often discounted"
+    },
+    { "label": "Warranty", "value": "Varies by region; check your local retailer" }
   ],
   "sections": [
     {
-      "title": "What are the Edifier MR3?",
-      "content": "The MR3 are Edifier's entry studio monitors: a powered 2.0 pair tuned for a flat, accurate response rather than the boosted bass of typical PC speakers. That makes them good for editing and mixing at a desk, and for listening if you like hearing recordings as they were made. Edifier lists them at US$149.99 on its US store."
+      "title": "What is the Edifier MR3?",
+      "content": "The MR3 is Edifier's entry-level studio monitor pair: a powered 2.0 set in which the left speaker holds the amplifier, inputs and controls and the right one is passive. Unlike typical PC speakers, which boost bass and treble to sound exciting in a shop, monitors aim for a flat response so a recording sounds the way it was mixed. That makes the MR3 useful for editing video, mixing a podcast or learning music production, and pleasant for anyone who prefers an honest sound.\n\nThe pitch is unusually broad for the price: Hi-Res certification, a front headphone jack, balanced TRS inputs and Bluetooth 5.4 in one box. Edifier lists the pair at US$149.99 on its US store (November 2026), and it is often discounted, so it's worth waiting for a sale."
     },
     {
-      "title": "Design and controls",
-      "content": "MDF cabinets reduce resonance, and the compact size fits either side of a monitor. Each speaker has a 3.5-inch mid/bass driver and a 1-inch silk-dome tweeter in a dimpled waveguide. The front panel has the volume knob and a headphone output; around the back, high and low knobs adjust treble above 10 kHz and bass around 125 Hz by ±6 dB, according to Edifier."
+      "title": "Design, controls and setup",
+      "content": "MDF cabinets are the norm at this price, and Edifier pairs them with a 3.5-inch mid/bass driver and a 1-inch silk-dome tweeter set in a shallow waveguide. Erin's Audio Corner credits that waveguide with keeping dispersion even across a reasonable listening angle — which matters at a desk, where your head moves and you rarely sit exactly on-axis.\n\nAt 220 mm tall and about 185 mm deep, each speaker fits either side of a 24–27-inch monitor, but check desk depth if you also use a keyboard tray or a monitor arm base. The front knob controls volume and the front 3.5 mm jack lets you switch to headphones without reaching behind the speaker, a small detail that matters daily. Around the back, high and low knobs adjust treble above 10 kHz and bass around 125 Hz by ±6 dB, and Edifier adds room-compensation presets (Low Cutoff, Acoustic Space, Desktop Control) available on the knobs or in the ConneX app.\n\nTwo practical notes from reviews: KitGuru points out that no stands are included, unlike some older Edifier pairs, and that the custom EQ in the app is fairly restrictive. Budget for cheap foam pads or desk stands — tilting the tweeters toward your ears makes a bigger difference than any EQ preset."
     },
     {
-      "title": "Sound: accurate, best up close",
-      "content": "Edifier rates 18 W RMS per side, a 92.5 dB maximum SPL at 1 m and a 52 Hz–40 kHz response. In practice that means clear mids and separated instruments, but limited deep bass from 3.5-inch woofers, and volume that suits a desk or small room rather than a living room. There is no subwoofer output. These are spec-based expectations; we have not measured the speakers ourselves."
+      "title": "Sound, bass and volume: the real trade-offs",
+      "content": "Edifier rates 18 W RMS per side, a 52 Hz–40 kHz response and a 92.5 dB maximum SPL at 1 m. Independent testing tells a more useful story. Erin's Audio Corner measured the MR3 and rated it highly for near-field desktop use, saying it outperforms similarly priced speakers including Edifier's own MR4 — but put its practical maximum output at roughly 86 dB, noticeably below Edifier's number. KitGuru (8/10) heard a relatively flat, balanced sound, and other reviews make the same point — deep, physical bass is simply not part of the package.\n\nIn practice this means clear voices, well-separated instruments and treble that isn't harsh, which is exactly what you want for dialogue editing or checking a mix. What you give up is the low end: a 3.5-inch woofer simply can't move enough air for the deep bass in electronic music or action films, and there is no subwoofer output to fix that later. Volume is ample at arm's length in a bedroom or home office but runs out in a living room or when you want to fill a space for a party.\n\nPlacement matters more than with bass-boosted speakers. Pushing the MR3 against a wall adds bass but muddies it; that is what the Desktop Control and Low Cutoff settings are for. KitGuru notes the flat tuning depends on placement, which is true of any monitor. Treat these as expectations built from published measurements — Zero Technology has not measured the speakers."
     },
     {
-      "title": "Connectivity",
-      "content": "Balanced TRS inputs suit audio interfaces and mixers; RCA and 3.5 mm AUX cover PCs, turntables and TVs with analog outputs. Bluetooth 5.4 uses SBC only, so use a cable for critical listening. There is no optical or USB input."
+      "title": "Connectivity and Bluetooth",
+      "content": "Balanced ¼-inch TRS inputs are the reason a beginner producer would choose the MR3 over a regular PC speaker: connected to an audio interface, they reject interference from long cable runs. RCA and 3.5 mm AUX cover PCs, turntables with a phono preamp and TVs with an analog output. Edifier's page confirms Bluetooth 5.4 with two devices connected at once, so a phone and a laptop can share the speakers without re-pairing.\n\nThe limits are just as important. Bluetooth is SBC only — no AAC, aptX or LDAC — so for critical listening use a cable. There is no optical input, no USB audio input, no XLR and no subwoofer output. Some US retailer listing titles mention an optical input; Edifier's own spec sheet does not list one, so trust the manufacturer. If your TV only has an optical output, you'll need a small DAC (digital-to-analog converter)."
     },
     {
-      "title": "MR3 or MR5?",
-      "content": "The MR5 are a bigger 3-way design with a 5-inch woofer, more power (Edifier lists 110 W RMS), deeper bass and an added XLR input, at a higher price. Pick the MR3 for a desk and small room; pick the MR5 for larger rooms, more bass or XLR."
+      "title": "MR3 vs MR4, MR5 and the Microlab M105",
+      "content": "The **MR4** (Edifier lists 21 W + 21 W, a 4-inch woofer and 60 Hz–20 kHz) has a slightly bigger woofer and a Monitor/Music mode switch, but Edifier's page doesn't mention Bluetooth, and Erin's Audio Corner found the newer MR3 performs better overall. Unless you find the MR4 much cheaper, the MR3 is the more complete package.\n\nThe **MR5** is a different class: a three-way design with a 5-inch woofer, 3.75-inch midrange and 1-inch tweeter, 110 W RMS, 46 Hz–40 kHz, 101 dB maximum SPL, an XLR input and — on Edifier's current global page — Bluetooth 6.0 with LDAC. It also weighs 10.38 kg for the pair versus 3.85 kg and is far deeper (280 mm), so it needs a large desk or stands. Pick the MR5 for a larger room, deeper bass or an XLR setup; pick the MR3 if the speakers live on a normal desk.\n\nOn this site, the **Microlab M105** (reviewed separately) is the budget alternative: a wired 2.1 set rated around 10 W with a small subwoofer, costing a fraction of the MR3. It will sound bassier out of the box for films and casual music, but it has no Bluetooth, no balanced inputs, no headphone jack and no accuracy to speak of. If you edit audio or video, the MR3 is worth the extra; if you only want more bass than a laptop for YouTube and games, the M105 is enough."
     },
     {
-      "title": "Who should buy them — and who shouldn't",
-      "content": "Buy them if you want accurate, compact monitors for desk listening or entry-level production. Skip them if you want room-filling volume, heavy bass for movies, an optical input for your TV, or high-quality Bluetooth codecs."
+      "title": "Who should buy it — and who shouldn't",
+      "content": "Buy it if you want accurate, compact monitors for desk listening, entry-level production, podcast editing or video work; if you switch between a phone and a computer (multipoint helps); or if you want a headphone jack within reach. It also suits listeners who find bass-heavy PC speakers tiring.\n\nSkip it if you want room-filling volume, heavy bass for EDM and movies (a 2.1 set or the MR5 fits better), an optical input for your TV, high-quality Bluetooth codecs, or a subwoofer output to expand later. And if your desk is shallow and pressed against a wall, plan on using the room-compensation settings — or expect boomy bass."
     },
     {
       "title": "Sources for this review",
-      "content": "Zero Technology has not used these speakers in person. This is a research roundup based on Edifier's global and US product pages and Edifier's US store listing, checked November 2026. Images are official Edifier product photos."
+      "content": "Zero Technology has not used the MR3 in person. This is a research roundup, updated November 2026, based on Edifier's global product pages for the MR3, MR4 and MR5, Edifier's US store listing, B&H's spec listing, and published reviews by Erin's Audio Corner (measurements) and KitGuru. Sound descriptions are attributed to those reviewers; where Edifier's rated maximum SPL differs from Erin's measured output, both are given. Images are official Edifier product photos."
+    },
+    {
+      "title": "Should you buy the Edifier MR3?",
+      "content": "For a desk, yes — the MR3 is one of the most complete budget monitor pairs available: independent measurements back up the neutral tuning, and you get balanced inputs, multipoint Bluetooth, a headphone jack and room tuning at a price Edifier lists at US$149.99 and that is often discounted. Accept that the bass and volume are limited by 3.5-inch woofers, that Bluetooth is SBC only and that there's no optical or sub output. If you need more of any of those, step up to the MR5 rather than trying to EQ the MR3 into something it isn't."
     }
   ],
   "pros": [
-    "Flat 52 Hz–40 kHz response for accurate sound (Edifier).",
-    "Balanced TRS, RCA, AUX and Bluetooth 5.4 inputs.",
-    "Front headphone output and rear tone controls.",
-    "Room compensation via the ConneX app.",
-    "MDF cabinets in black or white.",
-    "Strong value for Hi-Res certified monitors."
+    "Neutral, balanced tuning backed by independent measurements (Erin's Audio Corner) and reviews (KitGuru 8/10).",
+    "Balanced TRS, RCA, 3.5 mm AUX and Bluetooth 5.4 in one compact pair.",
+    "Bluetooth multipoint: two devices connected at once (Edifier).",
+    "Front headphone output and front volume knob for daily convenience.",
+    "Rear tone knobs plus room-compensation presets for desk or wall placement.",
+    "Strong value for Hi-Res-certified monitors at a US$149.99 list price (Edifier) that is often discounted."
   ],
   "cons": [
-    "3.5-inch woofers limit deep bass; no sub output.",
-    "36 W suits desks and small rooms only.",
-    "Bluetooth is SBC only.",
-    "No optical or USB input.",
-    "Accurate tuning may sound flat to bass lovers."
+    "3.5-inch woofers limit deep bass, and there's no subwoofer output to add one later.",
+    "Measured usable output (about 86 dB per Erin's Audio Corner) is lower than Edifier's 92.5 dB rating — desk and small rooms only.",
+    "Bluetooth is SBC only: no AAC, aptX or LDAC.",
+    "No optical, USB or XLR input; optical-only TVs need a DAC.",
+    "No stands included, and KitGuru found the app's custom EQ restrictive.",
+    "Neutral tuning can sound thin to listeners used to bass-boosted PC speakers."
   ],
   "buying_advice": "Great for desks and beginner producers",
   "faq": [
     {
       "question": "How are studio monitors different from PC speakers?",
-      "answer": "Monitors aim for a flat, accurate response; entertainment PC speakers usually boost bass and treble."
+      "answer": "Monitors aim for a flat, accurate response so recordings sound as mixed; entertainment PC speakers usually boost bass and treble to sound more exciting."
     },
     {
       "question": "MR3 or MR5?",
-      "answer": "MR3 for desks and small rooms; MR5 for bigger rooms, deeper bass and XLR input."
+      "answer": "MR3 for normal desks and small rooms. The MR5 is a much larger three-way design (110 W RMS, 5-inch woofer, XLR, LDAC on Edifier's current page) for bigger rooms and deeper bass, at a higher price and almost three times the weight."
+    },
+    {
+      "question": "MR3 or MR4?",
+      "answer": "The MR4 has a slightly larger 4-inch woofer, but Edifier's page doesn't list Bluetooth and Erin's Audio Corner found the newer MR3 performs better. Choose the MR4 only if it's clearly cheaper and you don't need Bluetooth."
     },
     {
       "question": "Can the MR3 connect to a TV?",
       "answer": "Yes, via RCA or 3.5 mm if the TV has an analog output, or Bluetooth. There's no optical input, so optical-only TVs need a DAC."
     },
     {
-      "question": "Does the Bluetooth support aptX or LDAC?",
-      "answer": "No, Edifier lists SBC only. Use a cable for the best quality."
+      "question": "Does the Bluetooth support aptX or LDAC, and can it pair two devices?",
+      "answer": "Edifier lists SBC only, so no aptX or LDAC — use a cable for the best quality. It does support two connected devices at once."
     },
-    { "question": "Can I add a subwoofer?", "answer": "There is no dedicated subwoofer output." },
     {
-      "question": "What warranty do they have?",
-      "answer": "It depends on the country; check Edifier's regional site or your retailer."
+      "question": "Edifier MR3 or Microlab M105?",
+      "answer": "The Microlab M105 is a much cheaper wired 2.1 set with a small subwoofer — bassier for movies and games but with no Bluetooth or balanced inputs. The MR3 is the better choice for accuracy, editing and flexible connections."
     }
   ],
-  "seo_title": "Edifier MR3 Review: Budget Bluetooth Studio Monitors",
-  "seo_description": "Edifier MR3: 36 W, 3.5-inch woofers, 52 Hz–40 kHz, Hi-Res, Bluetooth 5.4, TRS/RCA/AUX. Sourced specs, pros and cons, MR3 vs MR5 and who should buy.",
-  "verdict_summary": "Accurate, compact monitors with flexible inputs, a headphone jack and room tuning — excellent for desks and beginner producers, not for large rooms or bass lovers.",
+  "seo_title": "Edifier MR3 Review: Budget Bluetooth Studio Monitors Worth It?",
+  "seo_description": "Edifier MR3: 36 W, 3.5-inch woofers, 52 Hz–40 kHz, Bluetooth 5.4 multipoint, TRS/RCA/AUX. Measured limits, pros and cons, MR3 vs MR4/MR5 and who should buy.",
+  "verdict_summary": "Accurate, compact monitors with balanced inputs, multipoint Bluetooth, a headphone jack and room tuning — excellent for desks and beginner producers, but bass and volume are limited and Bluetooth is SBC only.",
   "extras": {
-    "productName": "Edifier MR3",
+    "productName": "Edifier MR3 studio monitors",
     "bestFor": [
       "Desk listening and near-field setups",
-      "Entry-level music production and editing",
-      "Upgrading from laptop speakers"
+      "Entry-level music production, podcast and video editing",
+      "Upgrading from laptop or bass-boosted PC speakers"
     ],
     "notFor": [
-      "Large living rooms",
+      "Large living rooms and loud parties",
       "Heavy-bass movie and EDM fans",
-      "TVs with optical output only"
+      "TVs with optical output only",
+      "Listeners who want LDAC/aptX Bluetooth"
     ],
     "alternatives": [
       {
         "name": "Edifier MR5",
-        "note": "Bigger 3-way model with more power, deeper bass and XLR input."
+        "note": "Bigger 3-way model with 110 W RMS, deeper bass, XLR and LDAC — needs a large desk or stands."
+      },
+      {
+        "name": "Edifier MR4",
+        "note": "Slightly larger woofer and Monitor/Music modes, but no Bluetooth listed; reviewers prefer the MR3."
       },
       {
         "name": "Microlab M105",
         "slug": "microlab-m105",
-        "note": "Much cheaper 2.1 set with a subwoofer, tuned for entertainment rather than accuracy."
-      },
-      {
-        "name": "PreSonus Eris 3.5",
-        "note": "A long-running entry studio monitor from a pro-audio brand."
+        "note": "Much cheaper wired 2.1 set with a subwoofer, tuned for entertainment rather than accuracy."
       }
     ],
     "sources": [
@@ -127,10 +157,26 @@
         "url": "https://www.edifier.com/global/p/studio-monitors/mr3"
       },
       {
-        "label": "Edifier US — MR3 product page",
-        "url": "https://www.edifier.com/us/p/studio-monitors/mr3"
+        "label": "Edifier Global — MR5 product page",
+        "url": "https://www.edifier.com/global/p/studio-monitors/mr5"
       },
-      { "label": "Edifier US store — MR3 listing", "url": "https://us.edifier.com/products/mr3" }
+      {
+        "label": "Edifier Global — MR4 product page",
+        "url": "https://www.edifier.com/global/p/studio-monitors/mr4"
+      },
+      { "label": "Edifier US store — MR3 listing", "url": "https://us.edifier.com/products/mr3" },
+      {
+        "label": "Erin's Audio Corner — Edifier MR3 measurements and review",
+        "url": "https://erinsaudiocorner.com/loudspeakers/edifier_mr3/"
+      },
+      {
+        "label": "KitGuru — Edifier MR3 review",
+        "url": "https://www.kitguru.net/peripherals/mat-mynett/edifier-mr3-studio-monitors-review/"
+      },
+      {
+        "label": "B&H — Edifier MR3 specifications",
+        "url": "https://www.bhphotovideo.com/c/product/1889563-REG/edifier_mr3_black_mr3_powered_studio_monitor.html"
+      }
     ]
   }
 }

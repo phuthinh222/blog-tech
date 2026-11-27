@@ -1,133 +1,169 @@
 {
-  "title": "North Bayou F80: A Budget Gas-Spring Monitor Arm — Check the Weight Limit",
-  "summary": "The North Bayou (NB) F80 is one of the best-known budget gas-spring monitor arms: VESA 75/100, tilt, swivel and rotation, desk clamp or grommet mount. Its weight and screen-size limits matter more than anything else — here's what listings say.",
-  "description": "## Who is it for?\n\n- Anyone whose monitor stand is tilt-only.\n- Programmers who want portrait mode.\n- Small desks that need the space under the screen.\n\n## Why consider it?\n\n- Gas-spring height adjustment, tilt, swivel and 360° rotation.\n- VESA 75 × 75 / 100 × 100.\n- Clamp or grommet mounting, internal cable routing.",
+  "title": "North Bayou F80: Is This Budget Gas-Spring Monitor Arm Worth It?",
+  "summary": "The North Bayou (NB) F80 is the best-known budget gas-spring monitor arm: VESA 75/100, height, tilt, swivel and portrait rotation, desk clamp or grommet mount. The catch is the load rating — retailers list anything from 2–6.5 kg to 2–9 kg — and monitors that are too light don't work either. Here's how to tell whether yours fits.",
+  "description": "## Who is it for?\n\n- Owners of tilt-only monitors (ASUS TUF VG249QE5A, Xiaomi G24i and similar) who want height adjustment and portrait mode.\n- 22–27-inch VESA 75/100 monitors weighing roughly 2–6.5 kg without the stand.\n- Small desks that need the space under the screen.\n\n## Why consider it?\n\n- Gas-spring height adjustment, tilt, swivel and 360° rotation for a very low price.\n- Clamp or grommet mounting, with cables routed inside the arm.\n- Sold worldwide in black and white, so it's easy to find and return.",
   "specs": [
+    { "label": "Type", "value": "Single-monitor gas-spring arm, desk mounted" },
     {
-      "label": "Type",
-      "value": "Single gas-spring monitor arm"
+      "label": "Model",
+      "value": "NB-F80 (black), F80W (white); some retailers sell extra colors"
     },
     {
       "label": "Screen size",
-      "value": "17–27 inch (AU retailer listing); some listings say up to 30 or 32 inch"
+      "value": "17–27 in (Zylax, Newegg Canada, Staples Canada); 17–30 in (Umart, many Amazon listings); some listings say up to 32 in — inconsistent"
     },
     {
       "label": "Load capacity",
-      "value": "2–6.5 kg (AU retailer listing); other listings up to 9 kg — check your version"
+      "value": "2–6.5 kg / 4.4–14.3 lb (Zylax, Newegg Canada); 2–9 kg / 4.4–19.8 lb (Woolworths, Amazon listings via Frontdeskreview) — check your listing"
     },
+    { "label": "VESA", "value": "75 × 75 and 100 × 100 mm" },
     {
-      "label": "VESA",
-      "value": "75 × 75 / 100 × 100 mm"
+      "label": "Tilt",
+      "value": "+35° to −50° (Zylax, Newegg Canada) or +85° to −30° (other listings) — sources differ"
     },
-    {
-      "label": "Tilt / swivel / rotation",
-      "value": "+35° to −50° / 180° / 360°"
-    },
+    { "label": "Swivel / rotation", "value": "About 180° / 360°" },
     {
       "label": "Height travel",
-      "value": "About 250 mm"
+      "value": "About 250 mm (Zylax) or 260 mm (Woolworths, Frontdeskreview)"
     },
     {
       "label": "Mounting",
-      "value": "Desk clamp or grommet"
+      "value": "C-clamp or grommet; maximum desk thickness not clearly published by North Bayou (one US retailer lists about 3.1 in / 79 mm)"
+    },
+    { "label": "Material", "value": "Aluminium alloy with plastic covers; internal cable routing" },
+    {
+      "label": "Gas spring durability",
+      "value": "20,000 motion cycles, according to retailer listings (not independently verified)"
     },
     {
-      "label": "Material",
-      "value": "Aluminium alloy with plastic covers"
+      "label": "Not included",
+      "value": "USB ports, laptop tray (that's the separate FP80), premium quick-release VESA plate, long double-jointed reach"
     },
     {
-      "label": "Cable management",
-      "value": "Cables route inside the arm"
+      "label": "Warranty",
+      "value": "Varies by region; check your local retailer (Zylax lists 1 year)"
+    },
+    {
+      "label": "Reference price",
+      "value": "North Bayou publishes no official MSRP; it is a budget arm, retailer prices vary widely by region and it is often discounted (November 2026)"
     }
   ],
   "sections": [
     {
       "title": "What is the North Bayou F80?",
-      "content": "North Bayou (often branded NB) is a Chinese maker of affordable monitor mounts, and the F80 is its best-known single gas-spring arm. It's sold by retailers worldwide, but specs vary between listings — and in some markets similar-looking arms from other brands are sold alongside or under the same listing. Make sure the product is the genuine NB F80."
+      "content": "North Bayou — usually branded **NB** — is a Chinese maker of low-cost monitor mounts, and the **F80** is its best-known single gas-spring arm. It's simple: a short post clamps to the back edge of the desk, a lower arm swivels around it, and an upper arm with a gas spring raises and lowers the screen. The end of the arm carries a VESA 75/100 plate that screws into the back of the monitor.\n\nThe F80's appeal is price. North Bayou doesn't publish an official list price, retail prices vary a lot from one seller and region to the next, and it is often discounted — but it consistently sits at the bottom of the gas-spring arm market. For that money you get what many budget monitors don't offer: height adjustment, portrait rotation and the desk space under the screen back.\n\nOne naming caution: marketplace listings in some regions lump the F80 into titles alongside other model codes. Zero Technology couldn't confirm those are the same product, and lookalike arms from other brands are common. This review covers the genuine **NB F80**."
     },
     {
-      "title": "Check the weight and size limits first",
-      "content": "A gas-spring arm only works properly within its weight range: too heavy and the monitor sags, too light and it springs up. An Australian retailer lists the F80 at 17–27 inches and 2–6.5 kg, while other listings quote larger screens (up to 30 or 32 inches) and up to 9 kg. Weigh your monitor without its stand and compare it with the exact listing you're buying from. Most 24–27-inch monitors weigh 3–6 kg without a stand."
+      "title": "Load capacity: the spec that matters most (and that sellers disagree on)",
+      "content": "A gas-spring arm only works inside its weight range. Too heavy and the monitor slowly sinks; too light and the arm pushes it back up even with the tension fully backed off. Retailers don't agree on the F80's range:\n\n- **2–6.5 kg, 17–27 in:** Zylax (Australia), Newegg Canada, Staples Canada.\n- **2–9 kg, 17–30 in:** Woolworths (Australia), Umart, and Amazon listings quoted by Frontdeskreview (9 kg / 19.8 lb).\n\nWe're not going to pick the nicer number. The sensible reading is that **6.5 kg is the comfortable limit** and 9 kg is a best case. Owner feedback points the same way: one eBay buyer says the arm handles a 24-inch monitor well, but with a Dell P2717H 27-inch \"any bump on the desk\" starts it sinking, and they disagree that it's really a 27-inch arm. On the other hand, the long-term owner behind Limteam's review runs a 27-inch monitor on an F80 \"without any wobble or flex.\" The difference is likely the individual monitor's weight and how carefully the tension was set.\n\nThe other end of the range gets less attention: **the roughly 2 kg minimum**. The Xiaomi G24i, for example, weighs 3.0 kg *including* its base (Xiaomi), so the panel alone is noticeably lighter. Weigh your monitor without its stand — or look for the \"weight without stand\" figure on the manufacturer's spec page — and make sure it sits comfortably inside the range on the listing you buy from. If you'll add a monitor light bar or webcam on top, count that weight too."
     },
     {
-      "title": "Adjustment and ergonomics",
-      "content": "The arm offers about 250 mm of height travel, +35° to −50° tilt, 180° swivel and 360° rotation, so you can switch to portrait for coding or reading. Raising the screen to eye level helps neck posture, and freeing the space under the monitor gives you more desk room. It's especially useful if your monitor's stand is tilt-only, like the ASUS VG249QE5A or Xiaomi G24i."
+      "title": "Adjustment range and real ergonomic benefit",
+      "content": "Zylax and Newegg Canada list about **250 mm** of height travel, **+35° to −50°** tilt, roughly 180° swivel and 360° rotation; other listings and Limteam quote +85° to −30° tilt and 260 mm. Either way, the F80 covers the three adjustments most people actually need:\n\n- **Raising the top of the screen to eye level** — something the tilt-only stands on the ASUS TUF VG249QE5A and Xiaomi G24i can't do. Limteam's author credits the arm with easing their neck and back pain.\n- **Portrait mode** for code, long documents and logs.\n- **Pushing the screen back or swinging it aside** when you need a clear desk for writing, drawing or a big mouse pad.\n\nKnow the limits, though. Frontdeskreview ranks its 10-inch height adjustment as the **lowest of the 11 arms** it compared. That's fine at a normal sitting desk, but tall users at a standing desk, or anyone stacking a monitor above a laptop, may run out of travel. The F80 also has one short lower arm rather than a long double-jointed reach, so it won't pull a monitor far forward from the desk edge the way premium arms do. MyByWays, who owns both the F80 and North Bayou's H80, adds that the F80's swivelling lower half can sweep items off the desk, and there's nowhere to store the Allen key."
     },
     {
-      "title": "Installation",
-      "content": "The F80 clamps to the desk edge or mounts through a grommet hole. Check that your desk edge is solid and not too thick, and that there's no crossbar under the edge. You'll need to tune the gas-spring tension to your monitor's weight after mounting. Thin glass or particleboard desks may not hold the clamp well."
+      "title": "Installation: check your desk before you check the arm",
+      "content": "The F80 mounts with a **C-clamp** on the desk edge or **through a grommet hole**, both confirmed in the F80 manual on Manuals+. North Bayou doesn't publish a clear maximum desk thickness for this model; one US retailer lists about 3.1 inches (79 mm), which we couldn't verify against manufacturer documentation. Before buying, check:\n\n- **A solid, rigid edge.** Thin particleboard, glass tops and hollow-core desks don't cope well with the leverage of a monitor held out from the post. A steel or hardwood plate under the clamp spreads the load.\n- **No crossbar or drawer** directly under the clamp position.\n- **Room behind the desk.** The arm clamps at the back edge; if your desk is against a wall, the arm still needs space to swing. If you also want a clamp-on pegboard, the two clamps will compete for that edge — see the comparison below.\n\nOnce the monitor is attached, you must **adjust the spring tension** with the Allen key to match the monitor's weight. Skipping this is why many first-time users conclude the arm \"sinks\" or \"springs up.\" Limteam found the install relatively straightforward while noting that some users struggle; budget 15–30 minutes."
+    },
+    {
+      "title": "F80 variants, other North Bayou arms and how it fits with other gear on this site",
+      "content": "**Within North Bayou's range:**\n\n- **F80 / F80W** (this review): the same arm in black or white.\n- **FP80:** a laptop-tray version instead of a VESA plate — a different product, so read the listing carefully.\n- **H80:** a pole-style mount with a mostly fixed arm height. MyByWays owns both and prefers the H80's finish, though moving it along the pole needs tools.\n- **F100A:** a double-extension arm for 22–35-inch screens (Memory Express) — the step up for larger, heavier monitors.\n- **F160:** a dual-monitor arm for two 17–27-inch screens.\n\n**With monitors reviewed on Zero Technology:**\n\n- **ASUS TUF Gaming VG249QE5A:** VESA 100, 3.3 kg with stand (ASUS), tilt-only stand — the most natural F80 pairing.\n- **Xiaomi G24i:** VESA 75, 3.0 kg with base (Xiaomi), tilt-only. It mounts, but confirm the bare panel stays above the ~2 kg minimum.\n- **VSP IP2705F (27-inch):** VESA 100, but retailers don't clearly publish its weight, so weigh it before buying an arm.\n\n**With other desk-setup gear:** a clamp-on desk pegboard and the F80 both want the back edge of the desk, so measure for both and remember the F80's lower arm sweeps behind the monitor. A monitor light bar such as the Sidohome SG301 rides on top of the screen and moves with the arm — convenient, but it adds a little load to the spring."
     },
     {
       "title": "Who should buy it — and who shouldn't",
-      "content": "Buy it if your monitor is within the listed weight range and you want height, swivel and portrait adjustment cheaply. Skip it for heavy or large ultrawide monitors, thin or fragile desks, or if you want a premium arm with a longer warranty (Ergotron, Amazon Basics' Ergotron-made arm)."
+      "content": "**Buy it if you:**\n- Have a 22–27-inch VESA 75/100 monitor weighing roughly 2–6.5 kg without its stand.\n- Use a tilt-only stand (ASUS VG249QE5A, Xiaomi G24i and similar) and want height and portrait adjustment without replacing the monitor.\n- Have a small desk and want the space under the screen for a keyboard, a large mouse pad or a notebook.\n- Want the cheapest credible gas-spring arm.\n\n**Skip it if you:**\n- Use a 34-inch ultrawide, a large curved monitor or a heavy 27–32-inch screen near 7–9 kg — get a higher-capacity arm such as NB's F100A or a premium arm.\n- Use a very light monitor (portable displays, some ultra-slim models) under about 2 kg.\n- Have a glass, thin particleboard or hollow desk, or a crossbar right under the edge.\n- Need a lot of height (standing desk, tall user) or long forward reach.\n- Have a monitor without VESA holes — adapters exist but add wobble."
     },
     {
       "title": "Sources for this review",
-      "content": "Zero Technology has not used this arm in person. This is a research roundup based on international retailer listings and the product manual, checked November 2026. Because listings disagree on screen size and load capacity, we quote the more conservative figures. North Bayou has no official website, so product images come from international retailer listings (The Wires Zone, AHW Store)."
+      "content": "Zero Technology has **not used** the North Bayou F80 in person. This review is compiled from: international retailer listings at Zylax, Umart and Woolworths (Australia) and Newegg and Staples (Canada) for load, screen size, tilt and height travel; the F80 manual on Manuals+ (mounting options); Frontdeskreview's spec comparison (sourced from Amazon data, not a hands-on test); long-term owner write-ups by Limteam and MyByWays; and buyer feedback on eBay. Sources disagree on load capacity (2–6.5 kg vs 2–9 kg), screen size and tilt range — we've flagged each and recommend the more conservative figures. North Bayou has no complete official international product page, so the photos come from international retailer listings (The Wires Zone, AHW Store). Updated November 2026."
+    },
+    {
+      "title": "Should you buy the North Bayou F80?",
+      "content": "Yes — provided your monitor sits comfortably inside the load range. The F80 is the cheapest way to turn a tilt-only monitor into a setup with height adjustment, portrait mode and a clear desk, and on a 24-inch VESA 100 monitor like the ASUS VG249QE5A it's about the most worthwhile upgrade you can bolt on. Our 8.0 score (down from the 9+ this page previously carried) reflects the real limits: inconsistent load ratings, heavier 27-inch monitors that can sink when the desk is bumped, short height travel and budget-level finish. If your monitor weighs more than about 6.5 kg, is an ultrawide, or your desk is weak, spend more on a higher-capacity arm rather than pushing the F80."
     }
   ],
   "pros": [
-    "Gas-spring height adjustment, tilt, swivel and portrait rotation.",
-    "Frees up desk space under the monitor.",
-    "VESA 75 and 100 compatible.",
-    "Clamp or grommet mounting.",
-    "Internal cable routing.",
-    "Low price for a gas-spring arm."
+    "Very low price for a gas-spring arm — far cheaper than buying a monitor with a height-adjustable stand.",
+    "Turns tilt-only stands (ASUS VG249QE5A, Xiaomi G24i) into height, swivel and portrait adjustment.",
+    "Supports both VESA 75 and 100, covering most mainstream 24–27-inch monitors.",
+    "Clamp or grommet mounting, with cables routed inside the arm.",
+    "Sold worldwide in black and white, so it's easy to buy and return.",
+    "A long-term owner (Limteam) reports a 27-inch monitor held without wobble and no noticeable gas-spring wear after years."
   ],
   "cons": [
-    "Listings disagree on load capacity and screen size.",
-    "Monitor must sit inside the weight range or it sags/springs up.",
-    "Not suitable for thin, glass or weak desks.",
-    "Tension adjustment takes some trial and error.",
-    "Lookalike arms from other brands are common."
+    "Retailers disagree on load capacity (2–6.5 kg vs 2–9 kg), screen size and tilt range.",
+    "There's a minimum load of about 2 kg — very light monitors can spring back up.",
+    "One eBay buyer reports a Dell P2717H 27-inch sinking whenever the desk is bumped.",
+    "Height travel of 250–260 mm ranks lowest of the 11 arms Frontdeskreview compared.",
+    "The swivelling lower arm can knock things over, and there's no Allen-key holder (MyByWays).",
+    "Maximum desk thickness isn't clearly published, and the bright yellow logo is conspicuous (Limteam)."
   ],
-  "buying_advice": "Great value — check your monitor's weight",
+  "buying_advice": "Great value if your monitor's weight fits the range",
   "faq": [
     {
-      "question": "What monitor sizes does the F80 support?",
-      "answer": "An Australian retailer lists 17–27 inches; other listings go up to 30–32 inches. Weight matters more than size — check the load range."
+      "question": "How much weight can the North Bayou F80 hold?",
+      "answer": "Listings differ: 2–6.5 kg (Zylax, Newegg Canada) or 2–9 kg (Woolworths, Amazon listings). Treat 6.5 kg as the comfortable limit and weigh your monitor without its stand before buying."
     },
     {
-      "question": "How much weight can it hold?",
-      "answer": "Listings range from 2–6.5 kg to 2–9 kg. Use the figure on the listing you buy from and weigh your monitor without its stand."
+      "question": "Will it hold a 27-inch monitor?",
+      "answer": "Usually, if the monitor is light enough. Limteam's author runs a 27-inch without wobble, but an eBay buyer found a Dell P2717H 27-inch sinking when the desk was bumped. Heavy 27-inch or large curved monitors deserve a higher-capacity arm."
     },
     {
-      "question": "Can I rotate my monitor to portrait?",
-      "answer": "Yes, the arm rotates 360°."
+      "question": "Can a monitor be too light for it?",
+      "answer": "Yes. The minimum is about 2 kg, below which the spring pushes the screen up even at the lowest tension. The Xiaomi G24i, for example, is 3.0 kg with its base, so check the bare panel weight."
     },
     {
-      "question": "Does my monitor need VESA holes?",
-      "answer": "Yes, 75 × 75 or 100 × 100 mm. Monitors without VESA need an adapter."
+      "question": "Is it a good match for the ASUS VG249QE5A or Xiaomi G24i?",
+      "answer": "Both have tilt-only stands and benefit a lot. The ASUS (VESA 100, 3.3 kg with stand) is the most natural fit; the Xiaomi (VESA 75, lighter) works too, but confirm it isn't under the minimum load."
     },
     {
-      "question": "Is installation difficult?",
-      "answer": "Usually 15–30 minutes: mount the clamp, attach the monitor, then adjust the spring tension."
+      "question": "Can I use it alongside a clamp-on desk pegboard?",
+      "answer": "Yes, if the back edge of your desk has room for both clamps and the F80's lower arm can swing freely. Put the arm on one side and the pegboard on the other, and measure first."
+    },
+    {
+      "question": "What's the difference between the F80, F80W and FP80?",
+      "answer": "The F80 and F80W are the same arm in black and white. The FP80 has a laptop tray instead of a VESA plate and isn't meant for monitors."
     }
   ],
-  "seo_title": "North Bayou F80 Monitor Arm Review: Worth It on a Budget?",
-  "seo_description": "North Bayou F80 gas-spring monitor arm: VESA 75/100, tilt, swivel, 360° rotation, clamp or grommet. Load limits, pros and cons, and who should buy it.",
-  "verdict_summary": "A cheap, flexible gas-spring arm that transforms tilt-only monitor stands — as long as your monitor's weight is within the range on your listing.",
+  "seo_title": "North Bayou F80 Review: Weight Limit, Pros & Cons — Worth It?",
+  "seo_description": "North Bayou F80 gas-spring arm: VESA 75/100, 2–6.5 or 2–9 kg depending on the listing, clamp or grommet. Pros, cons, variants and who should buy it.",
+  "verdict_summary": "A cheap, flexible gas-spring arm that transforms tilt-only monitors — but load ratings are inconsistent, heavier 27-inch screens can sink and height travel is short.",
   "extras": {
     "productName": "North Bayou F80 monitor arm",
+    "regionalNote": "Sold as NB-F80 (black) and F80W (white). Load and screen-size ratings differ between regional listings (2–6.5 kg vs 2–9 kg), so use the figure on the listing you buy from. Don't confuse it with the FP80 laptop-tray version or lookalike arms from other brands.",
     "bestFor": [
-      "Monitors with tilt-only stands",
+      "Tilt-only 22–27-inch monitors with VESA 75/100",
       "Portrait mode for coding and reading",
-      "Small desks"
+      "Small desks on a tight budget"
     ],
     "notFor": [
-      "Heavy or large ultrawide monitors",
-      "Thin, glass or weak desks",
-      "Buyers who want a premium warranty"
+      "Ultrawides and heavy monitors near 7–9 kg",
+      "Monitors lighter than about 2 kg",
+      "Glass, thin or hollow desks",
+      "Standing-desk users who need a lot of height"
     ],
     "alternatives": [
       {
+        "name": "North Bayou F100A",
+        "note": "Double-extension NB arm for 22–35-inch screens — the step up for bigger, heavier monitors."
+      },
+      {
+        "name": "North Bayou H80",
+        "note": "Pole-style NB mount with a better finish according to MyByWays, but arm height changes need tools."
+      },
+      {
         "name": "Amazon Basics Premium Single Monitor Arm",
-        "note": "Made by Ergotron; pricier but with a sturdier build and longer warranty."
+        "note": "Made by Ergotron; pricier, with a sturdier build and longer reach."
       },
       {
         "name": "Clamp-on desk pegboard",
         "slug": "clamp-on-desk-pegboard",
-        "note": "Another way to tidy your desk — check it doesn't clash with the arm's clamp."
+        "note": "Complements the arm for desk tidying — make sure both clamps fit on the back edge."
+      },
+      {
+        "name": "Sidohome SG301 monitor light",
+        "slug": "sidohome-sg301-monitor-light",
+        "note": "A light bar that rides on the monitor and moves with the arm; adds a little load."
       }
     ],
     "sources": [
@@ -136,8 +172,44 @@
         "url": "https://zylax.com.au/north-bayou-f80-lcd-led-monitor-holder-mount-arm-full-motion-display-stand-fo"
       },
       {
+        "label": "Umart (Australia) — North Bayou F80 listing",
+        "url": "https://www.umart.com.au/product/north-bayou-f80-monitor-desk-mount-stand-full-motion-swivel-monitor-arm-gas-spring-for-17-30-73430"
+      },
+      {
+        "label": "Woolworths (Australia) — North Bayou F80 2–9 kg listing",
+        "url": "https://www.woolworths.com.au/shop/productdetails/1127955697"
+      },
+      {
+        "label": "Newegg Canada — North Bayou F80 listing",
+        "url": "https://www.newegg.ca/north-bayou-f80-monitor-arm-black/p/15Z-0121-00050"
+      },
+      {
+        "label": "Staples Canada — North Bayou F80 listing",
+        "url": "https://www.staples.ca/products/2967185-en-north-bayou-17-27-gas-strut-monitor-desktop-mount-f80"
+      },
+      {
         "label": "Manuals+ — North Bayou F80 manual",
         "url": "https://manuals.plus/asin/B01AI2YGK4.pdf"
+      },
+      {
+        "label": "Frontdeskreview — North Bayou F80 spec comparison",
+        "url": "https://frontdeskreview.com/product/monitor-arms/north-bayou-f80/"
+      },
+      {
+        "label": "Limteam — NB North Bayou F80 long-term user review",
+        "url": "https://limteam.net/nb-north-bayou-f80-monitor-mount-review-a-long-term-users-perspective/"
+      },
+      {
+        "label": "MyByWays — North Bayou H80 review (with F80 comparison)",
+        "url": "https://mail.mybyways.com/blog/north-bayou-h80-monitor-mount-review"
+      },
+      {
+        "label": "eBay — North Bayou F80 listing and buyer reviews",
+        "url": "https://www.ebay.com/itm/325115707438"
+      },
+      {
+        "label": "Memory Express — North Bayou NB-F100A listing",
+        "url": "https://www.memoryexpress.com/Products/MX00113123"
       }
     ]
   }

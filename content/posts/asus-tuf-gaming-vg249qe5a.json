@@ -1,128 +1,190 @@
 {
   "slug": "asus-tuf-gaming-vg249qe5a",
-  "title": "ASUS TUF VG249QE5A: Màn Hình 146Hz Dành Cho Game Thủ FPS",
-  "excerpt": "Asus TUF Gaming VG249QE5A là màn hình gaming 24 inch sử dụng tấm nền IPS, tần số quét 146Hz và độ phủ màu 125% sRGB. Đây là lựa chọn hấp dẫn cho game thủ cần tốc độ cao cùng chất lượng hiển thị tốt trong phân khúc phổ thông.",
+  "title": "ASUS TUF VG249QE5A: Màn Hình IPS 146Hz Có Loa Cho Game Thủ Esports Phổ Thông",
+  "excerpt": "ASUS TUF Gaming VG249QE5A là màn hình 23,8 inch IPS Full HD được ASUS công bố 146Hz, 1ms MPRT, 125% sRGB, có ELMB Sync, loa 2W x2 và jack tai nghe. Không phải màn hình nhanh nhất tầm giá — Xiaomi G24i có 180Hz — và chân đế chỉ ngả được. Bài này giải thích thông số nghĩa là gì khi dùng thật và ai nên mua.",
   "category": "pc-laptop",
   "author": "Zero Technology",
-  "publishedAt": "2026-06-16",
+  "publishedAt": "2026-11-16",
+  "reviewMethod": "compiled",
   "coverImage": "/images/products/asus-tuf-gaming-vg249qe5a/cover.jpg",
   "images": ["/images/products/asus-tuf-gaming-vg249qe5a/key-visual.jpg"],
   "rating": {
-    "overall": 9,
-    "design": 8.8,
-    "performance": 9.3,
-    "battery": 8.7,
-    "value": 8.9
+    "overall": 8,
+    "design": 7.6,
+    "performance": 8,
+    "battery": 8.4,
+    "value": 8.2
   },
   "specs": [
     {
-      "label": "Kích thước",
-      "value": "24 inch"
-    },
-    {
-      "label": "Độ phân giải",
-      "value": "1920 x 1080 (Full HD)"
-    },
-    {
       "label": "Tấm nền",
-      "value": "IPS"
+      "value": "IPS 23,8 inch, 1920 x 1080, chống chói, pixel pitch 0,2745 mm (ASUS)"
     },
     {
       "label": "Tần số quét",
-      "value": "146Hz"
+      "value": "Tối đa 146Hz (ASUS ghi là ép xung trên 144Hz); dải 48–146Hz trên cả DisplayPort và HDMI (ASUS)"
+    },
+    {
+      "label": "Thời gian phản hồi",
+      "value": "1ms MPRT — chỉ số nhoè chuyển động, không phải GtG (ASUS)"
+    },
+    {
+      "label": "Độ sáng / tương phản",
+      "value": "300 cd/m², 1500:1 điển hình (ASUS)"
     },
     {
       "label": "Độ phủ màu",
-      "value": "125% sRGB"
+      "value": "125% sRGB, 90% DCI-P3 (ASUS)"
+    },
+    {
+      "label": "HDR",
+      "value": "Trang thông số ASUS không ghi chứng nhận HDR"
+    },
+    {
+      "label": "Tính năng gaming",
+      "value": "Adaptive-Sync, ELMB / ELMB Sync, Shadow Boost, GamePlus, Dynamic Crosshair (ASUS)"
+    },
+    {
+      "label": "Cổng kết nối",
+      "value": "1 x DisplayPort 1.2, 1 x HDMI 2.0, jack tai nghe (ASUS); không có USB-C, không có hub USB"
     },
     {
       "label": "Loa",
-      "value": "Loa tích hợp"
+      "value": "2W x 2 (ASUS)"
+    },
+    {
+      "label": "Chân đế",
+      "value": "Chỉ ngả +23° đến −5°; không nâng hạ, xoay ngang hay xoay dọc (ASUS)"
+    },
+    {
+      "label": "VESA",
+      "value": "100 x 100 mm (ASUS)"
+    },
+    {
+      "label": "Nguồn",
+      "value": "Nguồn tích hợp trong máy, tiêu thụ điển hình 15W (ASUS)"
+    },
+    {
+      "label": "Trọng lượng",
+      "value": "3,3 kg kèm chân đế, 2,7 kg không chân (ASUS)"
+    },
+    {
+      "label": "Trong hộp",
+      "value": "Cáp HDMI, dây nguồn, tua vít chữ L (ASUS); không ghi kèm cáp DisplayPort"
     },
     {
       "label": "Bảo hành",
-      "value": "3 năm"
+      "value": "3 năm chính hãng tại Thế Giới Di Động (tùy nơi bán)"
+    },
+    {
+      "label": "Giá tham khảo",
+      "value": "Khoảng 2,4–2,8 triệu đồng tại Việt Nam (Thế Giới Di Động); ASUS eShop Canada niêm yết giá gốc 169 CAD, thường được giảm giá (11/2026)"
     }
   ],
   "pros": [
-    "Tấm nền IPS cho màu sắc đẹp và góc nhìn rộng.",
-    "Tần số quét 146Hz mang lại trải nghiệm gaming cực kỳ mượt mà.",
-    "Độ phủ màu 125% sRGB cho hình ảnh sống động.",
-    "Kích thước 24 inch phù hợp với đa số không gian gaming.",
-    "Loa tích hợp tiện lợi cho nhu cầu sử dụng cơ bản.",
-    "Bảo hành chính hãng 3 năm từ Asus.",
-    "Thuộc dòng Asus TUF Gaming nổi tiếng về độ bền."
+    "146Hz IPS có Adaptive-Sync và ELMB Sync — nâng cấp rất rõ so với 60/75Hz (ASUS).",
+    "Thông số hình ảnh trên giấy mạnh trong tầm giá: 300 nit, 1500:1, 125% sRGB / 90% DCI-P3 (ASUS).",
+    "Có loa 2W x 2 và jack tai nghe — Xiaomi G24i không có loa.",
+    "Chạy đủ 146Hz qua cả DisplayPort 1.2 và HDMI 2.0, trong hộp có sẵn cáp HDMI.",
+    "Nguồn tích hợp (không cục adapter rời) và ngàm VESA 100 dùng được hầu hết giá treo.",
+    "Bảo hành chính hãng 3 năm tại nhiều nhà bán lẻ Việt Nam."
   ],
   "cons": [
-    "Độ phân giải Full HD chưa phải lựa chọn tối ưu cho người dùng yêu cầu độ nét cao.",
-    "Loa tích hợp chỉ phù hợp nhu cầu nghe cơ bản.",
-    "Không hỗ trợ HDR."
+    "Chân đế chỉ ngả, không nâng hạ, xoay ngang hay xoay dọc.",
+    "146Hz chậm hơn các đối thủ 180Hz cùng tầm giá như Xiaomi G24i.",
+    "1ms MPRT không phải tốc độ phản hồi điểm ảnh; ASUS không công bố GtG và chưa có bài đo độc lập.",
+    "Không có chứng nhận HDR; dải màu rộng dễ làm nội dung sRGB bị rực quá nếu không đổi chế độ màu.",
+    "Chỉ 1 DisplayPort và 1 HDMI; không có USB-C hay hub USB.",
+    "Loa chỉ đủ cho họp online và xem video."
   ],
   "sections": [
     {
-      "title": "Thiết kế và hoàn thiện",
-      "content": "Asus TUF Gaming VG249QE5A sở hữu thiết kế đậm chất gaming với phần chân đế chắc chắn và viền màn hình mỏng. Kích thước 24 inch giúp sản phẩm phù hợp với hầu hết bàn làm việc và góc chơi game."
+      "title": "Tổng quan: ASUS TUF Gaming VG249QE5A là gì?",
+      "content": "VG249QE5A là một trong những mẫu rẻ nhất của dòng TUF Gaming — dòng gaming phổ thông của ASUS. ASUS công bố **tấm nền IPS 23,8 inch Full HD (1920 x 1080)**, tần số quét tối đa **146Hz** (ASUS gọi là ép xung trên 144Hz), 1ms MPRT, độ phủ 125% sRGB và cặp loa 2W. Máy bắt đầu lên kệ ở các nhà bán lẻ Mỹ khoảng giữa năm 2025; tại Việt Nam, Thế Giới Di Động bán khoảng 2,5 triệu đồng kèm bảo hành 3 năm.\n\nĐây là phân khúc rất đông. Cùng tiền có màn hình IPS 180Hz như Xiaomi G24i, và chính ASUS cũng có bản nhanh hơn là VG249QM5A (nhà bán lẻ Mỹ ghi 240Hz). Điểm mạnh của VG249QE5A không phải tốc độ thuần mà là gói cân bằng: thương hiệu lớn, màu rộng, có loa và jack tai nghe, cắm là dùng."
     },
     {
-      "title": "Chất lượng hiển thị",
-      "content": "Nhờ sử dụng tấm nền IPS cùng độ phủ màu 125% sRGB, màn hình cho khả năng tái tạo màu sắc sống động và góc nhìn rộng. Đây là lợi thế lớn không chỉ khi chơi game mà còn khi xem phim và chỉnh sửa nội dung cơ bản."
+      "title": "Chất lượng hình ảnh: màu rộng trên giấy, nhưng nên dùng chế độ sRGB",
+      "content": "ASUS công bố **300 cd/m²**, tương phản **1500:1** và **125% sRGB / 90% DCI-P3**. Đây là thông số tốt với màn hình IPS giá rẻ — để so sánh, Xiaomi G24i chỉ ghi 250 nit và 1000:1. Phong Vũ, khi dùng thử máy cho bài viết trên blog của họ, nhận xét màu trong game rực rỡ, góc nhìn rộng, có chút hở sáng (IPS glow) ở góc khi xem cảnh tối trong phòng thiếu sáng.\n\nMặt trái của dải màu rộng hơn sRGB là **dễ bị rực quá**: phần lớn game, web và video được làm cho chuẩn sRGB, nên màn hình 125% sRGB có thể làm da người và màu đỏ đậm hơn thực tế. Muốn màu tự nhiên, hãy chọn chế độ sRGB hoặc một chế độ GameVisual phù hợp thay vì mặc định. Ngoài ra, Full HD trên 23,8 inch (khoảng 93 điểm ảnh/inch) đọc chữ văn phòng ổn, nhưng mềm hơn rõ so với màn 27 inch 2K.\n\nĐiều **không có**: trang thông số ASUS **không ghi chứng nhận HDR**, và Phong Vũ cũng đánh giá HDR chỉ ở mức cơ bản. Đừng mua máy này để xem phim/chơi game HDR."
     },
     {
-      "title": "Hiệu năng gaming",
-      "content": "Tần số quét 146Hz giúp chuyển động mượt mà hơn đáng kể so với màn hình 60Hz hoặc 75Hz. Trong các tựa game FPS, MOBA hay Battle Royale, người chơi có thể cảm nhận rõ sự khác biệt về độ phản hồi và độ mượt của hình ảnh."
+      "title": "Chơi game: 146Hz, 1ms MPRT và ELMB Sync thực sự nghĩa là gì?",
+      "content": "Từ 60 hoặc 75Hz lên 146Hz là bước nâng cấp lớn nhất — chuyển động mượt và dễ bám mục tiêu hơn hẳn trong game bắn súng. Từ 146Hz lên 180Hz (Xiaomi G24i) thì khác biệt nhỏ hơn nhiều, và chỉ có ý nghĩa khi máy bạn thật sự chạy trên 146 FPS. Nhiều PC tầm trung chơi game bắn súng hiện đại ở 1080p chỉ đạt khoảng 100–150 FPS — đúng vùng mà màn 146Hz phát huy.\n\nHai chi tiết dễ hiểu nhầm. Một là **1ms MPRT không phải 1ms phản hồi điểm ảnh**: MPRT đo độ nhoè chuyển động cảm nhận được, thường đạt nhờ nhấp nháy đèn nền (ELMB của ASUS), nên không so được trực tiếp với con số 1ms GtG mà hãng khác công bố. ASUS không công bố GtG cho mẫu này và Zero Technology chưa tìm thấy bài đo độc lập. Hai là **ELMB Sync** cho phép bật nhấp nháy đèn nền cùng lúc với Adaptive-Sync; tính năng này làm hình tối đi và hiệu quả nhất khi FPS cao và ổn định — Phong Vũ ghi nhận nó đẹp nhất khi trên khoảng 85 FPS.\n\nASUS ghi dải 48–146Hz cho cả DisplayPort và HDMI, nên dùng luôn cáp HDMI trong hộp vẫn đạt đủ 146Hz. Shadow Boost (làm sáng vùng tối) và Dynamic Crosshair (tâm ngắm phủ lên màn hình) là tính năng thêm; tâm ngắm phủ có thể bị hạn chế ở một số giải đấu."
     },
     {
-      "title": "Loa tích hợp và trải nghiệm sử dụng",
-      "content": "Loa tích hợp là điểm cộng giúp người dùng không cần đầu tư thêm thiết bị âm thanh trong các nhu cầu cơ bản. Tuy nhiên với game thủ hoặc người yêu thích âm thanh chất lượng cao, tai nghe hoặc loa ngoài vẫn là lựa chọn phù hợp hơn."
+      "title": "Chân đế, cổng kết nối và loa: đủ dùng nhưng cơ bản",
+      "content": "Chân đế **chỉ ngả** (+23° đến −5° theo ASUS) — không nâng hạ, không xoay. Ở tầm giá này là bình thường, nhưng nếu bạn cao, đặt cạnh laptop hoặc ngồi gần thì có thể phải kê thêm. Máy có **ngàm VESA 100 x 100**, nên một giá treo lò xo khí giá rẻ như North Bayou F80 (hỗ trợ VESA 75 và 100) giải quyết được chuyện tư thế.\n\nCổng kết nối tối giản: **1 DisplayPort 1.2 và 1 HDMI 2.0**, cộng jack tai nghe. **Không có USB-C**, không có hub USB và chỉ một cổng HDMI, nên muốn cắm cả PC lẫn máy console thì phải để PC dùng DisplayPort. Lưu ý: bài của Phong Vũ ghi máy không có jack 3,5 mm, nhưng trang thông số chính thức của ASUS ghi có — bài này theo ASUS, nhưng bạn nên xem ảnh mặt sau của đúng hàng định mua.\n\n**Loa 2W x 2** là lợi thế thực tế so với Xiaomi G24i (không có loa). Đủ cho họp online, YouTube và âm thanh hệ thống, không đủ cho game hay nghe nhạc — Phong Vũ đánh giá loa ở mức trung bình. Nguồn tích hợp trong máy nên không có cục adapter rời trên bàn."
     },
     {
-      "title": "Có nên mua Asus TUF Gaming VG249QE5A?",
-      "content": "Nếu bạn đang tìm kiếm một màn hình gaming IPS có tần số quét cao, màu sắc đẹp và thương hiệu uy tín thì VG249QE5A là một trong những lựa chọn đáng cân nhắc nhất trong phân khúc phổ thông."
+      "title": "So sánh VG249QE5A với Xiaomi G24i, VSP IP2705F và các mã ASUS na ná",
+      "content": "Site đã có bài về ba màn hình giá rẻ; so trên giấy:\n\n- **ASUS VG249QE5A** (bài này): IPS 23,8 inch, 146Hz, 300 nit, 125% sRGB, DP 1.2 + HDMI 2.0, có loa, VESA 100, nguồn tích hợp. Gói cân bằng nhất.\n- **Xiaomi G24i**: Fast IPS 23,8 inch, 180Hz, 1ms GtG (số liệu phòng lab Xiaomi), 250 nit, 99% sRGB có hiệu chỉnh màu từ nhà máy, DP 1.4 + HDMI 2.0, **không có loa**, VESA 75, adapter rời. Hợp game esports FPS cao hơn, nhưng tối hơn và ít tiện ích hơn.\n- **VSP IP2705F**: IPS 27 inch Full HD, 100 hoặc 120Hz tùy nơi bán ghi, chỉ HDMI 1.4 + VGA, có loa. Màn to hơn, rẻ hơn, nhưng chữ mềm hơn và không có DisplayPort.\n\nCẩn thận với các mã ASUS gần giống: **VG249QM5A** là bản 240Hz đắt hơn; **VG249Q1A** là mẫu TUF đời cũ khác hẳn. Một số nơi bán còn ghi VG249QE5A là 144Hz — vẫn là cùng một màn hình."
+    },
+    {
+      "title": "Ai nên mua và ai không nên mua?",
+      "content": "**Nên mua nếu bạn:**\n- Nâng cấp từ màn 60/75Hz và muốn màn IPS 1080p mượt, màu đẹp của thương hiệu lớn.\n- Chơi game esports trên PC tầm trung chạy khoảng 100–146 FPS.\n- Cần loa và jack tai nghe trên bàn nhỏ.\n- Định gắn giá treo VESA 100 sau này.\n\n**Không nên mua nếu bạn:**\n- Có PC dễ dàng vượt 180 FPS trong game chính — Xiaomi G24i 180Hz hoặc màn 240Hz tận dụng tốt hơn.\n- Cần nâng hạ chiều cao ngay, cần USB-C hoặc nhiều hơn một cổng HDMI.\n- Muốn HDR thật, hoặc cần chữ thật nét cho bảng tính, lập trình (nên chọn 27 inch 2K).\n- Muốn màu sRGB chuẩn mà không muốn chỉnh chế độ hình ảnh."
+    },
+    {
+      "title": "Nguồn thông tin của bài viết",
+      "content": "Zero Technology **chưa trực tiếp sử dụng** ASUS TUF Gaming VG249QE5A. Bài viết được tổng hợp và phân tích từ: trang sản phẩm và trang thông số chính thức của ASUS (tấm nền, dải tần số quét, MPRT, độ phủ màu, cổng, chân đế, nguồn, phụ kiện); bài trải nghiệm trên blog của Phong Vũ (nhận xét màu, hở sáng IPS, ELMB Sync, loa); giá và bảo hành tại Thế Giới Di Động; giá gốc trên ASUS eShop Canada. Zero Technology chưa tìm thấy bài đo độc lập (RTINGS, Monitors Unboxed, Tom's Hardware) cho đúng mẫu này, nên tốc độ phản hồi và độ sáng thực tế chưa được kiểm chứng. Bài của Phong Vũ ghi khác ASUS về jack tai nghe và góc ngả; bài này dùng số liệu của ASUS. Cập nhật tháng 11/2026. Ảnh là ảnh sản phẩm chính thức của ASUS."
+    },
+    {
+      "title": "Có nên mua ASUS TUF Gaming VG249QE5A?",
+      "content": "Có, nếu bạn cần chiếc màn tần số quét cao đầu tiên thật cân bằng và coi trọng thương hiệu, loa, màu rộng hơn vài chục Hz cuối. 146Hz đủ cho phần lớn PC phổ thông, thông số ASUS tốt trên giấy, cắm cáp HDMI trong hộp là dùng. Đổi lại là chân đế chỉ ngả, không HDR, ít cổng và chưa có bài đo độc lập. **Nên mua khi có giá tốt** — quanh 2,4–2,5 triệu đồng là hợp lý; nếu không cần loa và máy bạn chạy FPS cao, Xiaomi G24i 180Hz là lựa chọn nhanh hơn."
     }
   ],
   "faq": [
     {
-      "question": "Asus TUF Gaming VG249QE5A có phù hợp chơi game FPS không?",
-      "answer": "Có. Tần số quét 146Hz giúp hình ảnh mượt mà và cải thiện khả năng phản xạ trong các tựa game FPS."
+      "question": "ASUS VG249QE5A có hợp chơi game FPS không?",
+      "answer": "Có. 146Hz kèm Adaptive-Sync cải thiện rất rõ so với 60/75Hz, hợp Valorant, CS2, Apex trên PC chạy khoảng 100–146 FPS. Nếu máy bạn thường xuyên vượt 180 FPS thì màn nhanh hơn sẽ tận dụng tốt hơn."
     },
     {
-      "question": "Màn hình này có phù hợp cho làm việc văn phòng không?",
-      "answer": "Có. Tấm nền IPS và kích thước 24 inch đáp ứng tốt nhu cầu học tập, làm việc và giải trí hằng ngày."
+      "question": "146Hz có khác 144Hz không?",
+      "answer": "Gần như không cảm nhận được — 2Hz chủ yếu là marketing. ASUS gọi đây là ép xung trên 144Hz, và một số nơi bán ghi 144Hz. Vẫn là cùng một màn hình."
     },
     {
-      "question": "Loa tích hợp trên VG249QE5A có tốt không?",
-      "answer": "Loa tích hợp đủ dùng cho các nhu cầu cơ bản như xem video hoặc họp trực tuyến, nhưng không thể thay thế hệ thống loa chuyên dụng."
+      "question": "Màn hình có hỗ trợ HDR không?",
+      "answer": "Trang thông số ASUS không ghi chứng nhận HDR, và Phong Vũ đánh giá HDR chỉ ở mức cơ bản. Không nên mua để xem nội dung HDR."
+    },
+    {
+      "question": "Có chỉnh được chiều cao không?",
+      "answer": "Không, chân đế chỉ ngả (+23° đến −5°). Dùng ngàm VESA 100 x 100 với giá treo như North Bayou F80 để nâng hạ và xoay."
+    },
+    {
+      "question": "Nên chọn VG249QE5A hay Xiaomi G24i?",
+      "answer": "Chọn ASUS nếu cần loa, jack tai nghe, độ sáng công bố cao hơn (300 so với 250 nit), nguồn tích hợp và VESA 100. Chọn Xiaomi G24i nếu muốn 180Hz, chỉ số 1ms GtG và hiệu chỉnh màu từ nhà máy — nhưng không có loa và ngàm VESA nhỏ hơn (75)."
+    },
+    {
+      "question": "Có dùng được với PS5 hay Xbox không?",
+      "answer": "Có, qua HDMI 2.0 ở 1080p. Máy console tối đa 120Hz nên mức 146Hz chủ yếu có lợi cho PC. Chỉ có một cổng HDMI, nên muốn cắm cả PC và console thì để PC dùng DisplayPort."
     }
   ],
   "verdict": {
-    "summary": "Một trong những màn hình gaming IPS đáng mua nhất trong phân khúc phổ thông với 146Hz, màu sắc đẹp và bảo hành 3 năm.",
-    "recommendation": "Rất đáng mua cho game thủ Esports và người dùng phổ thông muốn nâng cấp trải nghiệm hiển thị."
+    "summary": "Màn hình gaming IPS 1080p giá rẻ cân bằng, có loa và màu rộng từ thương hiệu lớn. Chân đế chỉ ngả, không HDR và 146Hz (so với đối thủ 180Hz) là các điểm đánh đổi; nên mua khi có giá tốt.",
+    "recommendation": "Đáng mua làm màn tần số quét cao đầu tiên cho người cần loa và thương hiệu quen thuộc; game thủ esports FPS cao không cần loa nên xem Xiaomi G24i."
   },
   "seo": {
-    "metaTitle": "Màn Hình Gaming Asus TUF VG249QE5A 146Hz: Có Đáng Mua?",
-    "metaDescription": "Đánh giá chi tiết Asus TUF Gaming VG249QE5A với IPS 24 inch, 146Hz, 125% sRGB và loa tích hợp. Có đáng mua cho game thủ năm 2026?",
+    "metaTitle": "Màn Hình Gaming ASUS TUF VG249QE5A 146Hz: Có Đáng Mua?",
+    "metaDescription": "Đánh giá ASUS TUF VG249QE5A: IPS 23,8 inch, 146Hz, 125% sRGB, ELMB Sync, có loa. Ưu nhược điểm, so sánh Xiaomi G24i, VSP IP2705F và ai nên mua.",
     "keywords": [
-      "Asus VG249QE5A",
-      "Asus TUF Gaming VG249QE5A",
-      "màn hình gaming 146Hz",
-      "màn hình IPS 24 inch",
-      "màn hình Asus gaming",
-      "review Asus VG249QE5A"
+      "đánh giá asus vg249qe5a",
+      "ASUS TUF Gaming VG249QE5A",
+      "VG249QE5A 146Hz",
+      "VG249QE5A vs Xiaomi G24i",
+      "màn hình IPS 24 inch có loa",
+      "màn hình gaming giá rẻ"
     ]
   },
-  "productName": "Màn Hình Asus TUF GAMING VG249QE5A 24 Inch IPS 146Hz Chuyên Game 125% sRGB BH 3 Năm Loa Tích Hợp",
+  "productName": "ASUS TUF Gaming VG249QE5A",
+  "contentType": "review",
+  "tags": ["asus", "tuf-gaming", "gaming-monitor", "146hz", "ips", "24-inch", "fhd"],
   "targetUsers": [
-    "Game thủ FPS và Esports.",
-    "Người dùng muốn nâng cấp từ màn hình 60Hz hoặc 75Hz.",
-    "Sinh viên và nhân viên văn phòng có nhu cầu giải trí sau giờ làm.",
-    "Người dùng cần màn hình IPS có màu sắc tốt để học tập, làm việc và chơi game."
+    "Người nâng cấp từ màn 60/75Hz muốn thương hiệu lớn.",
+    "Game thủ esports dùng PC tầm trung (khoảng 100–146 FPS).",
+    "Bàn làm việc nhỏ cần màn hình có sẵn loa."
   ],
   "buyReasons": [
-    "146Hz mang lại lợi thế rõ rệt trong các tựa game tốc độ cao.",
-    "Màu sắc đẹp nhờ tấm nền IPS và độ phủ màu 125% sRGB.",
-    "Thương hiệu Asus TUF Gaming có độ tin cậy cao.",
-    "Bảo hành chính hãng 3 năm giúp an tâm sử dụng lâu dài.",
-    "Mức giá cạnh tranh trong phân khúc màn hình gaming IPS."
+    "146Hz IPS, Adaptive-Sync và ELMB Sync.",
+    "125% sRGB, 300 nit, 1500:1 theo ASUS.",
+    "Có loa, jack tai nghe, VESA 100, bảo hành 3 năm tại Việt Nam."
   ],
-  "updatedAt": "2026-11-17"
+  "updatedAt": "2026-11-25"
 }

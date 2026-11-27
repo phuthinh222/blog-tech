@@ -1,106 +1,164 @@
 {
-  "title": "Xiaomi Gaming Monitor G24i: A 180 Hz IPS Monitor on a Budget",
-  "summary": "The Xiaomi Gaming Monitor G24i is a 23.8-inch 1080p Fast IPS monitor with a 180 Hz refresh rate, 1 ms GTG response, FreeSync and 99% sRGB. Here's what Xiaomi lists, the trade-offs and who it suits.",
-  "description": "## Who is it for?\n\n- Competitive FPS players on a budget.\n- Anyone upgrading from 60/75 Hz.\n- Clean, minimal desk setups.\n\n## Why consider it?\n\n- 180 Hz Fast IPS, 1 ms GTG (Xiaomi).\n- FreeSync and 99% sRGB.\n- Factory calibration (ΔE < 2, per Xiaomi).",
+  "title": "Xiaomi Gaming Monitor G24i: Is a 180 Hz Budget IPS Monitor Worth It?",
+  "summary": "The Xiaomi Gaming Monitor G24i is a 23.8-inch 1080p Fast IPS monitor rated at 180 Hz and 1 ms GTG, with FreeSync, 99% sRGB and factory calibration (ΔE < 2), sold by Xiaomi's UK store at a £79.99 reference price. An independent review by Vortex Gaming praised its color accuracy and motion handling but found it dim at about 260 nits. It has no speakers and a tilt-only stand — and a brighter 200 Hz G24i 2026 now exists. Here's how to choose.",
+  "description": "## Who is it for?\n\n- Competitive FPS players whose PC can push well past 144 fps at 1080p.\n- Budget buyers who want good out-of-box color without calibrating.\n- Minimal desk setups with headphones or separate speakers.\n\n## Why consider it?\n\n- 180 Hz Fast IPS, 1 ms GTG (Xiaomi internal lab) and FreeSync.\n- 99% sRGB with individual factory calibration, ΔE < 2 (Xiaomi); Vortex Gaming measured ΔE ≈ 1.4 in Custom mode.\n- DisplayPort 1.4 + HDMI 2.0, metal stand, VESA 75.",
   "specs": [
-    { "label": "Model", "value": "P24FCA-RGGL (global); sold in the EU as ELA5625EU" },
-    { "label": "Panel", "value": "23.8-inch Fast IPS, 1920 × 1080 (Xiaomi)" },
-    { "label": "Refresh rate", "value": "Up to 180 Hz" },
-    { "label": "Response time", "value": "1 ms GTG (Xiaomi internal lab)" },
-    { "label": "Brightness / contrast", "value": "250 nits, 1000:1 typical" },
-    { "label": "Color", "value": "99% sRGB, 16.7 million colors, ΔE < 2 (Xiaomi)" },
-    { "label": "Variable refresh", "value": "FreeSync" },
-    { "label": "Ports", "value": "DisplayPort 1.4 × 1, HDMI 2.0 × 1, audio out, DC in" },
-    { "label": "Stand", "value": "Tilt 5° forward / 15° back; no height adjustment" },
-    { "label": "VESA", "value": "75 × 75 mm (bracket not included)" },
-    { "label": "Power", "value": "External 12 V / 3 A adapter, 36 W rated" },
-    { "label": "Weight", "value": "3.0 kg with base (Xiaomi)" }
+    {
+      "label": "Model",
+      "value": "P24FCA-RGGL (Xiaomi global spec page); sold in Europe and Vietnam under the ELA5625EU code"
+    },
+    {
+      "label": "Panel",
+      "value": "23.8-inch Fast IPS, 1920 × 1080, 178°/178° viewing angles (Xiaomi)"
+    },
+    { "label": "Refresh rate", "value": "Up to 180 Hz (Xiaomi)" },
+    {
+      "label": "Response time",
+      "value": "1 ms GTG — Xiaomi says the figure comes from its internal labs"
+    },
+    {
+      "label": "Brightness / contrast",
+      "value": "250 nits, 1000:1 typical (Xiaomi); Vortex Gaming measured about 260 nits in Custom mode"
+    },
+    {
+      "label": "Color",
+      "value": "99% sRGB (CIE 1931), 16.7 million colors, factory-calibrated average ΔE < 2 (Xiaomi)"
+    },
+    {
+      "label": "HDR",
+      "value": "Xiaomi mentions an HDR display enhancement from the onboard chip; no HDR certification listed"
+    },
+    { "label": "Variable refresh", "value": "FreeSync (Xiaomi)" },
+    {
+      "label": "Ports",
+      "value": "DisplayPort 1.4 × 1, HDMI 2.0 × 1, audio out, DC in (Xiaomi); no USB-C, no USB hub"
+    },
+    { "label": "Speakers", "value": "None" },
+    {
+      "label": "Stand",
+      "value": "Tilt 5° forward / 15° back; no height, swivel or pivot (Xiaomi)"
+    },
+    { "label": "VESA", "value": "75 × 75 mm; wall-mount bracket not included (Xiaomi)" },
+    { "label": "Power", "value": "External 12 V ⎓ 3 A adapter, 36 W rated (Xiaomi)" },
+    { "label": "Eye comfort", "value": "TÜV Low Blue Light certification, DC dimming (Xiaomi)" },
+    { "label": "Weight", "value": "3.0 kg with base (Xiaomi)" },
+    {
+      "label": "In the box",
+      "value": "HDMI cable, power adapter, base, screws (Xiaomi); no DisplayPort cable"
+    },
+    { "label": "Warranty", "value": "Varies by region; check your local retailer" },
+    {
+      "label": "Reference price",
+      "value": "Xiaomi's UK store gives an official reference price of £79.99 (November 2026); at launch Xiaomi's direct prices were £89.99 / €119.99, per Notebookcheck (November 2024). Often discounted; varies by region"
+    }
   ],
   "sections": [
     {
-      "title": "What is the Xiaomi G24i?",
-      "content": "The G24i is Xiaomi's budget esports monitor, sold globally as model P24FCA-RGGL and in Europe under the ELA5625EU code. Xiaomi lists a 23.8-inch Fast IPS panel at 1080p with up to 180 Hz and 1 ms grey-to-grey response."
+      "title": "What is the Xiaomi Gaming Monitor G24i?",
+      "content": "The G24i is Xiaomi's entry-level esports monitor, launched globally in late 2024. Xiaomi's global spec page lists it as model **P24FCA-RGGL**; in Europe (and in Vietnamese stores) it's sold under the **ELA5625EU** code. The core specs are a **23.8-inch Fast IPS panel at 1080p**, up to **180 Hz**, **1 ms GTG** and FreeSync. Xiaomi's UK store lists an official reference price of **£79.99** (November 2026), down from the £89.99 / €119.99 direct launch prices Notebookcheck reported in 2024.\n\nIts selling point is simple: more refresh rate than the usual 144–165 Hz budget monitors for similar money, plus factory color calibration. It's also the barest of the three monitors we've covered in this class — no speakers, an external power adapter and a small VESA 75 mount — and Xiaomi has since released a **G24i 2026** with 200 Hz and higher brightness, which changes the buying decision (see the comparison section)."
     },
     {
-      "title": "Gaming performance",
-      "content": "180 Hz is a step above the common 144–165 Hz class, and FreeSync reduces tearing with compatible GPUs. Xiaomi notes that its 1 ms GTG figure comes from its internal lab; we haven't measured it. To use 180 Hz, connect via DisplayPort and make sure your PC can push high frame rates."
+      "title": "Gaming: 180 Hz, 1 ms GTG and overdrive",
+      "content": "180 Hz is a real but modest step over 144–146 Hz: frame times drop from about 6.9 ms to 5.6 ms. You'll only benefit if your PC actually renders more than ~146 fps — easy in Valorant, CS2 or League of Legends on a mid-range GPU, much harder in demanding AAA games, where a 146 Hz monitor like the ASUS VG249QE5A loses nothing.\n\nXiaomi's **1 ms GTG** figure is its own internal-lab number. The only independent review Zero Technology could find, by Polish site **Vortex Gaming**, reports good input lag and very good smearing performance. It recommends the **Faster** overdrive setting for the clearest motion, but warns that with variable refresh at low frame rates Faster causes visible overshoot (bright halos), so **Fast** is better for games running well below 180 fps. FreeSync worked without flicker in its testing.\n\nXiaomi's notes recommend the **included HDMI cable** for 1080p at 180 Hz; HDMI 2.0 has enough bandwidth, and DisplayPort 1.4 works too. A DisplayPort cable isn't in the box."
     },
     {
-      "title": "Picture quality",
-      "content": "Xiaomi lists 250 nits, 1000:1 contrast, 99% sRGB and individual factory calibration with ΔE below 2. That is good for a budget monitor, though 250 nits is modest in bright rooms. Xiaomi mentions an HDR display enhancement, but there's no HDR certification — treat it as a picture mode, not real HDR."
+      "title": "Picture quality: accurate after one setting change, but dim",
+      "content": "Xiaomi lists **250 nits**, **1000:1** contrast and **99% sRGB**, and says each unit is calibrated to an average **ΔE below 2**. Vortex Gaming measured close to **90% DCI-P3** coverage, about **260 nits** and an average ΔE of about **1.4 in Custom mode** — good accuracy for the price. However, it found the default color temperature too blue and did not recommend the sRGB mode, so switch to Custom out of the box.\n\nBrightness is the main weakness. Vortex Gaming measured the G24i dimmer than two rivals it compared (AOC 24G4XE at about 320 nits, Gigabyte GS25F2 at about 360–370 nits). In a dark or normally lit room 250–260 nits is fine; next to a sunny window it will look washed out. Its review unit also had some light bleed along the left and bottom edges — panel lottery, but worth checking within your return window.\n\nWhat it **doesn't** have: despite Xiaomi's HDR display enhancement marketing, there's **no HDR certification**, and 250 nits can't deliver real HDR. Treat it as a picture mode."
     },
     {
-      "title": "Design, stand and ports",
-      "content": "The body is slim with narrow bezels and a joystick for the menu. The stand only tilts (5° forward, 15° back); for height adjustment you'll need a VESA 75 arm or bracket, which isn't included. Ports are DisplayPort 1.4, HDMI 2.0 and an audio output. There are no speakers, and power comes from an external adapter."
+      "title": "Design, stand and ports: slim, but bare-bones",
+      "content": "The G24i is slim (7.5 mm at its thinnest, per Xiaomi), with narrow bezels on three sides and a joystick for the menu. Vortex Gaming notes the **stand is metal**, unusual at this price, but it **only tilts** (5° forward, 15° back) and its review unit's tilt was stiff to adjust. For height or swivel you'll need a monitor arm; it uses **VESA 75 × 75**, which budget arms like the North Bayou F80 support, and Xiaomi doesn't include a wall bracket.\n\nPorts are **one DisplayPort 1.4 and one HDMI 2.0**, plus an audio output for headphones or speakers. There are **no built-in speakers**, no USB-C and no USB hub, and power comes from an **external 12 V brick** — one more thing to hide under the desk. If you want sound from the screen itself, the ASUS VG249QE5A or VSP IP2705F both have speakers."
+    },
+    {
+      "title": "G24i vs G24i 2026 vs ASUS VG249QE5A vs VSP IP2705F",
+      "content": "**Check which G24i you're buying.** Xiaomi now sells two models with almost the same name:\n\n- **G24i** (this review, P24FCA-RGGL / ELA5625EU): 180 Hz, 250 nits, 99% sRGB, FreeSync.\n- **G24i 2026** (P24FDA-RGGL): 200 Hz, **400 nits** (Xiaomi lab), 100% sRGB / 95% DCI-P3, FreeSync Premium and what Xiaomi calls HDR400 — the spec page doesn't say whether that is VESA DisplayHDR certification. On paper it fixes the original's biggest weakness, brightness. If both cost about the same, the 2026 model is the better buy.\n- The **Redmi** G24 monitors are different products again; don't mix up reviews.\n\nAgainst the other monitors on this site:\n\n- **ASUS TUF VG249QE5A**: 146 Hz, 300 nits and 125% sRGB on paper, speakers, headphone jack, VESA 100 and internal power. Less speed, more convenience.\n- **VSP IP2705F**: a 27-inch 1080p IPS at 100 or 120 Hz (listings disagree), HDMI 1.4 + VGA only, sold mainly in Vietnam. Bigger but softer and slower; not a competitive-gaming monitor.\n\nIn short: the G24i is the pick for frame-rate chasers who use headphones; the ASUS is the more rounded everyday monitor."
     },
     {
       "title": "Who should buy it — and who shouldn't",
-      "content": "Buy it for a fast, inexpensive 180 Hz 1080p monitor with good out-of-box color. Skip it if you need speakers, height adjustment, USB-C, high brightness or a sharper 1440p panel."
+      "content": "**Buy it if you:**\n- Play competitive shooters or MOBAs and your PC regularly exceeds 150 fps at 1080p.\n- Want accurate color for the money and don't mind switching to Custom mode once.\n- Use headphones or desktop speakers anyway.\n- Can find it clearly cheaper than the G24i 2026.\n\n**Skip it if you:**\n- Sit in a bright room — 250–260 nits is low; look at the G24i 2026 or a brighter rival.\n- Want built-in speakers, internal power or a VESA 100 mount (consider the ASUS VG249QE5A).\n- Need height adjustment, USB-C or real HDR.\n- Mainly do text-heavy work, where a 27-inch 1440p monitor is sharper."
     },
     {
       "title": "Sources for this review",
-      "content": "Zero Technology has not used this monitor in person. This is a research roundup based on Xiaomi's global product overview and specifications pages, checked November 2026. Images are official Xiaomi product images from mi.com/global."
+      "content": "Zero Technology **has not used** the Xiaomi Gaming Monitor G24i. This review is compiled and analyzed from: Xiaomi's global product overview and specification pages for the G24i and the G24i 2026 (panel, refresh rate, GTG footnote, brightness, color, ports, stand, box contents); Notebookcheck's launch and pricing reports; Xiaomi's UK store (reference price); and Vortex Gaming's independent review (measured brightness, DCI-P3 coverage, ΔE, overdrive behavior, stand, light bleed). Measured brightness (about 260 nits) differs slightly from Xiaomi's 250-nit rating, and Vortex Gaming found the factory color temperature too blue despite Xiaomi's ΔE < 2 claim — both are noted above. Updated November 2026. Images are official Xiaomi product images from mi.com/global."
+    },
+    {
+      "title": "Should you buy the Xiaomi G24i?",
+      "content": "The G24i is a strong budget esports monitor: 180 Hz, good motion handling and accurate color once set to Custom mode, according to Vortex Gaming. Its trade-offs are low brightness, no speakers, a tilt-only stand and an external power brick. **Buy it if it's on sale and clearly cheaper than the G24i 2026**, which adds 200 Hz and 400 nits on paper. If you'd rather have speakers, a VESA 100 mount and a more rounded package, the ASUS VG249QE5A is the calmer choice at 146 Hz."
     }
   ],
   "pros": [
-    "180 Hz Fast IPS with FreeSync.",
-    "1 ms GTG response (Xiaomi lab figure).",
-    "99% sRGB and factory calibration (ΔE < 2).",
-    "DisplayPort 1.4 and HDMI 2.0.",
-    "Slim, minimal design with joystick control.",
-    "Strong refresh rate for the price."
+    "180 Hz Fast IPS with FreeSync — faster than most 144–165 Hz budget monitors.",
+    "Good motion handling and input lag according to Vortex Gaming, with a usable Fast/Faster overdrive.",
+    "Factory calibration: Xiaomi claims ΔE < 2, and Vortex Gaming measured about 1.4 in Custom mode.",
+    "DisplayPort 1.4 and HDMI 2.0; the included HDMI cable supports 180 Hz per Xiaomi.",
+    "Slim design with a metal stand and joystick menu control.",
+    "TÜV Low Blue Light certification and DC dimming (Xiaomi)."
   ],
   "cons": [
-    "Tilt-only stand.",
-    "Only 250 nits brightness.",
-    "No speakers.",
-    "No real HDR certification.",
-    "External power adapter; VESA bracket not included."
+    "Dim: rated 250 nits, measured about 260 nits by Vortex Gaming — below rivals like the AOC 24G4XE.",
+    "No built-in speakers and an external power adapter.",
+    "Tilt-only stand; VESA 75 only and no wall bracket included.",
+    "Default color temperature is too blue and the sRGB mode isn't recommended (Vortex Gaming).",
+    "No HDR certification despite HDR marketing.",
+    "Overshadowed by the G24i 2026 (200 Hz, 400 nits) if prices are similar."
   ],
-  "buying_advice": "Great value for 180 Hz",
+  "buying_advice": "Great value for 180 Hz esports gaming if it's on sale and cheaper than the G24i 2026. Set it to Custom mode, use headphones, and avoid it for bright rooms.",
   "faq": [
     {
       "question": "Is the Xiaomi G24i good for Valorant and CS2?",
-      "answer": "Yes. 180 Hz and FreeSync make it well suited to fast shooters."
+      "answer": "Yes. These games easily run above 150 fps on mid-range PCs, so 180 Hz and FreeSync are put to use. Vortex Gaming recommends the Faster overdrive setting at high frame rates and Fast at lower ones."
     },
     {
-      "question": "What's the difference between ELA5625EU and P24FCA-RGGL?",
-      "answer": "They are regional codes for the same G24i: ELA5625EU is the EU product code; P24FCA-RGGL is the model on Xiaomi's global spec page."
+      "question": "What's the difference between the G24i and the G24i 2026?",
+      "answer": "The 2026 model (P24FDA-RGGL) raises the refresh rate to 200 Hz and brightness to 400 nits (Xiaomi lab), with 100% sRGB / 95% DCI-P3 and FreeSync Premium. The original G24i is 180 Hz and 250 nits. Check the model code before buying."
+    },
+    {
+      "question": "Are ELA5625EU and P24FCA-RGGL the same monitor?",
+      "answer": "Yes. ELA5625EU is the product code used in Europe and by some Asian retailers; P24FCA-RGGL is the model number on Xiaomi's global spec page."
     },
     {
       "question": "Does it have speakers?",
-      "answer": "No. Use the audio output for headphones or external speakers."
+      "answer": "No. Use the audio output for headphones or external speakers. If you want built-in speakers, the ASUS VG249QE5A has 2 W × 2."
     },
     {
-      "question": "Can I wall-mount it?",
-      "answer": "Yes, it supports VESA 75 × 75 mm, but the bracket isn't included."
-    },
-    {
-      "question": "Which cable for 180 Hz?",
-      "answer": "Use DisplayPort 1.4 for the full 180 Hz at 1080p."
+      "question": "Do I need DisplayPort for 180 Hz?",
+      "answer": "No. Xiaomi recommends the included HDMI cable for 1080p at 180 Hz, and HDMI 2.0 has the bandwidth for it. DisplayPort 1.4 also works, but a DP cable isn't included."
     },
     {
       "question": "G24i or ASUS VG249QE5A?",
-      "answer": "Pick the Xiaomi for 180 Hz; the ASUS for wider color gamut and built-in speakers."
+      "answer": "Pick the Xiaomi for 180 Hz and verified-good calibration. Pick the ASUS for speakers, a headphone jack, higher rated brightness (300 nits), internal power and a VESA 100 mount."
     }
   ],
   "seo_title": "Xiaomi G24i Review: 180 Hz Budget Gaming Monitor Worth It?",
-  "seo_description": "Xiaomi Gaming Monitor G24i: 23.8-inch Fast IPS, 180 Hz, 1 ms GTG, FreeSync, 99% sRGB. Sourced specs, pros and cons, and how it compares with ASUS VG249QE5A.",
-  "verdict_summary": "A fast, well-calibrated 180 Hz IPS monitor for budget esports. Basic stand, modest brightness and no speakers are the trade-offs.",
+  "seo_description": "Xiaomi G24i review: 23.8-inch Fast IPS, 180 Hz, 1 ms GTG, 99% sRGB, no speakers. Pros, cons, G24i vs G24i 2026 vs ASUS VG249QE5A, who should buy.",
+  "verdict_summary": "A fast, well-calibrated 180 Hz budget esports monitor. Low brightness, no speakers, a tilt-only stand and the brighter 200 Hz G24i 2026 are the reasons to think twice.",
   "extras": {
     "productName": "Xiaomi Gaming Monitor G24i",
-    "regionalNote": "Sold in the EU as ELA5625EU; global model P24FCA-RGGL.",
-    "bestFor": ["Competitive FPS on a budget", "Upgrading from 60/75 Hz", "Minimal desk setups"],
+    "regionalNote": "Global model P24FCA-RGGL, sold in Europe as ELA5625EU. Not the same as the newer G24i 2026 (P24FDA-RGGL, 200 Hz) or Redmi G24 monitors.",
+    "bestFor": [
+      "Competitive FPS on PCs that exceed 150 fps",
+      "Accurate color on a tight budget",
+      "Setups that already use headphones or speakers"
+    ],
     "notFor": [
-      "Bright rooms (250 nits)",
+      "Bright rooms (about 250–260 nits)",
       "Users who want built-in speakers",
-      "Height-adjustable stands out of the box"
+      "Height adjustment or VESA 100 arms without an adapter"
     ],
     "alternatives": [
       {
         "name": "ASUS TUF Gaming VG249QE5A",
         "slug": "asus-tuf-gaming-vg249qe5a",
-        "note": "146 Hz with wider color gamut and built-in speakers."
+        "note": "146 Hz with speakers, a headphone jack, 300 nits rated and VESA 100."
+      },
+      {
+        "name": "Xiaomi Gaming Monitor G24i 2026",
+        "note": "Newer model: 200 Hz, 400 nits and 95% DCI-P3 per Xiaomi."
+      },
+      {
+        "name": "VSP IP2705F",
+        "slug": "vsp-ip2705f-27-inch-monitor",
+        "note": "Larger 27-inch 1080p IPS for casual use, sold mainly in Vietnam."
       },
       {
         "name": "North Bayou F80 monitor arm",
@@ -116,6 +174,22 @@
       {
         "label": "Xiaomi Global — Gaming Monitor G24i specs",
         "url": "https://www.mi.com/global/product/xiaomi-gaming-monitor-g24i/specs/"
+      },
+      {
+        "label": "Xiaomi Global — Gaming Monitor G24i 2026 specs",
+        "url": "https://www.mi.com/global/product/xiaomi-gaming-monitor-g24i-2026/specs/"
+      },
+      {
+        "label": "Vortex Gaming — Xiaomi G24i review",
+        "url": "https://vortexgaming.io/en/postdetail/575937"
+      },
+      {
+        "label": "Notebookcheck — Xiaomi G24i global debut",
+        "url": "https://www.notebookcheck.net/Affordable-Xiaomi-Gaming-Monitor-G24i-makes-global-debut-with-180-Hz-display-and-AMD-FreeSync.886779.0.html"
+      },
+      {
+        "label": "Notebookcheck — Xiaomi G24i pricing in the UK and Europe",
+        "url": "https://www.notebookcheck.net/Xiaomi-releases-Gaming-Monitor-G24i-for-just-129-99-with-180-Hz-refresh-rate-and-Fast-IPS-display.912468.0.html"
       }
     ]
   }

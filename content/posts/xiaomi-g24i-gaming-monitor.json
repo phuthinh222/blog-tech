@@ -1,10 +1,11 @@
 {
   "slug": "xiaomi-g24i-gaming-monitor",
-  "title": "Xiaomi G24i 180Hz: Màn Hình Gaming Tốc Độ Cao Trong Tầm Giá Rẻ",
-  "excerpt": "Xiaomi Gaming Monitor G24i ELA5625EU là màn hình gaming 24 inch nổi bật với tần số quét 180Hz và tốc độ phản hồi 1ms. Đây là lựa chọn hấp dẫn cho game thủ FPS và Esports đang tìm kiếm trải nghiệm mượt mà với chi phí hợp lý.",
+  "title": "Xiaomi G24i 180Hz: Màn Hình Gaming 24 Inch Giá Rẻ Có Gì Đáng Chú Ý?",
+  "excerpt": "Xiaomi Gaming Monitor G24i (ELA5625EU) là màn hình 23,8 inch Fast IPS Full HD được Xiaomi công bố 180Hz, 1ms GtG, FreeSync, 99% sRGB và hiệu chỉnh màu ΔE < 2. Bài đánh giá độc lập của Vortex Gaming khen màu chuẩn và xử lý chuyển động tốt nhưng đo chỉ khoảng 260 nit. Máy không có loa, chân đế chỉ ngả — và đã có bản G24i 2026 200Hz sáng hơn. Nên chọn thế nào?",
   "category": "pc-laptop",
   "author": "Zero Technology",
-  "publishedAt": "2026-06-17",
+  "publishedAt": "2026-11-17",
+  "reviewMethod": "compiled",
   "coverImage": "/images/products/xiaomi-g24i-gaming-monitor/cover.jpg",
   "images": [
     "/images/products/xiaomi-g24i-gaming-monitor/goc-nghieng.jpg",
@@ -13,118 +14,190 @@
     "/images/products/xiaomi-g24i-gaming-monitor/thiet-ke.jpg"
   ],
   "rating": {
-    "overall": 9.2,
-    "design": 8.8,
-    "performance": 9.2,
-    "battery": 8.5,
-    "value": 9.4
+    "overall": 8.2,
+    "design": 7.8,
+    "performance": 8.5,
+    "battery": 7.8,
+    "value": 8.6
   },
   "specs": [
     {
-      "label": "Kích thước",
-      "value": "24 inch"
+      "label": "Mã sản phẩm",
+      "value": "P24FCA-RGGL (trang thông số Xiaomi toàn cầu); bán ở châu Âu và Việt Nam với mã ELA5625EU"
     },
     {
-      "label": "Độ phân giải",
-      "value": "1920 x 1080 (Full HD)"
+      "label": "Tấm nền",
+      "value": "Fast IPS 23,8 inch, 1920 x 1080, góc nhìn 178°/178° (Xiaomi)"
     },
     {
       "label": "Tần số quét",
-      "value": "180Hz"
+      "value": "Tối đa 180Hz (Xiaomi)"
     },
     {
       "label": "Thời gian phản hồi",
-      "value": "1ms"
+      "value": "1ms GtG — Xiaomi ghi số liệu từ phòng lab nội bộ"
     },
     {
-      "label": "Phân khúc",
-      "value": "Gaming Monitor"
+      "label": "Độ sáng / tương phản",
+      "value": "250 nit, 1000:1 điển hình (Xiaomi); Vortex Gaming đo khoảng 260 nit ở chế độ Custom"
+    },
+    {
+      "label": "Màu sắc",
+      "value": "99% sRGB (CIE 1931), 16,7 triệu màu, hiệu chỉnh từ nhà máy ΔE trung bình < 2 (Xiaomi)"
+    },
+    {
+      "label": "HDR",
+      "value": "Xiaomi nhắc tới tăng cường HDR bằng chip xử lý; không có chứng nhận HDR"
+    },
+    {
+      "label": "Đồng bộ khung hình",
+      "value": "FreeSync (Xiaomi)"
+    },
+    {
+      "label": "Cổng kết nối",
+      "value": "1 x DisplayPort 1.4, 1 x HDMI 2.0, cổng audio ra, DC in (Xiaomi); không có USB-C, không có hub USB"
+    },
+    {
+      "label": "Loa",
+      "value": "Không có"
+    },
+    {
+      "label": "Chân đế",
+      "value": "Ngả trước 5° / sau 15°; không nâng hạ, không xoay (Xiaomi)"
+    },
+    {
+      "label": "VESA",
+      "value": "75 x 75 mm; không kèm giá treo tường (Xiaomi)"
+    },
+    {
+      "label": "Nguồn",
+      "value": "Adapter rời 12V ⎓ 3A, công suất định mức 36W (Xiaomi)"
+    },
+    {
+      "label": "Bảo vệ mắt",
+      "value": "Chứng nhận TÜV Low Blue Light, DC dimming (Xiaomi)"
+    },
+    {
+      "label": "Trọng lượng",
+      "value": "3,0 kg kèm chân đế (Xiaomi)"
+    },
+    {
+      "label": "Trong hộp",
+      "value": "Cáp HDMI, adapter nguồn, chân đế, ốc vít (Xiaomi); không có cáp DisplayPort"
+    },
+    {
+      "label": "Bảo hành",
+      "value": "36 tháng chính hãng tại Hoàng Hà Mobile (tùy nơi bán)"
+    },
+    {
+      "label": "Giá tham khảo",
+      "value": "Khoảng 2,4–3,5 triệu đồng tại Việt Nam tùy khuyến mãi (Hoàng Hà Mobile); store Xiaomi Anh niêm yết giá tham khảo 79,99 bảng Anh (11/2026)"
     }
   ],
   "pros": [
-    "Tần số quét 180Hz mang lại trải nghiệm cực kỳ mượt mà.",
-    "Tốc độ phản hồi 1ms giúp giảm hiện tượng bóng mờ.",
-    "Phù hợp với các tựa game FPS và Esports.",
-    "Thiết kế hiện đại, tối giản đặc trưng của Xiaomi.",
-    "Giá thành cạnh tranh trong phân khúc gaming.",
-    "Hiệu năng gaming vượt trội so với nhiều đối thủ cùng tầm giá."
+    "180Hz Fast IPS có FreeSync — nhanh hơn phần lớn màn 144–165Hz giá rẻ.",
+    "Xử lý chuyển động và độ trễ đầu vào tốt theo Vortex Gaming; overdrive Fast/Faster dùng được.",
+    "Hiệu chỉnh màu từ nhà máy: Xiaomi công bố ΔE < 2, Vortex Gaming đo khoảng 1,4 ở chế độ Custom.",
+    "Có DisplayPort 1.4 và HDMI 2.0; theo Xiaomi, cáp HDMI trong hộp chạy được 180Hz.",
+    "Thân mỏng, chân đế kim loại, nút joystick điều khiển menu tiện.",
+    "Chứng nhận TÜV Low Blue Light và DC dimming giảm nhấp nháy (Xiaomi)."
   ],
   "cons": [
-    "Độ phân giải Full HD chưa phải lựa chọn tối ưu cho người thích độ nét cao.",
-    "Thiếu các tính năng cao cấp như USB-C hoặc HDR mạnh mẽ.",
-    "Khả năng điều chỉnh chân đế có thể còn hạn chế.",
-    "Không hướng tới nhu cầu thiết kế đồ họa chuyên nghiệp."
+    "Tối: Xiaomi ghi 250 nit, Vortex Gaming đo khoảng 260 nit — thấp hơn đối thủ như AOC 24G4XE.",
+    "Không có loa, dùng adapter nguồn rời.",
+    "Chân đế chỉ ngả; chỉ VESA 75 và không kèm giá treo tường.",
+    "Nhiệt độ màu mặc định ngả xanh, chế độ sRGB không được khuyên dùng (Vortex Gaming).",
+    "Không có chứng nhận HDR dù quảng cáo có HDR.",
+    "Bị bản G24i 2026 (200Hz, 400 nit) lấn át nếu hai bản giá gần nhau."
   ],
   "sections": [
     {
-      "title": "Thiết kế tối giản nhưng hiệu quả",
-      "content": "Xiaomi Gaming Monitor G24i sở hữu phong cách thiết kế hiện đại với viền mỏng và ngoại hình gọn gàng. Sản phẩm phù hợp cho cả góc gaming lẫn không gian làm việc thông thường."
+      "title": "Tổng quan: Xiaomi Gaming Monitor G24i là gì?",
+      "content": "G24i là màn hình esports giá rẻ của Xiaomi, ra mắt toàn cầu khoảng tháng 9/2024. Trang thông số toàn cầu của Xiaomi ghi mã **P24FCA-RGGL**; ở châu Âu và tại các cửa hàng Việt Nam máy bán với mã **ELA5625EU**. Thông số chính: **tấm nền Fast IPS 23,8 inch Full HD**, tối đa **180Hz**, **1ms GtG** và FreeSync. Store chính thức của Xiaomi tại Anh niêm yết giá tham khảo **79,99 bảng** (11/2026); tại Việt Nam, Hoàng Hà Mobile niêm yết khoảng 2,4–3,5 triệu đồng tùy khuyến mãi, bảo hành 36 tháng.\n\nĐiểm bán hàng rất rõ: tần số quét cao hơn mức 144–165Hz thường gặp ở cùng tầm tiền, kèm hiệu chỉnh màu từ nhà máy. Nhưng đây cũng là chiếc \"trơn\" nhất trong ba màn hình cùng phân khúc trên site — không loa, adapter rời, ngàm VESA 75 nhỏ — và Xiaomi đã ra **G24i 2026** 200Hz sáng hơn, làm thay đổi quyết định mua (xem mục so sánh)."
     },
     {
-      "title": "180Hz tạo khác biệt như thế nào?",
-      "content": "Tần số quét 180Hz giúp hình ảnh chuyển động mượt mà hơn đáng kể so với các màn hình 60Hz hoặc 75Hz. Trong các tựa game FPS, người chơi có thể theo dõi chuyển động mục tiêu dễ dàng và phản ứng nhanh hơn."
+      "title": "Chơi game: 180Hz, 1ms GtG và overdrive",
+      "content": "180Hz là bước tiến có thật nhưng không lớn so với 144–146Hz: thời gian mỗi khung hình giảm từ khoảng 6,9 ms xuống 5,6 ms. Bạn chỉ hưởng lợi khi PC thật sự chạy trên khoảng 146 FPS — dễ với Valorant, CS2, Liên Minh Huyền Thoại trên card tầm trung, khó hơn nhiều với game AAA nặng, nơi màn 146Hz như ASUS VG249QE5A không thua gì.\n\nCon số **1ms GtG** là số liệu phòng lab nội bộ của Xiaomi. Bài đánh giá độc lập duy nhất Zero Technology tìm được, của trang **Vortex Gaming** (Ba Lan), ghi nhận độ trễ đầu vào tốt và hiện tượng nhoè (smearing) được kiểm soát rất tốt. Họ khuyên dùng overdrive **Faster** để chuyển động nét nhất, nhưng cảnh báo khi bật đồng bộ khung hình ở FPS thấp thì Faster gây vầng sáng (overshoot) — game chạy thấp hơn nhiều so với 180 FPS nên chuyển sang **Fast**. FreeSync hoạt động không nhấp nháy trong bài thử của họ.\n\nGhi chú của Xiaomi khuyên dùng **cáp HDMI đi kèm** để đạt 1080p 180Hz; HDMI 2.0 đủ băng thông, DisplayPort 1.4 cũng được. Trong hộp không có cáp DisplayPort."
     },
     {
-      "title": "Tốc độ phản hồi 1ms cho game thủ cạnh tranh",
-      "content": "Thời gian phản hồi 1ms giúp giảm hiện tượng bóng ma và nhòe hình khi xuất hiện các chuyển động tốc độ cao. Đây là yếu tố đặc biệt quan trọng đối với các game thủ Esports."
+      "title": "Hình ảnh: màu chuẩn sau khi đổi một thiết lập, nhưng tối",
+      "content": "Xiaomi công bố **250 nit**, tương phản **1000:1**, **99% sRGB** và từng máy được hiệu chỉnh để **ΔE trung bình dưới 2**. Vortex Gaming đo được gần **90% DCI-P3**, khoảng **260 nit** và ΔE trung bình khoảng **1,4 ở chế độ Custom** — độ chính xác màu tốt trong tầm giá. Tuy vậy, họ thấy nhiệt độ màu mặc định bị ngả xanh và không khuyên dùng chế độ sRGB, nên vừa mua về hãy chuyển sang Custom.\n\nĐộ sáng là điểm yếu chính. Vortex Gaming đo G24i tối hơn hai đối thủ họ so sánh (AOC 24G4XE khoảng 320 nit, Gigabyte GS25F2 khoảng 360–370 nit). Trong phòng tối hoặc ánh sáng bình thường, 250–260 nit vẫn ổn; cạnh cửa sổ nắng thì hình sẽ nhạt. Máy họ thử cũng bị hở sáng ở cạnh trái và cạnh dưới — tuỳ may rủi tấm nền, nên kiểm tra trong thời gian đổi trả.\n\nĐiều **không có**: dù Xiaomi quảng cáo tăng cường HDR, máy **không có chứng nhận HDR**, và 250 nit không thể cho HDR thật. Hãy coi đó là một chế độ hình ảnh."
     },
     {
-      "title": "Trải nghiệm sử dụng hàng ngày",
-      "content": "Ngoài gaming, màn hình vẫn đáp ứng tốt nhu cầu học tập, làm việc văn phòng, xem phim và giải trí. Kích thước 24 inch được nhiều người đánh giá là cân bằng giữa hiệu suất và không gian sử dụng."
+      "title": "Thiết kế, chân đế và cổng kết nối: mỏng gọn nhưng tối giản",
+      "content": "G24i mỏng (7,5 mm ở chỗ mỏng nhất theo Xiaomi), viền mỏng ba cạnh, có joystick điều khiển menu. Vortex Gaming ghi nhận **chân đế bằng kim loại** — hiếm ở tầm giá này — nhưng **chỉ ngả** (trước 5°, sau 15°) và máy họ thử ngả khá cứng tay. Muốn nâng hạ hay xoay phải dùng giá treo; máy dùng **VESA 75 x 75**, giá treo rẻ như North Bayou F80 có hỗ trợ, và Xiaomi không kèm giá treo tường.\n\nCổng gồm **1 DisplayPort 1.4 và 1 HDMI 2.0**, cộng cổng audio ra cho tai nghe hoặc loa. **Không có loa tích hợp**, không USB-C, không hub USB, và nguồn đi qua **adapter 12V rời** — thêm một cục cần giấu dưới bàn. Nếu muốn âm thanh phát thẳng từ màn hình, ASUS VG249QE5A và VSP IP2705F đều có loa."
     },
     {
-      "title": "Có nên mua Xiaomi Gaming Monitor G24i?",
-      "content": "Nếu mục tiêu của bạn là tìm kiếm một màn hình gaming tốc độ cao với ngân sách hợp lý thì Xiaomi G24i là một trong những lựa chọn nổi bật nhất hiện nay trong phân khúc dưới trung cấp."
+      "title": "So sánh G24i với G24i 2026, ASUS VG249QE5A và VSP IP2705F",
+      "content": "**Kiểm tra đúng bản G24i khi mua.** Xiaomi đang bán hai mẫu gần như cùng tên:\n\n- **G24i** (bài này, P24FCA-RGGL / ELA5625EU): 180Hz, 250 nit, 99% sRGB, FreeSync.\n- **G24i 2026** (P24FDA-RGGL): 200Hz, **400 nit** (phòng lab Xiaomi), 100% sRGB / 95% DCI-P3, FreeSync Premium và thứ Xiaomi gọi là HDR400 — trang thông số không nói rõ có phải chứng nhận VESA DisplayHDR hay không. Trên giấy, bản này sửa đúng điểm yếu lớn nhất của bản gốc là độ sáng. CellphoneS niêm yết G24i 2026 khoảng 2,9 triệu đồng (đang chờ hàng); nếu hai bản giá gần nhau, bản 2026 đáng mua hơn.\n- Các màn **Redmi** G24 là sản phẩm khác; đừng lẫn bài đánh giá.\n\nSo với các màn hình khác trên site:\n\n- **ASUS TUF VG249QE5A**: 146Hz, 300 nit và 125% sRGB trên giấy, có loa, jack tai nghe, VESA 100, nguồn tích hợp. Chậm hơn, tiện hơn.\n- **VSP IP2705F**: IPS 27 inch Full HD, 100 hoặc 120Hz (các nơi bán ghi khác nhau), chỉ HDMI 1.4 + VGA. To hơn nhưng mềm hơn, chậm hơn; không phải màn cho game đối kháng.\n\nTóm lại: G24i dành cho người săn FPS và đã dùng tai nghe; ASUS là màn hình dùng hằng ngày cân bằng hơn."
+    },
+    {
+      "title": "Ai nên mua và ai không nên mua?",
+      "content": "**Nên mua nếu bạn:**\n- Chơi game bắn súng, MOBA đối kháng và PC thường xuyên vượt 150 FPS ở 1080p.\n- Muốn màu chuẩn trong tầm tiền và chịu khó chuyển sang chế độ Custom một lần.\n- Vốn đã dùng tai nghe hoặc loa rời.\n- Mua được giá rẻ hơn rõ so với G24i 2026.\n\n**Không nên mua nếu bạn:**\n- Ngồi trong phòng sáng — 250–260 nit là thấp; xem G24i 2026 hoặc đối thủ sáng hơn.\n- Muốn có loa, nguồn tích hợp hoặc ngàm VESA 100 (xem ASUS VG249QE5A).\n- Cần nâng hạ chiều cao, USB-C hoặc HDR thật.\n- Chủ yếu làm việc với chữ — màn 27 inch 2K nét hơn."
+    },
+    {
+      "title": "Nguồn thông tin của bài viết",
+      "content": "Zero Technology **chưa trực tiếp sử dụng** Xiaomi Gaming Monitor G24i. Bài viết được tổng hợp và phân tích từ: trang giới thiệu và trang thông số toàn cầu của Xiaomi cho G24i và G24i 2026 (tấm nền, tần số quét, chú thích GtG, độ sáng, màu, cổng, chân đế, phụ kiện); tin ra mắt và giá của Notebookcheck; giá tham khảo trên store Xiaomi Anh; bài đánh giá độc lập của Vortex Gaming (độ sáng đo được, độ phủ DCI-P3, ΔE, overdrive, chân đế, hở sáng); giá và bảo hành tại Hoàng Hà Mobile, CellphoneS. Độ sáng đo được (khoảng 260 nit) hơi khác mức 250 nit Xiaomi công bố, và Vortex Gaming thấy nhiệt độ màu mặc định ngả xanh dù Xiaomi ghi ΔE < 2 — cả hai đều được nêu ở trên. Cập nhật tháng 11/2026. Ảnh là ảnh sản phẩm chính thức của Xiaomi từ mi.com/global."
+    },
+    {
+      "title": "Có nên mua Xiaomi G24i?",
+      "content": "G24i là màn hình esports giá rẻ tốt: 180Hz, xử lý chuyển động tốt và màu chuẩn khi để chế độ Custom, theo Vortex Gaming. Đổi lại là độ sáng thấp, không loa, chân đế chỉ ngả và adapter rời. **Nên mua khi có khuyến mãi và rẻ hơn rõ so với G24i 2026** (200Hz, 400 nit trên giấy). Nếu bạn muốn có loa, ngàm VESA 100 và một gói cân bằng hơn, ASUS VG249QE5A 146Hz là lựa chọn an toàn hơn."
     }
   ],
   "faq": [
     {
-      "question": "Xiaomi Gaming Monitor G24i có phù hợp chơi Valorant không?",
-      "answer": "Có. Tần số quét 180Hz và thời gian phản hồi 1ms giúp sản phẩm đặc biệt phù hợp với các tựa game FPS như Valorant."
+      "question": "Xiaomi G24i có hợp chơi Valorant và CS2 không?",
+      "answer": "Có. Hai game này dễ chạy trên 150 FPS với PC tầm trung nên 180Hz và FreeSync được tận dụng. Vortex Gaming khuyên dùng overdrive Faster khi FPS cao và Fast khi FPS thấp."
     },
     {
-      "question": "180Hz có khác biệt nhiều so với 144Hz không?",
-      "answer": "Có sự cải thiện về độ mượt nhưng không quá lớn. Tuy nhiên với game thủ cạnh tranh, 180Hz vẫn mang lại lợi thế nhất định."
+      "question": "G24i khác G24i 2026 thế nào?",
+      "answer": "Bản 2026 (P24FDA-RGGL) nâng tần số quét lên 200Hz và độ sáng lên 400 nit (phòng lab Xiaomi), 100% sRGB / 95% DCI-P3 và FreeSync Premium. G24i gốc là 180Hz, 250 nit. Kiểm tra mã máy trước khi mua."
     },
     {
-      "question": "Màn hình này có phù hợp cho học tập và làm việc không?",
-      "answer": "Có. Ngoài gaming, màn hình đáp ứng tốt các nhu cầu văn phòng, học tập và giải trí thông thường."
+      "question": "ELA5625EU và P24FCA-RGGL có phải cùng một màn hình?",
+      "answer": "Đúng. ELA5625EU là mã sản phẩm dùng ở châu Âu và một số nhà bán lẻ châu Á (gồm Việt Nam); P24FCA-RGGL là số model trên trang thông số toàn cầu của Xiaomi."
+    },
+    {
+      "question": "Màn hình có loa không?",
+      "answer": "Không. Dùng cổng audio ra để cắm tai nghe hoặc loa ngoài. Nếu cần loa tích hợp, ASUS VG249QE5A có loa 2W x 2."
+    },
+    {
+      "question": "Có cần DisplayPort để chạy 180Hz không?",
+      "answer": "Không. Xiaomi khuyên dùng cáp HDMI đi kèm cho 1080p 180Hz, HDMI 2.0 đủ băng thông. DisplayPort 1.4 cũng được nhưng trong hộp không có cáp DP."
+    },
+    {
+      "question": "Nên chọn G24i hay ASUS VG249QE5A?",
+      "answer": "Chọn Xiaomi nếu muốn 180Hz và màu đã được kiểm chứng là chuẩn. Chọn ASUS nếu cần loa, jack tai nghe, độ sáng công bố cao hơn (300 nit), nguồn tích hợp và ngàm VESA 100."
     }
   ],
   "verdict": {
-    "summary": "Một trong những màn hình gaming đáng mua nhất trong phân khúc giá phổ thông nhờ tần số quét 180Hz, phản hồi 1ms và mức giá cạnh tranh.",
-    "recommendation": "Rất đáng mua cho game thủ Esports và người dùng muốn nâng cấp lên màn hình tần số quét cao."
+    "summary": "Màn hình esports 180Hz giá rẻ, nhanh và màu chuẩn. Độ sáng thấp, không loa, chân đế chỉ ngả và bản G24i 2026 200Hz sáng hơn là lý do nên cân nhắc.",
+    "recommendation": "Đáng mua cho game thủ FPS cao dùng tai nghe khi có giá tốt hơn rõ so với G24i 2026; cần loa và gói cân bằng thì xem ASUS VG249QE5A."
   },
   "seo": {
     "metaTitle": "Màn Hình Gaming Xiaomi G24i 180Hz: Có Đáng Mua?",
-    "metaDescription": "Đánh giá Xiaomi Gaming Monitor G24i ELA5625EU với tần số quét 180Hz, phản hồi 1ms và hiệu năng gaming vượt trội trong tầm giá.",
+    "metaDescription": "Đánh giá Xiaomi G24i: Fast IPS 23,8 inch, 180Hz, 1ms GtG, 99% sRGB, không loa. Ưu nhược điểm, so sánh G24i 2026, ASUS VG249QE5A và ai nên mua.",
     "keywords": [
-      "Xiaomi G24i",
+      "đánh giá xiaomi g24i",
       "Xiaomi Gaming Monitor G24i",
-      "màn hình Xiaomi 180Hz",
-      "review Xiaomi G24i",
-      "gaming monitor 180Hz",
-      "màn hình gaming giá rẻ",
-      "màn hình FPS"
+      "Xiaomi G24i ELA5625EU",
+      "Xiaomi G24i vs G24i 2026",
+      "Xiaomi G24i vs ASUS VG249QE5A",
+      "màn hình 180Hz giá rẻ"
     ]
   },
-  "productName": "Màn Hình Máy Tính Xiaomi Gaming Monitor G24i ELA5625EU Tốc Độ Phản Hồi Nhanh 1ms Tần Số Quét 180Hz",
+  "productName": "Xiaomi Gaming Monitor G24i (ELA5625EU)",
   "contentType": "review",
   "tags": ["xiaomi", "gaming-monitor", "180hz", "esports", "24-inch", "fhd"],
   "targetUsers": [
-    "Game thủ Valorant.",
-    "Game thủ Counter-Strike 2.",
-    "Game thủ Apex Legends.",
-    "Người chơi Liên Minh Huyền Thoại.",
-    "Sinh viên muốn sở hữu màn hình gaming giá tốt.",
-    "Người dùng nâng cấp từ màn hình 60Hz hoặc 75Hz."
+    "Game thủ esports có PC chạy trên 150 FPS.",
+    "Người muốn màu chuẩn với ngân sách thấp.",
+    "Góc máy đã có tai nghe hoặc loa rời."
   ],
   "buyReasons": [
-    "180Hz mang lại lợi thế rõ rệt trong các tựa game cạnh tranh.",
-    "1ms giúp giảm độ trễ và hiện tượng bóng ma.",
-    "Giá bán hấp dẫn so với hiệu năng nhận được.",
-    "Thiết kế đẹp, dễ phù hợp với nhiều góc setup.",
-    "Thương hiệu Xiaomi ngày càng được đánh giá cao trong lĩnh vực màn hình."
+    "180Hz Fast IPS, FreeSync, overdrive tốt theo Vortex Gaming.",
+    "Hiệu chỉnh màu từ nhà máy, ΔE đo khoảng 1,4 ở chế độ Custom.",
+    "DisplayPort 1.4 + HDMI 2.0, chân đế kim loại."
   ],
-  "updatedAt": "2026-11-17"
+  "updatedAt": "2026-11-25"
 }

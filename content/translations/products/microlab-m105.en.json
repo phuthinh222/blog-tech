@@ -1,117 +1,153 @@
 {
   "title": "Microlab M105: Budget 2.1 PC Speakers with a Subwoofer for Small Rooms",
-  "summary": "The Microlab M105 is a compact 2.1 PC speaker set — two small satellites plus a 4-inch subwoofer, about 10 W RMS in total, wired 3.5 mm input. It's an inexpensive step up from laptop speakers; here's what to expect and what it lacks.",
-  "description": "## Who is it for?\n\n- Upgrading from laptop speakers on a tight budget.\n- Movies, music and casual gaming in a small room.\n- People who want simple plug-and-play speakers.\n\n## Why consider it?\n\n- Dedicated subwoofer for fuller bass.\n- Compact satellites and wooden sub cabinet.\n- Simple 3.5 mm connection.",
+  "summary": "The Microlab M105 is a compact wired 2.1 PC speaker set — two 2.5-inch satellites plus a bottom-firing 4-inch subwoofer, 10 W RMS in total according to Microlab, with a single 3.5 mm input. It's an inexpensive step up from laptop speakers, but it's an older design with no Bluetooth, no bass control and a 220 V-only power supply on Microlab's sheet. Here's what to expect and what it lacks.",
+  "description": "## Who is it for?\n\n- Upgrading from laptop speakers on a very tight budget.\n- Movies, YouTube, music and casual gaming in a bedroom or at a desk.\n- People who want simple plug-and-play speakers with no app or drivers.\n\n## Why consider it?\n\n- Dedicated 4-inch subwoofer for fuller bass than laptop or basic 2.0 speakers.\n- Small satellites and a wooden subwoofer cabinet that fits under a desk.\n- A published review (3DNews) found the sound clean for its class.",
   "specs": [
-    { "label": "Type", "value": "Wired 2.1 PC speakers (subwoofer + 2 satellites)" },
+    { "label": "Type", "value": "Wired 2.1 PC speakers (subwoofer + 2 passive satellites)" },
+    { "label": "Power", "value": "2.5 W × 2 + 5 W = 10 W RMS (Microlab spec sheet)" },
     {
-      "label": "Power",
-      "value": "About 10 W RMS: 2 × 2.5 W + 5 W sub (review and catalog listings)"
+      "label": "Drivers",
+      "value": "2.5-inch satellites (4 Ω); 4-inch subwoofer (2 Ω) firing downward from the bottom of the box (Microlab)"
     },
-    { "label": "Drivers", "value": "2.5-inch satellites; 4-inch subwoofer with bass reflex port" },
-    { "label": "Frequency response", "value": "40 Hz – 20 kHz (catalog listing)" },
-    { "label": "S/N ratio", "value": "About 70 dB (catalog listing)" },
-    { "label": "Input", "value": "3.5 mm stereo (cable included)" },
-    { "label": "Controls", "value": "Single master volume; no bass control or remote" },
-    { "label": "Subwoofer size", "value": "135 × 215 × 165 mm (Microlab spec sheet)" },
-    { "label": "Weight", "value": "About 1.7 kg (catalog listing)" },
+    { "label": "Frequency response", "value": "40 Hz – 20 kHz (Microlab)" },
+    {
+      "label": "Other ratings",
+      "value": "THD < 0.5% (1 W, 1 kHz), S/N > 70 dB, separation > 40 dB (Microlab)"
+    },
+    { "label": "Cabinet", "value": "Wood, with a front bass reflex port on the subwoofer" },
+    { "label": "Input", "value": "One 3.5 mm stereo input (3.5–3.5 mm cable included)" },
+    {
+      "label": "Controls",
+      "value": "Single master volume knob on the back of the subwoofer; no bass/treble control, no remote"
+    },
+    {
+      "label": "Cables",
+      "value": "Satellite cables and the subwoofer power cable are not detachable (3DNews)"
+    },
+    {
+      "label": "Size",
+      "value": "Subwoofer 135 × 215 × 165 mm; satellites 70 × 85 × 145 mm (Microlab)"
+    },
+    { "label": "Weight", "value": "1.7 kg net for the set (Microlab)" },
     {
       "label": "Power supply",
-      "value": "Microlab's sheet lists AC 220 V, 50 Hz — check the version for your region"
+      "value": "AC 220 V / 50 Hz on Microlab's sheet — check the version sold in your region"
     },
-    { "label": "Not included", "value": "Bluetooth, USB, optical" }
+    {
+      "label": "Not included",
+      "value": "Bluetooth, USB, optical, headphone jack, bass control, remote"
+    },
+    {
+      "label": "Reference price",
+      "value": "Not widely sold in the US or UK; around the equivalent of US$20–25 at Southeast Asian retailers (November 2026)"
+    },
+    { "label": "Warranty", "value": "Microlab's sheet lists 1 year; varies by region and seller" }
   ],
   "sections": [
     {
       "title": "What is the Microlab M105?",
-      "content": "Microlab is a long-running PC speaker brand, and the M105 is a mini 2.1 set: a small wooden subwoofer plus two satellites. Note that the M-105R and M105BT are different models (the BT adds Bluetooth), so check the exact model name when shopping."
+      "content": "Microlab is a long-running Chinese PC speaker brand that is especially common in Southeast Asia and Eastern Europe. The M105 (written M-105 on Microlab's spec sheet) is a mini 2.1 set: one small wooden subwoofer that holds the amplifier, plus two passive satellites. Microlab markets it as a 'classic 2.1 system in a mini size' with a vintage box design.\n\nIt is not new. 3DNews reviewed it in September 2018, and some catalog sites now mark it as an older model, so stock and exact revisions vary by country. Watch the model name when shopping: the M-105 is wired only, while the M105BT is a separate Bluetooth version with different retailer-listed specs. This review covers the wired M-105."
     },
     {
-      "title": "Design",
-      "content": "Microlab's spec sheet gives the subwoofer as 135 × 215 × 165 mm. The satellites are small enough to sit beside a monitor, and their cables are fixed rather than detachable, according to a published review. The 4-inch sub uses a bass reflex port; place it on a hard floor or desk for the clearest bass."
+      "title": "Design and build: a bottom-firing subwoofer",
+      "content": "The subwoofer measures 135 × 215 × 165 mm according to Microlab — small enough to sit on a desk corner or the floor. Its 4-inch driver is mounted on the underside and fires downward, with a bass reflex port on the front. That layout makes the most of a small box, but it also means the surface underneath shapes the bass: a hard desk or wooden floor reinforces it, while a thick carpet soaks it up. Leave a little space around the port and don't push the sub into a closed cabinet.\n\nThe satellites are 70 × 85 × 145 mm, small enough to flank a 24-inch monitor. 3DNews notes that their cables are permanently attached, as is the subwoofer's power cable. That keeps the setup simple, but it limits how far apart you can place the satellites and means a damaged cable can't simply be swapped. The whole set weighs about 1.7 kg."
     },
     {
-      "title": "Sound",
-      "content": "Listings and a published review put output at about 10 W RMS (2 × 2.5 W + 5 W) with a 40 Hz–20 kHz range. The dedicated sub gives noticeably fuller bass than laptop or basic 2.0 speakers, but 10 W suits a bedroom or desk, not a living room, and pushing it to maximum can distort. The tuning is for entertainment, not accurate monitoring. We have not measured it ourselves."
+      "title": "Sound: what 10 W and a 4-inch sub really mean",
+      "content": "Microlab's sheet lists 2.5 W per satellite and 5 W for the subwoofer — 10 W RMS in total — with a 40 Hz–20 kHz range and under 0.5% distortion at 1 W. Treat the 40 Hz figure with caution: a 4-inch woofer in a box this size can suggest low bass, not reproduce it with real force.\n\n3DNews' review is more encouraging than the spec sheet suggests. The reviewer described the bass as clean and controlled rather than boomy — it fills in what the small satellites can't do instead of dominating — and found the mids rich, with highs a little less detailed but free of obvious problems. 3DNews reported no noticeable distortion across the volume range in its room, and said the set suits pop, electronic music, jazz, films and games, though it can't create a wide soundstage.\n\nThe realistic expectation, then, is a clear upgrade over laptop speakers for a bedroom or desk at roughly 10–15 m², not a speaker for a living room or a party. Ten watts is a physical ceiling; if you regularly need more volume, no placement trick will fix it. And this is an entertainment set — it won't give you the neutral, revealing sound you'd want for editing or mixing. Zero Technology has not listened to or measured the M105."
     },
     {
-      "title": "Connectivity and controls",
-      "content": "There's a single 3.5 mm input — fine for PCs, laptops and phones with a headphone jack. There's no Bluetooth, USB or optical input, and only one volume knob; adjust bass with your computer's EQ or sub placement."
+      "title": "Connectivity, controls and power",
+      "content": "There's a single 3.5 mm stereo input, and Microlab includes the cable. That works with PCs, laptops, phones and tablets with a headphone jack, and TVs with a 3.5 mm line or headphone output. USB-C-only phones and laptops need a USB-C to 3.5 mm adapter, and a cheap dongle can add noise or limit volume, so buy a decent one.\n\nWhat's missing matters as much: no Bluetooth, no USB audio, no optical input, no headphone jack and no remote. The only control is a master volume knob on the back of the subwoofer, next to the power switch — awkward if the sub lives under the desk, because you'll end up controlling volume from your computer. There's no separate bass knob; if the bass is too heavy, move the sub away from walls and corners or use an EQ on your computer.\n\nMicrolab's sheet lists an AC 220 V / 50 Hz power supply. If you live in a 110–120 V country (the US, Canada, Japan and others), don't import one — buy a version sold for your region, or choose a different speaker."
     },
     {
-      "title": "Power and regional versions",
-      "content": "Microlab's spec sheet lists AC 220 V / 50 Hz. If you live in a 110–120 V country, buy a version sold for your region rather than an import."
+      "title": "M105 vs Edifier MR3 and other budget 2.1 sets",
+      "content": "On this site, the **Edifier MR3** (reviewed separately) is the obvious step up, but it is a different kind of product. The MR3 are 2.0 studio monitors at around four times the price: a flat, accurate tuning, balanced TRS inputs, RCA and AUX, Bluetooth 5.4 with two-device multipoint and a front headphone jack. The M105 gives you more bass out of the box for films and games thanks to its subwoofer, but the MR3 will sound cleaner, play louder and work for audio and video editing.\n\nA simple rule: if your budget is tight and you mainly watch videos and play games, the M105 is enough. If you edit audio or video, listen closely to music, or want Bluetooth and more inputs, save up for the MR3.\n\nOutside this site, the Microlab M105BT adds Bluetooth to the same idea, and the Logitech Z313 is a widely available budget 2.1 set with a wired volume pod — handy if the subwoofer has to sit out of reach."
     },
     {
       "title": "Who should buy it — and who shouldn't",
-      "content": "Buy it for cheap, bass-capable speakers in a small room. Skip it if you need Bluetooth, loud playback, separate bass control or accurate sound for editing — consider the Edifier MR3 for accuracy, or the M105BT if you want Bluetooth."
+      "content": "Buy it if you want the cheapest sensible upgrade from laptop speakers, mainly for videos, casual music and games in a small room; if you like plug-and-play gear with no app, pairing or drivers; or if you need a compact second set for a study desk.\n\nSkip it if you need Bluetooth, a headphone jack or more than one input; if you want loud playback for a living room; if you want to tune bass separately; if you need accurate sound for editing (look at the Edifier MR3); or if you live in a 110–120 V country and can only find imported 220 V units."
     },
     {
       "title": "Sources for this review",
-      "content": "Zero Technology has not used these speakers in person. This is a research roundup based on Microlab's M-105 spec sheet, E-Catalog's listing and a published review by 3DNews, checked November 2026. Output figures come from the review and catalog, as the spec sheet does not list wattage. The image comes from Microlab's documentation."
+      "content": "Zero Technology has not used the M105 in person. This is a research roundup, updated November 2026, based on Microlab's official M-105 spec sheet (hosted on Global Sources), a hands-on review by 3DNews (September 2018) and catalog listings. The power figures, dimensions, ratings and 220 V supply come from Microlab's sheet; sound impressions come from 3DNews. The image comes from Microlab's documentation."
+    },
+    {
+      "title": "Should you buy the Microlab M105?",
+      "content": "If you want more bass than a laptop for very little money and the speakers will live on a small desk, yes — it's a simple, compact 2.1 set that a published review found clean-sounding for its class. Just go in knowing it's an older wired design: 10 W, one 3.5 mm input, no Bluetooth, a volume knob on the back of the sub and fixed cables. If any of those are deal-breakers, the extra money for something like the Edifier MR3 is well spent."
     }
   ],
   "pros": [
-    "Dedicated subwoofer gives fuller bass than laptop speakers.",
-    "Compact satellites and small wooden sub.",
-    "Simple 3.5 mm plug-and-play connection.",
-    "Long-established speaker brand.",
+    "Dedicated 4-inch subwoofer gives fuller bass than laptop or basic 2.0 speakers.",
+    "3DNews found the sound clean for its class, with controlled rather than boomy bass.",
+    "Compact satellites and small wooden subwoofer that fit a small desk.",
+    "Simple 3.5 mm plug-and-play connection; no app or drivers needed.",
     "Very low price for a 2.1 set.",
-    "No software or drivers needed."
+    "Low distortion rating (< 0.5% at 1 W) on Microlab's spec sheet."
   ],
   "cons": [
-    "About 10 W only suits small rooms.",
-    "No Bluetooth, USB or optical input.",
-    "No separate bass control or remote.",
-    "Satellite cables are fixed.",
-    "Spec sheet lists 220 V — check the regional version."
+    "10 W RMS only suits small rooms and desk listening.",
+    "No Bluetooth, USB, optical input or headphone jack — one 3.5 mm input only.",
+    "Only a master volume knob, on the back of the sub; no bass control or remote.",
+    "Satellite cables and the sub's power cable are fixed (3DNews).",
+    "Microlab's sheet lists a 220 V / 50 Hz supply — not for 110–120 V countries unless sold locally.",
+    "Older model (reviewed in 2018); availability and revisions vary by country."
   ],
   "buying_advice": "Cheap, simple upgrade for small rooms",
   "faq": [
     {
       "question": "Does the Microlab M105 have Bluetooth?",
-      "answer": "No. The M105 is wired only; the separate M105BT model adds Bluetooth."
+      "answer": "No. The M-105 is wired only, through one 3.5 mm input. The separate M105BT model adds Bluetooth, or you can add a cheap 3.5 mm Bluetooth receiver."
     },
     {
       "question": "Is 10 W loud enough?",
-      "answer": "For a bedroom or desk, yes. For a large living room, no."
+      "answer": "For a bedroom or desk of roughly 10–15 m², yes. For a large living room or parties, no — that's a physical limit of the amplifier and drivers."
     },
     {
       "question": "Can I adjust the bass?",
-      "answer": "No separate bass knob — use your computer's EQ or move the sub."
+      "answer": "There's no separate bass knob. Use your computer's EQ, or move the bottom-firing subwoofer: hard surfaces and corners add bass, carpets and open space reduce it."
     },
     {
       "question": "Can it connect to a TV?",
-      "answer": "Yes, if the TV has a 3.5 mm headphone/line output. Optical-only TVs need a converter."
+      "answer": "Yes, if the TV has a 3.5 mm headphone or line output. Optical-only TVs need an optical-to-analog converter."
     },
     {
-      "question": "M105 or Edifier MR3?",
-      "answer": "M105 for cheap, bassy entertainment; MR3 for accurate sound, Bluetooth and more inputs at a higher price."
+      "question": "Microlab M105 or Edifier MR3?",
+      "answer": "M105 for cheap, bassier entertainment on a small desk. Edifier MR3 for accurate sound, editing, Bluetooth multipoint and more inputs, at around four times the price."
     },
     {
       "question": "Will it work on 110 V power?",
-      "answer": "Microlab's sheet lists 220 V / 50 Hz, so buy a version made for your region."
+      "answer": "Microlab's sheet lists 220 V / 50 Hz, so only buy a version made for your region's mains voltage."
     }
   ],
   "seo_title": "Microlab M105 Review: Budget 2.1 PC Speakers Worth It?",
-  "seo_description": "Microlab M105 2.1 speakers: about 10 W RMS, 4-inch subwoofer, 40 Hz–20 kHz, 3.5 mm input. Sourced specs, pros and cons, and how it compares with the Edifier MR3.",
-  "verdict_summary": "A cheap, compact 2.1 set that adds real bass over laptop speakers. Only about 10 W, wired only and no bass control — fine for a desk or bedroom.",
+  "seo_description": "Microlab M105 2.1 speakers: 10 W RMS, bottom-firing 4-inch sub, 40 Hz–20 kHz, one 3.5 mm input, no Bluetooth. Pros, cons, 220 V note and how it compares with the Edifier MR3.",
+  "verdict_summary": "A cheap, compact 2.1 set that adds clean, controlled bass over laptop speakers. Only 10 W, wired only, no bass control and a 220 V supply on Microlab's sheet — fine for a desk or bedroom.",
   "extras": {
-    "productName": "Microlab M-105 speakers",
-    "regionalNote": "Microlab's spec sheet lists a 220 V / 50 Hz power supply; check the version sold in your country.",
+    "productName": "Microlab M-105 2.1 speakers",
+    "amazon": false,
+    "regionalNote": "Microlab's spec sheet lists a 220 V / 50 Hz power supply, and the M105 is mainly sold in Asia and Eastern Europe; check the version sold in your country. The M105BT is a separate Bluetooth model.",
     "bestFor": [
       "Upgrading laptop speakers cheaply",
-      "Small rooms and desks",
-      "Plug-and-play users"
+      "Videos, games and casual music in small rooms",
+      "Plug-and-play users who don't want apps or pairing"
     ],
-    "notFor": ["Bluetooth streaming", "Living rooms and loud playback", "Accurate audio editing"],
+    "notFor": [
+      "Bluetooth streaming",
+      "Living rooms and loud playback",
+      "Accurate audio or video editing",
+      "110–120 V countries (unless sold locally)"
+    ],
     "alternatives": [
       {
         "name": "Edifier MR3",
         "slug": "edifier-mr3",
-        "note": "Accurate studio monitors with Bluetooth and more inputs, at a higher price."
+        "note": "Accurate studio monitors with Bluetooth multipoint, balanced inputs and a headphone jack, at around four times the price."
       },
-      { "name": "Microlab M105BT", "note": "Same idea with Bluetooth added." },
+      {
+        "name": "Microlab M105BT",
+        "note": "Same basic idea with Bluetooth added; check its specs separately."
+      },
       {
         "name": "Logitech Z313",
         "note": "Widely available budget 2.1 set with a wired volume pod."
@@ -123,12 +159,12 @@
         "url": "https://p.globalsources.com/IMAGES/PDT/SPEC/501/K1191091501.pdf"
       },
       {
-        "label": "E-Catalog — Microlab M-105 specifications",
-        "url": "https://e-catalog.com/MICROLAB-M-105.htm"
+        "label": "3DNews — Microlab M105 review (Russian, September 2018)",
+        "url": "https://3dnews.ru/974344/obzor-21akustiki-microlab-m105-etalon-minimalizma"
       },
       {
-        "label": "3DNews — Microlab M105 review (Russian)",
-        "url": "https://3dnews.ru/974344/obzor-21akustiki-microlab-m105-etalon-minimalizma"
+        "label": "E-Catalog — Microlab M-105 specifications",
+        "url": "https://e-catalog.com/MICROLAB-M-105.htm"
       }
     ]
   }

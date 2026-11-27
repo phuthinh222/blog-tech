@@ -1,11 +1,12 @@
 {
   "slug": "edifier-mr3",
   "title": "Edifier MR3: Loa Kiểm Âm Bluetooth Cho Góc Làm Việc Và Làm Nhạc",
-  "excerpt": "Edifier MR3 là cặp loa kiểm âm (studio monitor) giá rẻ: củ bass 3,5 inch, tweeter vòm lụa 1 inch, tổng 36W, dải tần phẳng 52Hz–40kHz, chứng nhận Hi-Res, Bluetooth 5.4 và đủ cổng TRS, RCA, AUX. Với giá khoảng 2 triệu, nó có đáng mua cho góc làm việc, làm nhạc và nghe nhạc? Và khi nào nên lên MR5?",
+  "excerpt": "Edifier MR3 là cặp loa kiểm âm (studio monitor) giá rẻ: củ bass 3,5 inch, tweeter vòm lụa 1 inch, tổng 36W, dải tần 52Hz–40kHz, chứng nhận Hi-Res, Bluetooth 5.4 kết nối 2 thiết bị và đủ cổng TRS, RCA, AUX. Phép đo độc lập xác nhận chất âm trung tính nhưng bass và độ to có giới hạn. Với giá khoảng 2 triệu, nó có đáng mua — và khi nào nên chọn MR4, MR5 hay một bộ 2.1 rẻ hơn?",
   "category": "audio-video",
   "author": "Zero Technology",
   "publishedAt": "2026-10-28",
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-25",
+  "reviewMethod": "compiled",
   "coverImage": "/images/products/edifier-mr3/cover.jpg",
   "images": [
     "/images/products/edifier-mr3/mau-trang.jpg",
@@ -17,16 +18,16 @@
     "/images/products/edifier-mr3/canh-mixer.jpg"
   ],
   "rating": {
-    "overall": 8.5,
-    "design": 8.6,
-    "performance": 8.3,
+    "overall": 8.4,
+    "design": 8.4,
+    "performance": 8.2,
     "battery": 8.5,
-    "value": 8.8
+    "value": 8.7
   },
   "specs": [
     {
       "label": "Loại loa",
-      "value": "Loa kiểm âm 2.0 chủ động (powered studio monitor), loa bookshelf"
+      "value": "Loa kiểm âm 2.0 chủ động (1 loa active chứa ampli và cổng, 1 loa passive), loa bookshelf"
     },
     {
       "label": "Phiên bản trên trang bán",
@@ -34,101 +35,113 @@
     },
     {
       "label": "Củ loa (MR3)",
-      "value": "Bass/mid 3,5 inch + tweeter vòm lụa 1 inch có waveguide dạng lõm"
+      "value": "Bass/mid 3,5 inch + tweeter vòm lụa 1 inch trong waveguide (Edifier)"
     },
     {
       "label": "Công suất (MR3)",
-      "value": "18W × 2 RMS (tổng 36W), áp suất âm tối đa 92,5 dB (@1 m)"
+      "value": "18W + 18W RMS, ampli class-D bi-amp (Edifier, B&H)"
+    },
+    {
+      "label": "Áp suất âm tối đa",
+      "value": "92,5 dB @1 m theo Edifier; Erin's Audio Corner đo mức to tối đa dùng được chỉ khoảng 86 dB"
     },
     {
       "label": "Dải tần (MR3)",
-      "value": "52Hz – 40kHz (đáp tuyến phẳng)"
+      "value": "52Hz – 40kHz (Edifier)"
+    },
+    {
+      "label": "Tỷ lệ tín hiệu/nhiễu",
+      "value": "≥ 85 dB(A) (Edifier)"
     },
     {
       "label": "Hi-Res",
-      "value": "Chứng nhận Hi-Res Audio, xử lý 24bit/96kHz"
+      "value": "Chứng nhận Hi-Res Audio, xử lý 24bit/96kHz (Edifier)"
     },
     {
       "label": "Kết nối có dây",
-      "value": "TRS cân bằng, RCA, AUX 3.5 mm; cổng tai nghe ở mặt trước"
+      "value": "TRS 6,35 mm cân bằng, RCA, AUX 3.5 mm; cổng tai nghe 3.5 mm ở mặt trước"
     },
     {
       "label": "Bluetooth",
-      "value": "Bluetooth 5.4, codec SBC"
+      "value": "Bluetooth 5.4, chỉ codec SBC, kết nối cùng lúc 2 thiết bị (Edifier)"
     },
     {
       "label": "Tùy chỉnh",
-      "value": "Bù âm theo phòng (room compensation), chỉnh qua app EDIFIER ConneX"
+      "value": "Núm treble (±6 dB trên 10kHz) và bass (±6 dB quanh 125Hz) phía sau; bù âm theo phòng (Low Cutoff, Acoustic Space, Desktop Control) qua núm hoặc app EDIFIER ConneX"
+    },
+    {
+      "label": "Kích thước / trọng lượng",
+      "value": "125,5 × 220 × 185 mm (loa active); cả cặp 3,85 kg (Edifier)"
     },
     {
       "label": "Thùng loa",
-      "value": "Gỗ MDF giảm cộng hưởng; màu Đen hoặc Trắng"
+      "value": "Gỗ MDF; màu Đen hoặc Trắng"
     },
     {
       "label": "Không có",
-      "value": "Cổng quang (optical), cổng USB audio"
+      "value": "Cổng quang (optical), USB audio, XLR, cổng ra loa sub, chân kê loa"
     },
     {
       "label": "MR5 (để so sánh)",
-      "value": "3 đường tiếng, 110W RMS, bass 5 inch + mid 3,75 inch + tweeter 1 inch, 46Hz–40kHz, thêm cổng XLR"
+      "value": "3 đường tiếng, 110W RMS, bass 5 inch + mid 3,75 inch + tweeter 1 inch, 46Hz–40kHz, 101 dB, thêm cổng XLR; trang Edifier toàn cầu ghi Bluetooth 6.0 có LDAC; cả cặp 10,38 kg"
     },
     {
       "label": "Bảo hành",
-      "value": "12 tháng chính hãng (tùy nơi bán, trang Shopee ghi 15 tháng)"
+      "value": "12 tháng chính hãng (FPT Shop, Meta.vn; tùy nơi bán, có shop ghi 15 tháng)"
     },
     {
       "label": "Giá tham khảo",
-      "value": "MR3 khoảng 1,9–2 triệu; MR5 khoảng 3,4–4 triệu (10/2026)"
+      "value": "MR3 khoảng 1,9–2 triệu; MR5 khoảng 3,4–4 triệu tại Việt Nam; MR3 niêm yết 149,99 USD trên store Edifier Mỹ (11/2026)"
     }
   ],
   "pros": [
-    "Đáp tuyến khá phẳng 52Hz–40kHz, nghe đúng tính chất bản thu — hợp nghe nhạc, xem phim và làm nhạc cơ bản.",
-    "Đủ cổng cho nhiều nhu cầu: TRS cân bằng cho sound card/mixer, RCA, AUX và Bluetooth 5.4.",
-    "Có cổng tai nghe ở mặt trước và bù âm theo phòng qua app ConneX.",
-    "Thùng gỗ MDF, thiết kế gọn, 2 màu đen/trắng đẹp trên bàn làm việc.",
-    "Chứng nhận Hi-Res, tweeter vòm lụa cho âm cao mượt.",
-    "Giá khoảng 2 triệu cho một cặp loa kiểm âm có Bluetooth của thương hiệu lớn."
+    "Chất âm trung tính, cân bằng — được phép đo của Erin's Audio Corner và đánh giá của KitGuru (8/10) xác nhận.",
+    "Đủ cổng trong thân loa nhỏ: TRS cân bằng cho sound card/mixer, RCA, AUX và Bluetooth 5.4.",
+    "Bluetooth kết nối cùng lúc 2 thiết bị (Edifier) — chuyển giữa điện thoại và laptop không cần ghép lại.",
+    "Cổng tai nghe và núm âm lượng ở mặt trước, tiện dùng hằng ngày.",
+    "Núm chỉnh treble/bass và chế độ bù âm theo phòng khi phải đặt loa sát tường hoặc trên bàn.",
+    "Giá khoảng 2 triệu cho cặp loa kiểm âm có Hi-Res, Bluetooth của thương hiệu lớn."
   ],
   "cons": [
-    "Củ bass 3,5 inch nên âm trầm sâu có giới hạn; không có cổng sub để gắn thêm loa trầm.",
-    "36W chỉ hợp phòng nhỏ, góc bàn làm việc; phòng lớn sẽ thiếu độ to (đánh giá quốc tế cũng nhận xét như vậy).",
+    "Củ bass 3,5 inch nên âm trầm sâu có giới hạn; không có cổng ra sub để gắn thêm loa trầm sau này.",
+    "Erin's Audio Corner đo mức to dùng được khoảng 86 dB, thấp hơn con số 92,5 dB của Edifier — chỉ hợp bàn làm việc và phòng nhỏ.",
     "Bluetooth chỉ có codec SBC, không có AAC/aptX/LDAC.",
-    "Không có cổng quang (optical) hay USB — nối với TV hoặc máy tính phải qua AUX/RCA.",
-    "Loa kiểm âm nghe trung thực, không 'đã tai' bass như loa giải trí cùng giá.",
-    "Trang bán gộp MR3 và MR5 — giá rất khác nhau, dễ chọn nhầm phân loại."
+    "Không có cổng quang, USB hay XLR — TV chỉ có ngõ quang cần thêm bộ DAC.",
+    "Không kèm chân kê loa, và KitGuru chê phần EQ tùy chỉnh trong app khá hạn chế.",
+    "Âm trung tính có thể nghe 'mỏng' với người quen loa vi tính tăng bass; trang bán gộp MR3 và MR5 nên dễ chọn nhầm phân loại."
   ],
   "sections": [
     {
       "title": "Edifier MR3 là loa gì?",
-      "content": "Edifier MR3 là cặp loa kiểm âm (studio monitor) 2.0 chủ động giá rẻ của Edifier — thương hiệu loa vi tính rất phổ biến ở Việt Nam. Khác với loa vi tính giải trí thường được chỉnh cho nhiều bass, loa kiểm âm được thiết kế để âm thanh trung thực, đáp tuyến phẳng, phù hợp người làm nhạc, dựng video, nhưng cũng rất hợp nghe nhạc nghiêm túc. Tại Việt Nam, MR3 có giá khoảng 1,9–2 triệu đồng (FPT Shop, CellphoneS), bảo hành 12 tháng. Trang Shopee của bài này bán chung MR3 và bản lớn hơn MR5 — bài viết tập trung vào MR3, kèm phần so sánh MR5 để bạn chọn đúng."
+      "content": "Edifier MR3 là cặp loa kiểm âm (studio monitor) 2.0 chủ động giá rẻ nhất của Edifier: loa bên trái chứa ampli, cổng kết nối và núm điều khiển, loa bên phải là loa thụ động. Khác với loa vi tính giải trí thường được chỉnh tăng bass và treble cho 'đã tai' khi nghe thử ở cửa hàng, loa kiểm âm hướng tới đáp tuyến phẳng để bản thu nghe đúng như khi được mix. Vì vậy MR3 hợp người dựng video, làm podcast, mới học làm nhạc, và cả người thích nghe nhạc với chất âm trung thực.\n\nĐiểm đặc biệt là MR3 gom nhiều thứ vào một mức giá thấp: chứng nhận Hi-Res, cổng tai nghe mặt trước, cổng TRS cân bằng và Bluetooth 5.4. Tại Việt Nam, MR3 có giá khoảng 1,9–2 triệu đồng (FPT Shop, CellphoneS), bảo hành 12 tháng; store Edifier Mỹ niêm yết 149,99 USD (11/2026) và thường có giảm giá. Trang bán của bài này gộp MR3 và bản lớn hơn MR5 — bài viết tập trung vào MR3, kèm phần so sánh để bạn chọn đúng."
     },
     {
-      "title": "Thiết kế: gọn, thùng MDF, hai màu",
-      "content": "MR3 có thùng gỗ MDF giúp giảm méo tiếng và cộng hưởng, kích thước gọn đủ đặt hai bên màn hình trên bàn làm việc. Mặt trước có củ bass/mid 3,5 inch màng màu đồng, tweeter vòm lụa 1 inch đặt trong waveguide dạng lõm giúp dải cao phẳng và mở rộng hơn, cùng núm âm lượng và cổng tai nghe — rất tiện khi muốn chuyển sang nghe tai nghe mà không phải rút dây sau loa. Loa có hai màu đen và trắng; bản trắng đặc biệt hợp các góc setup sáng màu."
+      "title": "Thiết kế, điều khiển và cách đặt loa",
+      "content": "MR3 dùng thùng gỗ MDF, củ bass/mid 3,5 inch và tweeter vòm lụa 1 inch đặt trong waveguide nông. Erin's Audio Corner nhận xét waveguide giúp âm thanh phân tán đều trong một góc nghe hợp lý — điều quan trọng khi ngồi bàn làm việc, vì đầu bạn di chuyển và hiếm khi ngồi đúng trục loa.\n\nMỗi loa cao 220 mm, sâu khoảng 185 mm, đặt vừa hai bên màn hình 24–27 inch, nhưng nên đo lại độ sâu bàn nếu bàn có chân giá treo màn hình hay khay bàn phím. Mặt trước có núm âm lượng và cổng tai nghe 3.5 mm, giúp chuyển sang tai nghe mà không phải với ra sau loa. Phía sau có núm treble (±6 dB trên 10kHz) và bass (±6 dB quanh 125Hz), cùng các chế độ bù âm theo phòng Low Cutoff, Acoustic Space và Desktop Control, chỉnh bằng núm hoặc app EDIFIER ConneX.\n\nHai lưu ý từ KitGuru: hộp không kèm chân kê loa như một số mẫu Edifier cũ, và phần EQ tùy chỉnh trong app khá hạn chế. Bạn nên mua thêm đệm mút hoặc chân kê rẻ để nghiêng tweeter hướng về tai — thay đổi này thường hiệu quả hơn mọi preset EQ."
     },
     {
-      "title": "Âm thanh: trung thực, hợp phòng nhỏ",
-      "content": "Mỗi bên loa có công suất 18W RMS (tổng 36W), áp suất âm tối đa 92,5 dB ở khoảng cách 1 m, dải tần 52Hz–40kHz và chứng nhận Hi-Res Audio. Đáp tuyến phẳng nghĩa là loa tái tạo gần đúng bản thu: giọng hát rõ, nhạc cụ tách bạch, không bị bass lấn át. Đổi lại, với củ bass 3,5 inch, âm trầm sâu (dưới khoảng 60Hz) chỉ ở mức vừa phải, và 36W phù hợp nghe gần (nearfield) ở bàn làm việc, phòng ngủ nhỏ; các đánh giá quốc tế nhận xét MR3 không thật sự to với phòng lớn. Nếu bạn thích bass đậm kiểu loa giải trí, hãy cân nhắc trước khi mua. Tính năng bù âm theo phòng (chỉnh qua app EDIFIER ConneX) giúp giảm hiện tượng dư bass khi đặt loa sát tường."
+      "title": "Âm thanh, bass và độ to: đánh đổi thực tế",
+      "content": "Edifier công bố 18W RMS mỗi bên, dải tần 52Hz–40kHz và áp suất âm tối đa 92,5 dB ở 1 m. Phép đo độc lập cho bức tranh hữu ích hơn: Erin's Audio Corner đánh giá cao MR3 cho nghe gần ở bàn làm việc, nhận xét nó vượt các loa cùng giá kể cả MR4 của chính Edifier, nhưng ghi mức to tối đa dùng được chỉ khoảng 86 dB — thấp hơn rõ so với con số của hãng. KitGuru (8/10) nghe thấy âm khá phẳng, cân bằng; các bài đánh giá khác cũng nhắc cùng một điểm: âm trầm sâu, có lực không phải thế mạnh của MR3.\n\nTrên thực tế, điều đó nghĩa là giọng nói rõ, nhạc cụ tách bạch, treble không chói — đúng thứ bạn cần khi dựng hội thoại hay kiểm tra bản mix. Cái bạn đánh đổi là âm trầm: củ 3,5 inch không đẩy đủ không khí cho tiếng bass sâu của nhạc điện tử hay phim hành động, và MR3 không có cổng ra sub để bổ sung sau. Độ to đủ dùng ở khoảng cách một sải tay trong phòng ngủ, phòng làm việc, nhưng sẽ hụt ở phòng khách hay khi muốn mở to cho cả nhóm nghe.\n\nVị trí đặt loa ảnh hưởng nhiều hơn so với loa tăng bass. Đặt sát tường sẽ dày bass nhưng đục tiếng; đó là lý do có chế độ Desktop Control và Low Cutoff. Đây là kỳ vọng dựa trên phép đo và đánh giá đã công bố — Zero Technology không tự đo loa này."
     },
     {
       "title": "Kết nối: TRS, RCA, AUX và Bluetooth 5.4",
-      "content": "Phía sau loa có cổng TRS cân bằng — dùng khi nối với sound card (audio interface) hoặc mixer để giảm nhiễu, phù hợp người làm nhạc, thu âm. Ngoài ra có RCA và AUX 3.5 mm để nối máy tính, laptop, đầu đĩa, TV. Bluetooth 5.4 cho phép phát nhạc không dây từ điện thoại; tuy nhiên chỉ hỗ trợ codec SBC, nên với nghe nghiêm túc vẫn nên dùng dây. App EDIFIER ConneX dùng để chỉnh các thiết lập như bù âm theo phòng. MR3 không có cổng quang (optical) hay USB audio — nếu muốn nối TV qua cổng quang, bạn cần bộ chuyển đổi DAC rời."
+      "content": "Cổng TRS 6,35 mm cân bằng là lý do người mới làm nhạc chọn MR3 thay vì loa vi tính thường: khi nối với sound card (audio interface), nó chống nhiễu tốt khi chạy dây dài. RCA và AUX 3.5 mm dùng cho máy tính, đầu đĩa than (có preamp phono) và TV có ngõ ra analog. Trang Edifier xác nhận Bluetooth 5.4 kết nối cùng lúc 2 thiết bị, nên điện thoại và laptop có thể dùng chung loa mà không phải ghép nối lại.\n\nGiới hạn cũng cần nói rõ: Bluetooth chỉ có SBC, không có AAC, aptX hay LDAC, nên nghe nghiêm túc hãy cắm dây. Loa không có cổng quang, USB audio, XLR hay cổng ra sub. Một số tiêu đề listing nhà bán lẻ Mỹ có ghi 'optical input', nhưng bảng thông số chính thức của Edifier không có cổng này — hãy tin thông số của hãng. TV chỉ có ngõ quang cần thêm một bộ DAC nhỏ."
     },
     {
-      "title": "MR3 hay MR5: nên chọn bản nào?",
-      "content": "MR5 là bản lớn hơn hẳn: thiết kế 3 đường tiếng (tri-amp) với củ bass 5 inch, củ mid 3,75 inch và tweeter 1 inch, tổng công suất 110W RMS, dải tần 46Hz–40kHz, áp suất âm tối đa khoảng 101 dB, có thêm cổng XLR cân bằng. Giá MR5 tại Việt Nam khoảng 3,4–4 triệu, gần gấp đôi MR3. Chọn MR3 nếu bạn nghe ở bàn làm việc, phòng nhỏ dưới khoảng 15 m², ngân sách khoảng 2 triệu. Chọn MR5 nếu phòng rộng hơn, muốn bass sâu và to hơn rõ rệt, hoặc làm nhạc nghiêm túc cần cổng XLR. Trên trang bán, hãy chọn đúng phân loại trước khi đặt."
+      "title": "MR3, MR4, MR5 hay Microlab M105: nên chọn loa nào?",
+      "content": "**MR4** (Edifier ghi 21W + 21W, bass 4 inch, 60Hz–20kHz) có củ bass lớn hơn một chút và nút chuyển chế độ Monitor/Music, nhưng trang Edifier không nhắc tới Bluetooth, và Erin's Audio Corner thấy MR3 đời mới hơn cho kết quả tốt hơn. Trừ khi MR4 rẻ hơn hẳn, MR3 là gói đầy đủ hơn.\n\n**MR5** thuộc phân khúc khác: 3 đường tiếng với bass 5 inch, mid 3,75 inch, tweeter 1 inch, 110W RMS, 46Hz–40kHz, 101 dB, có cổng XLR, và trên trang Edifier toàn cầu hiện ghi Bluetooth 6.0 có LDAC. Đổi lại cả cặp nặng 10,38 kg (so với 3,85 kg) và sâu tới 280 mm, cần bàn rộng hoặc chân loa; giá tại Việt Nam khoảng 3,4–4 triệu, gần gấp đôi MR3. Chọn MR5 nếu phòng rộng, muốn bass sâu hoặc làm nhạc cần XLR; chọn MR3 nếu loa đặt trên bàn làm việc bình thường. Trên trang bán, nhớ chọn đúng phân loại trước khi đặt.\n\nTrên site, **Microlab M105** (có bài review riêng) là lựa chọn tiết kiệm: bộ 2.1 có dây khoảng 10W với loa sub nhỏ, giá chỉ bằng khoảng một phần tư MR3. M105 nghe nhiều bass hơn ngay khi cắm, hợp xem phim, chơi game, nhưng không có Bluetooth, cổng cân bằng, cổng tai nghe và không hướng tới độ trung thực. Nếu bạn dựng audio/video, MR3 đáng đồng tiền thêm; nếu chỉ cần bass hơn loa laptop để xem YouTube, M105 là đủ."
     },
     {
       "title": "Ai nên mua và ai không nên mua?",
-      "content": "Nên mua MR3 nếu bạn muốn nâng cấp từ loa laptop, loa vi tính rẻ lên loa có chất âm trung thực; mới bắt đầu làm nhạc, dựng video, podcast cần loa kiểm âm giá mềm; hoặc muốn một cặp loa đẹp, gọn cho góc làm việc. Không nên mua nếu bạn cần loa thật to cho phòng khách, thích bass mạnh để nghe EDM, xem phim hành động (loa 2.1 có sub sẽ hợp hơn), cần cổng quang để nối TV, hoặc muốn Bluetooth chất lượng cao (LDAC/aptX)."
+      "content": "Nên mua MR3 nếu bạn muốn cặp loa kiểm âm gọn, chất âm trung thực cho góc bàn làm việc; mới bắt đầu làm nhạc, dựng video, podcast; hay chuyển qua lại giữa điện thoại và máy tính (kết nối 2 thiết bị rất tiện); hoặc muốn có cổng tai nghe ngay mặt trước. MR3 cũng hợp người thấy loa vi tính nhiều bass nghe nhanh mệt.\n\nKhông nên mua nếu bạn cần loa thật to cho phòng khách, thích bass mạnh cho EDM và phim hành động (bộ 2.1 hoặc MR5 hợp hơn), cần cổng quang để nối TV, muốn Bluetooth chất lượng cao (LDAC/aptX), hay muốn có cổng sub để nâng cấp sau. Nếu bàn của bạn nông và kê sát tường, hãy chuẩn bị dùng chế độ bù âm theo phòng, nếu không bass sẽ bị ù."
     },
     {
       "title": "Nguồn thông tin của bài viết",
-      "content": "Zero Technology chưa trực tiếp sử dụng sản phẩm này. Bài viết tổng hợp và phân tích từ thông số do Edifier công bố (qua cửa hàng ủy quyền Edifier Online), giá và bảo hành tại các nhà bán lẻ Việt Nam (FPT Shop, CellphoneS, Meta.vn, An Phát), cùng nhận xét từ các bài đánh giá quốc tế, cập nhật tháng 10/2026. Ảnh trong bài là ảnh sản phẩm chính thức của Edifier. Nhận xét về âm thanh dựa trên thông số và đánh giá đã công bố, không phải phép đo của chúng tôi. Giá có thể thay đổi theo phân loại và thời điểm — hãy kiểm tra trên trang bán trước khi đặt hàng."
+      "content": "Zero Technology chưa trực tiếp sử dụng sản phẩm này. Bài viết tổng hợp và phân tích từ trang sản phẩm toàn cầu của Edifier cho MR3, MR4 và MR5, store Edifier Mỹ, bảng thông số của B&H, phép đo và đánh giá của Erin's Audio Corner, bài đánh giá của KitGuru, cùng giá và bảo hành tại các nhà bán lẻ Việt Nam (FPT Shop, CellphoneS, Meta.vn), cập nhật tháng 11/2026. Nhận xét về âm thanh được trích từ các nguồn trên; khi mức áp suất âm tối đa Edifier công bố khác với số đo của Erin's Audio Corner, bài ghi cả hai. Ảnh trong bài là ảnh sản phẩm chính thức của Edifier. Giá có thể thay đổi theo phân loại và thời điểm — hãy kiểm tra trên trang bán trước khi đặt hàng."
     },
     {
       "title": "Có nên mua Edifier MR3?",
-      "content": "Edifier MR3 là cặp loa kiểm âm đáng tiền nhất trong tầm khoảng 2 triệu: âm thanh trung thực, đủ cổng TRS/RCA/AUX/Bluetooth, có cổng tai nghe, bù âm theo phòng và thiết kế đẹp. Nó không dành cho phòng lớn hay người mê bass, và Bluetooth chỉ ở mức cơ bản. Nếu bạn nghe nhạc, làm việc hay làm nhạc ở góc bàn, MR3 là lựa chọn rất hợp lý; cần to và sâu hơn thì lên MR5."
+      "content": "Với góc bàn làm việc thì có — MR3 là một trong những cặp loa kiểm âm giá rẻ đầy đủ nhất: phép đo độc lập xác nhận chất âm trung tính, và bạn có cổng TRS cân bằng, Bluetooth kết nối 2 thiết bị, cổng tai nghe cùng chế độ bù âm theo phòng với giá khoảng 2 triệu. Hãy chấp nhận rằng bass và độ to bị giới hạn bởi củ 3,5 inch, Bluetooth chỉ SBC và không có cổng quang hay cổng sub. Nếu cần nhiều hơn ở những điểm này, hãy lên MR5 thay vì cố chỉnh EQ để MR3 thành thứ nó không phải."
     }
   ],
   "faq": [
@@ -138,38 +151,39 @@
     },
     {
       "question": "Nên mua Edifier MR3 hay MR5?",
-      "answer": "MR3 (36W, bass 3,5 inch, khoảng 2 triệu) hợp góc bàn làm việc, phòng nhỏ. MR5 (110W, 3 đường tiếng, bass 5 inch, khoảng 3,4–4 triệu) to và sâu hơn rõ rệt, có thêm cổng XLR, hợp phòng rộng hơn hoặc làm nhạc nghiêm túc."
+      "answer": "MR3 (36W, bass 3,5 inch, khoảng 2 triệu) hợp bàn làm việc, phòng nhỏ. MR5 (110W, 3 đường tiếng, bass 5 inch, XLR, LDAC theo trang Edifier toàn cầu, khoảng 3,4–4 triệu) to và sâu hơn rõ rệt nhưng nặng gần gấp ba, cần bàn rộng hoặc chân loa."
+    },
+    {
+      "question": "Nên mua Edifier MR3 hay MR4?",
+      "answer": "MR4 có củ bass 4 inch lớn hơn một chút, nhưng trang Edifier không ghi Bluetooth và Erin's Audio Corner thấy MR3 cho kết quả tốt hơn. Chỉ chọn MR4 nếu rẻ hơn rõ và bạn không cần Bluetooth."
     },
     {
       "question": "Edifier MR3 có kết nối TV được không?",
       "answer": "Được, qua cổng RCA hoặc AUX 3.5 mm nếu TV có ngõ ra analog, hoặc qua Bluetooth. MR3 không có cổng quang (optical), nên TV chỉ có ngõ quang cần thêm bộ chuyển đổi DAC."
     },
     {
-      "question": "Bluetooth của MR3 có hỗ trợ LDAC hay aptX không?",
-      "answer": "Không. MR3 dùng Bluetooth 5.4 với codec SBC. Để nghe chất lượng cao nhất, nên nối bằng dây (TRS, RCA hoặc AUX)."
+      "question": "Bluetooth của MR3 có LDAC/aptX và kết nối được 2 thiết bị không?",
+      "answer": "Không có LDAC hay aptX — Edifier chỉ ghi codec SBC, nên nghe chất lượng cao nhất hãy cắm dây. Nhưng MR3 có kết nối cùng lúc 2 thiết bị Bluetooth."
     },
     {
-      "question": "MR3 có đủ bass không, có gắn thêm loa sub được không?",
-      "answer": "Củ bass 3,5 inch cho âm trầm vừa phải, đủ cho nghe gần ở bàn làm việc nhưng không sâu như loa có sub. MR3 không có cổng ra sub chuyên dụng."
-    },
-    {
-      "question": "Bảo hành Edifier MR3 bao lâu?",
-      "answer": "Các nhà bán lẻ chính hãng tại Việt Nam như FPT Shop, Meta.vn ghi bảo hành 12 tháng; trang Shopee của bài viết ghi 15 tháng. Hãy xác nhận với shop khi mua."
+      "question": "Nên chọn Edifier MR3 hay Microlab M105?",
+      "answer": "Microlab M105 là bộ 2.1 có dây rẻ hơn nhiều, có sub nhỏ nên nhiều bass khi xem phim, chơi game, nhưng không có Bluetooth hay cổng cân bằng. MR3 hợp hơn nếu cần âm thanh trung thực, dựng video/làm nhạc và nhiều cổng kết nối."
     }
   ],
   "verdict": {
-    "summary": "Cặp loa kiểm âm khoảng 2 triệu với âm thanh trung thực, đủ cổng TRS/RCA/AUX/Bluetooth 5.4, cổng tai nghe và bù âm theo phòng — rất đáng tiền cho góc làm việc và người mới làm nhạc, nhưng không hợp phòng lớn.",
-    "recommendation": "Đáng mua cho góc bàn làm việc và người mới làm nhạc; phòng rộng hoặc cần bass sâu thì chọn MR5."
+    "summary": "Cặp loa kiểm âm khoảng 2 triệu với chất âm trung tính được phép đo độc lập xác nhận, cổng TRS/RCA/AUX, Bluetooth 5.4 kết nối 2 thiết bị, cổng tai nghe và bù âm theo phòng — rất đáng tiền cho góc làm việc và người mới làm nhạc, nhưng bass và độ to có giới hạn, Bluetooth chỉ SBC.",
+    "recommendation": "Đáng mua cho góc bàn làm việc và người mới làm nhạc; phòng rộng hoặc cần bass sâu thì chọn MR5, chỉ cần bass giá rẻ thì xem Microlab M105."
   },
   "seo": {
-    "metaTitle": "Loa Kiểm Âm Edifier MR3: Review Chi Tiết, Có Nên Mua Thay MR5?",
-    "metaDescription": "Review loa kiểm âm Edifier MR3: 36W, bass 3,5 inch, 52Hz–40kHz, Hi-Res, Bluetooth 5.4, cổng TRS/RCA/AUX. Ưu nhược điểm, so sánh với MR5 và ai nên mua.",
+    "metaTitle": "Loa Kiểm Âm Edifier MR3: Đánh Giá, Có Nên Mua Thay MR5?",
+    "metaDescription": "Đánh giá loa kiểm âm Edifier MR3: 36W, bass 3,5 inch, 52Hz–40kHz, Bluetooth 5.4 kết nối 2 thiết bị, TRS/RCA/AUX. Ưu nhược điểm, so với MR4/MR5, ai nên mua.",
     "keywords": [
       "Edifier MR3",
-      "review Edifier MR3",
+      "đánh giá loa Edifier MR3",
       "loa kiểm âm giá rẻ",
       "loa Edifier",
       "Edifier MR5",
+      "Edifier MR3 vs MR4",
       "loa vi tính bluetooth",
       "studio monitor"
     ]
@@ -184,8 +198,8 @@
     "Người nghe nhạc ở phòng nhỏ, khoảng cách gần."
   ],
   "buyReasons": [
-    "Đáp tuyến phẳng 52Hz–40kHz, chứng nhận Hi-Res.",
-    "Đủ cổng TRS cân bằng, RCA, AUX và Bluetooth 5.4.",
+    "Chất âm trung tính, dải tần 52Hz–40kHz, chứng nhận Hi-Res.",
+    "Đủ cổng TRS cân bằng, RCA, AUX và Bluetooth 5.4 kết nối 2 thiết bị.",
     "Cổng tai nghe mặt trước, bù âm theo phòng.",
     "Thùng gỗ MDF, 2 màu đen/trắng.",
     "Giá khoảng 2 triệu."

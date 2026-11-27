@@ -1,11 +1,12 @@
 {
   "slug": "vxe-r1-se",
   "title": "VXE R1 SE: Chuột Gaming Không Dây Siêu Nhẹ Cho Game FPS",
-  "excerpt": "VXE R1 SE và R1 SE+ là bộ đôi chuột không dây đang “làm mưa làm gió” phân khúc giá rẻ: cảm biến PAW3395 SE, nặng chỉ khoảng 51–55g, kết nối 3 chế độ. Nên chọn bản nào và có đáng tiền không?",
+  "excerpt": "VXE R1 SE và R1 SE+ (bản châu Âu gọi là VXE Dragonfly R1 SE) có cảm biến PAW3395 SE, kết nối 3 chế độ và nặng khoảng 51–55g với giá chỉ khoảng 500 nghìn đồng. Đổi lại, thông số về pin, trọng lượng và polling rate mỗi nơi ghi một kiểu, và chưa có phòng lab lớn nào review riêng bản SE. Bài này chỉ ra điều gì đã được xác nhận, điều gì chưa, và so sánh với chuột Logitech trên site.",
   "category": "gaming-gear",
   "author": "Zero Technology",
   "publishedAt": "2026-10-24",
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-25",
+  "reviewMethod": "compiled",
   "coverImage": "/images/products/vxe-r1-se/den-va-trang.jpg",
   "images": [
     "/images/products/vxe-r1-se/mau-trang.jpg",
@@ -14,145 +15,179 @@
     "/images/products/vxe-r1-se/lop-phu-be-mat.jpg"
   ],
   "rating": {
-    "overall": 9,
-    "design": 8.8,
-    "performance": 9.2,
-    "battery": 8.3,
-    "value": 9.7
+    "overall": 8.4,
+    "design": 8.2,
+    "performance": 8.6,
+    "battery": 7.8,
+    "value": 9.3
   },
   "specs": [
     {
+      "label": "Tên gọi khác",
+      "value": "VXE Dragonfly R1 SE / R1 SE+ (thuộc hệ ATK/VXE); store ATK hiện liệt kê bản SE+ cùng R1 S, R1 N, R1, R1 Pro, R1 Pro Max"
+    },
+    {
       "label": "Cảm biến",
-      "value": "PixArt PAW3395 SE"
+      "value": "PixArt PAW3395 SE, tối đa 18.000 DPI, 400 IPS, 40G (listing MaxGaming); bản R1, Pro, Pro Max dùng PAW3395 bản đầy đủ (tới 26.000 DPI)"
     },
-    {
-      "label": "DPI",
-      "value": "Tối đa 18.000 DPI, chỉnh bằng phần mềm"
-    },
-    {
-      "label": "Tốc độ / gia tốc",
-      "value": "400 IPS / 40G"
-    },
+    { "label": "Vi điều khiển", "value": "Nordic (ATK, cho dòng R1)" },
     {
       "label": "Polling rate",
-      "value": "Tới 1000Hz (2000Hz khi dùng receiver 2K, bán riêng)"
+      "value": "Chưa thống nhất: MaxGaming ghi 125–2000Hz, keeb-finder ghi 1000Hz, RTINGS lưu ý có báo cáo bản SE+ không đạt được 2000Hz. Nên tính là 1000Hz"
     },
     {
       "label": "Kết nối",
-      "value": "3 chế độ: USB-C có dây, 2.4GHz, Bluetooth"
+      "value": "3 chế độ: 2.4GHz (receiver USB-A), Bluetooth, cáp USB-C"
     },
     {
-      "label": "Switch",
-      "value": "Huano (bản SE+: Huano Blue Glow V2)"
+      "label": "Nút bấm",
+      "value": "6 nút (2 nút chính, 2 nút cạnh, click con lăn, nút DPI) (MaxGaming)"
     },
     {
-      "label": "Thiết kế",
-      "value": "Đối xứng, kích thước khoảng 120,6 × 64 × 37,8 mm"
+      "label": "Kích thước",
+      "value": "120,6 × 64 × 37,8 mm (MaxGaming), dùng chung cho cả dòng R1"
     },
     {
       "label": "Trọng lượng",
-      "value": "Khoảng 51g (SE) / 55g (SE+)"
+      "value": "Các nguồn ghi khác nhau: 51g (MaxGaming, listing SE+) và 55g (bảng biến thể của RTINGS, keeb-finder)"
     },
     {
       "label": "Pin",
-      "value": "SE: khoảng 250mAh / SE+: khoảng 500mAh"
+      "value": "Các nguồn ghi khác nhau: khoảng 500mAh (RTINGS) hoặc 520mAh (keeb-finder) cho bản SE+; thời lượng công bố từ 35 giờ ở 1000Hz (MaxGaming) tới 180 giờ (keeb-finder)"
+    },
+    {
+      "label": "Switch",
+      "value": "Switch cơ Huano theo listing nhà bán lẻ; loại cụ thể khác nhau giữa các listing"
+    },
+    {
+      "label": "Phần mềm",
+      "value": "Driver ATK dạng web chạy trên trình duyệt (MeinMMO, với bản R1 Pro); không có RGB để chỉnh"
+    },
+    {
+      "label": "Không có",
+      "value": "Đèn RGB, sạc không dây, chế độ 4000/8000Hz (chỉ R1 Pro/Pro Max với dongle 4K), receiver USB-C"
+    },
+    {
+      "label": "Bảo hành",
+      "value": "Tùy nơi bán; HACOM ghi 12 tháng (11/2026)"
+    },
+    {
+      "label": "Giá tham khảo",
+      "value": "Khoảng 450–600 nghìn đồng tại Việt Nam tùy nơi bán (HACOM, Phong Vũ); ATK niêm yết bản SE+ 18,98 USD trên store chính hãng (11/2026)"
     }
   ],
   "pros": [
-    "Cảm biến PAW3395 SE chính xác, ổn định — ngang tầm chuột đắt gấp nhiều lần.",
-    "Rất nhẹ (khoảng 51–55g), vẩy chuột nhanh, ít mỏi tay khi chơi lâu.",
-    "Kết nối 3 chế độ: 2.4GHz để chơi game, Bluetooth cho laptop/văn phòng, dây USB-C khi sạc.",
-    "Thiết kế đối xứng dễ làm quen, hợp cả kiểu cầm claw lẫn fingertip.",
-    "Bản SE+ có pin khoảng 500mAh, gấp đôi bản SE, ít phải sạc hơn.",
-    "Giá cực kỳ cạnh tranh so với thông số."
+    "Cảm biến PAW3395 SE (400 IPS, 40G) — dư sức cho mọi game FPS, ngang tầm chuột đắt gấp nhiều lần.",
+    "Nhẹ khoảng 51–55g tùy nguồn, nhẹ hơn vài gam so với Logitech G305 X SUPERLIGHT (59g).",
+    "Kết nối 3 chế độ: 2.4GHz để chơi game, Bluetooth cho laptop, cáp USB-C vừa sạc vừa dùng.",
+    "Vỏ đối xứng nhỏ (khoảng 120,6 × 64 × 37,8 mm), hợp kiểu cầm claw và fingertip.",
+    "Driver dạng web dùng được trên Windows, macOS, thậm chí Linux (theo MeinMMO).",
+    "Giá chỉ bằng khoảng 1/4 chuột 3 chế độ của thương hiệu lớn."
   ],
   "cons": [
-    "Bản SE pin nhỏ, chơi nhiều ở polling rate cao sẽ phải sạc khá thường xuyên.",
-    "Muốn dùng 2000Hz phải mua thêm receiver 2K riêng.",
-    "Không có RGB — ai thích chuột phát sáng sẽ hụt hẫng.",
-    "Thương hiệu Trung Quốc, chế độ bảo hành và chất lượng hoàn thiện có thể khác nhau tùy shop.",
-    "Kích thước vừa-nhỏ, người tay to thích cầm palm có thể thấy chưa đầy tay."
+    "Trọng lượng, dung lượng pin và thời lượng pin mỗi nơi ghi một khác (thời lượng công bố từ 35 đến 180 giờ).",
+    "Một số listing quảng cáo 2000Hz nhưng RTINGS lưu ý có báo cáo bản SE+ không đạt được; nên coi là chuột 1000Hz.",
+    "Chưa có phòng lab lớn nào review riêng bản SE/SE+ — độ hoàn thiện và độ trễ chỉ suy ra từ bản R1 Pro.",
+    "Con lăn của vỏ R1 bị MeinMMO chê là mềm, thiếu chính xác; lớp phủ trơn dễ lộ dấu vân tay.",
+    "Không có RGB, không sạc không dây, receiver chỉ có USB-A.",
+    "Bảo hành và hậu mãi phụ thuộc hoàn toàn vào nơi bán (nhiều nơi chỉ 12 tháng)."
   ],
   "sections": [
     {
-      "title": "Tổng quan: vì sao VXE R1 SE được săn đón?",
-      "content": "VXE (thuộc hệ sinh thái ATK/VGN) là cái tên quen thuộc với game thủ thích chuột nhẹ giá rẻ. Dòng R1 có nhiều phiên bản (SE, SE+, Pro, Pro Max…), trong đó R1 SE và R1 SE+ là hai bản dễ tiếp cận nhất, thường chỉ khoảng 350–600 nghìn đồng tùy phiên bản và thời điểm. Với mức giá đó, bạn có cảm biến PAW3395 SE, trọng lượng chỉ khoảng 51–55g và kết nối 3 chế độ — những thứ trước đây chỉ có trên chuột cả triệu đồng."
+      "title": "Tổng quan: VXE R1 SE là gì?",
+      "content": "VXE là thương hiệu gaming giá rẻ thuộc hệ sinh thái ATK, và Dragonfly R1 là dòng chuột nổi tiếng nhất của hãng. Mọi bản R1 dùng chung một vỏ đối xứng — khoảng **120,6 × 64 × 37,8 mm** theo MaxGaming — còn linh kiện bên trong thay đổi theo từng bản. RTINGS, khi review bản R1 Pro, cũng mô tả đúng như vậy: cùng dáng, khác phần cứng. **R1 SE** và **R1 SE+** là hai bản thấp nhất, dùng cảm biến rút gọn **PAW3395 SE**; R1, R1 Pro và R1 Pro Max dùng PAW3395 bản đầy đủ, riêng bản Pro hỗ trợ 4000Hz với dongle bán riêng.\n\nSức hút rất đơn giản: chuột không dây 3 chế độ dưới 60g, cảm biến PixArt đời mới, giá chỉ bằng khoảng 1/4 **Logitech G305 X SUPERLIGHT**. Tại Việt Nam, bản SE+ ở HACOM, Phong Vũ có giá khoảng 450–600 nghìn đồng tùy thời điểm (11/2026); store chính hãng ATK niêm yết 18,98 USD. Đổi lại là chất lượng thông tin — vì vậy bài này dành nhiều chỗ hơn thường lệ cho việc tách điều đã được xác nhận khỏi điều chưa."
     },
     {
-      "title": "R1 SE và R1 SE+ khác nhau thế nào?",
-      "content": "Hai bản dùng chung vỏ đối xứng và cảm biến PAW3395 SE. Khác biệt chính nằm ở pin và switch: bản SE dùng pin khoảng 250mAh nên nhẹ hơn (khoảng 51g), còn bản SE+ được nâng lên khoảng 500mAh, nặng hơn một chút (khoảng 55g) nhưng thời lượng dùng gần như gấp đôi. Bản SE+ cũng dùng switch Huano Blue Glow V2. Nếu bạn ngại sạc, hãy chọn SE+; nếu muốn nhẹ tối đa và giá rẻ nhất, bản SE là đủ. Trên trang bán, hãy chọn đúng phân loại trước khi đặt."
+      "title": "Thông số lộn xộn: điều gì đã xác nhận, điều gì chưa?",
+      "content": "Đây là mục quan trọng nhất với người mua, vì các listing của R1 SE mâu thuẫn nhau:\n\n- **Trọng lượng:** MaxGaming ghi bản SE+ nặng **51g**; bảng biến thể của RTINGS và keeb-finder ghi **55g**. Chênh 4g khó cảm nhận khi cầm, nhưng nghĩa là đừng mua chỉ vì con số \"51g\".\n- **Pin:** RTINGS ghi khoảng 500mAh cho bản SE+, keeb-finder ghi 520mAh. Thời lượng công bố dao động từ **35 giờ ở 1000Hz** (MaxGaming) tới **180 giờ** (keeb-finder) — chênh tới 5 lần mà không nguồn nào giải thích.\n- **Polling rate:** MaxGaming ghi 125–2000Hz, nhưng RTINGS ghi chú rằng theo các báo cáo trên mạng, bản R1 thường và R1 SE+ không đạt được 2000Hz thực tế; keeb-finder ghi 1000Hz. Cách an toàn là coi đây là chuột **1000Hz** — cũng là mức của receiver đi kèm G305 X SUPERLIGHT, và đủ cho đa số người chơi.\n\nNhững gì các nguồn thống nhất: PAW3395 SE tối đa 18.000 DPI, 400 IPS, 40G; kết nối 3 chế độ; dáng R1 chung; không có RGB. RTINGS cũng cảnh báo rằng vì tài liệu chính thức của dòng R1 không nhất quán, họ không muốn áp kết quả đo bản R1 Pro cho các bản rẻ hơn. Kết luận của Zero Technology: hãy đánh giá bản SE qua cảm biến và dáng chuột, đừng dựa vào con số pin hay polling của một listing duy nhất."
     },
     {
-      "title": "Thiết kế và cảm giác cầm",
-      "content": "R1 SE có thiết kế đối xứng, kích thước khoảng 120,6 × 64 × 37,8 mm — thuộc nhóm vừa-nhỏ, phù hợp tay người Việt. Kiểu cầm claw và fingertip là thoải mái nhất; người cầm palm tay vừa vẫn dùng được, nhưng tay to sẽ thấy hơi thiếu. Trọng lượng khoảng 51–55g giúp chuột vẩy nhanh, dừng chính xác và đỡ mỏi cổ tay sau những trận game dài."
+      "title": "Dáng chuột, lớp phủ và độ hoàn thiện",
+      "content": "Dài 120,6 mm, rộng 64 mm, R1 là chuột đối xứng cỡ vừa-nhỏ, gù lưng khá thấp. Kích thước gần như trùng với Logitech G305 X SUPERLIGHT (khoảng 117,3 × 63,9 × 38,2 mm theo nhà bán lẻ châu Âu), nên nếu hợp dáng chuột này thì nhiều khả năng cũng hợp chuột kia. Kiểu cầm claw và fingertip là thoải mái nhất; người tay to cầm palm có thể thấy phần đuôi hơi ngắn.\n\nChưa có bài review riêng cho bản SE từ trang lớn, nên bằng chứng gần nhất là bài review **R1 Pro** của MeinMMO (cùng vỏ). MeinMMO không thấy tiếng lọc cọc hay kêu cót két và đánh giá chuột rất chắc chắn so với trọng lượng, nhưng lớp phủ trơn để lộ rõ dấu vân tay, mồ hôi, và người viết muốn bề mặt nhám hơn. Điểm bị chê nhiều nhất là **con lăn mềm, thiếu chính xác**, bị trễ khi cuộn nhanh — khó chịu khi lướt web hơn là khi chơi game. ATK mô tả lớp phủ là \"cảm giác mát như băng\", chống bám bẩn. Đây là những điểm có khả năng giống ở bản SE, nhưng không chắc chắn vì VXE thay linh kiện giữa các bản."
     },
     {
-      "title": "Cảm biến và hiệu năng gaming",
-      "content": "PAW3395 SE là biến thể của PAW3395 — một trong những cảm biến phổ biến nhất trên chuột gaming tầm trung và cao cấp. Với tối đa 18.000 DPI, 400 IPS và gia tốc 40G, cảm biến này dư sức đáp ứng các tựa game FPS như Valorant, CS2 hay PUBG, nơi độ chính xác và tracking ổn định là quan trọng nhất. DPI và polling rate có thể chỉnh qua phần mềm. Mặc định chuột chạy tới 1000Hz; nếu muốn 2000Hz, bạn cần mua thêm receiver 2K."
+      "title": "Cảm biến, độ trễ và chuyện 1000Hz",
+      "content": "PAW3395 SE là bản rút gọn của PAW3395 — một trong những cảm biến phổ biến nhất trên chuột tầm trung và cao cấp. Mức 400 IPS và 40G vượt xa tốc độ vẩy tay của con người, còn 18.000 DPI cao hơn nhiều so với mức 400–1600 DPI mà đa số game thủ FPS dùng. Thực tế, chữ \"SE\" gần như không làm bạn mất gì khi chơi Valorant hay CS2; PAW3395 bản đầy đủ trên R1 và bản Pro chủ yếu tăng con số DPI quảng cáo.\n\nChưa có phòng lab lớn nào công bố số đo độ trễ click cho bản SE/SE+, và Zero Technology cũng không đo. Kết quả R1 Pro của RTINGS không tự động áp dụng được, như chính RTINGS lưu ý. Điều chắc chắn là quy tắc chung với chuột 3 chế độ: **chơi game dùng receiver 2.4GHz**, vì Bluetooth có độ trễ cao hơn rõ, chỉ nên dùng khi làm việc. Nếu bạn thực sự cần polling cao, hãy bỏ qua bản SE — R1 Pro và Pro Max hỗ trợ 4000Hz với dongle 4K bán riêng (MaxGaming), còn G305 X SUPERLIGHT lên được 8000Hz với receiver PRO của Logitech."
     },
     {
-      "title": "Kết nối 3 chế độ và pin",
-      "content": "Chuột hỗ trợ 2.4GHz qua receiver (khuyên dùng khi chơi game vì độ trễ thấp), Bluetooth (tiện cho laptop, máy tính bảng, không chiếm cổng USB) và dây USB-C. Thời lượng pin phụ thuộc phiên bản và polling rate: bản SE+ với pin khoảng 500mAh có thể dùng nhiều ngày chơi game liên tục mới phải sạc, còn bản SE pin nhỏ hơn nên cần sạc thường xuyên hơn, đặc biệt khi để polling rate cao."
+      "title": "Kết nối 3 chế độ, pin và phần mềm",
+      "content": "Ba chế độ kết nối đáp ứng hầu hết nhu cầu: receiver 2.4GHz cổng USB-A để chơi game, Bluetooth cho laptop hay máy tính bảng mà không chiếm cổng, và cáp USB-C để vừa sạc vừa chơi. Trong hộp **không có receiver USB-C**, nên laptop chỉ có cổng USB-C cần thêm adapter hoặc dùng Bluetooth.\n\nThời lượng pin là con số kém tin cậy nhất của chuột này (xem mục trên). Để tham khảo, MeinMMO dùng được khoảng 7–8 ngày với pin 250mAh của bản R1 Pro; bản SE+ được ghi dung lượng gấp khoảng đôi, nên sạc khoảng mỗi tuần một lần hoặc thưa hơn ở 1000Hz là kỳ vọng hợp lý, nhưng không phải cam kết. VXE không ghi thời lượng pin trên trang store ATK.\n\nPhần mềm là driver của ATK; MeinMMO cho biết driver chạy được dưới dạng web app trên trình duyệt — tiện cho macOS và cả Linux, nhưng phụ thuộc vào máy chủ của ATK. Driver chỉnh được DPI, polling rate, gán nút; không có RGB để chỉnh. Phần mềm dùng được nhưng đơn giản, kém xa Logitech G HUB về độ sâu."
+    },
+    {
+      "title": "So sánh R1 SE với SE+, các bản R1 khác và chuột Logitech",
+      "content": "Trong dòng R1, tên gọi khá rối và hàng thay đổi liên tục:\n\n- **R1 SE / R1 SE+** (bài này): PAW3395 SE, hai bản thấp nhất. Các listing mô tả SE+ là bản pin lớn hơn; store ATK hiện chỉ liệt kê SE+ ở tầm này, nên nhiều nơi bán \"R1 SE\" thực tế giao bản SE+.\n- **R1**: PAW3395 bản đầy đủ, phần còn lại tương tự; MaxGaming ghi cũng hướng tới 2000Hz.\n- **R1 Pro / R1 Pro Max**: PAW3395 đầy đủ, 4000Hz với dongle riêng, bản Pro nhẹ hơn, bản Pro Max pin lớn hơn; khoảng 35–55 USD trên store ATK (11/2026).\n- **R1 S / R1 N**: các bản giá rẻ khác trên store ATK — kiểm tra dòng cảm biến trước khi mua.\n\nSo với các chuột đã có trên Zero Technology:\n\n- ****Logitech G305 X SUPERLIGHT**** (59g, HERO 44K, niêm yết 79,99 USD; tại Việt Nam khoảng 1,8–2,1 triệu đồng): gần như cùng kích thước, cũng 3 chế độ. Logitech công bố rõ trọng lượng, pin (trên 130 giờ) và polling, G HUB mạnh hơn và có đường nâng lên 8000Hz. VXE nhẹ hơn vài gam và rẻ hơn khoảng 3–4 lần.\n- ****Logitech G502 X LIGHTSPEED**** (102g, 13 điều khiển lập trình, không Bluetooth): công cụ khác hẳn, dành cho game MMO/MOBA và người cầm palm tay phải. Chơi FPS là chính mà ngân sách thấp thì R1 SE hợp hơn; cần macro và nhiều nút thì chọn G502 X."
+    },
+    {
+      "title": "Ai nên mua và ai không nên mua?",
+      "content": "**Nên mua nếu bạn:**\n- Cần chuột không dây nhẹ, cảm biến PixArt đời mới cho game FPS với ngân sách khoảng nửa triệu đồng.\n- Cầm claw hoặc fingertip, tay nhỏ đến trung bình.\n- Chấp nhận chỉnh chuột qua driver web đơn giản và không cần RGB.\n- Muốn thử xem chuột siêu nhẹ có hợp mình không trước khi chi tiền cho chuột cao cấp.\n\n**Không nên mua nếu bạn:**\n- Tay to, cầm palm — vỏ 120 mm sẽ hơi ngắn.\n- Cần 2000Hz trở lên ngay — hãy chọn R1 Pro/Pro Max hoặc Logitech kèm receiver 8K.\n- Muốn thời lượng pin được công bố rõ, bảo hành chính hãng rõ ràng và phần mềm tốt — G305 X SUPERLIGHT an toàn hơn, dù đắt hơn.\n- Cần nhiều nút cho game MMO — xem G502 X LIGHTSPEED."
+    },
+    {
+      "title": "Nguồn thông tin của bài viết",
+      "content": "Zero Technology **chưa trực tiếp sử dụng** VXE R1 SE hay SE+. Bài viết tổng hợp và phân tích từ: trang store ATK của dòng Dragonfly R1 (các phiên bản, giá, cảm biến, vi điều khiển Nordic, lớp phủ); listing R1 SE+ của MaxGaming (thông số cảm biến, kích thước, 51g, pin 35 giờ, 125–2000Hz); bài review R1 Pro và bảng biến thể của RTINGS (55g, khoảng 500mAh, ghi chú về 2000Hz của bản SE+); cơ sở dữ liệu thông số keeb-finder (55g, 520mAh, 180 giờ, 1000Hz); bài review R1 Pro của MeinMMO (độ hoàn thiện, lớp phủ, con lăn, driver web, thời lượng pin); giá và bảo hành tại HACOM, Phong Vũ. Chưa có trang lớn nào review riêng bản SE/SE+; khi các nguồn ghi khác nhau, bài đã nêu cả hai con số. Cập nhật tháng 11/2026. Ảnh trong bài là ảnh sản phẩm của VXE."
     },
     {
       "title": "Có nên mua VXE R1 SE / R1 SE+?",
-      "content": "Nếu bạn đang cần một con chuột không dây nhẹ, cảm biến tốt để chơi FPS mà ngân sách chỉ vài trăm nghìn, VXE R1 SE/SE+ gần như là lựa chọn khó bỏ qua. Bản SE+ cân bằng hơn nhờ pin lớn; bản SE hợp với ai muốn nhẹ và rẻ nhất. Nó không có RGB và không dành cho tay quá to, nhưng xét hiệu năng trên giá tiền thì rất khó tìm đối thủ."
+      "content": "Có, nếu giá là ưu tiên số một. Với khoảng nửa triệu đồng, bạn có cảm biến PixArt đời mới, trọng lượng khoảng 51–55g và kết nối 3 chế độ trong một dáng gần như y hệt G305 X SUPERLIGHT — tổ hợp mà vài năm trước phải trả gấp nhiều lần. Nhưng hãy mua với kỳ vọng đúng: con số pin và polling trên listing không đáng tin, 2000Hz của bản SE+ còn bị nghi ngờ, phần mềm đơn giản và bảo hành phụ thuộc nơi bán. Nếu những điều đó làm bạn lo, G305 X SUPERLIGHT đắt hơn nhưng loại bỏ gần hết rủi ro. Điểm của bài được hạ từ 9,0 xuống 8,4 vì khoảng trống thông tin này, không phải vì một lỗi hiệu năng đã được xác nhận."
     }
   ],
   "faq": [
     {
       "question": "Nên mua VXE R1 SE hay R1 SE+?",
-      "answer": "Chọn SE+ nếu bạn muốn pin lâu (khoảng 500mAh, gấp đôi bản SE). Chọn SE nếu ưu tiên nhẹ nhất và giá rẻ nhất, chấp nhận sạc thường xuyên hơn."
+      "answer": "Nếu giá gần bằng nhau, chọn SE+: các listing đều mô tả đây là bản pin lớn hơn. Store ATK hiện chỉ liệt kê SE+ ở tầm này, nên nhiều nơi bán \"R1 SE\" thực tế giao SE+ — hãy xem kỹ phân loại trên trang bán."
     },
     {
-      "question": "VXE R1 SE có chơi Valorant, CS2 tốt không?",
-      "answer": "Có. Cảm biến PAW3395 SE cùng trọng lượng nhẹ rất phù hợp với game FPS cần aim chính xác. Nên dùng chế độ 2.4GHz khi chơi để có độ trễ thấp nhất."
+      "question": "VXE R1 SE có chạy được 2000Hz không?",
+      "answer": "Không chắc. Một số listing quảng cáo tới 2000Hz, nhưng RTINGS ghi nhận có báo cáo bản SE+ không đạt được, và nguồn khác ghi 1000Hz. Cần polling cao thì chọn R1 Pro/Pro Max (4000Hz với dongle riêng)."
+    },
+    {
+      "question": "VXE R1 SE và VXE Dragonfly R1 SE có phải một không?",
+      "answer": "Đúng. Dragonfly R1 là tên đầy đủ của dòng; các nhà bán lẻ châu Âu như MaxGaming, Caseking dùng tên này trên listing."
     },
     {
       "question": "VXE R1 SE có dùng được với MacBook không?",
-      "answer": "Có. Chuột kết nối qua Bluetooth hoặc receiver 2.4GHz (cần cổng USB-A hoặc adapter USB-C), dùng được trên Windows và macOS."
+      "answer": "Có, như chuột thông thường qua Bluetooth, receiver 2.4GHz (cổng USB-A, có thể cần adapter) hoặc cáp USB-C. Theo MeinMMO, driver ATK chạy được trên trình duyệt nên không chỉ giới hạn ở Windows."
     },
     {
-      "question": "Chuột có hỗ trợ 2000Hz không?",
-      "answer": "Có thể lên 2000Hz, nhưng cần mua thêm receiver 2K bán riêng. Receiver đi kèm mặc định cho tối đa 1000Hz."
+      "question": "Nên chọn VXE R1 SE hay Logitech G305 X SUPERLIGHT?",
+      "answer": "Hai chuột gần như cùng kích thước và đều 3 chế độ. VXE nhẹ hơn vài gam và rẻ hơn khoảng 3–4 lần. Logitech có thông số công bố rõ (59g, pin trên 130 giờ), G HUB, RGB, đường nâng 8000Hz và bảo hành chính hãng rõ ràng. Ngân sách eo hẹp: VXE. Muốn chắc chắn: Logitech."
     },
     {
-      "question": "VXE R1 SE có đèn RGB không?",
-      "answer": "Không. Chuột không có RGB để giảm trọng lượng và tiết kiệm pin."
+      "question": "VXE R1 SE có thay được Logitech G502 X LIGHTSPEED không?",
+      "answer": "Chỉ khi bạn chơi FPS là chính. G502 X LIGHTSPEED là chuột tay phải 102g với 13 điều khiển lập trình cho MMO/MOBA; R1 SE là chuột siêu nhẹ 6 nút tối giản. Hai chuột phục vụ hai kiểu người chơi khác nhau."
     }
   ],
   "verdict": {
-    "summary": "Chuột không dây siêu nhẹ, cảm biến PAW3395 SE, 3 chế độ kết nối với giá vài trăm nghìn — một trong những món hời nhất cho game thủ FPS.",
-    "recommendation": "Rất đáng mua cho game thủ ngân sách thấp; ưu tiên bản SE+ nếu bạn ngại sạc pin."
+    "summary": "Chuột không dây siêu nhẹ 3 chế độ, cảm biến PAW3395 SE với giá khoảng nửa triệu đồng — nhưng thông số pin, trọng lượng, polling mỗi nơi ghi một khác và 2000Hz còn bị nghi ngờ.",
+    "recommendation": "Rất đáng tiền cho game thủ FPS ngân sách thấp, tay nhỏ đến trung bình; ưu tiên bản SE+ ở nơi bán có chính sách đổi trả rõ. Muốn thông số rõ ràng và bảo hành tốt thì chọn G305 X SUPERLIGHT."
   },
   "seo": {
     "metaTitle": "Chuột Không Dây VXE R1 SE / SE+: Có Đáng Mua Dưới 600K?",
-    "metaDescription": "Đánh giá VXE R1 SE và R1 SE+: cảm biến PAW3395 SE, nặng khoảng 51–55g, kết nối 3 chế độ (2.4GHz, Bluetooth, USB-C). So sánh SE và SE+, nên mua bản nào?",
+    "metaDescription": "Đánh giá VXE R1 SE / SE+: PAW3395 SE, khoảng 51–55g, 3 chế độ. Giải thích thông số chưa thống nhất, ưu nhược điểm, so với G305 X và ai nên mua.",
     "keywords": [
       "VXE R1 SE",
       "VXE R1 SE+",
       "VXE Dragonfly R1",
-      "review VXE R1 SE",
-      "chuột không dây gaming",
-      "chuột gaming giá rẻ",
+      "đánh giá VXE R1 SE",
+      "VXE R1 SE vs G305 X SUPERLIGHT",
+      "chuột không dây gaming giá rẻ",
       "chuột siêu nhẹ",
-      "PAW3395"
+      "PAW3395 SE"
     ]
   },
-  "productName": "Chuột không dây VXE R1 SE / R1 SE Plus 3 chế độ kết nối, chuột gaming giá rẻ dùng cho PC laptop",
+  "productName": "VXE Dragonfly R1 SE / R1 SE+",
   "contentType": "review",
   "tags": ["vxe", "gaming-mouse", "wireless", "lightweight", "paw3395", "r1-se"],
   "targetUsers": [
-    "Game thủ FPS (Valorant, CS2, PUBG) cần chuột nhẹ, aim chính xác.",
-    "Sinh viên muốn chuột không dây tốt trong ngân sách vài trăm nghìn.",
-    "Người dùng laptop cần chuột Bluetooth gọn nhẹ mang theo.",
-    "Người có bàn tay vừa và nhỏ, thích kiểu cầm claw hoặc fingertip."
+    "Game thủ FPS (Valorant, CS2, PUBG) cần chuột không dây nhẹ với ngân sách khoảng nửa triệu.",
+    "Người cầm claw hoặc fingertip, tay nhỏ đến trung bình.",
+    "Người dùng laptop cần cả Bluetooth lẫn 2.4GHz.",
+    "Người muốn thử chuột siêu nhẹ trước khi mua chuột cao cấp."
   ],
   "buyReasons": [
-    "Cảm biến PAW3395 SE trong tầm giá vài trăm nghìn.",
-    "Trọng lượng chỉ khoảng 51–55g.",
+    "Cảm biến PAW3395 SE trong tầm giá khoảng nửa triệu.",
+    "Nhẹ khoảng 51–55g, dáng gần giống G305 X SUPERLIGHT.",
     "Kết nối 3 chế độ linh hoạt.",
-    "Bản SE+ có pin khoảng 500mAh.",
-    "Hiệu năng trên giá tiền gần như không có đối thủ."
+    "Driver web dùng được trên nhiều hệ điều hành.",
+    "Giá chỉ bằng khoảng 1/4 chuột 3 chế độ thương hiệu lớn."
   ]
 }
