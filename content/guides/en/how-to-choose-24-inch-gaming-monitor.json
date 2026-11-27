@@ -1,0 +1,87 @@
+{
+  "slug": "how-to-choose-24-inch-gaming-monitor",
+  "title": "How to Choose a 24-Inch Gaming Monitor: What the Specs Really Mean",
+  "excerpt": "How to choose a 24-inch gaming monitor without being fooled by the box: what 144 Hz vs 180 Hz really changes, why \"1 ms\" is often a different measurement, which port you need, and the stand and VESA details most buyers miss.",
+  "category": "pc-laptop",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-11-25",
+  "sections": [
+    {
+      "title": "The short answer: a decision framework",
+      "content": "Most 24-inch gaming monitors in the budget class look identical on paper: 1080p, IPS, \"1 ms\", 144–180 Hz, FreeSync. The real differences are in a handful of details. Work through them in this order:\n\n- **1. Is 24-inch 1080p right for you at all?** Yes if you mainly play fast shooters or MOBAs, sit 60–80 cm from the screen, and have a mid-range graphics card. No if you mostly play slow, good-looking single-player games or need sharp text for work; look at 27-inch 1440p instead.\n- **2. Match the refresh rate to the frame rate your PC can actually reach.** A 180 Hz panel is wasted if your games run at 80 fps.\n- **3. Read the response-time spec carefully.** Check whether \"1 ms\" is GtG or MPRT, then look for an independent review of the same model.\n- **4. Check the ports.** Which input reaches the maximum refresh rate: DisplayPort, HDMI, or both? Does your PC, laptop or console have that port?\n- **5. Check the stand and VESA.** Most budget models only tilt. If you want height adjustment, budget for an arm and confirm the VESA pattern.\n- **6. Decide what you can live without.** Speakers, USB-C, HDR and brightness are where budget models cut corners.\n\nZero Technology compiled this guide from manufacturer spec sheets and published test methodology (sources at the end). We have not tested these monitors ourselves."
+    },
+    {
+      "title": "Why 24-inch 1080p still makes sense for competitive games",
+      "content": "Esports players still favour 24-inch screens for a practical reason: at a normal desk distance the whole image sits inside your central field of view, so you can watch the minimap, crosshair and health bar without moving your eyes much. A bigger screen at the same distance pushes the corners outward.\n\nThe second reason is cost. 1080p (1920 × 1080) has about 2.1 million pixels, while 1440p has about 3.7 million, roughly 78% more. Your graphics card has to draw every one of them, so the same card that holds 150+ fps at 1080p in a shooter may drop well below that at 1440p. If you want high frame rates on a mid-range GPU, 1080p is the easiest way to get them.\n\nThe trade-off is sharpness. A 24-inch 1080p panel works out to about 92 pixels per inch (PPI). That is fine for games and video, but text is visibly softer than on a 27-inch 1440p screen (about 109 PPI). If you code or work with spreadsheets for hours a day on the same monitor, read our [27-inch monitor for coding guide](/guides/27-inch-monitor-for-coding) before deciding."
+    },
+    {
+      "title": "Refresh rate: 144 Hz, 165 Hz, 180 Hz and beyond",
+      "content": "Refresh rate is how many times per second the monitor draws a new image. The benefit shrinks as the number goes up, because what you feel is the time between frames:\n\n| Refresh rate | Time per frame | Step from previous |\n|---|---|---|\n| 60 Hz | 16.7 ms | — |\n| 144 Hz | 6.9 ms | −9.7 ms (large, easy to notice) |\n| 165 Hz | 6.1 ms | −0.9 ms (small) |\n| 180 Hz | 5.6 ms | −0.5 ms (small) |\n| 240 Hz | 4.2 ms | −1.4 ms (noticeable to some competitive players) |\n\nThe frame times are simple math (1000 ms ÷ refresh rate) and match the table RTINGS publishes in its refresh-rate explainer. The practical lesson: going from 60 Hz to 144 Hz is the upgrade almost everyone notices. Going from 144 Hz to 180 Hz is a nice extra, not a reason to pay much more.\n\nThe refresh rate only helps when your PC delivers matching frame rates. Check benchmarks for your graphics card in the games you actually play. If you get 90–120 fps, a 144 Hz or 146 Hz panel is already enough; if you regularly exceed 160 fps in games like Valorant or Counter-Strike 2, a 180 Hz panel starts to earn its keep.\n\nAdaptive sync (AMD FreeSync, or \"G-Sync Compatible\" on NVIDIA) smooths things out when your frame rate moves around below the maximum, by letting the monitor wait for each frame instead of tearing. It is standard in this class now; treat a monitor without it as a red flag."
+    },
+    {
+      "title": "Response time: why \"1 ms\" doesn't mean what you think",
+      "content": "Almost every gaming monitor box says \"1 ms\", but that number can describe two different things:\n\n- **GtG (grey-to-grey):** how fast a pixel changes from one shade to another. This is the figure that relates to smearing and ghosting behind moving objects. Manufacturers usually quote their best result at the most aggressive overdrive setting.\n- **MPRT (moving picture response time):** a measure of how long each frame stays visible, which is tied to refresh rate and usually achieved with a backlight-strobing mode. BenQ's own explainer notes that MPRT depends heavily on frame rate, while GtG does not.\n\nThe two numbers are not interchangeable. For example, ASUS lists the [TUF Gaming VG249QE5A](/reviews/asus-tuf-gaming-vg249qe5a) at \"1 ms MPRT\", while Xiaomi lists the [Gaming Monitor G24i](/reviews/xiaomi-g24i-gaming-monitor) at \"1 ms GTG\" and says the figure comes from its internal lab. Neither tells you how the panel looks at the overdrive setting you will actually use.\n\nOverdrive is the setting that pushes pixels to change faster. Push it too hard and you get overshoot: a bright or dark halo trailing moving objects, sometimes called inverse ghosting. Independent testers such as RTINGS measure each overdrive mode and recommend one, which is far more useful than the box. If no independent review of your exact model exists, start at the middle overdrive setting and only raise it if you see smearing."
+    },
+    {
+      "title": "Ports, cables and consoles",
+      "content": "This is the most common reason a new monitor \"only runs at 60 Hz\":\n\n- **Check which input reaches the maximum refresh rate.** Some budget monitors only hit their top refresh rate over DisplayPort. Xiaomi's G24i, for example, offers DisplayPort 1.4 and HDMI 2.0, and its full 180 Hz is meant to be used over DisplayPort. The ASUS VG249QE5A has DisplayPort 1.2 and HDMI 2.0. Read the manufacturer's spec page for the refresh rate per input.\n- **Use the cable that came in the box,** or a certified one for that standard. Cheap or old cables are a common cause of flicker and missing refresh-rate options.\n- **Set the refresh rate in Windows.** Many PCs default to 60 Hz after a new monitor is connected. Go to Settings → System → Display → Advanced display and pick the highest value.\n- **Laptops:** many only output high refresh rates from a specific HDMI or USB-C/DisplayPort port. Check your laptop's specs, not just the monitor's.\n- **Consoles:** a PS5 or Xbox Series X|S outputs at most 120 Hz, and whether a monitor accepts 120 Hz over its HDMI port depends on the model, so check the spec sheet. Neither console benefits from 180 Hz. A budget 1080p monitor is fine for consoles, but don't pay extra for refresh rate you can't use there.\n\nAlso note what is missing. None of the 24-inch monitors reviewed on this site offer USB-C video input, a USB hub or certified HDR."
+    },
+    {
+      "title": "Panel type, brightness and the stand",
+      "content": "**Panel type.** IPS is the default in this class: good viewing angles and colour, decent speed, but modest contrast (around 1000:1 to 1500:1), so dark scenes look greyish in a dark room. VA panels offer much deeper blacks but are often slower in dark transitions, which can show as dark smearing. TN panels are rare now. For a mix of gaming and everyday use, IPS is the safe choice.\n\n**Colour gamut.** A wider gamut is not automatically better. ASUS lists the VG249QE5A at 125% sRGB, which can make web content and games look oversaturated unless you switch to an sRGB mode. Xiaomi lists the G24i at 99% sRGB with factory calibration (ΔE < 2), which is closer to accurate out of the box.\n\n**Brightness.** Budget 24-inch monitors are usually rated at 250–300 nits. That is fine for a normal room but weak next to a sunny window. \"HDR\" picture modes on these models are not real HDR; neither Xiaomi nor ASUS lists a VESA DisplayHDR certification for them.\n\n**The stand.** This is where budget monitors save money. Both the G24i and the VG249QE5A only tilt, with no height, swivel or portrait adjustment. If you sit for long sessions, plan for a monitor arm, and check the VESA pattern: the G24i uses 75 × 75 mm and the VG249QE5A uses 100 × 100 mm. Our guide [Is a monitor arm worth it?](/guides/is-a-monitor-arm-worth-it) explains what to check."
+    },
+    {
+      "title": "Worked example: two budget 24-inch monitors compared",
+      "content": "Here is how the framework plays out with the two 24-inch monitors reviewed on this site. Specs are from each manufacturer's official spec page.\n\n| | Xiaomi Gaming Monitor G24i | ASUS TUF Gaming VG249QE5A |\n|---|---|---|\n| Panel | 23.8\" Fast IPS, 1080p | 23.8\" IPS, 1080p |\n| Max refresh rate | 180 Hz | 146 Hz |\n| Response time (as listed) | 1 ms GtG (Xiaomi internal lab) | 1 ms MPRT |\n| Brightness / contrast | 250 nits / 1000:1 | 300 cd/m² / 1500:1 |\n| Colour | 99% sRGB, factory calibrated | 125% sRGB, 90% DCI-P3 |\n| Ports | DisplayPort 1.4, HDMI 2.0 | DisplayPort 1.2, HDMI 2.0 |\n| Speakers | None | 2 W × 2 |\n| Stand | Tilt only | Tilt only |\n| VESA | 75 × 75 mm | 100 × 100 mm |\n\n**Pick the G24i** if you play fast shooters, your PC regularly exceeds 150 fps, and you care about accurate colour out of the box. Accept that it has no speakers and a dimmer panel. [Read the full G24i review](/reviews/xiaomi-g24i-gaming-monitor).\n\n**Pick the VG249QE5A** if you want a brighter screen, built-in speakers for calls and videos, a VESA 100 mount that fits almost every arm, and the backing of a large brand's support network. 146 Hz is plenty if your frame rates sit around 100–140 fps. [Read the full VG249QE5A review](/reviews/asus-tuf-gaming-vg249qe5a).\n\n**Pick neither** if you also code or edit documents all day; a 27-inch 1440p monitor will be easier on your eyes for text. And skip a 27-inch 1080p panel such as the [VSP IP2705F](/reviews/vsp-ip2705f-27-inch-monitor) if competitive gaming is the goal: retailer listings give it 100 Hz (some say 120 Hz) and no DisplayPort."
+    },
+    {
+      "title": "Common mistakes when buying a 24-inch gaming monitor",
+      "content": "- **Paying for refresh rate your PC can't reach.** Check frame-rate benchmarks for your GPU first.\n- **Comparing \"1 ms\" figures across brands.** GtG and MPRT are different measurements, and both are best-case numbers.\n- **Leaving the monitor at 60 Hz.** Set the refresh rate in Windows and enable FreeSync/G-Sync in your GPU driver.\n- **Using the wrong input.** If the top refresh rate is DisplayPort-only, HDMI will hold you back.\n- **Maxing out overdrive.** The fastest mode often adds overshoot halos; a middle setting is usually cleaner.\n- **Ignoring the stand.** A tilt-only stand on a low desk means looking down for hours. Budget for an arm or a riser.\n- **Buying the wrong variant.** Model codes differ by region (the G24i is P24FCA-RGGL globally and ELA5625EU in Europe), and some brands sell near-identical names with different refresh rates. Match the exact model code on the listing."
+    },
+    {
+      "title": "Sources for this guide",
+      "content": "Zero Technology has not used these monitors directly. This guide was compiled from manufacturer specifications and published test methodology, checked in November 2026. Frame times are calculated from refresh rates.\n\n- [Xiaomi Global — Gaming Monitor G24i specs](https://www.mi.com/global/product/xiaomi-gaming-monitor-g24i/specs/)\n- [ASUS — TUF Gaming VG249QE5A tech specs](https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg249qe5a/techspec/)\n- [RTINGS — A monitor's refresh rate: how much does it matter?](https://www.rtings.com/monitor/learn/60hz-vs-144hz-vs-240hz)\n- [RTINGS — Monitor motion tests: response time and motion blur](https://www.rtings.com/monitor/tests/motion/motion-blur-and-response-time)\n- [BenQ Knowledge Center — Gaming monitor response time (GtG vs MPRT)](https://www.benq.com/en-us/knowledge-center/knowledge/gaming-monitor-response-time.html)"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is 24 inches too small for gaming?",
+      "answer": "Not for competitive games. At 60–80 cm, a 24-inch screen keeps the whole image in view, which many shooter and MOBA players prefer. For slower, cinematic games, a 27-inch 1440p screen is more immersive but needs a stronger graphics card."
+    },
+    {
+      "question": "Is 180 Hz worth it over 144 Hz?",
+      "answer": "Only if your PC regularly goes above 150 fps. The frame time drops from 6.9 ms to 5.6 ms, which is a much smaller change than going from 60 Hz to 144 Hz. Don't pay a big premium for it."
+    },
+    {
+      "question": "Xiaomi G24i or ASUS VG249QE5A?",
+      "answer": "The G24i suits players who want 180 Hz and accurate sRGB colour and don't need speakers. The VG249QE5A suits buyers who want a brighter panel, built-in speakers and a VESA 100 mount at 146 Hz. Both stands only tilt."
+    },
+    {
+      "question": "Does a 144 Hz monitor need a powerful graphics card?",
+      "answer": "It needs a card that reaches close to 144 fps at 1080p in your games to get the full benefit. In light esports titles, a mid-range card is usually enough; in demanding AAA games, adaptive sync helps when you fall short."
+    },
+    {
+      "question": "Can I use a 180 Hz monitor with a PS5 or Xbox?",
+      "answer": "Yes, over HDMI, but consoles top out at 120 Hz (check that the monitor accepts 120 Hz over HDMI). You won't use the extra refresh rate, so a cheaper 144 Hz model is just as good for console-only use."
+    },
+    {
+      "question": "Why does my new monitor only show 60 Hz?",
+      "answer": "Usually the refresh rate was never changed in Windows, or you are on an input or cable that doesn't support the maximum. Set it in Advanced display settings and check the manufacturer's spec for which port reaches the top refresh rate."
+    }
+  ],
+  "relatedPosts": [
+    "xiaomi-g24i-gaming-monitor",
+    "asus-tuf-gaming-vg249qe5a",
+    "north-bayou-f80-monitor-arm"
+  ],
+  "seo": {
+    "metaTitle": "How to Choose a 24 Inch Gaming Monitor: Specs That Matter",
+    "metaDescription": "How to choose a 24 inch gaming monitor: 144 Hz vs 180 Hz, GtG vs MPRT response time, the right port, panel type and stand, with two budget models compared.",
+    "keywords": [
+      "how to choose a 24 inch gaming monitor",
+      "24 inch gaming monitor",
+      "144hz vs 180hz",
+      "gtg vs mprt"
+    ]
+  }
+}

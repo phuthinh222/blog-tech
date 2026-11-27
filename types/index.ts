@@ -117,6 +117,8 @@ export type Guide = {
   excerpt: string
   category: string
   publishedAt: string
+  // Ngày sửa nội dung gần nhất (YYYY-MM-DD) — hiện "Cập nhật …" + dateModified.
+  updatedAt?: string
   sections: { title: string; content: string }[]
   faq: { question: string; answer: string }[]
   relatedPosts: string[]

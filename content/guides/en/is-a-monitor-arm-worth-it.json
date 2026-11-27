@@ -1,0 +1,78 @@
+{
+  "slug": "is-a-monitor-arm-worth-it",
+  "title": "Is a Monitor Arm Worth It? When It Helps, When It Doesn't",
+  "excerpt": "Is a monitor arm worth it for your desk? It depends on your monitor's stand, its weight and VESA pattern, and your desk edge. This guide gives a simple decision checklist, explains gas-spring vs mechanical arms, and lists the mistakes that make cheap arms sag.",
+  "category": "desk-setup",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-11-25",
+  "sections": [
+    {
+      "title": "The short answer",
+      "content": "A monitor arm is worth it when your monitor's stand can't put the screen where your eyes need it, or when the stand takes up desk space you want back. It is not worth it if your monitor already has a good height-adjustable stand, if your desk can't take a clamp, or if your monitor is outside the arm's weight range.\n\n**An arm is probably worth it if:**\n\n- Your monitor's stand only tilts (common on budget monitors such as the Xiaomi G24i, ASUS VG249QE5A and VSP IP2705F).\n- You have to stack books under the monitor to raise it.\n- Your desk is shallow and the stand's base pushes the screen too close to your face.\n- You want portrait mode for code, documents or chat, or a two-monitor layout.\n- You switch between sitting and standing, or share the desk with someone of a different height.\n\n**Probably not worth it if:**\n\n- Your monitor already adjusts height, swivel and pivot.\n- The monitor has no VESA holes and no adapter exists.\n- Your desk is glass, very thin particleboard, or has a crossbar or lip right under the edge.\n- You never adjust the screen once it is placed; a cheap riser may do the same job.\n\nZero Technology compiled this guide from manufacturer documentation, retailer listings and workplace ergonomics guidance. We have not tested these arms ourselves."
+    },
+    {
+      "title": "What an arm actually fixes: screen height and distance",
+      "content": "The main benefit is ergonomic. OSHA's computer workstation guidance recommends that the top of the screen be at or slightly below eye level, that the centre of the screen sit about 15–20 degrees below horizontal eye level, and that the viewing distance be about 50–100 cm (20–40 inches). It also suggests tilting the screen back no more than 10–20 degrees.\n\nA tilt-only stand fixes the screen at one height. Whether that matches your eye level depends on your chair, desk height and torso, which is exactly why an adjustable mount helps: it lets you set the screen for your body instead of relying on the stand's fixed height.\n\nThe secondary benefits are practical. Lifting the monitor off its base frees the space underneath for a keyboard tray, notebook or larger mouse pad. Pushing the screen back on a shallow desk gets you closer to the recommended distance. And many arms route cables inside the arm, which makes the desk look tidier."
+    },
+    {
+      "title": "Check these four things before you buy",
+      "content": "**1. VESA pattern.** Look at the back of your monitor for four screw holes. The common patterns are 75 × 75 mm and 100 × 100 mm, and the manufacturer's spec page lists it. For example, Xiaomi lists the G24i at VESA 75 × 75 and ASUS lists the VG249QE5A at 100 × 100. Some slim or design-led monitors have no VESA holes and need a model-specific adapter, or can't be mounted at all.\n\n**2. Weight without the stand.** Spec sheets often list weight with the stand; the arm only carries the panel. Weigh the bare monitor on a bathroom scale (weigh yourself holding it, then subtract). Most 24–27-inch monitors weigh roughly 3–6 kg without a stand, but curved and large models are heavier.\n\n**3. The arm's weight range, not just its maximum.** A gas-spring arm is balanced for a range. Too heavy and the screen slowly sinks; too light and it drifts up, even after you max out the tension adjustment. Aim for a monitor near the middle of the range.\n\n**4. Your desk edge.** A clamp needs a solid edge within the arm's thickness range, with clear space underneath (no drawer, crossbar or frame lip). Grommet mounting needs a hole through the desktop but can sit away from the edge. If the desk is glass or soft particleboard, use a reinforcement plate under the clamp or don't use a clamp at all."
+    },
+    {
+      "title": "Gas-spring vs mechanical arms vs fixed risers",
+      "content": "| Type | How you adjust it | Good for | Watch out for |\n|---|---|---|---|\n| Gas-spring arm | Push the screen with one hand; it stays put | Frequent adjustments, standing desks, shared desks | Must be tuned to the monitor's weight; cheap springs can weaken over time |\n| Mechanical (pole) arm | Loosen a screw, slide the mount along a pole, retighten | Set-and-forget setups, very light or heavy monitors outside spring ranges | Slow to adjust; less reach |\n| Monitor riser / shelf | No adjustment; a fixed lift | Raising a tilt-only monitor a few centimetres cheaply | No portrait mode, no distance change, uses desk space |\n\n**Price tiers.** Budget gas-spring arms from brands such as North Bayou are sold widely for much less than premium arms. Premium arms such as Ergotron's LX cost considerably more but come with detailed published specs and longer warranties. Ergotron's LX tall-pole drawing, for example, lists a 3.2–11.3 kg capacity, about 33 cm of lift, a typical screen size up to 34 inches, and a note that monitors deeper than 64 mm may reduce capacity. That level of documentation is what you are partly paying for."
+    },
+    {
+      "title": "Worked example: a budget arm on a budget desk",
+      "content": "The [North Bayou F80](/reviews/north-bayou-f80-monitor-arm) is one of the best-known budget gas-spring arms. Retailer listings agree on VESA 75 and 100, a desk clamp or grommet mount, about 250 mm of height travel, +35° to −50° tilt, 180° swivel and 360° rotation. They disagree on capacity: an Australian retailer lists 17–27 inches and 2–6.5 kg, while other listings quote up to 30–32 inches and 9 kg. Use the more conservative figure unless your exact listing says otherwise.\n\nApplied to the monitors reviewed on this site:\n\n- **[Xiaomi G24i](/reviews/xiaomi-g24i-gaming-monitor):** Xiaomi lists 3.0 kg with the base, so the bare panel is lighter and comfortably inside the F80's range. VESA 75 × 75. A good match.\n- **[ASUS VG249QE5A](/reviews/asus-tuf-gaming-vg249qe5a):** ASUS lists 3.3 kg with the stand and VESA 100 × 100. Also a comfortable fit, and the arm adds the height and portrait adjustment the stock stand lacks.\n- **[VSP IP2705F](/reviews/vsp-ip2705f-27-inch-monitor):** VESA 100 × 100 according to retailer listings, but the weight isn't consistently published. Weigh it before buying.\n\nIf you also want to tidy the desk, a [clamp-on desk pegboard](/reviews/clamp-on-desk-pegboard) attaches to the same desk edge. Plan the layout so both clamps fit along the edge and the board doesn't block the arm's swing, especially when the arm rotates the screen to portrait."
+    },
+    {
+      "title": "Installation tips that prevent the usual problems",
+      "content": "- **Mount the arm first, then the monitor.** Lock the arm in its lowest position (most gas-spring arms ship that way) before attaching the screen.\n- **Tune the spring after mounting.** If the screen sinks, increase tension; if it rises, decrease it. Expect to make several adjustments.\n- **Tighten the clamp firmly, but use the pad.** Over-tightening can crush soft desks; the rubber or metal plate spreads the load.\n- **Leave enough cable slack** for the full range of movement, including portrait rotation, before closing the cable covers.\n- **Check the joints after a week.** Pivot screws can loosen as the arm settles in.\n- **Don't mount near the very corner of a weak desk.** A long arm fully extended puts a lot of leverage on the clamp."
+    },
+    {
+      "title": "Common mistakes",
+      "content": "- **Using the weight with stand** from the spec sheet instead of the bare panel weight.\n- **Buying an arm whose minimum load is above your monitor's weight.** Light monitors can make a strong gas spring bounce up.\n- **Not checking for a crossbar or lip** under the desk edge, which blocks the clamp.\n- **Ignoring monitor depth.** Thick or curved monitors push the centre of gravity forward and can reduce the effective capacity, as Ergotron's documentation notes.\n- **Assuming every listing with the same name is the same arm.** Budget arms are often copied or sold under different specs; check the brand and model on the listing photos and box.\n- **Expecting an arm to fix a desk that is too high.** If your forearms aren't level with the keyboard, the chair or desk needs adjusting first."
+    },
+    {
+      "title": "Sources for this guide",
+      "content": "Zero Technology has not used these arms directly. This guide compiles manufacturer documentation, retailer listings and ergonomics guidance, checked in November 2026.\n\n- [OSHA — Computer workstations eTool: monitors](https://www.osha.gov/etools/computer-workstations/components/monitors)\n- [Ergotron — LX desk mount tall-pole dimensional drawing (PDF)](https://www.ergotron.com/Portals/0/Reserved/Resources/dim-lxsgltallwt-orig.pdf)\n- [Zylax (Australia) — North Bayou F80 listing](https://zylax.com.au/north-bayou-f80-lcd-led-monitor-holder-mount-arm-full-motion-display-stand-fo)\n- [Manuals+ — North Bayou F80 manual](https://manuals.plus/asin/B01AI2YGK4.pdf)\n- [Xiaomi Global — Gaming Monitor G24i specs](https://www.mi.com/global/product/xiaomi-gaming-monitor-g24i/specs/)\n- [ASUS — TUF Gaming VG249QE5A tech specs](https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg249qe5a/techspec/)"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is a monitor arm worth it for a single monitor?",
+      "answer": "Yes, if your monitor's stand only tilts or sits too low. An arm lets you set height, distance and angle for your posture and frees the space under the screen. If your stand already adjusts height and pivot, the benefit is mostly desk space."
+    },
+    {
+      "question": "Will a monitor arm damage my desk?",
+      "answer": "A clamp can dent soft particleboard or crack glass. Use the included pad, don't over-tighten, and add a steel reinforcement plate under weak desktops. Check for a crossbar or lip under the edge before buying."
+    },
+    {
+      "question": "My monitor has no VESA holes. Can I still use an arm?",
+      "answer": "Only if the manufacturer or a third party sells an adapter for that exact model. Universal clamp-style adapters exist but are less secure. Otherwise, a riser is the safer choice."
+    },
+    {
+      "question": "Why does my monitor keep sinking or rising on a gas-spring arm?",
+      "answer": "The spring tension doesn't match the monitor's weight. Adjust the tension screw; if it is already at the limit, the monitor is outside the arm's weight range and you need a different arm."
+    },
+    {
+      "question": "Is the North Bayou F80 good enough, or should I buy an Ergotron?",
+      "answer": "For a light 24–27-inch monitor that you adjust occasionally, a budget arm like the F80 does the job. An Ergotron-class arm makes more sense for heavier monitors, frequent daily adjustments or when you want published specs and a longer warranty."
+    },
+    {
+      "question": "Can I use a monitor arm and a desk pegboard together?",
+      "answer": "Yes, as long as both clamps fit along the desk edge and the pegboard doesn't block the arm's movement. Plan the positions before tightening either clamp."
+    }
+  ],
+  "relatedPosts": [
+    "north-bayou-f80-monitor-arm",
+    "clamp-on-desk-pegboard",
+    "asus-tuf-gaming-vg249qe5a"
+  ],
+  "seo": {
+    "metaTitle": "Is a Monitor Arm Worth It? VESA, Weight & Desk Checks",
+    "metaDescription": "Is a monitor arm worth it? A checklist for VESA, bare-panel weight and desk edge, gas-spring vs mechanical arms, install tips and the mistakes that cause sagging.",
+    "keywords": ["is a monitor arm worth it", "monitor arm", "gas spring monitor arm", "vesa mount"]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "how-to-choose-24-inch-gaming-monitor",
+  "title": "Cách Chọn Màn Hình Gaming 24 Inch: Hiểu Đúng Thông Số Trước Khi Mua",
+  "excerpt": "Cách chọn màn hình gaming 24 inch mà không bị con số trên hộp đánh lừa: 144Hz và 180Hz khác nhau thật sự bao nhiêu, vì sao \"1ms\" thường là phép đo khác nhau, cần cổng nào, và chuyện chân đế, VESA mà nhiều người bỏ qua.",
+  "category": "pc-laptop",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-11-25",
+  "sections": [
+    {
+      "title": "Trả lời nhanh: khung quyết định",
+      "content": "Phần lớn màn hình gaming 24 inch phân khúc phổ thông nhìn trên giấy gần như giống nhau: 1080p, IPS, \"1ms\", 144–180Hz, FreeSync. Khác biệt thật nằm ở vài chi tiết. Hãy xét theo thứ tự:\n\n- **1. 24 inch 1080p có hợp với bạn không?** Hợp nếu bạn chủ yếu chơi game bắn súng, MOBA, ngồi cách màn 60–80 cm và dùng card đồ họa tầm trung. Không hợp nếu bạn chủ yếu chơi game chơi đơn đồ họa đẹp, nhịp chậm hoặc cần chữ sắc nét để làm việc; khi đó nên xem màn 27 inch 1440p.\n- **2. Chọn tần số quét theo số FPS máy bạn thực sự đạt được.** Màn 180Hz là lãng phí nếu game chỉ chạy 80 FPS.\n- **3. Đọc kỹ thời gian phản hồi.** Xem \"1ms\" là GtG hay MPRT, rồi tìm bài đánh giá độc lập của đúng mẫu đó.\n- **4. Kiểm tra cổng.** Cổng nào đạt tần số quét tối đa: DisplayPort, HDMI hay cả hai? Máy tính, laptop hoặc console của bạn có cổng đó không?\n- **5. Kiểm tra chân đế và VESA.** Đa số mẫu giá rẻ chỉ ngả được. Nếu cần nâng hạ, tính thêm tiền giá treo và xác nhận chuẩn VESA.\n- **6. Xác định thứ có thể bỏ qua.** Loa, USB-C, HDR và độ sáng là những chỗ màn giá rẻ hay cắt giảm.\n\nZero Technology tổng hợp bài này từ thông số của hãng và phương pháp đo đã công bố (nguồn ở cuối bài). Chúng tôi chưa trực tiếp sử dụng các màn hình này."
+    },
+    {
+      "title": "Vì sao 24 inch 1080p vẫn hợp với game thi đấu",
+      "content": "Game thủ esports vẫn chuộng màn 24 inch vì lý do thực tế: ở khoảng cách ngồi bình thường, toàn bộ khung hình nằm trong vùng nhìn trung tâm, bạn theo dõi minimap, tâm ngắm và thanh máu mà không phải đảo mắt nhiều. Màn lớn hơn ở cùng khoảng cách sẽ đẩy các góc ra xa hơn.\n\nLý do thứ hai là chi phí phần cứng. 1080p (1920 × 1080) có khoảng 2,1 triệu điểm ảnh, còn 1440p khoảng 3,7 triệu, nhiều hơn chừng 78%. Card đồ họa phải vẽ từng điểm ảnh, nên cùng một card đạt 150+ FPS ở 1080p trong game bắn súng có thể tụt xa hơn nhiều ở 1440p. Muốn FPS cao với card tầm trung, 1080p là cách dễ nhất.\n\nĐổi lại là độ nét. Màn 24 inch 1080p có mật độ khoảng 92 điểm ảnh mỗi inch (PPI). Như vậy là đủ cho game và phim, nhưng chữ mềm hơn rõ so với màn 27 inch 1440p (khoảng 109 PPI). Nếu bạn lập trình hoặc làm bảng tính nhiều giờ mỗi ngày trên cùng màn hình, hãy đọc [hướng dẫn chọn màn hình 27 inch cho lập trình](/guides/27-inch-monitor-for-coding) trước khi quyết định."
+    },
+    {
+      "title": "Tần số quét: 144Hz, 165Hz, 180Hz và cao hơn",
+      "content": "Tần số quét là số lần màn hình vẽ hình mới mỗi giây. Lợi ích giảm dần khi con số tăng lên, vì thứ bạn cảm nhận là khoảng thời gian giữa hai khung hình:\n\n| Tần số quét | Thời gian mỗi khung hình | Chênh lệch so với mức trước |\n|---|---|---|\n| 60Hz | 16,7 ms | — |\n| 144Hz | 6,9 ms | −9,7 ms (lớn, dễ cảm nhận) |\n| 165Hz | 6,1 ms | −0,9 ms (nhỏ) |\n| 180Hz | 5,6 ms | −0,5 ms (nhỏ) |\n| 240Hz | 4,2 ms | −1,4 ms (một số game thủ thi đấu cảm nhận được) |\n\nThời gian khung hình chỉ là phép tính (1000 ms ÷ tần số quét) và khớp với bảng RTINGS công bố trong bài giải thích về tần số quét. Bài học thực tế: từ 60Hz lên 144Hz là nâng cấp gần như ai cũng thấy. Từ 144Hz lên 180Hz là điểm cộng, không đáng để trả thêm nhiều tiền.\n\nTần số quét chỉ có ích khi máy bạn ra đủ FPS. Hãy xem benchmark card đồ họa của bạn trong đúng các game bạn chơi. Nếu đạt 90–120 FPS, màn 144Hz hoặc 146Hz đã đủ; nếu thường xuyên trên 160 FPS trong Valorant hay Counter-Strike 2, màn 180Hz mới phát huy.\n\nĐồng bộ thích ứng (AMD FreeSync, hoặc \"G-Sync Compatible\" với card NVIDIA) giúp hình mượt khi FPS dao động dưới mức tối đa, vì màn hình chờ từng khung hình thay vì bị xé hình. Tính năng này giờ gần như là tiêu chuẩn trong phân khúc; màn hình không có nó là dấu hiệu cần cân nhắc."
+    },
+    {
+      "title": "Thời gian phản hồi: \"1ms\" không như bạn nghĩ",
+      "content": "Gần như hộp màn hình gaming nào cũng ghi \"1ms\", nhưng con số đó có thể mô tả hai thứ khác nhau:\n\n- **GtG (grey-to-grey):** tốc độ một điểm ảnh chuyển từ sắc độ này sang sắc độ khác. Đây là con số liên quan đến bóng mờ, vệt kéo sau vật thể chuyển động. Hãng thường công bố kết quả tốt nhất ở mức overdrive mạnh nhất.\n- **MPRT (moving picture response time):** thời gian mỗi khung hình lưu lại trên màn, gắn với tần số quét và thường đạt được nhờ chế độ nhấp nháy đèn nền. Bài giải thích của BenQ cho biết MPRT phụ thuộc nhiều vào tốc độ khung hình, còn GtG thì không.\n\nHai con số này không so sánh trực tiếp được. Ví dụ, ASUS ghi [TUF Gaming VG249QE5A](/reviews/asus-tuf-gaming-vg249qe5a) là \"1ms MPRT\", còn Xiaomi ghi [Gaming Monitor G24i](/reviews/xiaomi-g24i-gaming-monitor) là \"1ms GTG\" và nói con số đến từ phòng thí nghiệm nội bộ. Cả hai đều không cho biết màn trông thế nào ở mức overdrive bạn thực sự dùng.\n\nOverdrive là thiết lập đẩy điểm ảnh chuyển nhanh hơn. Đẩy quá mạnh sẽ bị overshoot: một quầng sáng hoặc tối kéo theo vật thể, còn gọi là bóng mờ ngược. Các bên đo độc lập như RTINGS đo từng mức overdrive và khuyến nghị một mức, hữu ích hơn nhiều so với con số trên hộp. Nếu chưa có đánh giá độc lập cho đúng mẫu bạn mua, hãy bắt đầu ở mức overdrive giữa và chỉ tăng khi thấy vệt mờ."
+    },
+    {
+      "title": "Cổng, cáp và console",
+      "content": "Đây là lý do phổ biến nhất khiến màn hình mới \"chỉ chạy 60Hz\":\n\n- **Kiểm tra cổng nào đạt tần số quét tối đa.** Một số màn giá rẻ chỉ đạt tần số cao nhất qua DisplayPort. Ví dụ Xiaomi G24i có DisplayPort 1.4 và HDMI 2.0, và mức 180Hz đầy đủ được khuyến nghị dùng qua DisplayPort. ASUS VG249QE5A có DisplayPort 1.2 và HDMI 2.0. Hãy đọc trang thông số của hãng để biết tần số quét theo từng cổng.\n- **Dùng cáp đi kèm hộp,** hoặc cáp đạt chuẩn tương ứng. Cáp rẻ hoặc cũ là nguyên nhân hay gặp của nháy hình và thiếu tùy chọn tần số quét.\n- **Chỉnh tần số quét trong Windows.** Nhiều máy mặc định 60Hz khi cắm màn mới. Vào Settings → System → Display → Advanced display và chọn giá trị cao nhất.\n- **Laptop:** nhiều máy chỉ xuất tần số quét cao qua một cổng HDMI hoặc USB-C/DisplayPort nhất định. Kiểm tra thông số laptop, không chỉ của màn hình.\n- **Console:** PS5 hoặc Xbox Series X|S xuất tối đa 120Hz, và màn có nhận 120Hz qua HDMI hay không tùy từng mẫu, nên hãy xem bảng thông số. Cả hai console đều không tận dụng được 180Hz. Màn 1080p giá rẻ vẫn ổn cho console, nhưng đừng trả thêm cho tần số quét không dùng tới.\n\nCũng nên biết những gì không có: không mẫu 24 inch nào đã review trên site có cổng USB-C nhận hình, hub USB hay HDR được chứng nhận."
+    },
+    {
+      "title": "Tấm nền, độ sáng và chân đế",
+      "content": "**Tấm nền.** IPS là mặc định trong phân khúc này: góc nhìn rộng, màu tốt, tốc độ ổn, nhưng độ tương phản khiêm tốn (khoảng 1000:1 đến 1500:1), nên cảnh tối trông hơi xám trong phòng tối. Tấm nền VA cho màu đen sâu hơn nhiều nhưng thường chậm ở chuyển cảnh tối, dễ thấy vệt mờ đen. TN giờ hiếm. Vừa chơi game vừa dùng hằng ngày thì IPS là lựa chọn an toàn.\n\n**Dải màu.** Dải màu rộng hơn không tự động là tốt hơn. ASUS ghi VG249QE5A đạt 125% sRGB, có thể khiến web và game bị rực quá mức nếu không chuyển sang chế độ sRGB. Xiaomi ghi G24i đạt 99% sRGB và hiệu chỉnh màu từ nhà máy (ΔE < 2), gần với màu chuẩn ngay khi mở hộp hơn.\n\n**Độ sáng.** Màn 24 inch giá rẻ thường ghi 250–300 nit. Đủ cho phòng bình thường nhưng yếu khi cạnh cửa sổ nắng. Chế độ \"HDR\" trên các mẫu này không phải HDR thật; cả Xiaomi lẫn ASUS đều không ghi chứng nhận VESA DisplayHDR.\n\n**Chân đế.** Đây là chỗ màn giá rẻ tiết kiệm chi phí. Cả G24i và VG249QE5A đều chỉ ngả, không nâng hạ, xoay ngang hay xoay dọc. Nếu ngồi lâu, hãy tính đến giá treo và kiểm tra chuẩn VESA: G24i dùng 75 × 75 mm, VG249QE5A dùng 100 × 100 mm. Bài [Có nên mua giá treo màn hình?](/guides/is-a-monitor-arm-worth-it) giải thích cần kiểm tra gì."
+    },
+    {
+      "title": "Ví dụ thực tế: so sánh hai màn 24 inch giá rẻ",
+      "content": "Áp dụng khung quyết định cho hai màn 24 inch đã review trên site. Thông số lấy từ trang thông số chính thức của từng hãng.\n\n| | Xiaomi Gaming Monitor G24i | ASUS TUF Gaming VG249QE5A |\n|---|---|---|\n| Tấm nền | 23,8\" Fast IPS, 1080p | 23,8\" IPS, 1080p |\n| Tần số quét tối đa | 180Hz | 146Hz |\n| Thời gian phản hồi (theo hãng) | 1ms GtG (phòng thí nghiệm Xiaomi) | 1ms MPRT |\n| Độ sáng / tương phản | 250 nit / 1000:1 | 300 cd/m² / 1500:1 |\n| Màu | 99% sRGB, hiệu chỉnh từ nhà máy | 125% sRGB, 90% DCI-P3 |\n| Cổng | DisplayPort 1.4, HDMI 2.0 | DisplayPort 1.2, HDMI 2.0 |\n| Loa | Không có | 2W × 2 |\n| Chân đế | Chỉ ngả | Chỉ ngả |\n| VESA | 75 × 75 mm | 100 × 100 mm |\n\n**Chọn G24i** nếu bạn chơi game bắn súng nhịp nhanh, máy thường xuyên trên 150 FPS và cần màu chuẩn ngay khi mở hộp. Chấp nhận không có loa và màn tối hơn. [Đọc review G24i đầy đủ](/reviews/xiaomi-g24i-gaming-monitor).\n\n**Chọn VG249QE5A** nếu bạn muốn màn sáng hơn, có loa cho họp online và xem video, ngàm VESA 100 hợp với hầu hết giá treo, và mạng lưới bảo hành của hãng lớn. 146Hz là đủ nếu FPS của bạn quanh 100–140. [Đọc review VG249QE5A đầy đủ](/reviews/asus-tuf-gaming-vg249qe5a).\n\n**Không chọn mẫu nào** nếu bạn còn lập trình hoặc soạn văn bản cả ngày; màn 27 inch 1440p sẽ dễ chịu hơn cho mắt khi đọc chữ. Và nếu mục tiêu là game thi đấu, hãy bỏ qua màn 27 inch 1080p như [VSP IP2705F](/reviews/vsp-ip2705f-27-inch-monitor): các nhà bán lẻ ghi 100Hz (vài nơi ghi 120Hz) và không có DisplayPort."
+    },
+    {
+      "title": "Những sai lầm hay gặp khi mua màn gaming 24 inch",
+      "content": "- **Trả tiền cho tần số quét máy không đạt tới.** Xem benchmark FPS của card trước.\n- **So con số \"1ms\" giữa các hãng.** GtG và MPRT là hai phép đo khác nhau, và cả hai đều là con số tốt nhất.\n- **Để màn chạy 60Hz.** Chỉnh tần số quét trong Windows và bật FreeSync/G-Sync trong driver card.\n- **Cắm nhầm cổng.** Nếu tần số tối đa chỉ có qua DisplayPort, HDMI sẽ giới hạn bạn.\n- **Đẩy overdrive tối đa.** Mức nhanh nhất thường kèm quầng overshoot; mức giữa thường sạch hơn.\n- **Bỏ qua chân đế.** Chân chỉ ngả trên bàn thấp nghĩa là cúi nhìn hàng giờ. Tính thêm giá treo hoặc kệ nâng.\n- **Mua nhầm phiên bản.** Mã model khác nhau theo khu vực (G24i là P24FCA-RGGL bản quốc tế và ELA5625EU ở châu Âu), và có hãng bán các mẫu tên gần giống nhưng tần số quét khác. Đối chiếu đúng mã model trên trang bán."
+    },
+    {
+      "title": "Nguồn thông tin của bài viết",
+      "content": "Zero Technology chưa trực tiếp sử dụng các màn hình này. Bài viết tổng hợp từ thông số của hãng và phương pháp đo đã công bố, cập nhật tháng 11/2026. Thời gian khung hình được tính từ tần số quét.\n\n- [Xiaomi Global — Thông số Gaming Monitor G24i](https://www.mi.com/global/product/xiaomi-gaming-monitor-g24i/specs/)\n- [ASUS — Thông số TUF Gaming VG249QE5A](https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg249qe5a/techspec/)\n- [RTINGS — Tần số quét của màn hình quan trọng đến đâu?](https://www.rtings.com/monitor/learn/60hz-vs-144hz-vs-240hz)\n- [RTINGS — Bài đo chuyển động: thời gian phản hồi và bóng mờ](https://www.rtings.com/monitor/tests/motion/motion-blur-and-response-time)\n- [BenQ Knowledge Center — Thời gian phản hồi màn gaming (GtG và MPRT)](https://www.benq.com/en-us/knowledge-center/knowledge/gaming-monitor-response-time.html)"
+    }
+  ],
+  "faq": [
+    {
+      "question": "24 inch có quá nhỏ để chơi game không?",
+      "answer": "Không, với game thi đấu. Ở 60–80 cm, màn 24 inch giữ toàn bộ khung hình trong tầm nhìn, điều nhiều người chơi bắn súng và MOBA thích. Với game điện ảnh nhịp chậm, màn 27 inch 1440p nhập vai hơn nhưng cần card mạnh hơn."
+    },
+    {
+      "question": "180Hz có đáng hơn 144Hz không?",
+      "answer": "Chỉ khi máy bạn thường xuyên trên 150 FPS. Thời gian khung hình giảm từ 6,9 ms xuống 5,6 ms, nhỏ hơn nhiều so với bước từ 60Hz lên 144Hz. Đừng trả thêm nhiều tiền chỉ vì nó."
+    },
+    {
+      "question": "Nên chọn Xiaomi G24i hay ASUS VG249QE5A?",
+      "answer": "G24i hợp với người muốn 180Hz, màu sRGB chuẩn và không cần loa. VG249QE5A hợp với người muốn màn sáng hơn, có loa và ngàm VESA 100, ở mức 146Hz. Cả hai chân đế đều chỉ ngả."
+    },
+    {
+      "question": "Màn 144Hz có cần card đồ họa mạnh không?",
+      "answer": "Cần card đạt gần 144 FPS ở 1080p trong game bạn chơi để tận dụng hết. Với game esports nhẹ, card tầm trung thường đủ; với game AAA nặng, đồng bộ thích ứng giúp khi FPS không đạt."
+    },
+    {
+      "question": "Dùng màn 180Hz với PS5 hoặc Xbox được không?",
+      "answer": "Được, qua HDMI, nhưng console tối đa 120Hz (kiểm tra màn có nhận 120Hz qua HDMI không). Bạn sẽ không dùng tới phần tần số dư, nên mẫu 144Hz rẻ hơn cũng tốt như vậy nếu chỉ chơi console."
+    },
+    {
+      "question": "Vì sao màn hình mới chỉ hiện 60Hz?",
+      "answer": "Thường là chưa đổi tần số quét trong Windows, hoặc đang dùng cổng/cáp không hỗ trợ mức tối đa. Chỉnh trong Advanced display và xem thông số hãng để biết cổng nào đạt tần số cao nhất."
+    }
+  ],
+  "relatedPosts": [
+    "xiaomi-g24i-gaming-monitor",
+    "asus-tuf-gaming-vg249qe5a",
+    "north-bayou-f80-monitor-arm"
+  ],
+  "seo": {
+    "metaTitle": "Cách Chọn Màn Hình Gaming 24 Inch: Thông Số Nào Quan Trọng?",
+    "metaDescription": "Cách chọn màn hình gaming 24 inch: 144Hz hay 180Hz, GtG và MPRT, cổng kết nối, tấm nền, chân đế; so sánh hai mẫu giá rẻ và các sai lầm hay gặp.",
+    "keywords": [
+      "cách chọn màn hình gaming 24 inch",
+      "màn hình gaming 24 inch",
+      "144hz hay 180hz",
+      "gtg và mprt"
+    ]
+  }
+}

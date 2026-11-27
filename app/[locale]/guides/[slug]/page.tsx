@@ -21,6 +21,7 @@ import {
 import ArticleCard from "@/components/blog/ArticleCard"
 import { AffiliateDisclosure } from "@/components/blog/AffiliateDisclosure"
 import { BestPickBox } from "@/components/blog/BestPickBox"
+import { GuideContent } from "@/components/blog/GuideContent"
 
 export const revalidate = 3600 // ISR — bài review liên quan lấy từ Supabase
 
@@ -64,11 +65,12 @@ export default async function GuidePage({ params }: Props) {
   const guide = getGuideBySlug(slug, locale)
   if (!guide) notFound()
 
-  const [posts, t, tCat, tNav] = await Promise.all([
+  const [posts, t, tCat, tNav, tArticle] = await Promise.all([
     getPosts(locale),
     getTranslations("GuidePage"),
     getTranslations("Categories"),
     getTranslations("Nav"),
+    getTranslations("ArticlePage"),
   ])
   const color = getCategoryColor(guide.category)
   const related = guide.relatedPosts
@@ -90,6 +92,7 @@ export default async function GuidePage({ params }: Props) {
       headline: guide.title,
       description: guide.excerpt,
       datePublished: guide.publishedAt,
+      dateModified: guide.updatedAt ?? guide.publishedAt,
       inLanguage: LOCALE_TAGS[toLocale(guide.contentLocale)],
       author: { "@id": ORGANIZATION_LD["@id"] },
       publisher: { "@id": ORGANIZATION_LD["@id"] },
@@ -129,6 +132,11 @@ export default async function GuidePage({ params }: Props) {
             <span className="text-muted-foreground flex items-center gap-1">
               <Calendar className="size-3.5" /> {formatDate(guide.publishedAt, locale)}
             </span>
+            {guide.updatedAt && guide.updatedAt !== guide.publishedAt && (
+              <span className="text-muted-foreground">
+                {tArticle("updatedAt", { date: formatDate(guide.updatedAt, locale) })}
+              </span>
+            )}
           </div>
           <h1 className="text-3xl leading-tight font-bold tracking-tight sm:text-4xl">
             {guide.title}
@@ -157,11 +165,7 @@ export default async function GuidePage({ params }: Props) {
               </span>
               {section.title}
             </h2>
-            {section.content.split("\n\n").map((para, j) => (
-              <p key={j} className="text-muted-foreground leading-relaxed">
-                {para}
-              </p>
-            ))}
+            <GuideContent content={section.content} />
           </section>
         ))}
 

@@ -1,6 +1,7 @@
 import type { NextConfig } from "next"
 import createNextIntlPlugin from "next-intl/plugin"
 import SLUG_REDIRECTS from "./lib/slug-redirects.json"
+import GUIDE_SLUG_REDIRECTS from "./lib/guide-slug-redirects.json"
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts")
 
@@ -30,8 +31,41 @@ const nextConfig: NextConfig = {
       },
     ])
 
+    // Guide đổi slug tiếng Việt → tiếng Anh (11/2026).
+    const guideBySlug = Object.entries(GUIDE_SLUG_REDIRECTS).flatMap(([from, to]) => [
+      { source: `/guides/${from}`, destination: `/guides/${to}`, permanent: true },
+      { source: `/en/guides/${from}`, destination: `/guides/${to}`, permanent: true },
+      {
+        source: `/:locale(vi|zh)/guides/${from}`,
+        destination: `/:locale/guides/${to}`,
+        permanent: true,
+      },
+    ])
+
     return [
+      { source: "/affiliate-disclosure", destination: "/editorial-policy", permanent: true },
+      { source: "/en/affiliate-disclosure", destination: "/editorial-policy", permanent: true },
+      {
+        source: "/:locale(vi|zh)/affiliate-disclosure",
+        destination: "/:locale/editorial-policy",
+        permanent: true,
+      },
       ...bySlug,
+      ...guideBySlug,
+      ...Object.entries({
+        "ethan-hale": "jordan-pike",
+        "liam-archer": "casey-rowan",
+        "nora-quinn": "morgan-ellis",
+        "maya-ellison": "taylor-finch",
+      }).flatMap(([from, to]) => [
+        { source: `/authors/${from}`, destination: `/authors/${to}`, permanent: true },
+        { source: `/en/authors/${from}`, destination: `/authors/${to}`, permanent: true },
+        {
+          source: `/:locale(vi|zh)/authors/${from}`,
+          destination: `/:locale/authors/${to}`,
+          permanent: true,
+        },
+      ]),
       { source: "/en/articles/:slug", destination: "/reviews/:slug", permanent: true },
       { source: "/zh/articles/:slug", destination: "/zh/reviews/:slug", permanent: true },
       { source: "/articles/:slug", destination: "/vi/reviews/:slug", permanent: true },
