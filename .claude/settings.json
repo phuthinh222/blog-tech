@@ -1,5 +1,12 @@
 {
   "permissions": {
-    "allow": ["Bash(pnpm type-check *)"]
+    "allow": [
+      "Bash(awk -F= '{ if \\(length\\($2\\) > 0\\) print $1\"=<has value>\"; else print $1\"=<empty>\" }')",
+      "Bash(awk -F= '/^NEXT_PUBLIC_SUPABASE_URL=/{print $1\"=\"substr\\($2,1,25\\)\"...\"} /^NEXT_PUBLIC_SUPABASE_ANON_KEY=/{print $1\"=\"substr\\($2,1,20\\)\"...\"}' .env.local)",
+      "Bash(node --env-file=.env.local -e ' *)",
+      "Bash(curl -sS -o /dev/null -w \"HTTP %{http_code}\\\\n\" --max-time 5 https://www.google.com)",
+      "Bash(curl -sS -o /dev/null -w \"supabase.com -> HTTP %{http_code}\\\\n\" --max-time 5 https://supabase.com)",
+      "Bash(npx prettier *)"
+    ]
   }
 }
